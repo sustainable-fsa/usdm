@@ -44,7 +44,7 @@ jobs:
     steps:
       - uses: gacts/directory-listing@v1
         with:
-          target: ./usdm
+          target: .
           ignore: |
             **/index.html
           show-hidden: false
@@ -53,4 +53,4 @@ jobs:
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./usdm
+          publish_dir: .
