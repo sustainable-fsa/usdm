@@ -42,6 +42,7 @@ jobs:
   generate-index:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - uses: gacts/directory-listing@v1
         # with:
         #   target: .
@@ -50,7 +51,10 @@ jobs:
         #   show-hidden: false
         #   overwrite: true
 
-      - uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "$GITHUB_ACTOR"
+          git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git add .
+          git commit -m "Auto-generate index.html for directory listing" || echo "No changes to commit"
+          git push
