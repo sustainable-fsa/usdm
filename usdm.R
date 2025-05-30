@@ -17,7 +17,10 @@ pak::pak(
     "curl",
     "tidyverse",
     "digest",
-    "geometa"
+    "geometa",
+    "fs",
+    "htmltools", 
+    "glue"
   )
 )
 
@@ -27,6 +30,9 @@ library(terra)
 library(sf)
 library(arrow)
 library(geometa)
+library(fs)
+library(glue)
+library(htmltools)
 
 sf::sf_use_s2(TRUE)
 
@@ -290,7 +296,7 @@ usdm_write_metadata <-
             paste("## Forecast", summary$forecast, sep = "\n"),
             paste("## Disclaimer", summary$disclaimer, sep = "\n"),
             ""
-            ),
+          ),
           collapse = "\n\n"
         )
       )
