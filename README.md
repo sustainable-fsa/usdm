@@ -73,22 +73,22 @@ The resulting BagIt-compliant archive includes:
 
 ``` text
 repository-root/
-  ├── LICENSE                 # License for the repository (MIT)
-  ├── README.md               # Repository documentation (this file)
-  ├── README.Rmd              # Repository documentation (RMarkdown)
-  ├── usdm.R                  # Main R script to download, process, and archive USDM data
-  ├── usdm.Rproj              # RStudio project file
-  └── usdm/                   # BagIt-compliant archive of USDM weekly data
-    ├── bagit.txt               # BagIt version declaration
-    ├── bag-info.txt            # Metadata about the bag archive
-    ├── manifest-sha256.txt     # Checksums for integrity verification
-    └── data/
-      ├── raw/                    # Downloaded shapefiles (.zip)
-      ├── summary/                # Weekly summary XML files
-      ├── parquet/                # Cleaned spatial data (.parquet)
-      ├── metadata/               # ISO 19115 metadata XML files
-      └── quality/
-        └── geometry_validation.csv  # Log of geometry validation issues
+├── LICENSE                 # License for the repository (MIT)
+├── README.md               # Repository documentation (this file)
+├── README.Rmd              # Repository documentation (RMarkdown)
+├── usdm.R                  # Main R script to download, process, and archive USDM data
+├── usdm.Rproj              # RStudio project file
+└── usdm/                   # BagIt-compliant archive of USDM weekly data
+├── bagit.txt               # BagIt version declaration
+├── bag-info.txt            # Metadata about the bag archive
+├── manifest-sha256.txt     # Checksums for integrity verification
+└── data/
+├── raw/                    # Downloaded shapefiles (.zip)
+├── summary/                # Weekly summary XML files
+├── parquet/                # Cleaned spatial data (.parquet)
+├── metadata/               # ISO 19115 metadata XML files
+└── quality/
+└── geometry_validation.csv  # Log of geometry validation issues
 ```
 
 ------------------------------------------------------------------------
@@ -145,7 +145,12 @@ states <-
   tigris::states(cb = TRUE, 
                  resolution = "5m",
                  progress_bar = FALSE) |>
-  dplyr::filter(!(NAME %in% c("Guam", "American Samoa", "United States Virgin Islands", "Commonwealth of the Northern Mariana Islands"))) |>
+  dplyr::filter(
+    !(NAME %in% c("Guam", 
+                  "American Samoa", 
+                  "United States Virgin Islands", 
+                  "Commonwealth of the Northern Mariana Islands"))
+  ) |>
   sf::st_cast("POLYGON", warn = FALSE, do_split = TRUE) |>
   tigris::shift_geometry()
 
