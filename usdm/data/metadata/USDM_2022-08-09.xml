@@ -1,0 +1,304 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2022-08-09</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Richard Tinker</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Denise Gutzmer</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>National Drought Mitigation Center</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — August 09, 2022</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2022-08-09</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2022-08-09</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2022-08-11</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — August 09, 2022
+
+## Introduction
+Precipitation varied widely across the Lower 48 this week. Across the interior West, heavy monsoon rains set records in some locales, with tropical moisture streaming much farther north and west than normal (through southern Montana, the Great Basin, and parts of the Sonoran Desert). Death Valley, CA set an all-time record for 24-hour rainfall, being doused with 1.46 inches during August 5 and 6. The average annual rainfall in Death Valley is less than 2.5 inches, and the 24-hour total makes August 2022 the wettest month in Death Valley since February 2010, and more than half of all calendar years bring less rain than that 24-hour total.
+Farther east, many areas from the Mississippi River eastward through the Piedmont and Middle Atlantic States recorded moderate to heavy precipitation. Most areas from southern Missouri and northeastern Arkansas through central Illinois recorded over 1.5 inches of rain, as did parts of the Tennessee and southern Ohio Valleys, the Upper Midwest and western Great Lakes Region, the Central Gulf Coast, and northern Maine. In other areas from the Mississippi Valley eastward, heavy rain was less widespread. Still, numerous patches of land across the Upper Midwest, the middle Mississippi Valley, the Ohio Valley, and the Gulf Coast east of Texas received over 3.5 inches of rain, with isolated totals of 6 to locally 11 inches reported in a swath from the middle Mississippi and lower Ohio Valleys northward through the Upper Midwest and western Great Lakes Region. In contrast, many areas across these regions recorded only a few tenths of an inch of rain or less, with tight gradients between heavy rain and lesser amounts common. This variable rainfall pattern had a similar effect on areas of dryness and drought, with deterioration noted very close to improvement in many cases, and only a few broad swaths with a consistent pattern. Looking at the western half of the Lower 48, outside the areas affected by the monsoon, much drier conditions prevailed, though there were a few small areas recording moderate to heavy rainfall. Little or no rain fell on the central and southern Great Plains, much of the central Rockies, and the Far West. Temperatures averaged over 3 deg. F above normal in a large area across the central Rockies, most of the Plains, and the northeastern quarter of the country, exacerbating dryness in areas that missed the heavier rains.
+
+## Caribbean
+In the northern Caribbean Sea, Rainfall has consistently fallen on most of Puerto Rico in recent weeks. Dryness and drought improved where it existed over most of the island, but conditions deteriorated in a few small areas in western and central Puerto Rico, where rainfall has not been as generous.
+The U.S. Virgin Islands received meager rainfall this week and remained status quo with St. Thomas at D2-SL, St. Croix at D2-SL, and St. John at D3-SL.
+
+
+Rainfall reports from CoCoRaHS observers on St. Thomas listed 0.08 to 0.73 inches of rain during the past week. The Standardized Precipitation Index values were near normal or slightly wet at short time scales, but were still dry at six and twelve months. The Grade School 3 well was 18.39 feet below land surface on Aug. 8, which was one of the lowest points in the past five years. King Airport on had the fifth driest May-July and sixth driest April-July in the 1953-2022 record.
+
+
+St. Croix received from 0.32 to 0.83 inches of rain over the past week. SPIs indicated normal or abnormally dry conditions at one, three and nine months, with severe and extreme drought conditions at six and twelve months. The Adventure 28 well was also at one of the lowest levels in the past five years at 34.55 feet below land surface. Rohlsen Airport ranked eleventh driest for April-July in the 1951-2022 record and sixth driest for August-July.
+
+
+St. John received from 0.11 to 0.31 inches of rain as reported by CoCoRaHS observers. SPIs indicate abnormally dry conditions at one month and severe to moderate drought for three- to twelve-month time scales. The Susannaberg DPW 3 well was 22.68 feet below land surface, which is among the lowest values in the past five years. The Vegetation Health Index indicated acute drought stress on the island. Windswept Beach had the second driest April-July and May-July and fourth driest August-July in the 1984-2022 record.
+
+
+
+## High Plains
+Most of the Great Plains recorded only a few tenths of an inch of rain at best last week, as did most of North Dakota. Rainfall was more abundant in central and southern Colorado, and in a swath across much of Wyoming and South Dakota. Totals of 0.5 to 2.0 inches were common in these areas, with isolated higher amounts of 2 to 5 inches soaking northwestern Wyoming, scattered areas in central and southern Colorado, and portions of central and eastern South Dakota. Fairly large areas of heavy rain were noted in south-central and parts of eastern South Dakota. Not surprisingly, parts of the wetter areas saw dryness ease somewhat while hot and dry conditions from eastern Wyoming and Nebraska southward promoted large areas of expansion and intensification there. In the last 60 days, much of this area received 35 to 65 percent of normal rainfall, but most locations recorded more. Periods of excessive heat have exacerbated the effects of the subnormal precipitation, and even some areas with near normal rainfall have seen conditions dry out due to the heat. Surface moisture shortages are now most acute in western Kansas and southwestern Nebraska, and a sizeable part of this area is in exceptional drought (D4), with the remainder in D3 along with northeastern Colorado, southeastern Kansas, northwestern Nebraska, and a newly-developed area in central South Dakota. Only the central and northern Dakotas, northeastern Kansas and adjacent areas, portions of the Colorado mountains, and part of central and northern Wyoming are largely devoid of drought, though abnormal dryness has been identified in some of those areas.
+
+## Midwest
+Currently, drought is most prevalent in west-central and southwestern parts of the Region, in southern Iowa and much of Missouri. Much of southern Minnesota is also experiencing at least some notable degree of dryness. East of the Mississippi River, dryness and drought cover less area, but small areas of D1 can be found in northern Wisconsin, east-central Michigan, and in a swath extending from east-central Illinois into west-central Tennessee. Like many other parts of the country, some areas were soaked with rain, while others received little or none, creating a complicated pattern of deterioration and improvement. In this Region, substantial rainfall and improved conditions were noted in many extant areas of dryness and drought, including most of the southern half of Missouri, northern Iowa, central Minnesota, and areas east of the Mississippi River. One notable exception to the generally improving conditions was across the southern half of Iowa and the northern half of Missouri. This area was largely dry last week, with above-normal temperatures, abetting expansion and intensification of the dryness there. Over the past 60 days, less than half of normal rainfall has dampened much of the southern half of Iowa and central Missouri. In contrast, areas east of the Mississippi River received near or above normal rainfall, with much of southern Illinois soaked by 1.5 to 3.0 times normal rainfall during this period.
+
+## Northeast
+The variable rainfall pattern means drought conditions eased in wetter areas, but drought persisted or worsened in areas that missed significant rains. But of particular note is the introduction of extreme drought (D3) in eastern Massachusetts outside Cape Cod, and much of southern and eastern Rhode Island. These areas have received near or less than half of normal rainfall over the last 3 months, and only about 50 to 65 percent of normal in the last half-year, which is 9 to 11 inches less than normal. Other areas were hit-and-miss, but severe drought (D2) or worse remains confined to areas near the Atlantic Coast, southeastern New England, a small area in west-central Connecticut and adjacent New York, and a newly-introduced area in parts of New York City and adjacent suburbs.
+
+## Pacific
+Rainfall has been increasing and temperatures decreasing in recent weeks across Alaska, which has been consistently whittling down the areas of dryness and drought. More improvement was noted this week, leaving only a small area of D0 in the east-central part of the state.
+Moderate rainfall fell on portions of Hawaii last week, but amounts were insufficient to bring any drought relief, and most of the moisture fell on areas only marginally experiencing impactful dryness. Most of Hawaii remained as it was last week, but some small areas of D3 were introduced in the northwestern and southeastern extremes of the island chain, where fire danger and declining soil moisture are primary concerns.
+The Republic of Palau received ample rain exceeding 3 inches.
+The Mariana Islands all remained free of drought. Rainfall was low in Guam with 0.30 inches for the week, but received ample rain in previous weeks. Rota and Saipan received more than an inch, which is enough to meet minimum water needs.
+
+
+The Federal States of Micronesia were mixed with many locations receiving more than 2 inches of rain, which meets minimum water needs, but a few locations got less. Fananu received nearly 5 inches of rain last week, but just 0.90 inches this week with some data missing. Given last week’s rain, water supplies for Fananu ought to be adequate at present. Kapingamarangi remained at D1-SL and received 0.47 inches this past week and 8.60 inches in July. Eight 1,500 gallon water tanks were shipped to Kapinga recently and will bolster water resources.
+
+
+Lukunor received below normal rainfall for a third week and may be classified as abnormally dry next week without rain. Ulithi also received below normal rainfall for the past two weeks.
+
+
+The Marshall Islands largely received more than 2 inches of rain in the past week, apart from Kwajalein with 1.62 inches and Wotje, which had no rain in the past week. Both locations received enough precipitation in previous weeks to have adequate water supplies. Majuro’s reservoir contained 24.6 million gallons on Aug. 8.
+
+
+American Samoa remained free of dryness. Pago Pago, Siufaga Ridge and Toa Ridge all received more than an inch of rain, which is the amount needed to meet minimum water needs.
+
+
+
+## South
+The eastern and western portions of this Region are trending in very different directions. Abundant rains have been falling on much of Tennessee, Arkansas, western Mississippi, most of Louisiana, and adjacent areas, where many areas of dryness and drought are improving. Over most of Oklahoma and Texas, however, rainfall has been scare of late, and with periods of excessive heat also affecting these areas, dryness is intensifying. In the last 2 weeks, over 3 inches of rain fell on most of Tennessee, northern Arkansas, and southern Louisiana. A few areas received over 4.5 inches of rain, with totals topping out at nearly a foot at one spot in northeastern Arkansas. Farther west, the have nots from central Oklahoma southward through most of Texas saw only several tenths of an inch, at best. From south of the Red River Valley through most of Texas to the Deep South regions, few areas saw any measurable rainfall. Conditions are not as dry in the Texas Panhandle, where enough rain fell (generally 2 to locally 5 inches) to provide some tangible relief from the recent dryness. Moisture shortages date back at least 6 months over most of Texas south of the Panhandle and north of Deep South Texas, extending across the entire breadth of the state. During the last 90 days, less than half of normal rainfall has been observed in most of these areas, with a few scattered patches getting less than 25 percent of normal. This equates to 3-month rainfall deficits of 5.5 inches or higher across most of central and eastern Texas, with parts of northeastern and southeastern Texas accumulating rainfall deficits of 7 to 10 inches. And for the last half-year, much of central and southeastern Texas racked up deficits of 11 to 16 inches. Not surprisingly, drought intensified or at best persisted across the south half of Oklahoma and most of Texas, most of the state is in extreme (D3) drought, with large swaths of D4 covering a good portion of the state from the Red River to Deep South Texas.
+
+## Southeast
+The pattern of changed dryness and drought intensity was slightly more coherent here, from Alabama along the Eastern Seaboard through Virginia. Notable dryness isn’t affecting a large part of this Region, and only a few small isolated areas are in moderate drought (D1). Areas that received heavier rainfall and saw dryness ease a bit included northwestern Alabama, southwestern Georgia, northeastern Florida, part of northeastern most Georgia, and a small area near the Virginia/North Carolina border. Most of the deterioration was noted closer to the center of the Region. The largest area of deterioration was in southeastern Georgia and adjacent South Carolina, where D0 was introduced. Small portions of east-central Florida and Upstate South Carolina also saw conditions deteriorate, including the introduction of D1 in west-central South Carolina. The largest area of dryness in the Region – across eastern North Carolina – changed very little this past week. A few areas in eastern North Carolina have precipitation deficits of 6 to 11 inches over the past 6 months, and 3 to 6 inches in the last 90 days.
+
+## West
+The North American Monsoon remained robust in early August. This is continuing to bring slow relief to a region long affected by entrenched drought. Tropical moisture from the monsoon circulation reached unusually far west this past week, into the southern Great Basin and southeastern California. As a result, exceptional amounts of rain fell on the southern half of Nevada and southeastern California, resulting in a very broad area of 1-category improvement. The record rains in Death Valley brought severe flash flooding that closed about 85 miles of road for several days, making many spots in the Valley unreachable. Farther east, rainfall was less remarkable, but still above normal, improving conditions across parts of New Mexico, southeastern Arizona, and parts of the southeastern quarter of Utah. Most locales in Arizona, New Mexico, the California deserts, southern Nevada, and a few other scattered areas have measured at least 200 percent of normal over the past 2 months. Portions of southeastern California, the Sonoran Desert, southwestern and northeastern Arizona, and a large area in northwestern New Mexico have been doused by 3 to 5 times normal rainfall. Farther north, central sections of Washington and Oregon also saw dryness and drought ease a little bit. The only area currently headed in the opposite direction is central and northern Montana. They are considerably wetter than normal for the past 60 days as a whole, but conditions have been changing rapidly since then. Rainfall has become scarce and temperatures have averaged well above normal. All this resulted in a significant expansion of D0 and D1 conditions into eastern and central Montana, although little change was noted in the areas already entrenched in severe to extreme drought.
+
+## Forecast
+Above-normal temperatures – with the potential for excessive heat – should cover the central Plains, northern half of the Rockies, the Intermountain West (except where the monsoon is active), and the Pacific Northwest during August 11-15, 2022. The largest departures from normal are expected in the central Plains, the northern Rockies, and part of the northern Intermountain West averaging 4 to 8 deg. F above normal. In the western U.S., the only area expected to be somewhat cooler than normal are in the southern Rockies, Southwest, and Great Basin, where the robust monsoon will continue, keeping temperatures down. It should also be somewhat cooler than normal from the Mississippi River to the Appalachians, possibly spilling over into parts of the Atlantic Coastal Plain.
+Most of the Lower 48 should be drier than normal, with several tenths of an inch falling at best. But there are significant exceptions; A very robust Southwestern Monsoon should be in place through the period, bringing moderate to heavy rain to the Southwest, The eastern Great Basin, the western half of Colorado, and most of Wyoming. Portions of central Arizona, southwestern Utah, and northern Wyoming are forecast to receive 1.5 to 3.0 inches of rain, with locally higher amounts. The only other extensive areas where more than 0.5 inch is expected are south-central through southeastern Texas, the immediate South Atlantic Coast, and most of the Gulf Coast. But only east-central Texas should record over 1.5 inches of rain, except along parts of the immediate Gulf Coast. Little or no precipitation is anticipated along the western tier of the Lower 48, across a large part of the central Plains, and through much of the Upper Midwest north of the Ohio River. Little or no precipitation is also expected in southern New England.    .
+The Climate Prediction Center’s 6-10 day outlook (valid August 16-20, 2022) favors above-normal temperatures across a large part of the Lower 48 from the Great Basin and Southwest eastward through the lower Mississippi Valley, through almost all of the Appalachians and Eastern Seaboard. But wet weather is only weakly favored from the lower Mississippi River to the southern Atlantic States and across the Appalachians. Odds favor subnormal precipitation around the Great Lakes and across the northern tier of the Lower 48 from western North Dakota to the Pacific Coast.
+Odds significantly favor below-normal temperatures across the Ohio Valley and central Appalachians, with somewhat lower odds from the Upper Southeast northward through the middle Mississippi Valley, Great Lakes Region, Northeast, and southwestern New England. Farther west, slightly enhanced chances for milder than normal temperatures extend across the central Plains and the central and southern Rockies. Meanwhile, there is a large tilt of the odds toward warmer than normal temperatures – with the potential for excessive heat – from central California, the northwestern Great Basin, and the northern Intermountain West to the Pacific Coast and the Canadian border. The chances for warmer than normal weather exceed 80 percent across interior sections of Washington and Oregon, and adjacent Idaho. Enhanced chances for warmth are less dramatic through the rest of California, the Great Basin, and the northern tiers of the Rockies and Plains. There are also slightly enhanced chances for warmer than normal weather extend across most of Texas, the lower Mississippi Valley, the immediate Gulf Coast, and Florida.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-160.236083</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-65.2210455</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>17.8841923</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>67.1096057</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T08:03:05-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

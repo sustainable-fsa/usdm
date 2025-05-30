@@ -1,0 +1,284 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2023-09-05</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Richard Tinker</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Tsegaye Tadesse</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>National Drought Mitigation Center</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — September 05, 2023</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2023-09-05</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2023-09-05</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2023-09-07</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — September 05, 2023
+
+## Introduction
+Heavy rainfall associated with Hurricane Idalia brought damaging winds and flooding centered along its path. Idalia moved from the Gulf of Mexico inland along the northeastern Gulf Coast of Florida and continued northeastward through south-central and east-central Georgia, slightly inland from the South Carolina Coast, then across southeastern North Carolina before moving into the open waters of the northwestern Atlantic Ocean. A solid swath of heavy rains were observed in a band from the eastern Florida Panhandle northward through middle Georgia, interior eastern South Carolina, and southeastern North Carolina as far north as the lower Outer Banks. Between 4.5 to 10.0 inches of rain fell solidly along this swath of land, but rainfall totals dropped off rapidly to the west and east of the main band.
+Farther west, a surge of tropical moisture pushed northward into the southwestern U.S., continuing northward across the Great Basin, Intermountain West, and adjacent Rockies into adjacent Canada. Heavy rainfall fell in a broken pattern over this general area, with the highest amounts reported across interior southeastern California, over much of the middle Colorado River Basin, and across scattered areas farther north. The heaviest amounts outside the lower Colorado River Basin fell on higher elevations and over areas where precipitation was enhanced by orography, as is typical.
+Most of the Nation, however, endured a hot and drier-than-normal week, including most areas of drought. Temperatures averaged 5 to 10 deg. F accompanied deficient precipitation over a large area from the Rockies to the Appalachians and central Gulf Coast Region, prompting drought intensification over large parts of the Upper Mississippi Valley, the Central States, and the southern tier of the country west of the Florida Panhandle. Improvement was limited to the band of heavy precipitation from Hurricane Idalia, and in scattered locales affected by the tropical moisture surge in the Desert Southwest, from southeastern Utah to central Arizona westward toward central California. According to the U.S. Department of Agriculture (USDA), the coverage of topsoils short or very short of moisture increased by 6 percent this past week, now covering 58 percent of the contiguous 48 states. This is the greatest coverage at this time of year in more than 9 years, the prior record in that short interim being just over 50 percent in 2020.
+
+## Caribbean
+Scattered moderate to heavy rainfall was recorded in portions of the west half of the Commonwealth, including parts of the current areas of dryness and drought. The degree of relief provided by one wet week, however, was unclear, and for the time being the D0 to D2 areas in Puerto Rico are unchanged from last week.
+Most of the U.S. Virgin Islands have remained in drier-than-normal conditions. The satellite data (i.e., NASA’s seven-day GPM IMERG Precipitation estimates) and station observations show that the rainfall amount received over most parts of the islands was less than 0.5 inches. Standardized Precipitation Index (SPI) maps show that drier-than-normal conditions persist at St. John, St. Thomas and St. Croix this week. The recent SPI maps show that drier-than-normal conditions remain at the 1-, 6- and 9-month SPIs across the three islands. Thus, St. Thomas and St. Croix remain in extreme drought conditions. Even though the 1-month SPI at St. John shows severe drought conditions, the other SPIs do not support the degradation to severe drought. Thus, St. John remains in moderate drought for this week.
+Specifically, St. John (Rafe Boulon/Windswept Beach) reported 0.17 inches of rain this week. The depth to water level at Susannaberg DPW 3 well (St. John, USVI) on September 5, 2023 was 19.79 ft below land surface. The water level below land surface is increasing, which indicates that St. John continues to be drier than normal. However, even though the 1-month SPI at St. John shows severe drought conditions, the other SPIs do not support the degradation to severe drought. Thus, St. John remains at the status quo of short- and long-term moderate drought for this week.
+On St. Thomas (Cyril E. King Airport), 0.20 inches of rain was reported this week The depth to water level at Grade School 3 well (St. Thomas, USVI) on September 5, 2023 was 11.84 ft below land surface. Recent observations showed that King Airport station on St. Thomas had its hottest August temperatures since 1994. An increase in depth to water level has also continued this week. Thus, St. Thomas remains in extreme drought (D3-SL).
+St. Croix (Henry Rohlsen AP) reported 0.04 inches of rain this week. The depth to water level at Adventure 28 Well (St. Croix, USVI) on September 5, 2023 was 33.59 ft below land surface. The August average temperature at Rohlsen was 86.7°F, the hottest on record and 3.3°F more than normal for the month. The old record was 86.5°F, recorded in August 1989. The water depth observations this week also showed that St. Croix has continued to be in short- and long-term extreme drought (D3-SL).
+
+## High Plains
+Conditions vary markedly from southeast to northwest here. Similar to western sections of the Midwest Region, Kansas and Nebraska in the southeastern High Plains region are largely covered by drought, including significant expanses of D2 to D3 conditions, with new or expanded D4 (exceptional drought) noted in a few locations. Farther west and north, conditions are much more favorable. To the north and west of central Nebraska, dryness and drought are restricted to the eastern and northern Dakotas, and southwestern Colorado. As in other parts of the Nation’s midsection, agricultural drought stress is palpable, and on the rise. Across Kansas, 40 percent of soybeans are in poor or very poor condition, as are 33 percent of the corn crop, 29 percent of sorghum, and 47 percent of rangelands. Across Nebraska, about one quarter of all the aforementioned crops are in poor or very poor condition. Still, this region did not see the degree of deterioration observed in the Midwest Region, with significant worsening most notable in central and eastern Kansas.
+
+## Midwest
+Excessively hot and dry weather dominated this Region last week, worsening an already-serious drought in the western half of this region. D2 and D3 conditions expanded markedly across Wisconsin, Minnesota, Iowa, and Missouri under conditions highly favorable for the rapid intensification of drought. The moisture budget over the eastern half of the Region is in far better shape, but areas of abnormal dryness expanded somewhat, and isolated small pockets of moderate drought began to emerge by the end of the week. Unsurprisingly, agriculture and surface moisture has been stressed by the drought. In Missouri, 40 percent of the corn crop and 23 percent of soybeans were in poor or very poor condition. In addition, nearly two-thirds of pasture and rangeland in Minnesota was in poor or very poor condition, as were 46 percent of Iowa pastures and 43 percent of Missouri pastureland.
+
+## Northeast
+A recent trend toward increasing rainfall brought an end to abnormal dryness (D0) in central and western West Virginia. Elsewhere, moisture was again lacking over existing areas of dryness and drought. Drought coverage didn’t increase dramatically this week, but outside West Virginia, dryness and drought was mostly unchanged, though some areas of worsening were noted on the east side of the Appalachians and adjacent Piedmont areas of western Maryland and southern Pennsylvania. Dryness coverage also increased slightly in central New Jersey, where a small area of moderate drought (D1) developed. Heavy rainfall from Hurricane Idalia remained south of this Region, and thus provided no relief in the areas of dryness from the mid-Atlantic northward..
+
+## Pacific
+Abnormal dryness (D0) mostly remained in place over central and east-central parts of the state, although some heavier precipitation trimmed the extent of the D0 on the eastern and southwestern fringes.
+Dryness and drought are now well-established across Hawaii. Precipitation was not absent, but was unremarkable this past week, and the state’s areas of dryness and drought are unchanged from last week.
+Rainfall varied across much of the Marshall Islands this week. Normal to wet conditions were observed on Ailinglapalap, Mili, Jaluit and Majuro. This week, Ailinglapalap received 4.69 inches of rain (with two days missing). The monthly rainfall for August was 10.56 inches. Thus, Ailinglapalap improved from abnormally dry to drought-free condition. Only 1.45 inches of rain was reported on Jaluit, with two days missing. However, Jaluit has had over 2.6 inches of weekly rain in the past two weeks to remain free of drought. Heavy rainfall was reported on Milli this week. With two days unaccounted for, 8.91 inches of rain was observed at Mili this week to remain drought free. Kwajalein received 2.27 inches of rain this week with four days missing. Last week, Kwajalein had 2.67 inches of rain. So, Kwajalein improved from abnormally dry to drought-free condition this week. This week, 1.79 inches of rain was reported on Majuro with one day missing. Wetter-than-normal conditions (heavy rains) had also been reported on Majuro in the past couple of weeks, allowing the island to remain free of dryness. On the other hand, 1.02 inches of rain was reported (two days missing) on Wotje. Generally, Wotje observed little or no rain for the past four weeks. So, Wotje deteriorated from abnormally dry to short-term moderate drought this week. No depiction was made for Utirik due to missing data.
+Dry conditions continued on American Samoa this week. Pago Pago was drier than normal for the past seven weeks. This week, only 0.26 inch of rain fell at Pago Pago. In addition, Siufaga Ridge and Toa Ridge observed only 1.52 and 0.62 inches of rain this week, respectively. Thus, conditions on American Samoa have remained in short-term moderate drought condition.
+Palau IAP (Airai) reported only 5.43 inches of rain this week. Palau had also 16.86 inches of rain in August. Koror COOP station also reported 5.43 inches of rain this week, resulting in the island remaining free of drought or abnormal dryness.
+The Mariana Islands remained free of drought or abnormal dryness this week. On Saipan, 3.34 inches of rain was observed this week with two days missing. In addition, Saipan (IAP, manual gauge) received 6.29 inches of rain. Rota and Guam received weekly totals of 2.70 and 4.11 inches of rain, respectively.
+Wet weather continued across much of the Federated States of Micronesia. This week, 5.64 inches of rain was reported on Fananu. The past two weeks, Fananu received 2.06 and 4.84 inches of rain, respectively. The island’s monthly rainfall for August was 10.56 inches, allowing it to be free from abnormally dry conditions. Kapingamarangi, which received 8.41inches of rain this week, remained free of dry conditions. On Kosrae, 3.26 inches of rain was reported this week (with three days missing), allowing the island to remain drought free. On Lukunor, only 0.32 inches of rainfall was reported this week (with three days missing). However, with 10.33 inches of rain in August, the island remains drought free. On Nukuoro, 1.88 inches of rain was reported this week (two days missing), allowing the island to be free of drought or abnormal dryness. With two days missing, 1.88 inches of rain was reported on Pingelap this week. Pingelap received only 6.44 inches of rain last month, maintaining a status quo of short-term abnormal dryness. On Yap, only 0.20 inches of rain was reported this week. However, because of wet conditions in the past four months, Yap remained free of dryness. On Ulithi, only 0.45 inches of rain was reported this week (two days missing). Over 23 inches of rain was reported on Ulithi in August, allowing the island to remain drought free. This week, 5.19 inches of rain was reported on Pohnpei with two days missing, so the island remained free of dryness. At Chuuk, only 0.66 inches of rain was reported this week with three days unaccounted for. However, wet conditions in the past five months were observed at Chuuk, allowing the island to be free of dryness. No analysis was made for Woleai due to missing data.
+
+## South
+Brutally hot and dry weather again this week kept dryness entrenched across Texas, southern Oklahoma, Louisiana, and southern Mississippi. For the past 2 months, temperatures averaged 4 to 8 deg. F above normal from most of the Four Corners States eastward through most of Texas and Louisiana, and across southern Mississippi. A solid swath of extreme to exceptional drought (D3-D4) is now entrenched from central Texas eastward through most of Louisiana and southern Mississippi, expanding slightly northward as well. Outside the large area of solid D3-D4 conditions, conditions generally deteriorated where dryness was antecedent or on the cusp of developing, and remained essentially unchanged elsewhere. In contrast, Tennessee and most of Arkansas remained free of any systemic dryness. According to the USDA, the cotton crop has not fared well this summer, suffering through the persistent hot and rain-free weather. Almost 80 percent of the Oklahoma cotton crop is in poor or very poor condition, as is 61 percent of Texas cotton. Peanuts, sorghum, soybeans, and rice planted in Texas, Louisiana, southern Oklahoma, and southern Mississippi were also being stressed by from heat and lack of rainfall, although the proportion in poor condition or worse is considerably lower. In addition, deteriorating pastures and rangelands are stressing livestock. As of early September, 72 percent of Texas rangelands, 63 percent of Louisiana pastures, and almost 40 percent of Mississippi pastures were in poor or very poor condition.
+
+## Southeast
+Hurricane Idalia brought a solid swath of heavy rain to the Southeast, but outside the band of heaviest rain, amounts dropped off quickly to the east and west of this band, so while dryness was vanquished in dry areas that were in the path of Idalia’s heavy rains, relief was not as widespread as might be expected due to the narrowness of the heavy rainfall band. Heavy rainfall engendered by a surge of tropical moisture not directly associated with Idalia dropped moderate to isolated heavy rain on the western Florida Peninsula, the western Florida Panhandle, and scattered locales in and near Alabama. Former areas of dryness and moderate drought in south-central Georgia, central South Carolina, and southeastern North Carolina were removed by Idalia’s rainfall. Some improvement was also noted in dry areas across the Florida Panhandle, the western Florida Peninsula, and small areas along the Gulf Coast due to thunderstorm activity not associated with Idalia. A few inches of welcome rain fell on the west-central Florida Peninsula, but streamflow response was not as long-lasting as expected, and some areas from Sarasota County to southwestern Hillsborough County are still mired in the driest January – early September period on record even after last week’s downpours. To the north and west of Idalia’s path, the limited areas of dryness and drought changed little, though some areas of deterioration were observed in scattered areas from the northern half of Georgia northward across the western half of the Carolinas and into much of Virginia.
+
+## West
+Monsoon rains remained subpar across eastern Arizona, New Mexico, and southwestern Colorado, prompting a continued slow deterioration in dryness and drought there. With the monsoonal wet season winding down during September, the odds for heavy precipitation episodes declines, and thus the prospects for significant relief from the intensifying dryness and drought become progressively worse. Dryness and drought also cover large parts of Washington and Oregon as well as the northern tiers of Idaho and Montana. Some deterioration was noted in north-central Montana, but farther west, conditions were essentially unchanged in northern Idaho and the Pacific Northwest..
+
+## Forecast
+According to the Weather Prediction Center (WPC), the next 5 days (September 7-11, 2023) will bring some much-needed rainfall to the parched central Plains. Over 0.5 inch is forecast from parts of Oklahoma and the Texas Panhandle northward through Nebraska, with 1.5 to locally 3.0 inches anticipated in part of central Kansas. Moderate to heavy precipitation is also anticipated from the southern Appalachians and adjacent foothills northeastward through the mid-Atlantic and Northeast. At least 1.5 inches is expected from the mountains of northwestern Virginia northeastward through most of the Northeast and New England. The heaviest amounts are expected from central Pennsylvania northeastward through interior southeastern New York, where totals could top 4 inches. Eastern Florida could also receive moderate to locally heavy precipitation, generally 0.5 to locally 2.0 inches. A broad area covering most of the Plains and the Lower Mississippi Valley are expecting several tenths of an inch of precipitation, as are most locations from the Appalachians and eastern Gulf Coast Region eastward to the Atlantic Seaboard. Most other places might see light precipitation, but little or none is expected across the Far West, most of the Rockies, southern Texas, the southern High Plains, the Middle Mississippi and Lower Ohio Valleys, And parts of the interior Deep South. Hot weather is expected to accompany subnormal rainfall totals along the southern tier of the country from southernmost California eastward through the central Gulf Coast Region, as has been the case much of the summer. Daily maximum temperatures are expected to average 5 to 9 deg. F above normal there. In contrast, milder than normal temperatures are expected to displace the heat that has recently affected parts of the Nation’s Midsection, with readings expected to average 3 to 7 deg. F below normal across much of the region from the central High Plains eastward across the Middle Mississippi and Ohio Valleys.
+The Climate Prediction Center’s 6-10 day outlook (valid September 12-16, 2023) favors a similar pattern. Odds favor above-normal temperatures from the South Atlantic Region westward across the southern tier of the Contiguous 48 states, over most areas from the Rockies westward, and the northern Plains. Meanwhile, below-normal temperatures are favored across a large swath from the south-central Plains eastward through most of the Mississippi Valley, the Upper Southeast, the Appalachians, the Atlantic Piedmont, the Mid-Atlantic, and the lower Northeast. There are enhanced chances for surplus precipitation across the central and southern Rockies, much of the central and southern Plains, the southern half of the Mississippi Valley, the Ohio Valley, the interior Southeast, the Appalachians, the mid-Atlantic, and the Northeast. In contrast, drier-than-normal weather is favored across most of the Great Lakes, the northern tiers of the Plains and Rockies, the northern Intermountain West, and the Pacific Northwest, as well as across the Florida Peninsula.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-160.236083</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-66.6120095</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>17.9309345</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>67.243966</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T08:11:13-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

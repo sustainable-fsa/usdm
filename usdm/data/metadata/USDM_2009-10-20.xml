@@ -1,0 +1,243 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2009-10-20</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Matthew Rosencrans</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — October 20, 2009</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2009-10-20</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2009-10-20</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2009-10-22</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — October 20, 2009
+
+## Introduction
+The period from October 13-20 featured generally stormy conditions on the West Coast, Southeast and mid-Atlantic with dry conditions from the southern Plains to the upper Midwest.  Early in the week, a storm system over the southeast U.S. produced significant rainfall across western South Carolina, the Florida panhandle, and westward to northeastern Texas.  By Friday, that storm system had moved off into the Atlantic, and a secondary low-pressure system moved along the remnant frontal boundary.  This secondary system brought significant precipitation to the mid-Atlantic region.  In the wake of these low-pressure systems, high pressure ushered in dryer, cooler weather for much of the eastern half of the country for the last 3 days.  The storm system that moved across the western portions of the contiguous 48 brought the first significant rains of the wet season to many portions of California and Nevada on October 14th and 15th.  Additional rains associated with another low-pressure system fell from the Pacific Northwest to the northern Great Plains from October 16-20.
+
+## Hawaii, Puerto Rico and Alaska
+Light to moderate daily showers (generally 0.1 to 0.5 inches; 1 to 1.5 inches at a few sites) from Thursday through Sunday were common on the windward sides of Kauai, Oahu, Maui, and the Big Island, but little or no rain fell on most leeward portions.  With no drought designation on the windward sides, and the summer and early fall months typically dry on the leeward portions, status-quo was kept.
+In Alaska, stormy weather brought moderate precipitation (2 to 3 inches) to southern Alaska and the Alaskan Panhandle, but failed to materialize inland.  Inland stream flows are still near or above normal in many places, so the depiction here remained unchanged.
+Rainfall in Puerto Rico was plentiful, with most stations reporting some measureable precipitation.  Many stations reported in excess of 2 inches with a maximum of nearly 6 inches in the higher terrain.  No dryness was depicted on the current map.
+
+## Mid-Atlantic and Southeast
+Significant rains across the Southeast early in the week precluded any drought indications for most of the region.  The exceptions were the Carolinas and Florida.  In South Carolina, the heavier rains (1-2 inches) stayed to the west of the previously depicted drought areas, with the drought areas receiving less than 1 inch of rain for the week.  United States Geological Survey (USGS) measured stream flows in northern South Carolina remained low (current day out to 28-days in the lowest 10 percent), so the area remained in moderate to severe drought status.  In North Carolina, a continued decline in stream flows and increased rainfall deficits stretching back at least 6 months prompted the expansion of moderate drought conditions.  One-, three-, and six-month rainfall totals were all 50-70 percent of normal, with 14-day precipitations totals 25-50 percent of normal.
+Across Florida, rainfall deficits continued to mount for the eastern portions of the state.  Rainfall totals were generally less than 0.5 inch in this region.  Rainfall deficits at many timescales continued (7-, 14-, and 30-days were 1-2, 2-3, 4-8 inches below normal, respectively).  Specifically, from July to mid-October, reports from Palm Beach International Airport, Fort Lauderdale/Hollywood International Airport, and Miami International Airport reported deficits of 5.08, 11.21 inches, and 4.13 inches, respectively.  Additionally, United States Department of Agriculture (USDA) reports from Florida indicated scattered incidents of drought impacts to livestock. However, local water supply managers stated that &amp;quot;... most ground and surface water is near where it should be for mid-October.&amp;quot;  Balancing these inputs, the result was an extension of the abnormally dry conditions southward.
+Southern Pennsylvania, northern West Virginia, and western Maryland received beneficial rains (1-2 inches), easing drought conditions in this region.  No impacts were reported so the agricultural classification of drought impacts was removed.  Additionally, cool temperatures (10-12 degrees F below normal) minimized evaporation so the rains were able to make a substantial impact.
+
+## Northern and Central Great Plains and Upper Great Lakes
+Weekly precipitation deficits of 0.5-1.0 inch prompted an expansion of the abnormally dry conditions across the upper peninsula of Michigan.  Near normal precipitation across most of Minnesota and central Wisconsin led to retention of the current drought depiction.  In response to light but persistent rainfall, cooler temperatures and the end of the growing season, the area of abnormally dry conditions across the Dakotas was removed.  The area of abnormally dry conditions across Nebraska was adjusted to reflect recent soil moisture measurements (10 percent to 30 percent of normal) across much of eastern Nebraska and continued below normal rains (50-70 percent of normal) for the most recent 1-, 2-, and 3-month measurement periods.
+
+## Southern Great Plains
+Small changes were made in Texas to reflect some recent lack of rains (0.5-2 inches below normal for the week) across northern and western Texas.  Standardized precipitation index (SPI) values indicated pockets of abnormal dryness from near Midland, to north-central Texas and the Panhandle.  Additionally, no rainfall and temperatures averaging 6-8 degrees F above normal for the week across eastern New Mexico prompted the expansion of the abnormally dry conditions across this region.
+
+## The West
+Significant changes were in order across the West as the first strong low-pressure system of the wet season barreled onshore on October 14.  Multiple storm systems then continued to come ashore across the Pacific Northwest. The Olympic Peninsula received significant rains (generally 4-8 inches with a maximum near 13 inches) through the course of the week, triggering a 1-category improvement.  To the east of the I-5 corridor in northern Washington, additional rains (2-5 inches) led to some trimming of the moderate and severe drought region.
+In California and Oregon, the rainfall on the western mountain slopes was noteworthy, with multiple locations in California receiving greater than 4 times the normal rainfall for the weekly period.  The most significant improvements were made across southwest Oregon and central California.  Rainfall totals in southwest Oregon ranged from 1.0-5.6 inches.
+Across central California, 24-hour rainfall totals exceed 15 inches in some coastal locations (Mining Ridge – 19.57 inches), with most locations receiving 2-8 inches of precipitation.  A general 1-category improvement was made along the entire length of the San Joaquin Valley.
+In Nevada, 1-3 inch precipitation totals resulted in some minor adjustments of the severe drought depiction near Washoe County.  Reports from the field indicated that almost no flooding was associated with these rains and the puddles generally disappeared within 24 hours, indicating that these recent rains did much to recharge soil moisture.  Further north, rains (0.5-2.0 inches) across Idaho and Montana prompted the removal of large areas of abnormal dryness and a 1-category improvement across northwest Montana.  No changes were made to Arizona as mostly near-normal rainfall was experienced across the state.  That being said, near normal ranges from 0.0 to 0.5 inch.
+
+## Forecast
+During the next 5 days (October 22-26), a stormy pattern is expected east of the Rockies, with multiple low-pressure systems tracking from the Great Plains through the Great Lakes to the Northeast.  Rainfall totals exceeding 1.5 inches are forecast from Kansas to Michigan, from the Gulf Coast of Texas to western North Carolina, and across New England.  The remnants of Pacific Hurricane Rick could bring significant rainfall to the Southeast.  Additional storm systems are forecast to impact the Pacific Northwest Sunday and Monday.  Rainfall amounts from 1.0-2.5 inches are possible.  Little relief is expected for the drought areas in Arizona and the dry area in Florida.
+The CPC 6-10 day forecast (October 27-31) calls for above-normal precipitation in the Northwest and from the Mississippi River to the East Coast. Drier weather should return to much of California, Nevada, Arizona, and Utah.  Above-normal temperatures are forecast for most of the contiguous U.S. west of the continental divide with below-normal temperatures east of the Rockies.  A wet pattern is forecast across southeast Alaska.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-160.236083</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-77.2092744</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>18.9154965</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>63.518268</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T06:48:16-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

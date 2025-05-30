@@ -1,0 +1,240 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2008-01-15</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Richard Tinker</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — January 15, 2008</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2008-01-15</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2008-01-15</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2008-01-17</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — January 15, 2008
+
+## Introduction
+
+
+## Alaska
+Light precipitation, if any, fell on the D0 areas of Alaska, keeping conditions intact.
+
+## The Great Lakes Region
+For the second consecutive week, a storm system dropped 1 to 2 inches of precipitation on approximately the eastern half of the dry region covering the northern Great Lakes region. This brought an end to D1 conditions in northwestern lower Michigan and extreme northeastern Wisconsin, and some whittling away of D0 conditions in north-central lower Michigan and east-central Wisconsin. Elsewhere, D0 to D1 conditions remained intact.
+
+## The Midwest
+With only light precipitation observed during the week, D0 conditions persisted in portions of east-central Missouri and southwestern Illinois. This area has received less than 75% of normal precipitation over the past 6 months, with some areas recording only 25% to 50% of normal during this period.
+
+## The Plains
+The dry areas stretching from Texas and eastern New Mexico northward through the High Plains and across parts of the Dakotas and Minnesota received only light precipitation at best last week, keeping dryness and drought essentially unchanged though a few areas of deterioration were observed. Most significantly, a number of indicators led to the expansion of D2 westward through western North Dakota and part of eastern Montana. Elsewhere, D0 expanded slightly eastward in central South Dakota, D1 conditions grew westward into parts of southeastern Colorado and northeastern New Mexico, D0 expanded eastward slightly into east-central New Mexico and adjacent Texas, and also expanded to cover much of southern Oklahoma, southwestern Arkansas, and east-central Texas. Furthermore, D1 conditions pushed eastward along the Red River in northern Texas, and pushed northward to cover a greater portion of southern and central Texas, including the Austin, TX area. During the last 90 days, less than 25% of normal precipitation has fallen on much of central and southern Texas, the Big Bend region, and a good portion of the D1 area in northern Texas.
+
+## The Rockies, Intermountain West, and Far West
+Relative to the intense storminess that affected California and many nearby areas during the first week of 2008, last week was relatively quiet, though substantial precipitation was observed across several areas in the northern half of the region. Quite a few locations through this area received at least 1 inch of precipitation, with 2 to 6 inches falling on numerous sites across the northern Sierra Nevada, northeastern Oregon, and the northern half of Idaho. As a result, former D0 to D1 conditions improved by 1 category across some of the northern Intermountain West. Farther south, precipitation has been particularly sub-par in northwestern Nevada and adjacent parts of southeastern Oregon and far northeastern California since the start of the water year, leading to the expansion of D2 conditions into these areas.
+
+## The Southeast and Mid-Atlantic
+Significant precipitation fell on many of the areas experiencing dryness and drought across the region last week, but given the magnitude and duration of the drought in much of this area, improvements that seemed substantial enough to warrant a change in the Drought Monitor depiction were relatively limited. For instance, despite 2 to 4 inches of precipitation across much of central and northern Alabama, 60-day precipitation totals remained at least 4 inches below normal at most locations, and 6-month totals more than a foot below normal were not uncommon.
+Between 1 and 5 inches of precipitation fell on most locations from southern West Virginia southward and southwestward through western North Carolina, central and western South Carolina, central and northern Georgia, and most of Kentucky, Tennessee, Alabama, and Mississippi, plus adjacent Louisiana. Other areas recorded light to locally moderate amounts. As a result, D2 to D4 conditions from southern West Virginia southward to the Georgia border, including eastern Tennessee and southeastern Kentucky, generally improved by 1 classification category, as did former D0 to D1 conditions in parts of southern Mississippi and a small section of adjacent Louisiana, and former D1 to D3 conditions in south-central Alabama.
+In contrast, a few areas that missed most of the precipitation saw precipitation deficits and/or impacts increase enough to warrant some deterioration in the Drought Monitor depiction. D0 and D1 conditions expanded northwestward in northern Virginia and adjacent areas while D1 and D2 conditions pushed westward in part of northeastern Mississippi and northwestern Alabama. Farther south and east, D0 and D1 conditions were introduced across the southeastern Florida Panhandle, and D0 stretched eastward to include the entire southern and eastern coastlines of Florida and Georgia. Most of these new D0 areas are 2 to locally 8 inches below normal precipitation for the last 90 days, and most of southeastern and central Florida received less than 25% of normal precipitation during the last 60 days.
+
+## Forecast
+On January 15 - 16, 2008, a gathering storm in the Gulf of Mexico dropped moderate to heavy precipitation along the southeastern tier of Texas and parts of the central Gulf Coast. This system should intensify and move through the Eastern Seaboard, dropping moderate to heavy precipitation on many of the dry areas in the Southeast during January 16 - 20, excepting the southern half of Florida. Over an inch is forecast for most of the South Atlantic States, with 3 to 5 inches anticipated across northern Florida and southeastern Georgia. In addition, another round of moderate precipitation (0.5 to 1.5 inches) is forecast for the northern Great Lakes region during this period, with similar totals expected across parts of the Idaho Panhandle and northern Rockies. In other areas of dryness and drought across the country, less than 0.5 inch is anticipated through January 21. For the ensuing 5 days through January 26, 2008, the odds favor above normal precipitation in a band stretching across the southern tier of the nation from southern California eastward through Alabama, northern Georgia, western South Carolina, and southern Tennessee, excluding South Texas. In addition, heavier than normal precipitation is also favored across Alaska and the eastern half of Montana. In contrast, below normal precipitation seems most likely for the northwestern Great Basin, central and western Idaho, most of the northern Plains and Great Lakes region, central and southern Florida, and the northernmost reaches of the dry areas in the mid-Atlantic.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-157.0051115</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-74.5869163</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>24.867468</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>70.3533567</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T06:40:05-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

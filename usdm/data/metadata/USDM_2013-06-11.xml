@@ -1,0 +1,245 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2013-06-11</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>David Simeral</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Western Regional Climate Center</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — June 11, 2013</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2013-06-11</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2013-06-11</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2013-06-13</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — June 11, 2013
+
+## Introduction
+This U.S. Drought Monitor week saw some improvements along the Eastern seaboard as the first storm of the Atlantic Hurricane season – Tropical Storm Andrea – made landfall over Florida late last week bringing strong winds, heavy rain, and thunderstorms to the region. Post-Tropical Cyclone Andrea moved up the East Coast on Friday and Saturday combining with a cold front to deliver heavy precipitation and flooding to the Mid-Atlantic states and New England. Across the Great Plains, scattered shower activity led to some modest improvements in areas of drought over the eastern halves of Kansas, Oklahoma, and South Dakota. In the Midwest west of the Mississippi, continued shower activity led to improvements in drought areas of western Iowa and southwestern Minnesota. In the South, modest rainfall led to minor improvements over portions of the Texas Panhandle, central and southeast Texas, and northwestern Louisiana. Out West, unseasonably hot and dry conditions were felt late last week and during the weekend as record-breaking heat gripped Arizona, California, and Nevada. Some relief from the heat came to the region late Sunday afternoon and Monday as showers and thunderstorms developed over northwestern Nevada and northern California. In Alaska, unseasonably warm temperatures, reaching the low 70s, were observed in south-central Alaska; southeast Alaska, the Interior, and western Alaska experienced below-normal temperatures.
+
+## Hawaii, Alaska, and Puerto Rico
+The Hawaiian Islands remained status quo for the week with exception of degradation of an area of Moderate Drought (D1) to Severe Drought (D2) on the southern tip of the Big Island as low elevation pastures have been drying out. Alaska and Puerto remained status quo this week.
+
+## Mid-Atlantic
+The Mid-Atlantic region received widespread heavy rainfall (two-to-six inches) associated with Post-Tropical Storm Andrea, helping to bring relief to areas of Abnormally Dry (D0) in North Carolina marking the first time since April of 2010 that the state has had no depictions of drought or abnormally dry conditions by the U.S. Drought Monitor. In West Virginia, 7-day rainfall accumulations in the range of one-to-three inches led to improvements in areas of Abnormally Dry (D0) in southern West Virginia. Temperatures were near normal to slightly below normal during the past seven days.
+
+## Midwest
+Continued cool and wet conditions across parts of the region have renewed planting delays of soybeans across parts of Illinois, Iowa, Missouri, and Wisconsin according to the USDA National Agricultural Statistics Service (NASS). Minor improvements were made in northwestern Iowa and southwestern Minnesota in areas of Abnormally Dry (D0) and Moderate Drought (D1) as well as Severe Drought (D2) as one-to-two inches of rain fell during the 7-day period. Temperatures throughout the region were below normal during the past week.
+
+## The Northeast
+The Northeast saw widespread improvements across most of the remaining areas of Abnormally Dry (D0) and Moderate Drought (D1). Moisture from Post-Tropical Cyclone Andrea combined with a frontal system brought significant rainfall amounts ranging from two-to-six inches leading to the removal of areas of Abnormally Dry (D0) in New Jersey, New York, Connecticut, Massachusetts, Vermont, New Hampshire, and Maine. Temperatures throughout the region were below normal during the past seven days.
+
+## The Plains
+In the northern tier, a cool and wet pattern persisted in North Dakota and extreme eastern portions of South Dakota, and Nebraska where one-category improvements were made in areas of Abnormally Dry (D0) and Moderate Drought (D1) receiving more than two inches of rain during the past week. Across the Dakotas, recent rains have continued to help improve pasture and range conditions. In the southern tier, modest rainfall amounts were observed over eastern and north-central Kansas leading to continued improvements in areas of Abnormally Dry (D0), Moderate Dry (D1), and Severe Dry (D2). According to the USDA NASS Kansas Crop Progress and Conditions Report, wet field conditions continued to cause some planting delays of soybeans and sorghum, especially in low-lying areas. Conversely, western Kansas has not benefitted from the recent storms and rangeland conditions remain in poor to very poor condition. In Oklahoma, some locally heavy rainfall (2-3 inches) led to minor improvements in south-central and north-central regions in areas of Abnormally Dry (D0) and Moderate Drought (D1). Despite some locally heavy rainfall in parts of extreme western Oklahoma during the past week, conditions on the map remained unchanged as rainfall deficits persisted. During the past week, temperatures in the northern tier were below-normal while most of the southern tier was near-normal.
+
+## The South
+During the past week, modest rainfall fell over much of the South with some locally heavier accumulations occurring over portions of eastern and central Texas. In east Texas, conditions continue to improve and areas of Abnormally Dry (D0) and Moderate Drought (D1) saw one-category improvements in response to rainfall accumulations of one-to-three inches over during the past week. In the Texas Panhandle, some locally heavy rainfall accumulations (2-5 inches) led to one-category improvements in areas of Exceptional Drought (D4) and Extreme Drought (D3).  In the Trans-Pecos and west Texas, modest rainfall led to one-category improvements in Brewster and Pecos counties in areas of Moderate Drought (D1). In west Texas, one-category improvements were made in areas of Exceptional Drought (D4) and Extreme Drought (D3) as a result of rainfall accumulations of one-to-two inches during the past week. In south-central Texas, continued dry conditions led to the expansion of areas of Exceptional Drought (D4) and Severe Drought (D3). In northwestern Louisiana and southwestern Arkansas, modest rainfall (1.5-3 inches) led to one-category improvements in areas of Abnormally Dry (D0) and Moderate Drought (D1). Temperatures across the region were generally near-normal during the past week.
+
+## The Southeast
+The Southeast saw improvements in areas of Abnormally Dry (D0) and Moderate Drought (D1) in Florida and Georgia as Tropical Storm Andrea delivered heavy rainfall across the region. Rainfall accumulations ranging from two-to-six inches helped provide relief to areas of Abnormally Dry (D0) and Moderate Drought (D1) in the Florida Panhandle, southwestern and south-central Florida, as well as southwestern Alabama and southwestern Georgia. Temperatures were near normal during the past week
+
+## The West
+During the past week, the West continued in a hot and dry pattern. Record-breaking heat was observed late last week and into the weekend with temperatures ranging from ten to fifteen degrees above normal in southern Oregon, northern California, the Great Basin, the Mojave Desert, and Arizona. Furnace Creek in Death Valley National Park reached 126°F on June 8th, breaking the daily high-temperature record while additional daily high-temperature records were broken at the following locations:  Needles, California (107°); Red Bluff, California (112°F); Sacramento, California (108°F); South Lake Tahoe, California (85°F); Reno, Nevada (100°F); Elko, Nevada (97°F); and Ely, Nevada (95°). Some relief from the heat came late Saturday afternoon and Sunday as a cutoff low, situated off the southern California coast, strengthened and moved northward and eastward bringing isolated showers and thunderstorms over northern California and northwestern Nevada. The storms (and 6,000 lightning strikes over northern California) sparked more than 50 small fires from Solano to Lassen County according to CAL FIRE. The overall pattern of hot and dry conditions, combined with year-to-date below normal precipitation, led to continued deterioration of pasture and rangeland conditions across Arizona, California, Nevada, and New Mexico according to the USDA NASS Weekly Weather and Crop Bulletin. In New Mexico, the southwestern part of the state remains notably dry with the USDA NASS New Mexico Field Office reporting that 100% of range and pasture are in very poor condition.
+On this week's map, changes were made in Idaho, Oregon, and Nevada.  In Idaho, below-normal precipitation during the winter and the likelihood of reduced water deliveries to farmers for irrigation have led to the expansion of Moderate Drought (D1) across south-central and central Idaho and the expansion of Severe Drought (D2) in southwestern Idaho. In southeastern Oregon, Baker County declared a local drought disaster as Philips Reservoir dropped to half capacity and its lowest level since 2004 leading to the expansion of Severe Drought (D2) to the area. In northern Nevada, a small area of Abnormally Dry (D0) was degraded to Moderate Drought (D1) as hot and dry conditions continued to dry soils.
+
+## Forecast
+The NWS HPC 5-Day Quantitative Precipitation Forecast (QPF) calls for moderate to heavy precipitation over the Midwest and Northeast while modest rainfall is forecasted across the eastern portions of the Great Plains, Southeast, and Pacific Northwest. The 6-10 day outlooks call for a high probability of above-normal precipitation and below-normal temperatures across New England, the Mid-Atlantic, the Midwest, the northern Great Plains, and the Pacific Northwest. In contrast, a high probability of above-normal temperatures and below-normal precipitation are expected across the Intermountain West, southern Great Plains, and the South.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-168.9506933</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-69.4936043</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>18.9154965</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>68.9672472</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T07:07:06-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

@@ -1,0 +1,240 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2012-04-10</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>David Miskus</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — April 10, 2012</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2012-04-10</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2012-04-10</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2012-04-12</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — April 10, 2012
+
+## Introduction
+A series of cold fronts traversed across the lower 48 States, keeping temperatures below-normal in the West, and dropping readings to more seasonable levels in the Northeast and south-central Plains. The rest of the contiguous U.S. recorded above-normal temperatures, but not at the March record levels. The greatest departures (+6 to +10 degF) were found in the northern Plains and the middle Mississippi and Tennessee Valleys. The fronts triggered scattered showers and thunderstorms, mainly in the Pacific Northwest, southern and central Plains, lower Missouri and Mississippi Valleys, and in the southern Appalachians and Carolinas. It was mostly dry in the Southwest, northern Plains and upper Midwest, Northeast, and Florida.
+
+## Hawaii, Alaska and Puerto Rico
+There were no drought conditions noted in Puerto Rico and Alaska.
+In Hawaii, some windward locations on Maui and the Big Island received 2 to 4 inches of rain, but much less fell on leeward sides. Fortunately, most of the islands (except the Big Island) received surplus March rainfall, easing any further deterioration there. On the Big Island, however, many northern and leeward locations have reported less than 25 percent of normal rainfall since January 1. Kona coffee growers indicated that leaves are starting to shrivel on their trees and berries are starting to fall. The main hope for the Kona coffee belt is that it is the only area in the state with a summer rainfall maximum. As a result, the D3 was slightly expanded in northwestern Kona, and D0 was pushed a tad eastward. The unusual shape of the D3 (instead of a broad brush D3 across the west) was due to slightly better upper elevation pasture conditions according to FSA. On Maui, D2 was expanded eastward from Haleakala to Kaupo, with ranchers noting deteriorating conditions there. Maui received some early March rainfall which started the grasses growing, but a lack of rain thereafter has turned the grasses brown. Similar conditions were noted at Kula, except that early March temperatures were too cool for the grasses to grow much (ineffective rainfall).
+
+## Midwest
+Little or no precipitation fell over the drought areas of the upper Midwest and adjacent northern Plains. Although temperature anomalies decreased from previous weeks, readings still averaged 6 to 12 degF above normal. 1 to 2 inches of rain did fall on northwestern and southeastern Missouri and southwestern Illinois, but missed the newly expanded D0 and D1 areas. With the recent unseasonable warmth and subnormal precipitation, topsoil moisture has rapidly decreased, even without any crops consuming water yet. According to the USDA, percent topsoil and subsoil moisture rated very short or short was: Illinois (46/47), Minnesota (60/68), and Iowa (78/85). Canton Lake in Fulton County, IL, was 5 feet below full pool. Based upon short-term and 6-month departures, D2 was slightly increased in northwestern Iowa and southeastern Minnesota, D1 in west-central Wisconsin, and D0 across central Wisconsin and the UP of Michigan. In contrast, the D1 in northwestern Minnesota was scaled back after AHPS 6-month precipitation indicated surpluses
+
+## Southeast
+Early week rains (2 to 4 inches) fell on the southern Appalachians, with lesser amounts (1 to 2 inches) recorded in eastern sections of the Carolinas and Georgia. The rains were enough to eliminate D0 in extreme western North Carolina, but not enough for improvement in the rest of the Carolinas. Conditions, however, deteriorated somewhat in portions of the Carolinas and Georgia where rainfall was light (less than 0.5 inches), and that included north-central North Carolina into southeastern Virginia (D1 added); D2 and D3 slightly increased in southern South Carolina; and D3 and D4 expanded in central and southern Georgia. In the latter two states, the drought encompassed both short- and long-term shortages, with 12-month deficits exceeding 25 inches in parts of Georgia and adjacent Florida. At Augusta, GA, the driest rolling 365-day period ending on April 4 beat the former record by 5 inches, while this 365-day period was the 4th driest such period ever (since 1872). Meanwhile, short-term dryness expanded into northwestern Georgia, northern Alabama, and western Tennessee and Kentucky as 60-day deficiencies reached 4 to 8 inches. Some D0 relief occurred across central Tennessee where 2 inches of rain fell. In Florida, the continued lack of rain produced additional deterioration across the state. The first 100 days at Jacksonville, FL, have been the driest since 1921, and only 30 percent of normal. Much of the downgrading was based upon precipitation departures and rankings during the last 180-days where many stations reported the driest such 6-month period on record, especially in north-central Florida. Southern sections of Florida have fared somewhat better, but the lack of decent short-term rains has also caused some deterioration. Lake Okeechobee was below 12 feet this morning (11.97 feet, or 2.1 feet below normal), and now falling at 0.2 to 0.3 feet per week. Numerous wild fires have occurred throughout the state as the fire index is now over 700 in south-central Florida. Farther west, another 2 to 4 inches of rain deluged southeastern Louisiana and southern Mississippi, further eroding away the D0(L). Although short-term conditions are quite wet, long-term deficits still remained (more than 16 inches at 12-months), thus maintaining the D0(L) area.
+
+## The Northeast and Mid-Atlantic
+Although temperatures remained at more seasonable levels after record-breaking warmth during mid-March, precipitation continued to bypass the region and was accompanied by gusty winds and low humidity. A few locations in extreme northern Vermont, New Hampshire, and western Maine received 0.5 to 1.5 inches of precipitation yesterday, but nearly all other sites recorded little or no weekly precipitation. During the past 60-days, 25 to 50 percent of normal precipitation has fallen from northern Virginia northward into coastal Maine, with deficits between 4 and 8 inches. Similar percentages and deficiencies also existed at 90-days in the same areas. Since the start of the year, deficits have included: 7.63 inches at Islip, NY; 7.39 inches at Providence, RI; 7.18 inches at Boston, MA; 5.71 inches at Salisbury, MD; and 4.90 inches at Hartford, CT.  The early green-up of trees and vegetation was slowed by the colder air, but yet many plants have begun to grow, taking moisture out of the soils. According to the USGS, stream flow levels were at near- or record lows for April 10 at 1-, 7-, 14-, and 28-day averages in much of New England and the mid-Atlantic. Additionally, there have been several outbreaks of brushfires and some large wild fires, even as far north as upstate New York. Most reservoirs, however, were near or at capacity due to the early-season snow melt and thaw, and to wetter conditions in the past (9-12 months ago). Accordingly, a 1-category degradation was made, mainly along the coast, with D2(S) introduced to most of Long Island, Connecticut, Rhode Island, and Massachusetts, and farther south to the Delmarva Peninsula. D1(S) now stretched from northeastern Maryland northward into eastern Maine, and in southeastern Virginia. D0(S) slightly expanded westward in the Northeast, but the driest short-term conditions were mainly located along coastal areas.
+
+## The Plains
+A scattering of moderate (0.5 to 1.5 inches) to heavy (1.5 to 4 inches) rains fell on parts of Texas, Oklahoma, Kansas, eastern Colorado, and southern Nebraska, but from central Nebraska into the Dakotas, little or no rain was measured. Since October 2011, a persistent pattern of above-normal precipitation has brought slow but welcome relief to parts of the southern and central Plains. This week was no different as 1 to 3 inches of rain fell on northeastern Texas, enough to remove the small D1 area there and cut back on some D0. In southwestern Texas (Stockton and Edwards Plateaus), 1 to locally 4 inches of rain diminished D3 to D2. And a reassessment of SPI products and agricultural reports indicated improved conditions in the Coastal Bend area where a 1-category improvement was made. In northeastern Oklahoma, the D0(L) area was realigned to better represent hydrologic conditions. This included Lake Skiatook in eastern Osage County which continued to struggle as the lake level declined even with an inch of rain in its watershed. In northern Kansas, southern Nebraska, and eastern Colorado, 1 to 2 inches of rain eliminated the short-term dryness (D0), while a reassessment of conditions was made in southwestern Kansas. Based upon several precipitation and soil moisture products out to 6-months, no large-scale deficiencies were found, and instead surpluses existed. But at 12-months and beyond, the deficits were there. Accordingly, the D0-D3 was adjusted for improvement at 6-months and less (1-category), but not entirely removed due to the longer-term drought signal. Most of the shortages had accumulated during the hot and dry summer months of 2011 when normals are much larger than the fall and winter months. In the northern Plains, however, another dry and mild week further depleted soil moisture as accumulated short-term deficiencies slowly increased. Based upon the 60-, 90-, and 120-day anomalies, D0 expanded in central South Dakota while D1 spread into north-central and southwestern South Dakota and western Nebraska.
+
+## The West
+Light to moderate precipitation (0.5 to 2 inches) was confined from northern California and the northern Sierra Nevada northward into the Pacific Northwest and northern Rockies. Little or no precipitation fell on central and southern California, the Great Basin, and the Southwest. Temperatures averaged below normal in western areas, slightly above normal in far eastern sections. As the wet season normally diminishes as spring progresses, most areas were left at status-quo. Some changes, however, were made in northwestern California and the southern San Joaquin Valley, southern Utah, southeastern Arizona, northern New Mexico, and south-central Colorado. In northwestern California, another 1 to 1.5 inches of rain effectively erased any lingering deficits since October 1, and D0 was eased slightly eastward. In the southern San Joaquin Valley near Bakersfield, D2 was expanded into the area as Water year-to-date precipitation stood at 60 percent, similar to Fresno in the northern San Joaquin Valley. In southern Utah and southeastern Arizona, another dry week added additional shortages to these two areas, effectively expanding the D0 and D2 areas, respectively. In northern New Mexico, an early week storm brought 0.5 to 1.5 inches of precipitation, improving conditions from D2 to D1 in Santa Fe, northwestern San Miguel, and western Mora Counties, and from D1 to D0 in central and western Sandoval County. In eastern Colorado, decent rains (0.5 to 1 inch) alleviated the D0(S), while 0.5 inches further diminished the D2 and D3 in extreme southeastern Colorado (Baca County). In contrast, drier weather somewhat increased drought (D1 and D2) in south-central sections of the state.
+
+## Forecast
+Over the next five days (April 11-15), unsettled weather will move along the West Coast, track into the northern and central Rockies, and eventually into the Nation’s midsection. The northern coast of California and the Sierra Nevada may receive decent precipitation, while a swath of moderate to heavy precipitation is expected to fall from northeastern Texas northward into Iowa. Temperatures are forecasted to be subnormal in the southwestern quarter of the U.S. and above-normal in the northern Plains, and from the Great Lakes region and New England southwestward into the lower Mississippi Valley.
+The CPC 6-10 day forecast (April 16-20) has favorable odds of above-normal precipitation in the Pacific Northwest and in the eastern third of the Nation (except for New England). Chances for subnormal precipitation are likely from the Southwest northeastward into the upper Midwest. Wet conditions are likely for southeastern Alaska, with subnormal precipitation expected in western parts of the State. Temperatures are forecasted to be above-normal in the West, Southeast, and interior Alaska, and below-normal in the southern third and northern Great Plains and upper Midwest.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-157.3062736</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-66.9812731</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>18.9154965</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>49.3856286</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T07:00:42-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

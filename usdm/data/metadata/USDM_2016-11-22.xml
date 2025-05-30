@@ -1,0 +1,237 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2016-11-22</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Richard Heim</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NCEI</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — November 22, 2016</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2016-11-22</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2016-11-22</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2016-11-23</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — November 22, 2016
+
+## Introduction
+This USDM week began with an upper-level trough exiting the Northeast.  Another trough moved across the country during the week, dragging a low pressure system and cold front across the country and giving the Central Rockies, Central Plains, Upper Midwest, and Northeast a blanket of snow.  A third trough moved across the West and into the Plains as the week ended.  Precipitation for the week was above normal across parts of California, the Southwest, southern Texas, Central to Northern Rockies, Central Plains to Upper Mississippi Valley, and Northeast.  Rains fell along the front from Texas to the Great Lakes, but amounts were mostly below normal.  The troughs moved through a dominant upper-level ridge which kept weekly temperatures above normal for most of the contiguous U.S. (CONUS), with only Florida and the coastal Southeast averaging cooler than normal.
+
+## Hawaii, Puerto Rico, and Alaska
+The week was wetter than normal across Puerto Rico, with rainfall amounts ranging from 2-4 inches in the west to over 5 inches in the east.  Above-normal rains over the last 2 months resulted in the removal of D0 from Vieques Island, but D0-L remained over a small part of southeast Puerto Rico to reflect longer-term precipitation deficits.  The week was drier than normal across Alaska, with little precipitation falling.  Only a few stations in coastal areas received a few tenths of an inch.  Oahu was mostly wetter than normal, but the rest of Hawaii was drier than normal.  No change was made to the depiction in Alaska or Hawaii.
+
+## Northeast, Mid-Atlantic, and Great Lakes
+Over 2 inches of precipitation fell across southeast New York along the Hudson River and in parts of northern New York and Maine.  These areas were wetter than normal for the week, but lesser amounts fell across the rest of the Northeast resulting in below-normal precipitation.  The precipitation was enough to slice the D3 over southeast New York and dent the D2 north of it, split and shrink the D2 in northeast New York to northern Vermont, open up the D1 in western New York, and pull back D0-D1 along parts of eastern New Jersey.  The precipitation was not enough to counter deficits which have built up over the last several months and, for parts of southern New England, which have built up over the last several years.  As noted by National Weather Service personnel, the city of Westfield, Massachusetts shut down their reservoir. Granville Reservoir is down 11.5 feet and they only have 4 feet left of usable water, so they decided to shut it down to give it a chance to re-charge.
+Precipitation amounts dropped off across the Mid-Atlantic region, with less than a quarter of an inch in the north to nothing south of the Potomac.  D0 and D1 expanded across parts of Virginia, Maryland, Delaware, Pennsylvania.  Half an inch, or more, of precipitation fell across parts of the Great Lakes, with less than a tenth of an inch occurring over southern Wisconsin.  No drought or abnormal dryness was indicated across the Great Lakes region.
+
+## Ohio Valley, Southeast, and Lower Mississippi Valley
+Western portions of the Ohio Valley received half an inch to an inch of rain, but amounts dropped off to only a couple tenths to the east.  Parts of eastern Indiana were the only areas with weekly precipitation near normal.  D2-D3 expanded across Kentucky with D1-D2 straddling the Ohio River.  D0 spread further into Ohio, Indiana, and Illinois.  Agricultural impacts received by the Kentucky State Climatologist include dry farm ponds, producers feeding hay early, and winter wheat struggling.
+The cold front fell apart as it moved across the Southeast, leaving the region with another week of zero precipitation.  As reported by the National Interagency Fire Center (NIFC), hundreds (at least 212) new fires have started in the Southeast, with 30 of them classified as large wildfires (100 acres or more), and burn bans were widespread across the region.  Streams were at record and near-record low levels.  Severe agricultural impacts (stock ponds drying up, winter feed being used to keep cattle alive since fall started) were widespread across the South and Southeast.  Significant expansion of D0-D4 occurred across the southeastern States.  In the Lower Mississippi Valley, D1-D3 expanded across Mississippi, Louisiana, and Arkansas, and D0-D2 expanded in Missouri.  In Alabama, ponds were drying up in and around Lowndes County, and cattlemen were hauling water and using winter hay to feed cattle since late summer.  As of November 22, Oneonta, Alabama, in the northeast part of the state, has gone 94 consecutive days without measurable precipitation.  In Mississippi, the USDA has received reports of ponds drying up and cattle producers having to feed hay, in some cases already using up their entire hay supply for the winter months.  Rye grass that was planted in the beginning of October has yet to emerge.  As described by the Georgia State Climatologist, agricultural impacts due to dry soils in Turner/Tift/Irwin/Worth/Ben Hill/Wicox/Dodge county areas have been just detrimental for peanut and cattle farmers.  In Decatur County, dryland winter forage is not being attempted at this time. If there is no irrigation, the small grains have emerged and died.  In Coffee County, unless irrigated, small grains for grazing are naught. In Coweta County, hay is becoming harder to find and even irrigated areas are now suffering due to low water levels in ponds and creeks.  The USDA has received reports of wells going bad and stock ponds drying up in Holmes County, Florida.  According to November 20 USDA reports, 100% of the topsoil moisture and 98% of the subsoil moisture in Alabama was rated short or very short (dry or very dry).
+
+## The Great Plains
+A large blanket of snow fell across the Plains of Colorado to the Upper Mississippi Valley, with half an inch to an inch of precipitation across parts of Nebraska and the Dakotas.  Coastal and northeastern Texas also received half an inch or more of rain, but the rest of the Plains was mostly dry this week.  D0-D3 were adjusted in Texas, D0-D3 expanded in parts of Oklahoma, D0 expanded in North Dakota, and an oval of D1 was added to south central North Dakota.  As summarized by the National Weather Service, from an agricultural perspective, farmers and ranchers across extreme northeast Texas have already had to supplement winter hay as the pastures were dormant even before the first frost/freeze this past weekend, stock ponds are very low/dried up, and right now, one rancher in western Bowie County has stated that winter wheat probably will not come up if planted now.  As noted by the Oklahoma State Climatologist, reservoirs in central Oklahoma have seen significant decreases in storage, producing significant water impacts. Lake Hefner and Overholser were 6 and 5 feet down, respectively, for this time of year, and Draper was down 12 feet, which is a bit drastic.
+
+## The Rockies and Far West
+The upper-level troughs brought welcomed precipitation to parts of the West, with 2 inches or more of precipitation falling along the coast from central California to Washington, and 2-4 inches in favored upslope regions further inland.  The troughs left half an inch to an inch of moisture across parts of the Southwest and Central to Northern Rockies, which was above normal in these regions and in parts of California.  Precipitation amounts were less than half an inch in other parts of the West, and these translated to below normal for the week.  Mountain snow water content increased from 4 to 12 inches at many of the SNOTEL stations.  But this is early in the snow season, so no change to the drought depiction was made in the West.  The ecosystem continued to show the impacts of the multi-year drought.  According to an analysis released November 18 by the U.S. Forest Service, the Forest Service estimates, based on aerial detection surveys conducted throughout 2016, the number of dead trees on California’s forested lands grew to a cumulative total of 102 million on 7.7 million acres since 2010.  In 2016, 62 million trees died, representing more than a 100 percent increase in dead trees across the state from 2015, when 29 million trees died.  This scale of die-off is unprecedented in California’s modern history. Millions more drought-stressed trees that are not yet dead are expected to die in the coming months and years.  Five consecutive years of severe drought in California, a dramatic rise in bark beetle infestation and warmer temperatures are leading to these historic levels of tree die-off.  The majority of the 102 million dead trees are located in ten counties in the southern and central Sierra Nevada region. The Forest Service also identified increasing mortality in the northern part of the state, including Siskiyou, Modoc, Plumas and Lassen counties.  Dead and dying trees can pose a significant risk to communities if a wildfire breaks out in these high hazard areas.
+
+## Forecast
+An inch or more of precipitation is forecast to fall November 23-28 from eastern Texas to the Great Lakes as the latest front and low pressure system move across the CONUS.  Three or more inches are expected from northeast Texas to eastern Arkansas, and an inch or more is progged for the Northeast.  Meanwhile, another Pacific system will drench the West Coast with up to 10 inches or more of precipitation from northern California to Washington, and an inch or more as far inland as the Northern Rockies.  No precipitation is forecast for southern California to southwest New Mexico, but the rest of the country may see a tenth of an inch or more.  Temperatures should be warmer than normal for most of the CONUS, except for parts of the extreme Southwest.  For November 28-December 6, odds favor cooler-than-normal temperatures for the West and warmer-than-normal temperatures for the East and Alaska.  Much of the CONUS from the Plains to the East Coast, the Southwest, and Alaska are expected to be wetter than normal, while odds favor drier-than-normal weather across the Far West and the Rio Grande Valley.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-160.236083</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-65.9913125</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>17.8841923</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>65.8854964</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T07:24:16-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

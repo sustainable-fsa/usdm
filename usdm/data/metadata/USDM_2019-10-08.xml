@@ -1,0 +1,269 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2019-10-08</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Anthony Artusa</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Brian Fuchs</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>National Drought Mitigation Center</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — October 08, 2019</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2019-10-08</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2019-10-08</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2019-10-10</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — October 08, 2019
+
+## Introduction
+The flash drought in the southern portions of the United States, especially over the Southeast and Texas, remains the prominent feature this week.  As conditions continue to dry out coinciding with record warmth, deteriorations are widespread and rapidly occurring.  Temperatures were varied over the United States this week, and much of the West, upper Midwest, and central and northern Plains were cooler than normal, with temperatures 3 to 6 below normal widespread.  It was even cooler over Great Basin with temperatures 6 to 9 degrees below normal.  In contrast, temperatures over the Southeast were generally 9 to 12 degrees above normal coming off a month when many locations set records for the warmest September on record.  Temperatures were generally 6 to 9 degrees above normal in Texas and into the Midwest as well.  Two prominent rain events came through the country in the last week.  The first occurred at the beginning of the period when much of eastern New Mexico, west Texas and the Texas panhandle received rain and thunderstorms.  A significant rain event moved through the southern Midwest and into the South, not only putting a stop to further drought development but also allowing for widespread improvements.  Unfortunately, these rains did not get into the Southeast, where another hot and dry week continues to raise havoc on the region, especially to those involved in agriculture.
+
+## Alaska, Hawaii, and Puerto Rico
+In Hawaii, the islands had a mix of improvements and degradations.  On Kaui, abnormally dry conditions were removed.  For Oahu, improvements were made to both the abnormally dry and moderate drought conditions.  On Lanai, a full category improvement was made and on Maui, there was an improvement to the extreme drought from Ulupalakua to Wailea.  The Big Island saw a mix of improvements and worsening, as mostly more moderate drought was introduced and a pocket of abnormally dry conditions was removed.  No changes were made in Puerto Rico or Alaska this week.
+
+## High Plains
+Cooler than normal temperatures and the first freeze for the season were widespread throughout the region.  Temperatures were 3 to 6 degrees below normal for most of the area.  Above-normal precipitation was recorded over much of the Dakotas, eastern Nebraska and most of Kansas.  Drier than normal conditions were reported over Colorado, western Nebraska, and southwest South Dakota.  The region had abnormally dry conditions expand over eastern Colorado and slight improvement to the abnormally dry conditions over western Wyoming.
+
+## Midwest
+Temperatures were cooler than normal over the upper Midwest with departures of 3 to 6 degrees below normal while the southern and eastern portions of the region had above-normal temperatures with departures of 6 to 9 degrees above normal.  Ohio had their warmest September ever while Kentucky and Missouri had their second warmest ever.  Kentucky also had their driest September ever while Illinois had their 25th wettest September ever.  Significant rain came through the region and allowed for several improvements, but the areas that missed these rains in southern Illinois, southern Indiana, and Ohio continued to dry out, especially with the warmer than normal temperatures.  Abnormally dry conditions were eliminated in northern Illinois and into northern Indiana.  Moderate drought was improved over the “thumb” of Michigan while some of the newly introduced (last week) abnormally dry conditions in southern Missouri were improved this week.  A full category improvement was made to drought conditions over much of Kentucky and the southern edges of Illinois, Indiana, and Ohio.
+
+## Northeast
+Temperatures were mixed this week. In the north, temperatures were cooler than normal with departures of 2 to 4 degrees below normal, and in the south, temperatures were normal to above normal with departures of 3 to 5 degrees above normal.  Precipitation was greatest over much of central and western Pennsylvania, New York, northern Vermont, New Hampshire and southwest Maine.  Outside of these areas, conditions remained dry for the week, with below-normal precipitation.  Improvements to the abnormally dry conditions were made in New York, Vermont, New Hampshire and Maine.  In the Mid-Atlantic, moderate drought was expanded in central Maryland, northeast Virginia, south central Pennsylvania, and Delaware.  Abnormally dry conditions were also expanded in Delaware.  Improvements were also made over western portions of West Virginia.
+
+## South
+Mississippi had their driest September on record and Tennessee had their second driest while Texas and Louisiana had their warmest Septembers.  Oklahoma, Arkansas, and Mississippi had their second warmest.  Significant rains over portions of west Texas and into the panhandle, northern Arkansas, southern Arkansas and northern Louisiana as well as much of western Tennessee allowed for some improvements in the region.  Abnormally dry conditions were removed over much of the Texas panhandle and into west Texas.  Moderate drought was also improved upon over the far northeast portion of the Texas panhandle and into western Oklahoma.  A full category improvement was made over southern Arkansas and into northern Louisiana.  A full category improvement was made in western Tennessee, northern Mississippi, and northern Alabama where the greatest rains fell.  In the areas not impacted by rain, the warmer than normal temperatures along with dry conditions allowed for the flash drought to continue.  Widespread degradations were made over Texas where areas of severe and extreme drought were expanded greatly.  In central and southern Louisiana, abnormally dry conditions spread southward while a new area of moderate drought was introduced over eastern Mississippi.
+
+## Southeast
+The flash drought continued to rapidly impact the region with both above-normal temperatures and below-normal precipitation.  Florida and Alabama had their third warmest September on record, South Carolina their fourth and Georgia their fifth.  Alabama, Georgia and Florida all had their driest September on record.  From areas in Alabama, Georgia, north Florida and the Carolinas, a widespread full category degradation again took place this week with even more widespread severe and extreme drought conditions being depicted from a week ago. Abnormally dry conditions were added in eastern Virginia. Some rains in the Florida peninsula allowed for no changes farther into Florida this week, but conditions there also remain drier than normal.  Portions of northern Alabama did receive enough precipitation to show some improvements and slow some of the drying out in areas that did not get enough rain for improvements to take place.
+
+## West
+Cooler than normal temperatures dominated the region, with areas of Idaho, Nevada, Oregon, and Utah having temperatures 6-9 degrees below normal.  Warmer than normal temperatures were experienced in New Mexico, where departures were 3 to 6 degrees above normal.  Precipitation was widespread through central and eastern New Mexico and spotty throughout the Pacific Northwest and northern Rocky Mountains.  The precipitation in New Mexico did allow for a full category improvement to the abnormally dry conditions in the southeast, east, and southwest portions of the state.  In Arizona, further assessment of last week’s rain was done, with some further improvements made.  Moderate drought and severe drought conditions were improved slightly in the central to south central portions of the state where the greatest impacts of the previous rains were observed.  Due to a recent wet pattern, moderate drought and abnormally dry conditions were improved over the panhandle of Idaho, northeast Washington and northwest Montana.
+
+## Forecast
+Over the next 5-7 days, precipitation chances look to be greatest over the Plains and Midwest and into the Mississippi Valley.  The greatest chances of precipitation are in North Dakota and through Missouri into Oklahoma.  Conditions are expected to remain dry over much of the West, Southwest, and Mid-Atlantic into the Southeast.  Cooler than normal temperatures are projected over most of the country with the greatest departures expected over the High Plains, where departures could be over 20 degrees below normal.  Warmer than normal temperatures are expected over the Southeast and New England with departures of up to 3 degrees above normal.
+The 6-10 day outlooks show above-normal chances for cooler than normal temperatures over the High Plains and into the Midwest while the best chance for above-normal temperatures is along the southern portions of the country from the Southwest into the southern Plains and into the Southeast.  The best chances for recording above-normal precipitation are over the eastern portions of the country, especially the Southeast, as well as over the Pacific Northwest and into the Great Basin.  The best chance for below-normal precipitation is over the central Plains.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-158.2090061</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-66.0790904</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>17.8967067</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>62.3313268</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T07:43:57-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

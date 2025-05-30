@@ -1,0 +1,241 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2009-02-17</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>David Miskus</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — February 17, 2009</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2009-02-17</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2009-02-17</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2009-02-19</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — February 17, 2009
+
+## Introduction
+During February 10-16, an upper-air trough (low pressure) over the West and ridging (high pressure) over the East brought cold and stormy weather to much of California, especially the severe to extreme drought-stricken northern sections, and much milder air to the eastern half of the Nation.  Unsettled weather also affected the remainder of the West, although totals were much lower (less than an inch) than compared to California.  Early in the week, a storm system produced moderate to heavy rains from the south-central Great Plains northeastward into the lower Great Lakes region, while a second system on Friday generated showers and thunderstorms along the Gulf Coast region, from southeast Texas into the Florida Panhandle.  Little or no precipitation was recorded in the High Plains, western Corn Belt, and along the middle and southern Atlantic Coasts, including the southern half of Florida.
+
+## Hawaii, Alaska and Puerto Rico
+Light to moderate daily showers were common along Hawaii's windward sides, but mostly dry weather prevailed on the leeward sides of Molokai, Lanai, Maui, and the Big Island, maintaining status-quo in the D0-D3(A) areas.  A few leeward locations, namely Kealakekua, Waikii, and Kahua Ranch (on the Big Island) and Kaupo Gap (on Maui) recorded over an inch of rain early in the period, but it was too early to tell what kind of impacts it had on pastures.
+Wintry weather blasted western Alaska, dumping heavy snow (liquid equivalent 0.3 to 1 inch) on Nome, Kotzebue, and Barrow, where snow depths reached 43, 48, and 21 inches, respectively.  Heavy snow also fell farther inland, where Bettles has amassed 35 inches as of Feb. 17.  According to the Feb. 1 Western Snowpack Conditions and Water Supply Forecasts, January precipitation was well above-normal, and combined with a wet (and snowy) February to date, D0 was removed across western sections of the State.
+Light to moderate showers (0.5 to 1.5 inch) fell on northeastern Puerto Rico, and with USGS average 1-, 7-, 14-, and 28-day stream flows near normal in northeastern sections, D0 was erased and shifted farther to the south where rainfall was lighter (0.1 to 0.3 inches) and some stream flow values were in the lower 25th percentile.
+
+## Mid-Atlantic, Southeast, and Gulf Coast
+Although some improvement was made along the central Gulf Coast where 2 to 6 inches of rain fell, the remainder of the region experienced light or minimal precipitation, maintaining drought conditions or even expanding it in a few areas. From southeastern Texas eastward into the Florida Panhandle, showers and thunderstorms dumped 1.5 to 5 inches of rain, decreasing drought by 1-category (D0 to nothing, or D1 to D0) across extreme southeastern Texas, south-central Louisiana, southern Mississippi and Alabama, and the extreme western Panhandle of Florida.  Longer-term deficits (more than 12 inches at 12-months) still remained in southern Louisiana, so D1(AH) was left.
+In contrast, drier and mild weather maintained or degraded conditions in the remainder of the Southeast and mid-Atlantic, with some increase in abnormal dryness or drought in parts of Florida, southeastern Georgia, east-central and northern Alabama, south-central Tennessee, the southern Appalachians, eastern North Carolina and southeastern Virginia, and central Maryland.  In southern Florida, although the winter months are normally the driest time of the year, the past 90-days have seen only 25-50% of normal rainfall, and coupled with windy and warm weather (highs in the 80'sF), low humidities, and extreme fire danger with KBDI's above 650, D1(A) was expanded west and south of Lake Okeechobee. No hydrological impacts were noted yet since aquifers were still near normal, and Lake Okeechobee's level was 3 feet higher than a year ago. And with relatively dry and warm weather forecast for the next 1-2 weeks, conditions are expected to decline even more.  Farther east and north, however, larger dry season deficits (6 to 12 inches) and USGS stream flows in the lower 10th percentile called for a designation of D1(AH) around Tampa and areas north, and along the east coast metro areas.  In Georgia and Alabama, short-term dryness (at 60- and 90-days, 25-50% of normal precipitation) prompted an inclusion of D1, while persistently low average USGS stream flows (&amp;lt;10th percentiles at 7-, 14-, and 28-days) and light precipitation necessitated the return of D0 across northern Alabama and southern Tennessee. Recent dryness, coupled with even longer-term deficiencies (at 6- and 12-months; 4 to 8 and 8 to 12 inches, respectively) and very low stream flows in eastern North Carolina and southeastern Virginia justified a return of D1 to this area. In the southern Appalachians, long-term drought remained entrenched, and as average 7-, 14-, and 28-days stream flows dropped to near or record-low levels on Feb. 16, D1-D3 was slightly expanded outward.  Finally, another dry week in the mid-Atlantic extended the northern edge of the D0 into central Maryland.
+
+## The Great Lakes Region
+Little or no precipitation fell during the week, and with temperatures averaging 8 to 12 degF above normal and highs in the 40'sF, some snow melt occurred, leaving little or no snow cover in southeastern Minnesota and west-central Wisconsin.  The D0(H) in northeastern Minnesota was redrawn to depict the largest deficits (3 to 6 inches) accumulated from late summer into autumn as the hydrology of this region locks in for the winter by early November.
+
+## The Plains
+Severe weather (including tornadoes) accompanied the February 10 thunderstorms that dropped 1.5 to 3.5 inches of rain on most of the eastern half of Oklahoma, with lighter amounts (0.5 to 1.5 inches) falling across eastern Texas.  The rains were enough to reduce short-term (A) dryness and drought by 1-category across eastern and central Oklahoma and extreme northeastern Texas, but not so in southern Oklahoma's Red River Valley, and in western Oklahoma where little or no rain fell.  In the core D3-D4 drought of south-central Texas, little or no rain fell yet again, although the aforementioned early-week storm did drop some rain (0.1 to 0.7 inches) on far eastern portions of the D3-D4 area. After reviewing the 180-day precipitation anomalies, the D3-D4 was expanded slightly southeastward toward Victoria, TX, in order to better depict the area with the largest 6-month deficits (10 to 12 inches).  In addition, southern Texas was ramped up one category (to D0 and D1) as short-term dryness (out to 90-days) has persisted.  For example, Brownsville, TX, has measured only 0.59 inches of rain since December 1 (and 0.12 inches since January 1), or 2.66 inches below normal, on pace for it's 4th driest winter on record.  In addition, the Impact designation 'AH' was added in central Texas and southern Oklahoma as water issues were a concern only in D2 or worse areas.
+In contrast, a reassessment of west Texas conditions during the autumn and winter months, normally their dry season, plus input from local experts, warranted a 1-category improvement (D1 to D0) in the western Texas Panhandle, especially around Lubbock and Childress.  The 180-day anomaly maps depicted a swath of above-normal precipitation from Andrews northeast to Childress, roughly the mid-September track of remnants from Pacific Tropical Storm Lowell. The favorable vegetative health index also roughly parallels the Lowell track, while the 0.5 to 1 inches of precipitation that fell on west Texas February 8-9 also benefited the region.  In sharp contrast, from Midland-Odessa to San Angelo and San Antonio, subnormal precipitation during the dry season has only exacerbated the summer drought in south-central Texas, severely impacting winter wheat, oats, and pastures.  According to USDA/NASS, conditions for Texas oats, pasture, and winter wheat were rated 85%, 71%, and 64% poor or very poor as of February 1.
+
+## The West
+The first significant (and quite welcome) winter storm lashed much of California, especially the D3-stricken northern portion of the State, and the Sierra Nevada.  Nearly all of coastal California received at least 2 inches of precipitation, while locations from Monterey Bay northward into the southern Cascades recorded between 4 and 10 inches. In addition, subnormal temperatures accompanied the system, dropping several feet (in some locations, yards) of snow on the higher elevations, and making a dent in the snow pack and snow water content deficiencies.  From February 5-16, storms added 6 inches of liquid to the Sierra Nevada snow pack (from 10 inches, or 55% of normal for the date, to 16 inches, or 71%). In the Mount Shasta area of northern California, about 5 inches of liquid were added during the last 7-10 days.  This is about 12% of the ANNUAL normal, and brought up the SWE from 26.5% to 47.5%, a sizeable increase but still a long way to go before hitting 100%. Although northern California stream flows have rapidly responded to the rains and some smaller reservoirs have shown an increase, one major storm does not make up for nearly 2.5 years of subnormal precipitation.  As succinctly stated by California's State Climatologist Michael Anderson, "the latest rains have removed the need to worry about D4 designations in the Sacramento Basin for the time being". Accordingly, very little improvement (one category) was made on the map, except for locations where over 6 inches of precipitation fell.  This included D2 to D1 by the Monterey Bay Peninsula, and along the north-central edge of the D3 area where 10 inches fell.  Farther south, more unsettled weather brought additional precipitation (0.5 to 1 inch, locally to 2.5 inches) to an already wet Water Year. With much of southeastern California, southern Nevada, western Arizona, and southwestern Utah experiencing more than 125% of normal October 2008-January 2009 precipitation, conditions were improved by one category (D0 to nothing, D1 to D0). In contrast, lingering short and long-term dryness remained across northeastern Arizona and southeastern Utah, and D0 remained there.  Additionally, the Water YTD precipitation has mostly bypassed extreme southeastern Arizona (less than 50% of Oct-Jan precipitation), so D0(A) was expanded into this area.
+Farther north in the Pacific Northwest, after a cold and snowy December followed by an early January thaw with heavy rains that rapidly melted the snow pack and caused severe flooding, especially in western Washington, precipitation has been well below normal. Both NRCS Snotel basin average precipitation and snow water content (SWC) in Washington and Oregon have dropped from surplus values (in early January) to subnormal readings as of Feb. 16.  Average WYTD basin precipitation (since October 1) was between 80-95% and SWC between 60-90%, not bad but much lower than a month ago.  Along the normally wetter coastal and Cascade locations, February precipitation is less than 25% of normal. As a result, some expansion of the D0 was made in western and east-central Oregon, and in central Washington.
+
+## Forecast
+During the next 5 days (February 19-23), a storm system departing New England will usher in colder air across the eastern half of the Nation, while high pressure maintains dry and mild weather from the Plains to the Pacific Coast into the weekend. A strong Alberta clipper will track into the north-central U.S. by week's end, dropping snow on the northern Plains, upper Midwest, and Great Lakes region.  As the accompanying cold front travels across the South, showers may develop in the Delta and along the Gulf Coast, possibly north-central Florida, late in the period. A strong Pacific storm system will approach the West Coast by Sunday, bringing another round of precipitation not only to California but also to the Pacific Northwest.
+The CPC 6-10 day forecast (February 24-28) calls for above-normal precipitation across the northern half of the Nation, especially in the Pacific Northwest, Ohio Valley, and Great Lakes region.  Subnormal precipitation is expected in the southern Rockies, southern third of the Plains, and along the Gulf Coast, including Florida.  Warmer-than-usual weather is forecast for the southern Plains, Delta, and eastern third of the Nation, with subnormal readings forecast for the northwestern quarter of the U.S. and California.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-158.8207875</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-65.7450692</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>18.1649724</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>69.0718767</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T06:44:53-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

@@ -1,0 +1,278 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2024-11-19</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Richard Tinker</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Richard Heim</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NCEI</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — November 19, 2024</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2024-11-19</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2024-11-19</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2024-11-21</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — November 19, 2024
+
+## Introduction
+The trend of the past few weeks toward generally increased precipitation across the Contiguous 48 states continued this week, with several sizeable swaths of heavy precipitation recorded, and broad coverage of near or above normal amounts. The heaviest amounts fell from the Cascades westward to the Pacific Ocean, in addition to southwestern Oregon and northwestern California. Amounts exceeded 3 inches through almost this entire region, with amounts of 5 inches to locally 1 foot observed in portions of the Cascades and immediate Pacific Coastline, especially where orographically enhanced. Several other large areas recorded at least an inch and locally up to 5 inches, including most of the northern Intermountain West, a swath from the southern High Plains through the central Great Plains and the middle and upper Mississippi Valley, much of the lower Mississippi Valley, the lower Ohio and Tennessee Valleys, the upper Southeast, much of the Virginia Tidewater and eastern North Carolina, and parts of the southern and central Appalachians. Numerous locations in the Lower Mississippi Valley and northwestern Alabama reported 3 to 5 inches of rain, as did a swath in north-central Kentucky and isolated spots in western Tennessee, northwestern Texas, eastern Oklahoma, southwestern Kansas, and western Iowa. The broad coverage of moderate to heavy precipitation prompted sizeable areas of improvement in this week’s Drought Monitor. The pattern of increased precipitation has yet to materialize in the Northeast, however, where record and near-record low precipitation amounts have been observed over the past few months, and continued dryness last week allowed conditions to continue to deteriorate. Little or no precipitation was also recorded across the southern reaches of South Carolina and Georgia, the Florida Peninsula, southern Texas, most of the central and northern Plains, and the southwestern quarter of the country, with patches of deterioration noted in these areas as well this week.
+
+## Caribbean
+Most of Puerto Rico recorded light to moderate precipitation, with locally higher amounts of 2 inches or more. This was sufficient to keep dryness at bay, and the Commonwealth remains free of any dryness or drought for the second consecutive week.
+Several frontal boundaries moved across the U.S. Virgin Islands (USVI) during this U.S. Drought Monitor (USDM) week (November 13-19), bringing rounds of heavy rain. Weekly rainfall totals ranged from 2 to 4 inches on St. John, 2 to 5 inches on St. Thomas, and 1 to over 3 inches on St. Croix.    Monthly totals were well above normal.  The rain from this week and previous weeks saturated the soils and groundwater levels continued to rise on all 3 islands, with depth to water only mere inches below the land surface on St. John &amp; St. Thomas.  All 3 islands remained free of drought and abnormal dryness.
+
+## High Plains
+Moderate to heavy precipitation was widespread across the southern and eastern reaches of the High Plains Region, and moderate amounts were observed in some of the higher elevations of Wyoming and central Colorado, and over northern North Dakota. Elsewhere, only a few tenths of an inch, at most, was measured. In the areas of heaviest precipitation (1.5 to approaching 3.0 inches), improvement was introduced. This included significant parts of Kansas, southeastern Colorado, eastern sections of Nebraska and South Dakota, and a relatively small area in southeastern North Dakota. The remainder of the region, under a regime of light to moderate precipitation at best, dryness and drought assessments were unchanged.
+
+## Midwest
+Heavy rain again affected the lower Ohio Valley and most of Kentucky, which continued to scour drought and abnormal dryness out of these areas. Moderate to heavy rain also fell on central and southern Wisconsin, most of central and southern Minnesota, the western half of Iowa, and the western tier of Missouri. Amounts exceeded an inch through almost all of these areas, with 2-3 inches soaking a few areas. As a result, there were sizeable areas with improvement across central and southern sections of Wisconsin and Minnesota, and along the western tier of the Midwest Region. Elsewhere, totals between 0.5 and 1.0 inch were widespread, with only portions of Michigan and northeastern Ohio reporting under one-half inch. There were scattered areas of improvement throughout this area of moderate precipitation, with deterioration limited to small areas where only a few tenths of an inch of rain were reported.
+
+## Northeast
+Generally 1 to 3 inches fell on much of central and southern West Virginia, resulted in continued slow improvement. Several tenths of an inch fell to the north up the western tier of Pennsylvania, as well as limited areas in central Pennsylvania and adjacent Maryland. Elsewhere, essentially from north-central Maryland northward and eastward, little or no precipitation fell. A severe lack of precipitation has been in place since about August 19. From then through Nov. 19, 0.79 inch of rain has been reported in Trenton NJ (normal 11.58 inches, so about 7 percent of normal) and 1.09 inches has fallen on Philadelphia PA (normal 11.45 inches; less than 10 percent of normal). Very low amounts can be found for this period over a large part of the Northeast Region east of the mountains, and in some cases across the higher elevations as well. As a result, conditions continued to deteriorate in these areas. D3 expanded from part of southern New Jersey into adjacent southeastern Pennsylvania, central Delaware, and northeastern Maryland while a new area of D3 was introduced over much of eastern Massachusetts and some adjacent sites. Severe drought (D2) expanded to cover much of the East Coast Megalopolis and the western suburbs. Unusual brush fire activity and wildfire danger has been frequent for the past couple of months, and a few municipalities have mandatory water use restrictions in place, including the Trenton NJ Water Works and the Borough of Doylestown PA
+
+## Pacific
+A few inches of precipitation again fell on the area of abnormal dryness (D0) in southeastern Alaska. Although totals have been slightly less than normal, enough precipitation has fallen during the past few weeks to prompt removal of the dry area, leaving the state free of dryness and drought.
+Precipitation totals were unremarkable across the state last week, leaving dryness and drought conditions essentially unchanged, with no change in the Drought Monitor depiction.
+Several tropical weather features brought rain to parts of the U.S.-Affiliated Pacific Islands (USAPI) during this U.S. Drought Monitor (USDM) week (November 13-19).  Tropical Storm Man-yi spread rain across western portions of Micronesia while a robust Inter-Tropical Convergence Zone (ITCZ) brought rain to eastern portions of Micronesia.  Trade-wind troughs moved across the region between these two features.  An active trough brought numerous showers to American Samoa.  These features created bands of rain across the USAPI.  The week was drier in between these bands.
+Monthly rainfall totals for November to date are expected to exceed monthly minimums needed to meet most water needs in the Marianas, Republic of Palau, American Samoa, most of the Marshall Islands, and western Federated States of Micronesia (FSM).  November has been below monthly minimums in some central and eastern parts of the FSM.
+The Marianas, Republic of Palau, and American Samoa (Tutuila) remain free of drought and abnormal dryness (D-Nothing) on this week’s map.  Most of the Marshall Islands have had a wet month, with no drought or abnormal dryness.  The exception is Jaluit, where abnormal dryness (D0-S) continues due to low reported precipitation (only 2.76 inches for the month so far).
+Western portions of the FSM (Yap State) have had a wet week and month, with no drought or abnormal dryness.  November rainfall totals are trending below monthly minimums further east at Chuuk, Kosrae, and Pingelap, and in southern areas at Kapingamarangi.  Lukunor had 3.37 inches of rain this week, which brought the monthly total to 5.42 inches which is above the monthly minimum for this far in the month, so D0-S ended.  Chuuk’s weekly total (1.61 inches) was below the weekly minimum and the monthly total was below the monthly minimum; no drought impacts were reported and the water catchment tanks were in good shape, but D0-S continued to reflect the below-minimum precipitation.  Kapingamarangi reported no rainfall (zero inches) this week and the monthly total (3.64 inches) was below the monthly minimum, so D0-S continued.  Kosrae has been dry this week (1.33 inches) and for the month to date (2.86 inches); since previous weeks were wet, D-Nothing continued this week, but Kosrae will be watched for D0-S next week if the dryness continues.  Woleai reported less than an inch (0.89) of rain this week, but the month was above the monthly minimum and previous weeks were wet, so D-Nothing continued.
+
+## South
+Like the Southeastern Region, the South Region experienced highly variable rainfall this past week, although more areas experienced significant rainfall and improved conditions than dryness and deterioration. The latter was confined to central and southern Texas where little or no rain fell, expanding D0 through much of Deep South Texas and prompting the introduction of D1 in a patch near the lower Rio Grande River. Farther north, moderate to heavy precipitation prevailed, especially across western Teas, much of Oklahoma, portions of Louisiana, Mississippi, and western Tennessee. A large part of these areas saw a 1-category improvement, nearly eliminating severe drought (D2) in western Arkansas, eastern Oklahoma, and adjacent Texas, and also decreasing D1 coverage substantially across the northern and eastern tiers of the Region.
+
+## Southeast
+Precipitation was highly variable across the Southeast Region again last week. Little or no rain fell on the Florida Peninsula, the southern half of Georgia, and southern South Carolina, where dryness and drought generally persisted with a few areas of intensification. West of this area, however, precipitation was abundant across Mississippi and the northwestern half of Alabama, where amounts of 1.5 to locally 4.0 inches fell. And to the north, moderate to locally heavy precipitation fell across most of the Carolinas and Virginia, with totals exceeding 1.5 inches in much of the Virginia Tidewater. Several areas of dryness and drought improved in northern and western reaches of the Region, especially where rains were heaviest across parts of Mississippi and northwestern Alabama. More limited improvement was introduced in northwestern Georgia and across both southeastern and southwestern Virginia, primarily in areas of moderate to severe drought (D1 to D2) last week. In the areas with little or no rain, dryness and drought generally persisted, but conditions deteriorated to D2 in southeastern Alabama and adjacent parts of Georgia and Florida. Meanwhile, moderate drought was introduced in a band from the north-central Florida Peninsula eastward into northeastern Florida, and a new area of abnormal dryness (D0) was introduced in southern Florida where rainfall totals ranged from one-half to two-thirds of normal for the past couple of months
+
+## West
+Heavy to excessive precipitation in northwestern California and the Northwest from the Cascades to the Pacific Coast induced widespread 1-category improvement in these areas. Totals exceeding 3 inches were almost ubiquitous, and amounts of 5 to locally 12 inches were common in the Cascades and near the immediate coast. This amounted to peeling back D0 and D1 to the west. In Oregon, streamflows have finally begun to respond to the increased precipitation. Other areas of improvement were introduced where there was spottier moderate to heavy rain in parts of eastern Oregon, northern Idaho, and westernmost Montana. Moderate to heavy precipitation (locally up to 3 inches) also doused southeastern New Mexico adjacent to the heavy rains in western Texas, with similar 1-category improvements introduced in areas with over 1.5 inches of precipitation. Elsewhere, only scattered light precipitation was reported, and dryness and drought were primarily unchanged. Some deterioration was noted in west-central Montana (to D1) while a significant swath of eastern Montana slid into extreme drought (D3).
+
+## Forecast
+During the next five days (November 21-25), moderate to heavy precipitation is expected in the western and northeastern quarters of the contiguous states, and along the immediate Canadian border. Lesser amounts, if any, are expected in and around the Plains and along most of the southern tier. The greatest amounts are forecast across northern California and the Sierra Nevada, where totals exceeding 5 inches are expected to be widespread, with the potential for as much as 15 inches at isolated spots in the higher elevations. Generally 1.5 to 3.0 inches are expected in the West from the Cascades to the Pacific Coast and in portions of the northern Intermountain West. Similar amounts are also forecast for most of New York State, northeastern Pennsylvania, and to a lesser extent New England, the Great Lakes, and southwestern California. Between 0.75 and 1.5 inches should fall in the remainder of the Northwest, the higher elevations of the central Rockies, southwestern California, much of the Great Lakes, Pennsylvania, Maryland and Delaware, and the rest of New England. In contrast, little or no precipitation is expected in the Plains from the central Dakotas southward, and along the southern tier of the country from southeastern California eastward through Georgia and most of the Carolinas. Very warm weather is expected in central and southern Texas, with temperatures expected to average 10 to 13 deg. F above normal. A larger area from eastern Arizona through the Lower Mississippi Valley is forecast to average 5 to 10 deg. F above normal. Meanwhile, unusually low temperatures averaging 10 to 17 deg. F below normal are anticipated from the central and western Dakotas through most of Montana. Temperatures may average up to 10 deg. F above normal from the Upper Mississippi Valley and central Plains westward through the Great Basin and northern Intermountain West. Near or slightly above normal temperatures are expected elsewhere.
+The Climate Prediction Center’s 6-10 day outlook (valid November 26-30) favors above-normal precipitation in a swath from the Southwest and the Great Basin eastward through most of the Plains, and from Mississippi Valley eastward to the Atlantic Coast. Only the Northeast, Florida Peninsula, central and southern Texas, the Great Lakes, and the Far West are outside the area where above-normal precipitation is expected. Odds exceed 50 percent over the east-central Rockies and adjacent High Plains. Unusually dry weather is more likely in western Texas, the Northwest, parts of the Intermountain West, plus central and northern portions of the Rockies and Plains. Subnormal precipitation is also more likely across Hawaii, especially the northwestern islands. Meanwhile, the southern tier of the country from the Plains to the Atlantic Coast is expected to average warmer than normal, with odds topping 50 percent along and near the Gulf of Mexico Coast. Hawaii is also expected to average warmer than normal, especially the central and northwestern islands. Cold weather is favored across central and northern portions of the Rockies, Plains, and Mississippi Valley, plus some adjacent areas. Chances for significantly subnormal temperatures are 70 to 80+ percent from Montana east of the Rockies and most of the Dakotas.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-160.236083</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-66.9540017</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>19.7012592</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>49.3856286</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T08:49:08-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

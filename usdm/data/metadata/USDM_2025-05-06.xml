@@ -1,0 +1,283 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2025-05-06</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Richard Tinker</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Brad Pugh</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — May 06, 2025</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2025-05-06</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2025-05-06</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2025-05-08</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — May 06, 2025
+
+## Introduction
+A blocking weather pattern that is common during the spring, resulted in a couple of slow-moving low pressure systems from the end of April through the start of May. These low pressure systems brought heavy precipitation (more than 2 inches) and drought improvement to the Northeast, Mid-Atlantic, and Southern Great Plains. The heavy precipitation across Oklahoma, western Texas, and eastern New Mexico was accompanied by cooler-than-normal temperatures. Farther to the north, drought expanded and intensified across portions of the Central to Northern Great Plains. Another area that experienced worsening drought was the Florida Peninsula. For the West, drought improvements were made to parts of Arizona, Utah, and western Montana. No changes were made this week to Hawaii, while Alaska and Puerto Rico remain drought-free.
+
+## Caribbean
+Puerto Rico remained drought-free with many areas receiving more than 10 inches of rainfall during the past 30 days and 28-day average streamflows above the 90th percentile.
+Consistently above-normal rainfall has affected most of the United States Virgin Islands (USVI), keeping any semblance of dryness at bay. Windswept Beach on St. John recorded 8.39 inches of rain for March-April (185 percent of the 4.53-inch normal), followed by near-normal totals the first few days of May (just under three-quarters of an inch). Some parts of St. John reported locally heavy rains and some flooding this past week. On St. Thomas, the airport near Charlotte Amalie observed a similar pattern. March-April rainfall totaled 8.84 inches, or 215 percent of the 4.1-inch normal. Unlike Windswept Beach, most of the 8.84 inches fell during April [72 percent of the 2-month total].  The pattern of above-normal rainfall continued through at least May 5, with totals for the last 5 days of the period totaling 1.56 inches (2.5 times the normal). Overall, April 1-May 5 brought 7.93 inches of rain to the airport at Christiansted, which is 277 percent of normal.  The past week also brought above-normal rainfall to most locations on St. Croix. Across the Christiansted area, anywhere from 1.5 to 3.7 inches of rain fell this past week. In the Frederiksted area, totals ranged from 2.1 to locally about 5.3 inches.
+
+## High Plains
+Mostly dry weather prevailed this past week (April 29 to May 5) across the Northern to Central Great Plains. Based on multiple soil moisture indicators including CPC, NLDAS, and NASA SPoRT along with the Vegetation Drought Response Index (VegDri), extreme drought (D3) was expanded to include more of western North Dakota. This D3 expansion coincides with recent wildfires and dust storms. Soil moisture (below the 10th percentile), VegDri, and 60 to 90-day SPEI supported an expansion of severe drought (D2) across central Nebraska. D3 was added to parts of northeastern Nebraska based on VegDRI soil moisture below the 5th percentile, and longer-term extreme drought signal. Farther to the west, a broad 1-category improvement was made to northeastern Wyoming and adjacent areas of western South Dakota due to recent wetness and a positive recovery among multiple drought indicators. Improvements were also warranted for the upper Green River basin of western Wyoming. However, a drier-than-normal April resulted in a 1-category degradation to parts of southern Wyoming.
+
+## Midwest
+A majority of the Midwest remains drought-free due to abundant precipitation during the late winter and start of spring. However, abnormal dryness is developing across northwestern Indiana, northern Illinois, and northwestern Missouri where D0 was added this week. Conversely, D0 was discontinued for parts of Lower Michigan that received 1 to 2 inches of precipitation this past week.
+
+## Northeast
+Recent heavy precipitation (more than 2 inches) supported a 1-category improvement to much of the Northeast. However, moderate (D1) to severe (D2) drought was maintained in areas that received less rainfall this past week. In addition, little to no change was made where 28-day average streamflows remain below the 20th and 10th percentile for the D1 and D2 areas, respectively. Along the Potomac River between Harpers Ferry, WV and Washington, DC, 28-day average streamflows generally remain below the 10th percentile supporting the D2 depiction. Since the Northeast drought is mostly hydrological with low streamflows and groundwater, the impact was changed to long-term.
+
+## Pacific
+The Ketchikan area of Southeast Alaska was removed from abnormal dryness (D0), while a small D0 area was added north of Anchorage. That newly added D0 area of south-central Alaska has received less precipitation recently due to a chinook effect off of the Chugach Mountains.
+Although recent trade winds brought beneficial rainfall to windward areas of Oahu and Kauai, the precipitation was not enough to warrant any improvements at this time. 28-day average streamflows remain quite low across much of the Big Island and Maui which have the largest coverage of severe drought.
+Across Palau, most locations reported 7.3 to 9.9 inches of rain during April, which is near or a little above normal. Rain fell at a slightly slower pace in early May, with the first several days dropping 1.9 inches on Koror (about 80 percent of normal). Koror has about a 7 inch surplus for the year-to-date, and no dryness or drought is assessed across Palau at this time.
+Drought now covers all assessed locations across the Commonwealth of the Northern Mariana Islands (CNMI), with Rota downgraded from D0 (abnormally dry) to D1 (moderate drought) this week despite a bit over one-half inch of rain. The worst conditions are in and around Saipan, where extreme drought (D3) is identified again this week. Saipan recorded below normal April rainfall ranging from 35 to locally 90 percent of normal. Only 0.07 inch fell the first several days of May, considerably shy of normal (0.54 inch). From late March through early May, the international airport reported 1.92 inches of rain, about 55 percent of normal. Since early December, the international airport has recorded 10.36 inches of rain, nearly 5 inches below normal. Ground observers report areas of cracked ground and mostly brown vegetation across most of the RMI, especially around Saipan. Other locations (Guam and Rota) have better multi-month precipitation amounts, but have received 60 to 70 percent of normal rain since April 1, with a couple tenths of an inch of rain at best over the first few days of May. Looking at the big picture, although some months have been close or slightly above normal in spots, for the past several months, the CNMI has not recorded the approximately 4 inches of rain needed for the water budget to keep up with environmental and human demand.
+Across the Federated States of Micronesia (FSM), most locations have received adequate rainfall to keep dryness at bay, with a few notable exceptions: Pingelap in eastern Micronesia remains in severe drought (D2), Yap in the western part of the Federation maintains D1 (moderate drought) status this week, and in south-central FSM, Kapingamarangi continues to be abnormally dry.
+Yap reported 85 to 95 percent of normal for both March and April, but amounts totaled less than the approximately 8 inches necessary to keep up with demand both months. In addition, the first few days of May brought only a few tenths of an inch of rain, maintaining D1 conditions.
+Kapingamarangi reported 60 to 65 percent of normal for both March and April, with both months bringing less than the approximately 8 inches needed to keep up with demand, although significant impacts haven’t yet been reported. The first few days of May brought 1.57 inches of rain, which was enough to hold off deterioration this week.
+Across the rest of central and western FSM, moderate to heavy rainfall since at least March has kept dryness out of these locations. At Woleai, Chuuk, Lukunor, and Nukuoro, Each of the past couple months brought at least the 8 inches of rain needed to approximately keep up with demand. Some areas have received less than normal amounts for the first few days of May, but prior rainfall is blunting any indications of dryness.
+Conditions are quite variable across the eastern FSM. Substantial to excessive rainfall has been reported for the past several weeks at Pohnpei and Kosrae. Both reported a bit over 10 inches for April, following March amounts of 16.23 inches and 27.88 inches, respectively. Meanwhile, Pingelap remains in the grip of severe drought (D2). March brought 6.05 inches there – about half of normal – and April was even drier with just over 2 inches of rain (only 16 percent of normal). This adds up to just over 8 inches of rain for the two months combined, compared to a normal of over 25 inches. No precipitation has been reported so far in May, maintaining D2 conditions this week.
+Farther east, in the Republic of the Marshall Islands, drought continues to grip many locations. Southeastern locations (Mili and Majuro) remain the only locations absent any dryness or drought designation. Mili may be on the cusp of sliding into abnormal dryness (D0), having reported only 6.35 inches of rain in April (61 percent of normal). But 2.35 inches during the first few days of May led to keeping D0 out this week.
+Some degree of drought exists on other parts of the RMI outside the southeast. Conditions are worst at Wotje in the east-central, where extreme drought (D3) persists. Only 1.95 inches fell for March-April combined, when a little over 5.5 inches is normal. No rain was reported the first few days of May, allowing conditions to slowly continue drying out. Northern through west-central parts of the RMI remain in severe drought (D2), including Utirik, Kwajalein, and Ailinglapalap. Utirik recorded only 2.35 inches of rain in April, with none reported the first few days of May. January-March was extremely dry at Kwajalein. Only 4.3 inches of rain fell for the 3 months combined, about 40 percent of the normal 10.85 inches. Rainfall picked up in April, but remained considerably below normal (4.21 inches, 68 percent of normal). The first few days of May brought one-quarter of an inch – hardly generous, but above the 0 to 0.1 inch reported at the other drought sites. The recent uptick over the past few weeks have prevented further deterioration this week. In Ailinglapalap, the bone-dry start to May followed 6.12 inches in April (83 percent of normal) and just 1.82 inches in March (29 percent of normal). Rainfall in April was not sufficient to keep up with environmental and human demand, but was enough to preclude any further deterioration this week. Jaluit in the southwestern RMI measured 12.11 inches for March-April (normal is 10.81 inches higher, 21.92 inches). This was followed by a dry first few days of May. Moderate drought (D1) is maintained there, but Jaluit will need to be closely monitored in the next few weeks for signs of deterioration if rainfall doesn’t pick up.
+
+## South
+Heavy precipitation (more than 2 inches) resulted in improvements to parts of Oklahoma and Texas. According to the Oklahoma Mesonet, 10 to 16 inches of precipitation was observed across central to southwestern Oklahoma during the past 30 days. A 2-category improvement was warranted to the north of Midland based on a favorable response among soil moisture indicators. Any precipitation that occurred after 8am EDT on Tuesday, May 9th, will be considered in the next U.S. Drought Monitor release. A very tight gradient from excessive wetness across much of Oklahoma to extreme and exceptional drought closer to the Upper and Middle Rio Grande Valley has become established this spring. Minor improvements were made to the small abnormal dryness areas depicted in parts of Mississippi and eastern Tennessee.
+
+## Southeast
+Recent precipitation (more than 1.5 inches) along with improving soil moisture and 28-day average streamflows led to a 1-category improvement across northeastern Georgia and parts of the Carolinas. However, across the Coastal Plain of South Carolina, a 1-category degradation was made. Moderate short-term drought expanded across southeastern Alabama and south Georgia due to increasing 30 to 60-day precipitation deficits. Heavy rainfall (2 inches or more) led to a decrease in abnormal dryness (D0) and moderate drought (D1) for the western Florida Panhandle. Through May 6, drought intensified across the Florida Peninsula with many areas depicted in the severe (D2) to extreme (D3) category. This widespread D2-D3 coverage is supported by the 60-day SPI, 28-day average streamflows, and impact reports.
+
+## West
+Recent widespread, heavy precipitation along with consideration of multiple drought indicators such as SPI at various time scales, soil moisture, 28-day average streamflows, and the NDMC drought blends led to a 1-category improvement across eastern New Mexico. Improvements were also warranted for parts of Arizona due to April precipitation averaging at or above normal. Minor improvements were justified for parts of western and southeastern Montana, but abnormal dryness (D0) and moderate drought (D1) expanded across parts of north-central Montana that missed out on another week of spring precipitation. No changes were made this week to California or Nevada as those areas enter a drier time of year. For the Pacific Northwest, long-term drought is limited to the northern Cascades region of Washington.
+
+## Forecast
+A cut-off low pressure system is forecast to bring widespread, heavy precipitation to the Southeast with the Weather Prediction Center depicting more than 3 inches of precipitation for southeastern Alabama, central to south Georgia, and the Florida Panhandle through May 12. Following a wet week, another round of precipitation (1 to 2 inches) is expected from northern New Jersey northward to New England on May 9 and 10. Elsewhere, mostly dry weather is forecast for the Corn Belt along with much of the Great Plains and West. The dry weather will be accompanied by unseasonably warm temperatures across the Northern Great Plains. By May 12, precipitation is forecast to overspread the Pacific Northwest as a low pressure system tracks inland from the northeastern Pacific.
+The Climate Prediction Center’s 6-10 day outlook (valid May 13-17, 2025) favors above-normal precipitation for the Mid-Atlantic, Florida Peninsula, Upper Mississippi Valley, Northern to Central Great Plains, and much of the West. Elevated below-normal precipitation probabilities are limited to the Lower Mississippi Valley, western Gulf Coast, and Rio Grande Valley. Above-normal temperatures are likely for most of the eastern and central U.S. with the largest probabilities (more than 80 percent) forecast for the Great Lakes. Below-normal temperatures are favored throughout the West.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-160.236083</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-69.9278003</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>18.9154965</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>61.7945864</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T08:53:03-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

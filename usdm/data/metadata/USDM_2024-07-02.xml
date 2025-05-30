@@ -1,0 +1,284 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2024-07-02</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Brad Rippey</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>U.S. Department of Agriculture</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Adam Hartman</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — July 02, 2024</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2024-07-02</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2024-07-02</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2024-07-03</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — July 02, 2024
+
+## Introduction
+East of the Rocky Mountains, there was a mixture of worsening and improving drought conditions this week. With the passage of a couple of frontal boundaries across the eastern contiguous U.S. (CONUS), in addition to a steady moisture flow from the southwestern CONUS into parts of the Central Plains, several areas across the eastern two-thirds of the U.S. received heavy precipitation. However, heavier amounts varied greatly from region to region and were highly localized east of the Mississippi River. Rates of evaporation of moisture from land and vegetation (known as evapotranspiration) are high across the eastern CONUS, due in large part to several days of excessive heat. Therefore, targeted improvements are depicted in regions picking up above normal precipitation (at least 1 inch above normal rainfall for the week) and where improvements to soil moisture and stream flows were apparent. Given the very dry and hot antecedent conditions leading up to this week, drought degradation is merely halted in most other areas receiving above normal rainfall, as indicators did not show marked improvements. Conversely, for locations receiving below normal rainfall, another week of degradation is warranted. In the West, the Four Corners region was the beneficiary of yet another wet week, aided by a couple of low pressure systems bringing an influx of moisture into the region. Elsewhere in the West, conditions worsened, with several pockets of abnormal dryness (D0) popping up and the expansion of drought conditions, particularly across the northern Rockies. A slight westward expansion of abnormal dryness and moderate drought (D1) in the Alaska Mainland and the introduction of abnormal dryness near the Kenai Peninsula is warranted, supported by short-term derived drought indicators and precipitation deficits. A status-quo drought depiction is depicted in Hawaii this week, but stream flows are slowly falling as the trade winds continue to lack meaningful moisture. Puerto Rico continues to remain drought-free.
+
+## Caribbean
+This week was predominantly dry across much of Puerto Rico, with the exception of northwestern parts of the island. Despite also experiencing warmer than normal conditions, antecedent wetness leading up this week has allowed for a bit of breathing room to survive these short dry spells. Therefore, Puerto Rico remains drought-free this week.
+For the U.S. Virgin Islands, much of the 7-day drought monitoring period featured widely scattered showers and periods of Saharan dust.  As July began, however, Hurricane Beryl passed through the eastern Caribbean Sea, clipping the U.S. Virgin Islands with some outer rain bands.  Beryl, the earliest Category 5 hurricane in the Atlantic Basin, supplanted the record set by Emily on July 16, 2005, by 15 days.  Weekly reports from a network of about a dozen volunteer (CoCoRaHS) observers noted rainfall totaling 0.26 to 0.65 inch on St. Thomas; 0.46 to 0.73 inch on St. John; and 0.15 to 0.49 inch on St. Croix.  Vegetation remains relatively lush across the territory, based on the Vegetation Health Index and visual reports, and depth to water at three U.S. Geological Survey wells – one per each major island – has improved (decreased) significantly compared to the summer and autumn of 2023.  Finally, the Standardized Precipitation Index continued to indicate drought-free conditions at all time scales.
+
+
+
+## High Plains
+The High Plains region experienced a mixture of both deteriorating and improving drought conditions this week, which has also predominantly been the case over at least the last month. A couple of troughs of low pressure moved across the western and central U.S. this week, helping to tap into some moisture from the Pacific Ocean and draw it into the region. This resulted in heavy rainfall across parts of the Four Corners and extending eastward into the Central and Eastern Plains. Parts of Kansas and eastern Nebraska received well in excess of 3 inches of rainfall. Unfortunately, several locations across the western High Plains region were not so lucky and received below normal weekly rainfall. Temperatures were also unseasonably warm, running anywhere from 4°F to 8°F above average for the week in many areas, helping to exacerbate worsening conditions.
+
+## Midwest
+Precipitation has mainly been confined to the Upper Midwest and Great Lakes due to high pressure dominating the eastern U.S. in recent weeks and keeping the storm track displaced farther northward. This week a strong storm system moving across the eastern U.S. over the weekend brought some heavy precipitation farther southward to parts of the Ohio Valley, where conditions have rapidly worsened in the weeks leading up to this week. However, despite receiving some rainfall, weekly totals were below normal across southern parts of Illinois, Indiana, and Ohio, extending into northern Kentucky. Elsewhere, weekly rainfall in excess of 3 inches was widespread, leading to improvements across parts of northern Ohio, Indiana, and Illinois, extending into the central Corn Belt. The Upper Midwest and central Corn Belt remain very wet, with ongoing flooding along the Lower Missouri and Upper Mississippi Rivers and nearby tributaries.
+
+## Northeast
+On average, much of the Northeast experienced seasonal temperatures this week, due in large part to the passage of a couple of storm systems bringing precipitation and helping to usher in cooler air in their wake. In areas receiving the heaviest rainfall, targeted improvements to moderate drought (D1) and abnormal dryness (D0) are warranted. However, in parts of West Virginia, southern Pennsylvania, and northern Maryland that experienced both above normal temperatures and below normal precipitation again this week, conditions continued to worsen, with severe drought (D2) being introduced to parts of northern Maryland and eastern West Virginia, where soil moisture and stream flows continue to decline and derived drought indices show a strong drying trend over the past 90 days.
+
+## Pacific
+Expansion of abnormal dryness (D0) and moderate drought (D1) across more of the Yukon Flats is warranted, as this week was yet another warm and dry week across much of the state. Short-term dryness has also popped up along the South Coast, warranting the introduction of abnormal dryness across western parts of the Kenai Peninsula extending northward to include Anchorage. Fire concerns remain elevated, as Alaska is in the midst of its fire season.
+No changes in Hawaii this week. However, the trades continue not to provide any meaningful moisture to the islands, so stream flows are slowly falling across the islands.
+With the demise of El Niño, regular rains continued to ease or eradicate any lingering drought in the U.S.-Affiliated Pacific Islands.  For the drought-monitoring period ending July 2, there was neither dryness nor drought in American Samoa and the Republic of Palau.  At Pago Pago International Airport in American Samoa, June rainfall totaled 9.91 inches (156% of normal).  Similarly, Palau International Airport received a June total of 17.16 inches (106% of normal).
+
+
+However, pockets of drought persisted in the Federated States of Micronesia.  For Yap, the June rainfall total of 6.61 inches was just 54% of normal, perpetuating a dry spell that began in autumn 2023.  Yap remained in severe drought (D2-SL).  However, neighboring Ulithi saw some additional improvement, with 2 to 5 inches or rain falling during 5 of the last 6 weeks.  Ulithi’s designation was improved to moderate drought (D1-L).  Rainfall data for Woleai, Fananu, Pingelap, and Kosrae was insufficient for analysis.
+In the Republic of the Marshall Islands, drought was limited to Wotje (severe drought, or D2-SL).  With a fifth consecutive week featuring less than an inch of rain, drought recovery on Wotje has stalled.  Meanwhile, Jaluit received more than 3.5 inches of rain during the drought-monitoring period, eliminating abnormal dryness (D0-S).  At Majuro, where June rainfall totaled 10.92 inches, reservoir storage at the end of June stood at a robust 31.9 million gallons, 89% of capacity.  No data was reported for Mili and Utirik.
+Finally, drought was eliminated from Marianas, although abnormally dry conditions (D0-S) were still observed for Guam, Rota, and Saipan.  Guam International Airport received June rainfall totaling exactly 8 inches, 123% of normal.  Rota’s third consecutive week with more than 1.5 inches or rain resulted in improvement from moderate drought (D1-S) to abnormal dryness.
+
+
+
+## South
+Expansion of drought and abnormal dryness is warranted this week in the South, as much of the region experienced another week of hot and dry conditions, and this has been the case since the start of June for many locations. The only areas where improving conditions were observed is across northern Oklahoma, extending into Kansas, where another week of heavy rain fell (locally more than 3 inches in north-central Oklahoma). After a very wet May, precipitation has been lacking entirely across large parts of central and eastern Texas, extending eastward into Louisiana. Indicators have shown a drying trend and topsoil moisture has really started to dry out. These areas will bear watching in the coming weeks.
+
+## Southeast
+Rainfall in the Southeast was very hit-and-miss this week for most areas. Even in areas where heavy rainfall was more widespread, the drought indicators did not respond adequately to reverse the drying trend, warranting a status-quo depiction this week. However, there are some targeted areas of improvement across parts of the Coastal Plain of the Southeast, southern Alabama, and parts of Florida, where in excess of 2.5 inches of rain fell. Rates of evapotranspiration (the evaporation of moisture from land and vegetation) are very high across much of the Southeast, so well above normal rainfall is necessary to make up for weekly losses of soil moisture due to hot temperatures, and for conditions to improve. Elsewhere, stream flows and soil moisture conditions continued to worsen in areas receiving near to below normal weekly rainfall, warranting another week of degradations for many locations. Parts of the Tennessee Valley, northern Gulf Coast States, and the central and southern Appalacians have only seen trace amounts of rainfall since the beginning of June.
+
+## West
+In the Western U.S., drought improvements were limited to southern parts of the region, where a couple of troughs of low pressure were able to bring some moisture from the Pacific Ocean northward into the Desert Southwest and Four Corners. Elsewhere across the West, conditions have slowly dried out in recent weeks. With another week of below normal precipitation and above normal temperatures, with much of the Great Basin running 4°F to 8°F above average for the week, conditions worsened.
+
+## Forecast
+During the next five days (July 3 - July 7), High pressure is likely to build over the western U.S., leading to hot, potentially record-breaking temperatures and below normal precipitation. Farther eastward, East of the Rockies, temperatures are forecast to become more seasonal for the most part. In addition, parts of the Middle and Upper Mississippi Valley are likely to experience a couple of rounds of heavy rainfall. Rainfall in excess of 1 inch is favored across parts of the Ohio Valley, Mid-Atlantic, and Southeast.
+The Climate Prediction Center’s 6-10 day outlook (valid July 8 - 12), favors enhanced chances of above average, potentially record-breaking, temperatures across parts of the Intermountain West, with above normal temperatures changes extending into the Western Plains, along the Gulf Coast, and into the eastern U.S. Below normal temperatures are favored in the interior central U.S. Near and below normal precipitation is likeliest across the western and north-central U.S., with above normal precipitation favored elsewhere. Eyes will be on the tropics over the next 6 to 10 days, with enhanced chances for above normal precipitation across southern Texas and the western Gulf Coast. Near to below normal temperatures and above normal precipitation is favored in Alaska and Hawaii.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-160.236083</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-69.3648797</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>18.9154965</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>67.2647989</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T08:46:53-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

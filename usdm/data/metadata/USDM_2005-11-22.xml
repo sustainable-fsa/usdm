@@ -1,0 +1,238 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2005-11-22</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Brad Rippey</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>U.S. Department of Agriculture</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — November 22, 2005</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2005-11-22</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2005-11-22</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2005-11-24</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — November 22, 2005
+
+## Introduction
+
+
+## Alaska and Hawaii
+Heavy precipitation fell in formerly dry areas of southeastern mainland Alaska. Abnormal dryness (D0) was erased from the Gulf of Alaska coast northward into the Wrangell Mountains. In Prince William Sound, Valdez netted precipitation totaling 8.43 inches (223 percent of normal), including 52.5 inches of snow, from November 1-21. Meanwhile, only light showers were observed in Hawaii, leading to no change in the coverage of abnormal dryness (D0). On Maui, November 1-21 rainfall in Kahului totaled just 0.02 inch, 1.41 inches below normal.
+
+## The Midwest
+The November 15-16 storm produced widespread Midwestern precipitation, heaviest in parts of Wisconsin, Michigan, and Indiana. Abnormal dryness (D0) and moderate drought conditions (D1) were trimmed slightly in the aforementioned states, and daily-record totals for November 15 included 2.30 inches in Detroit, MI, and 1.79 inches in Fort Wayne, IN. November 16-17 snowfall totaled 8.9 inches in Grand Rapids, MI. However, only light precipitation fell in the core area of severe to extreme drought (D2 to D3) stretching from southern Iowa to southwestern Lower Michigan, where there were no changes in the depiction. In the D3 area, year-to-date precipitation through November 21 stood at 16.41 inches (47% of normal) in Moline, IL.
+
+## The Plains
+Elsewhere in Oklahoma, topsoils continued to lose moisture due to dry, breezy conditions. Oklahomas topsoil moisture was rated 87% very short to short on November 20, up from 63% two weeks earlier. A year ago, Oklahomas topsoil moisture was rated 63% surplus and 1% very short to short. Meanwhile, Oklahomas ranges and pastures were rated 33% in very poor to poor condition, up from 20% on October 30. During the same three-week period, Oklahomas winter wheat rated very poor to poor climbed from 9 to 15%, while Texas wheat rated very poor to poor rose from 26 to 37%. Further increases in the coverage of abnormal dryness (D0) and possible introduction of moderate drought (D1) will be necessary on the southern Plains unless conditions soon improve. Farther north, much of the existing dryness (D0) and moderate drought (D1) was hydrological in nature. However, a combination of short- and long-term dryness (D0) and moderate drought (D1) continued to adversely affect some winter wheat in South Dakota, where the portion of the crop rated very poor to poor inched upward from 9% on October 30 to 16% on November 20.
+
+## The South
+On November 15-16 and 20-21, major storm systems crossed the South. According to preliminary reports from the federal Storm Prediction Center, as many as 40 tornadoes swept across six states (AL, IL, IN, KY, MO, and TN) on November 15, resulting in one tornado-related fatality in western Kentucky (Marshall County). On the positive side, storm-total rainfall topped two inches in many locations from central Louisiana northeastward into the Tennessee Valley. Daily-record totals for November 15 included 2.24 inches in West Plains, MO, and 1.48 inches in Nashville, TN. By November 20, USDA/NASS reported topsoil moisture 59% very short to short in Mississippi, along with 56% in Arkansas and 48% in Alabama. Two weeks earlier, on November 6, those numbers were 98, 76, and 76%, respectively, in Mississippi, Arkansas, and Alabama. In Louisiana, pastures were rated 64% very poor to poor on November 20, an improvement from 76% on October 30. However, winter wheat emergence numbers continued to reflect the effects of drought. For example, Louisiana winter wheat was 70% planted on November 20 (the five-year average is 63%), but emergence had reached just 33% (the five-year average is 49%). Nevertheless, there was a general lessening of drought severity across the South, reflected by measures such as the breaking of a band of moderate drought (D1) across western Tennessee. Rain also helped to extinguish more than three dozen large wildfires (100 acres or more) that had been previously burning across the interior South, primarily in southwestern West Virginia, eastern portions of Kentucky and Tennessee, and western sections of Virginia and North Carolina.
+The second storm system produced heavy rain (two inches or more) from north-central Florida into the Carolinas, cutting through an area formerly designated as abnormally dry (D0). Daily-record totals for November 21 included 2.16 inches in Alma, GA, and 1.52 inches in Florence, SC. Further reductions in Southeastern dryness (D0) and drought (D1 and D2) may be necessary in next weeks Drought Monitor, as effects on previously dry soils and low streams become more apparent. For example, Georgias topsoil moisture was rated 75% very short to short on November 6 and 77% on November 20.
+Farther west, however, the western section of the Southern drought area expanded slightly. For example, severe drought was introduced in southern Texas, where year-to-date rainfall through November 21 included 11.76 inches (45% of normal) in Brownsville and 15.26 inches (58%) in Harlingen. Brownsvilles driest year during its 135-year period of record was 1953, when 11.59 inches fell. Meanwhile, year-to-date rainfall through November 21 was more than 20 inches below normal in locations such as DeQueen, AR (26.89 inches vs. normal of 48.13 inches), El Dorado, AR (27.02 inches vs.47.87 inches), Alexandria, LA (29.39 inches vs. 53.25 inches), and Lafayette, LA (32.49 inches vs. 55.18 inches). Some severe drought (D2) was reintroduced across southwestern Arkansas, where year-to-date rainfall totals are particularly low and drought impacts remain significant. Elsewhere, several wildfires recently occurred in southeastern Oklahoma, according to the National Interagency Fire Center, the largest of which charred more than 17,000 acres.
+
+## The West
+Mild, mostly dry weather dominated the West during the monitoring period. Scattered snow showers were confined to the northern and central Rockies. Western drought effects remained largely long-term and hydrological, meaning that week-to-week changes are typically small under normal weather conditions. Although southern California remains free of drought, it is worth noting that high temperatures recently reached or exceeded 90 degrees F in locations such as Santa Ana (90 degrees F on November 15) and Riverside (91 degrees F on November 19).
+
+## Forecast
+Weather features to watch in the next 5-day period (November 23-27) that may affect areas of dryness or drought include: 1) Relatively quiet weather is expected for Thanksgiving Eve and Day (November 23-24), with precipitation (snow showers) confined to parts of the Northeast and areas downwind of the Great Lakes; 2) By late November 24, rain and snow showers will return to the Pacific Northwest; 3) Late in the week and during the weekend (November 25-27), light rain and snow showers will overspread the Intermountain West, snow showers will redevelop in the Great Lakes region, and locally heavy rain will erupt across the south-central U.S., including parts of Louisiana, Oklahoma, and Texas.
+The 6- to 10-day (November 28 - December 2) outlook from the Climate Prediction Center calls for wetter-than-normal weather across the Plains and much of the South, including drought-affected areas from southern and eastern Texas to the Delta. Meanwhile, below-normal precipitation is likely across much of California, Oregon, and Nevada. Colder-than-normal weather across the northern Plains and most of the East will contrast with near- to above-normal temperatures elsewhere, including a broad area stretching from California to the western Gulf Coast region.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-159.7864828</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-77.7266606</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>18.9154965</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>65.5804586</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T01:12:19-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

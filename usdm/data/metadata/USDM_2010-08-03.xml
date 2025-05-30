@@ -1,0 +1,245 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2010-08-03</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>David Miskus</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — August 03, 2010</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2010-08-03</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2010-08-03</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2010-08-05</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — August 03, 2010
+
+## Introduction
+During the week of July 27-August 2, a series of cold fronts tracked southeastward out of the Canadian Prairies and across the northern tier of States before stalling across the Southeast. The cold fronts brought welcome relief from the oppressive summer heat and humidity across the northeastern quarter of the Nation, as well as scattered thunderstorms in the North-Central States. Additionally, waves of low pressure developed along the stationary fronts, triggering scattered showers and thunderstorms in the Midwest and Southeast. In the Southwest, an active summer monsoon continued, bringing widespread heavy showers and thunderstorms to most of Arizona, western New Mexico, southern Utah, and most of Colorado. Subnormal temperatures (-1 to -3 deg F) were reported in the upper Midwest, Northeast, and Southwest, with unseasonably cool weather (departures of -3 to  -8 deg F) over California and along the Pacific Coast. Elsewhere, above-normal temperatures prevailed, including highs between 100 to 105 deg F from western Oklahoma and Kansas eastward into southern Georgia. In Alaska, cool and wet weather was mainly confined to southwestern parts of the state, with drier and warmer conditions elsewhere. In Hawaii, increased showers at some interior and windward sections slightly eased drought conditions while most leeward sides remained dry.
+
+## Great Basin and Rockies
+Light showers (0.2 to 0.7 inches) fell on the eastern Great Basin and Rockies, not enough to warrant removal of D0, but adequate enough not to degrade conditions. In the western Great basin, seasonable dryness maintained D0-D2, with unseasonably cool weather in California and along the Pacific Coast. The exception to this was in west-central Colorado where 1 to 3 inches of rain alleviated D0 in Grand, western Summit, and northern Eagle Counties where surpluses exist out to 6-months.
+
+## Great Lakes region
+Heavy showers and thunderstorms (2 to 6 inches) fell right on the core D1-D2 areas of northern Wisconsin and the UP of Michigan, and on northeastern Minnesota (2 to 4 inches), requiring some modification of drought (one category) in the region. But since this is a long-term (several years) hydrological drought affecting river, lake, and well levels (e.g. 24-month values: 70 to 90 percent of normal, deficits of 8 to 16 inches), only the locations with the greatest amounts (more than 3 inches) were improved. Accordingly, D2 was changed to D1 along the Michigan-Wisconsin border and in St. Louis County of northeast Minnesota; D1 was reduced to D0 along the former D1 borders in northern Wisconsin, the UP of Michigan, and in northeastern Minnesota; and D0 diminished in northern Wisconsin, central UP of Michigan, and northeastern Minnesota. Even with these rains, some USGS stream flow sites in northeastern Minnesota, northern Wisconsin, and UP Michigan were still in the lower tenth percentile. Farther east, with generally less than 0.5 inches of rain, conditions remained static in northern lower Michigan.
+
+## Hawaii and Alaska
+In Hawaii, little or no rain fell on the leeward sides, worsening conditions on Lanai where pasture conditions are very poor and significantly impacting the cattle ranching operations. Ranchers are shipping feed from off-island, and may soon be forced to ship cattle off Lanai. As a result, Lanai was degraded to D3. Fortunately, increased windward and interior showers have improved conditions and lessened negative impacts on other parts of Hawaii. On the Big Island, seasonal afternoon showers during July have helped improve conditions in the prime Kona coffee belt (lower elevations of the west side; D2 to D1). The Kona upslope is the only leeward area in the Hawaiian Islands with a summer rainfall maximum rather than a winter maximum. Additionally, along the lower northeast slopes, trade wind showers have improved conditions from D2 to D1. On Oahu, recent trade showers have improved conditions along the Koolau Range; however, the Waimanalo Reservoir remains low, and a mandatory 30 percent cutback is still active for irrigation water use.
+In Alaska, unsettled weather was mainly confined to the southwestern portion of the state, where 1 to 2 inches of rain fell and temperatures averaged 1 to 3 deg F below normal. For the week, above-normal totals were measured at: Bethel 1.55 inches, Iliamna 1.39 inches, Cold Bay 0.81 inches, and King Salmon 0.64 inches. The summer wetness has brought southwestern sections of the state to above-normal precipitation levels at 30- and 90-days, and D0 was removed. Farther south, however, rain totals have been lower, and 90-day deficits remained in the Aleutians, thus maintaining D0 there.
+
+## Mid-Atlantic and Carolinas
+Little to no rain and a brief heat wave early in the period (highs in the mid-90s to 100 deg F) further exacerbated short-term drought in southern Pennsylvania, eastern West Virginia, central Maryland, central Virginia, and the Delmarva Peninsula. Fortunately, a cold front tempered the heat by Friday, but brought minimal rain to the area. With 30-, 60-, and 90-day deficits of 2 to 4, 3 to 6, and 5 to 8 inches, respectively, and most USGS average stream flows (1-, 7-, 14-, and 28-days) in the lower tenth percentile, D2 was expanded from extreme south-central Pennsylvania southeast into extreme northeastern North Carolina. Pasture conditions remained poor to very poor, with Virginia, Maryland, and Delaware ratings slightly increasing to 73, 60, and 47 percent, respectively, compared to last week. Much of Virginia, Maryland, and Delaware corn and soybeans were still rated poor to very poor (corn: 71, 49, and 34 percent; soybeans 64, 36, and 25 percent). Statewide short to very short topsoil moisture was at 83, 75, and 65 percent in Virginia, Maryland, and Delaware. An example of this summer’s heat and dryness is represented by Richmond, VA, where only 2.37 inches of rain had fallen since June 1 (normal 8.51 inches), and temperatures averaged nearly 6 deg F above normal.
+In contrast, more widespread moderate to heavy showers and thunderstorms (1.5 to 4 inches) occurred farther south, somewhat easing drought conditions in southwestern, south-central, and southeastern Virginia, and in most of the Carolinas, with isolated amounts of 4-8 inches. Overall, most of these areas saw some improvement (one category) where the heaviest rains fell, although the D1 was shifted eastward in northeastern North Carolina to better fit with the blends and indicators. Statewide topsoil moisture, most crops, and pasture conditions improved in the Carolinas from last week, with now only 35 and 20 percent of North and South Carolina reporting poor and very poor pastures.
+
+## Southeast, lower Mississippi River Valley, and Southern Plains
+Hit and miss showers and thunderstorms, with the emphasis on miss, prevailed across the Southeast and lower Mississippi River Valley, providing little if any relief from growing short-term dryness in the region. The general lack of rain was accompanied by unseasonable warmth, with highs at or above 100 deg F and weekly temperatures averaging 3 to 6 deg F above normal. This was most notable in southern Alabama and northeastern Mississippi where light rain fell (less than 0.5 inches). Four to eight inch deficiencies have accumulated over the past 60 days (and 6 to 12 inch deficits at 90-days), and USGS average stream flows have also dropped in response, with most below the twenty-fifth percentile and some sites under the tenth percentile in southern Alabama. Accordingly, D0 and D1 was expanded in these two states. Farther east, the heat continued into Georgia, but enough rain fell to keep conditions status-quo, except in east-central Georgia (near Augusta) and west-central South Carolina where 2 to 5 inches of rain alleviated the abnormal dryness. In east-central Florida, another week with little or no rain expanded the D0 southward into Indian River, St. Lucie, and Martin Counties, while D1 was added in Brevard County where both Titusville and Melbourne, FL, recorded the driest May-July on record (30 percent of normal rainfall). Even wells have started to depict some impacts, with below normal levels at a few sites in northern Brevard County.
+Farther west, northern and western Louisiana parishes received 1 to 2.5 inches of weekly rain, but with temperatures hitting triple-digits and rainfall and amounts only slightly above-normal, most areas remained status-quo. A few exceptions included eastern Texas (Rusk, Nacogdoches, Panola, and Shelby Counties) and southwestern Louisiana (Beauregard Parish) where 1.5 to 4 inches of rain was enough to improve conditions by one category. Farther north, little or no rain fell on eastern Arkansas, western parts of Mississippi, Tennessee, and Kentucky, extreme southern Illinois and Indiana, and the Missouri Bootheel, expanding D0 and D1 into the western Tennessee and Ohio Valleys as shortages of 4 to 8 inches have accumulated at 60-days. For example, Paducah, KY, measured only 3.87 inches of rain since June 1 (normal=9.18 inches), with temperatures averaging 3 deg F above normal. D2 and D3 were also expanded northward along the Arkansas-Mississippi border where less than half the normal rains have fallen the past 60- and 90-days. In western Oklahoma, excessive heat and a lack of rain, especially in Harper County, has aggravated drought impacts noted several weeks ago, with farm ponds dry, pastures very poor, and some crops failing or already lost. As a result, D2 was added to Harper County, with a slight D0-D1 expansion around the county.
+
+## The Northeast
+After last week’s widespread showers and thunderstorms, much drier but cooler weather (highs remained below 90 deg F) enveloped the region. A few areas (northwest and southeast Pennsylvania, western New Jersey) received moderate totals (1 to 1.5 inches) while northern Vermont and New Hampshire recorded 1.5 to 2.5 inches, but the remainder of New England observed under half an inch of rain. With this week’s lack of rain, USGS average stream flow levels dropped below the tenth percentile in the short-term (7-days or less) in southern New York, southern sections of Vermont and New Hampshire, most of Connecticut and Massachusetts, and interior Maine. USDA/NASS topsoil moisture (as of August 1) was rated short to very short covered 60, 56, 50, and 45 percent of land in Connecticut, Massachusetts, New Hampshire, and Maine, respectively. Pasture and crop conditions fared much better, however, with Connecticut’s pastures the worst at 28 percent poor to very poor. Since negative impacts were minimal, only a slight expansion of D0 was made.
+
+## The Southwest
+Another surge of monsoonal moisture dumped widespread 2 to 4 inches of rain on the eastern three-fourths of Arizona, the western two-thirds of New Mexico, southern Utah, and most of Colorado, allowing for a general one-category reduction of drought in New Mexico, southern and central Arizona, and a small portion of southern Colorado. Arizona July precipitation exceeded 150 percent of normal at many central and eastern locations, and the majority of the Mogollon Rim has been wet, with many locations indicating one of the top 5 wettest Julys ever. Even northeastern Arizona (northern Navajo and Apache Counties) received 1.5 to 2 inches of rain this week, resulting in the residual D2 area to be shifted farther west and shrunk (now in northeastern Coconino and northwestern Navajo Counties).  Improvements were made to areas with more than 2 inches of rain for the second consecutive week. In southern Colorado, although 1 to 3.5 inches of rain fell, only minor improvements were made since the Water Year-to-Date (since October 1, 2009) and 3-month percentiles justified D0, especially in San Juan, Hinsdale, and Huerfano Counties. Farther west, however, the moisture failed to reach most of western Arizona, southeastern California, and southern Nevada, and D0 slightly expanded westward. The AH impact line was modified in northwestern Arizona (to H) where showers made it into eastern Mohave and western Coconino Counties.
+
+## Forecast
+During the next 5 days (August 5-9), a cold front will track southeastward from the Midwest and stall in the Deep South, generating widespread showers and thunderstorms in the southeastern quarter of the Nation (approximately 0.5 to 2.5 inches of rain) and into New England. Moderate rains (1 to 1.5 inches) are also expected in the upper Midwest and from western Colorado across to southeastern Kansas, with a general decrease in the Southwestern monsoon rainfall totals (but not coverage) expected. The West, southern Plains, and eastern Great Lakes region should remain dry. Most of the lower 48 States should experience above-normal temperatures, especially in the south-central Plains eastward into the Tennessee Valley, while subnormal readings persist along the West Coast.
+The CPC 6-10 day forecast (August 10-14) calls for subnormal precipitation in the middle third of the Nation and westward into the lower Pacific Northwest, and in northeastern Alaska. Above normal rainfall is expected in the northeastern quarter of the Nation, along the central and eastern Gulf Coast, and in southern Alaska. Unseasonable warmth is forecast for the eastern two-thirds of the U.S. and northeastern Alaska, with subnormal temperatures confined to the West Coast and southwestern Alaska.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-165.1264349</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-68.1116918</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>18.9154965</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>67.485814</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T06:51:44-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

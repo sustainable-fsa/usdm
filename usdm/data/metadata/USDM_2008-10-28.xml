@@ -1,0 +1,240 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2008-10-28</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>David Miskus</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — October 28, 2008</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2008-10-28</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2008-10-28</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2008-10-30</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — October 28, 2008
+
+## Introduction
+A vigorous upper-air low slowly tracked northeastward from the central Plains into the Northeast, bringing widespread rainfall to much of the eastern half of the Nation.  Over 2 inches of precipitation fell on the middle and lower Missouri Valleys, along the eastern Gulf and southern Atlantic Coasts, and in the Northeast.  In contrast, high pressure kept the West and Rockies dry, while rain bypassed the southern Plains.  Subnormal temperatures were the norm throughout most of the lower 48 States, except for unseasonable warmth in the Southwest.
+
+## Alaska and Hawaii
+In Alaska, a storm system brought between 0.3 to 0.6 inches of precipitation (liquid equivalent) to northwestern Alaska, easing D0 conditions along the coast.  Further inland, however, little or no precipitation fell, maintaining abnormal dryness there.
+In Hawaii, showers fell on the westernmost islands of Kauai and Oahu, especially on Oahu during the weekend, but the totals (0.5 to 3 inches, with up to 5.38 inches at Oahu Forest NWR) were not enough to bring reservoirs and groundwater levels back to where they needed to be, keeping conditions status-quo.
+
+## Great Lakes Region and Upper Midwest
+As the slow-moving upper-air low tracked eastward away from the central Great Plains, light to moderate precipitation fell on much of the Midwest and Great Lakes region Thursday into Friday.  Most of the D0-D2 drought area in the upper Midwest generally received less than an inch of precipitation, including the core D2 region in north-central Wisconsin that measured under 0.5 inches.  Even with the recent rain, less than 70% of normal precipitation has fallen during the past 90-days from southeastern Minnesota northeastward into the Upper Peninsula of Michigan, creating shortages of 4 to 8 inches.  In this area, USGS stream flows remained in the lower 10th percentile, with a few sites at record low levels, for 1-, 7-, 14-, and 28-days ending October 28.  Accordingly, status-quo was applied to this region.   In contrast, 1 to 2.5 inches of rain fell on southwestern Minnesota, alleviating D0 and improving D1 by a category.
+
+## The Plains
+Early in the week, a slow-moving, upper-air low produced a widespread swath of 1 to 4 inches of precipitation from northern Oklahoma and southwestern Missouri northward into western Minnesota and eastern South Dakota, including light snow in parts of Nebraska and Kansas.  Unfortunately, the bulk of the heavy precipitation missed most of the Plains drought areas, except in eastern South Dakota and far western Kansas where D0 was erased.  Elsewhere, subnormal temperatures, light precipitation (0.1 to 0.5 inches), and little to no evapotranspiration maintained conditions in the northern and central High Plains.
+In contrast, another week of dry and windy, albeit cool, weather further deteriorated moisture conditions in the southern Great Plains, especially in south-central Oklahoma, northern and south-central Texas.  With October normally the second wettest month of the year in much of Texas, decent rains have fallen on the Panhandle and eastern sections, but have largely missed many areas in-between, particularly south-central sections.  During the past 90- and 180-days, deficiencies of 4 to 8 and 8 to 16 inches, respectively, have accumulated between Austin and Corpus Christi. Since the start of the year, Austin/Bergstrom, San Antonio, and Victoria have deficits of 13.31, 14.54, and 14.37 inches, respectively, or around half of normal precipitation.  Around Sweetwater, TX region, county extension agents reported adverse growing conditions to emerged small grains or delayed planting of small grains due to dryness caused by light, spotty September and October rains.  Accordingly, D3 was extended northward into Burnet and Williamson counties, and D2 reached southeastward to the Gulf Coast and increased to the west of San Antonio.  D1 now covered most of Texas climate division (cd) 6 and pushed into southern cd 3, while D0 developed in the Dallas-Ft. Worth and slightly expanded outward in south-central Texas drought area.
+
+## The Southeast, Tennessee and Ohio Valleys, and mid-Atlantic Coast
+In the Midwest, rain from the weakening upper-air low and associated cold front dropped 0.5 to 1.5 inches of rain on the Ohio and Tennessee Valleys.  Scattered, heavy showers (more than 2 inches) also occurred in northern Mississippi and west-central Tennessee, and at a few locations in the southern Appalachians and Virginia Piedmont.  Meanwhile, a wave of low pressure developed along the southern section of the cold front in the Southeast, becoming the focal point for heavy rains (2 to 4 inches, locally to 8 inches near Charleston, SC) along the eastern Gulf and southern Atlantic Coasts.    Later in the weekend, a strong upper-air low formed off the mid-Atlantic Coast along the northern extent of the cold front and moved northward, dumping widespread heavy precipitation (including high-elevation snows) on much of the Northeast.
+Where the rains exceeded 2 inches, a one category improvement was made to some D0 and D1 areas, including southern Alabama, the Florida Panhandle, southern Georgia, and eastern South Carolina.  Some reduction of drought (mostly D0, some D1) was also made along the western and northern edge of the core Southeast drought region where 1.5 to 2.5 inches fell (western Tennessee, western Kentucky, central Indiana, northern Ohio), but the main D2-D4 region remained intact.  Rainfall was generally too spotty and light (less than an inch) to provide much relief from the long-term drought, and the USGS stream flow values (1-, 7-, 14-, and 28-days) remained at or near record low flows as of October 28.  In southwestern Virginia and northwestern North Carolina, however, 1 to 3 inches fell, and minor improvements were made there.  In contrast, D1 extended northward into southeastern West Virginia (Pocahontas county) as less than 0.5 inches was measured.  In addition, the D0(A) region in the eastern Ohio Valley and mid-Atlantic was pared away, especially in central Pennsylvania and central New Jersey where 1.5 to 2.5 inches of precipitation fell.  The rainfall was enough to prevent a developing area of D0 in the mid-Atlantic, but not enough to relieve existing drought in the remainder of  the Delmarva Peninsula and eastern North Carolina.  Finally, continued showers warranted the removal of the small D1(A) area near Tampa, FL area, but since USGS stream flows remained in the lower 10th percentile, D0(H) was maintained in west-central Florida.
+
+## The West
+After a quick commencement to the 2008-09 wet season (starting October 1) in the Far West (1 to 4 inches of precipitation during October 4-5 from central California northward), Pacific storm systems have been mostly absent, and the few that occurred were weak and shifted well north.  This week was no different as dry and mild weather enveloped the Southwest while dry and cool conditions affected the Northwest.  As a result, the slow (dry) start in the Northwest has accumulated 60-day deficits of 3 to 6 inches in parts of western Washington and Oregon, while less than 50% of normal precipitation has fallen on interior sections.  October 28 USGS stream flows have dropped below the 25th percentile at many sites, while 47% and 60% of pastures and ranges in Oregon and Washington were rated poor or very poor, according to NASS/USDA.  As a result, D0 was expanded westward from central Washington and Oregon to the Cascades.
+In addition, although it is still early in the wet season, particular interest will be focused on precipitation and temperatures during the 2008-09 wet season in California.  California's reservoir storage slipped below the long-term average during the Spring of 2007 following the miserably dry 2006-07 wet season, and further declined thanks to the record dry Spring of Water Year 2007-08.  As of October 1, the storage figure for the state's 151 intrastate reservoirs stood at 70% of average, and 95% of the pastures and ranges were rated very poor or poor.  USGS stream flows continue to hover near record low levels, particularly in northern California.
+
+## Forecast
+During the next 5 days (October 30-November 3), an upper-air low over New England will weaken as high pressure builds in, bringing more seasonable temperatures and drier conditions to the Northeast over the next few days.  Mostly dry conditions will prevail across the rest of the U.S., with unseasonable warmth in the West, gradually spreading eastward into the Plains.  A cold front will sweep across the upper Midwest and Great Lakes region this weekend, bringing light precipitation and dropping temperatures after a brief warm-up on Thursday.  Finally, a strong system approaching the West Coast will bring heavy precipitation (more than 4 inches) and cooler air to the Pacific Northwest and the northern half of California over the weekend, then slowly move into the Great Basin and northern Rockies next week.  Unfortunately, the Southwest will remain mostly dry.
+The CPC 6-10 day forecast (November 4-8) calls for subnormal temperatures in the western third of the Nation and unseasonable warmth in the northeastern quarter of the U.S.  Unsettled, wet weather is expected in the western two-thirds of the country (except for near-normal precipitation in the Southwest), while subnormal precipitation is forecast for the Northeast and coastal mid-Atlantic.  Alaska is expected to be cold and dry.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-162.6410218</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-74.2801833</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>18.9154965</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>71.3980481</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T06:43:32-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

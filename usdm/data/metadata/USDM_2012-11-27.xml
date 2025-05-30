@@ -1,0 +1,246 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2012-11-27</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Eric Luebehusen</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>U.S. Department of Agriculture</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — November 27, 2012</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2012-11-27</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2012-11-27</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2012-11-29</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — November 27, 2012
+
+## Introduction
+Mostly dry weather prevailed across drought areas of the contiguous U.S., with above-normal temperatures across the western half of the nation contrasting with near- to below-normal temperatures east of the Mississippi.  Locally heavy rain and mountain snow persisted, however, across the central and northern Pacific Coast states as well as the northern Rockies.  Meanwhile, a disturbance generated beneficial showers late in the period from the western and central Gulf Coast into the lower Ohio River Valley, although amounts were generally too light to afford any notable drought reduction.  Rain from this system had not yet reached the Southeast as of the Tuesday morning cutoff for inclusion in this analysis; any potential benefits from the Southeastern rainfall will be addressed in next week’s Drought Monitor.
+
+## Alaska, Hawaii, and Puerto Rico
+In Alaska, cold, dry conditions continued, with temperatures averaging up to 10&amp;#176;F below normal.  Dry weather has intensified over the past 60 days, and the increasing precipitation deficits along with declining SNOTEL Snow Water Equivalents (in the 20th percentile or lower across southern Alaska) led to an expansion of Abnormal Dryness (D0).  In Hawaii, significant rain (1 to 4 inches) fell in some drought areas; however, it remains it's too early to tell if it was enough to show improvement.   There were no concerns for drought on Puerto Rico, with moderate to heavy rain (2-6 inches) reported across central and eastern sections of the island.
+
+## Central and Northern Plains
+Unseasonably mild, dry conditions maintained or increased drought across much of the region, although a swath of light to moderate snow (0.25 to 1.0 inch liquid equivalent) afforded localized drought relief in southwestern South Dakota.  The most notable changes were the expansion of Exceptional Drought (D4) in southern Kansas as well as an increase in Severe to Exceptional Drought (D2-D4) in central and northeastern South Dakota.  Over the past 90 days, rainfall has totaled less than 25 percent of normal from south-central Nebraska northward into central South Dakota.  Illustrating the drought’s impacts, winter wheat was rated 64 and 25 percent poor to very poor in South Dakota and Kansas, respectively, as of November 25, while Kansas’ pastures were rated 82 percent poor to very poor.  Extreme to Exceptional Drought (D3-D4) also continued to afflict eastern Colorado, where pastures were rated 85 percent poor to very poor as of November 25.  A small decrease in Exceptional Drought (D4) was made to southwestern South Dakota, where updated data and input from the field indicated some improvement; precipitation (including some snow) in this corner of the state has been near- to above-normal over the past 30 to 60 days.
+
+## Delta
+Late-period showers provided a temporary reprieve from drought expansion, although Abnormally Dry conditions (D0) expanded in northeastern Louisiana where rain was generally light.  Showers were heaviest (1-2 inches) in far northern Louisiana and central Mississippi, preventing any expansion of D0 across these locales.  Lighter showers (0.5 to 1 inch) also fell across southern Louisiana, preventing expansion of Moderate Drought (D1) or Abnormal Dryness; however, if additional rain does not fall across the southern Delta soon, drought will likely intensify and expand.  Streamflows are lowest in southwestern Louisiana (5th percentile or lower), and have been on the decline across the rest of the region in response to a drier-than-normal November.
+
+## Mid-Atlantic and Northeast
+Mostly dry, cool weather continued.  Abnormal Dryness (D0) was introduced along the Vermont-New Hampshire border to reflect declining streamflows as well as increasing precipitation deficits (locally less than 50 percent of normal over the past 60 days).  Farther south, Moderate Drought (D1) expanded across southern Virginia, where 90-day rainfall has tallied less than 60 percent of normal and streamflows have likewise dropped into the 10th percentile or lower.
+
+## Midwest/Tennessee Valley
+Dry weather resulted in increases in drought intensity and coverage, although some showers were noted in southern portions of the region.  Rain (0.25 to 1 inch) was generally confined to a pair of narrow bands, one extending across western and central Kentucky and the other across southwestern and central Tennessee.  Otherwise, dry weather prevailed.  Consequently, modest increases in D0 (Abnormal Dryness) and Moderate Drought (D1) were made to reflect increasingly dry conditions at 30 and 60 days as well as declining streamflows (20th percentile or lower) in eastern Tennessee, central and northern Kentucky, as well as neighboring portions of southern Illinois, Indiana, and Ohio.  Farther north, a tight gradient exists between favorable rainfall over the past 90 days in central portions of Illinois and Indiana with sharply drier conditions (locally less than 50 percent of normal over the past 90 days) from northern Illinois into northern Indiana and southern Michigan.  Many streamflows in these locales are currently in the 5th percentile or lower.  Declining streamflows and increasing short-term precipitation deficits also resulted in the expansion of Abnormal Dryness (D0) across central and eastern Michigan as well as Moderate Drought (D1) in western sections of Michigan’s Upper Peninsula.   In the upper Midwest, Moderate to Severe Drought (D1 and D2) were expanded across northern Minnesota and northwestern Wisconsin, where short-term precipitation deficits were causing rapid declines in soil moisture and streamflows.  The lingering benefits of a single heavy rain event in northeastern Minnesota during mid-June have been steadily undone by extremely dry conditions during the rest of the summer and autumn.
+
+## South-Central U.S.
+With the exception of far-southern Texas, drought intensified across much of the region as rainfall deficits mounted and soil moisture, streamflows, and other water reserves rapidly declined.  The rain (0.5 to 2 inches), which fell primarily in the Lower Rio Grande Valley, afforded some modest reductions in Extreme Drought (D3) near and to the east of Laredo.   Otherwise, widespread drought intensification was noted from southeastern Texas northward into Oklahoma, with substantial increases in the coverage of Extreme (D3) to Exceptional (D4) Drought in northern Texas and southern and eastern Oklahoma.  The drought’s impacts are far reaching, and are noted in the region’s agricultural reports.  As of November 25, the Texas winter wheat crop was rated 40 percent poor to very poor, a 15-point jump from last week.  Meanwhile, the state’s pastures have deteriorated from 43 percent poor to very poor in late October to 53 percent poor to very poor as of November 25.  In Oklahoma, winter wheat and pastures stood at 44 and 80 percent poor to very poor, respectively.  High-resolution, satellite-derived Vegetation Health Index (VHI) data indicated the worst conditions were entrenched both west of Corpus Christi and west of San Antonio, Texas, while a larger, more contiguous area of poor vegetative health extended from Lubbock, Texas northward into the Oklahoma Panhandle and eastward toward Ponca City, Oklahoma, along the Kansas border.
+
+## Southeast
+Despite cooler-than-normal weather, conditions deteriorated across much of the region.  It is important to note the rain which fell over the Southeast Tuesday into Wednesday did so after the Tuesday morning (8 am, EST) cutoff for this week’s U.S. Drought Monitor (USDM); the impacts of this rain — if any — will be addressed in next week’s issuance of the USDM.  Abnormal dryness and drought expanded or intensified from the Carolinas into northern Florida.  A disturbance triggered showers (0.5 to 1 inch) in west-central Alabama, preventing drought expansion in this locale for the time being.  Elsewhere, rainfall over the past two months has totaled less than 50 percent of normal (locally less than 25 percent of normal) from northern Florida and southern Alabama northeastward across much of Georgia into central portions of the Carolinas.  Streamflows across much of the Southeast — excluding central and southern Florida — are in the 5th percentile or lower.  Further illustrating the drought’s increasing impacts, pastures rated poor to very poor in Georgia have jumped from 29 to 53 percent over the past month (as of November 25), while winter wheat emergence in North Carolina stood at 45 percent as of November 25, 13 points behind last year and 7 percentage points behind the 5-year average.
+
+## Western U.S.
+Stormy conditions continued to provide beneficial precipitation across western and northern portions of the region, while dry, unfavorably warm weather prevailed over central and southern drought areas of the west.
+From central California into the northern Rockies and Northwest, Pacific moisture continued to fuel locally heavy rain and high-elevation snow (2 to 6 inches liquid equivalent, locally more), maintaining a favorable start to the winter wet season.  However, high snow levels were reflected in the generally low Snow Water Equivalent (SWE) rankings; across the southern Cascades and northern Rockies, many SNOTEL sites are in the lowest 50th percentile, with some stations in the 20th percentile or lower.  This is in sharp contrast to the precipitation rankings, which are almost all in the upper 50th percentile, with many stations in the 80th percentile or higher.  Consequently, snowpacks are off to a poor start despite the wet weather pattern.  Nevertheless, the heavy precipitation (mostly rain) resulted in some decrease of D0 (Abnormal Dryness) and D1 (Moderate Drought) in northern California.
+In central and southern portions of the region, warm, dry weather maintained or intensified drought.  Unlike areas farther north, the water year has gotten off to a poor start from central and southern California into the Four Corners region.  Precipitation over the past 90 days has totaled less than 50 percent of normal, with some locales reporting less than 25 percent of normal.  These short-term deficits coupled with lingering long-term water shortages led to an increase of Moderate to Severe Drought (D1-D2) from southern California into western New Mexico, while an area of Extreme Drought (D3) was introduced in southwestern Arizona to reflect the greatest negative departures (locally less than 10 percent of normal over the past 90 days).   In central Colorado, SNOTEL precipitation and Snow Water Equivalent (SWE) rankings were mostly in the lowest 10th percentile, with many stations slipping below the 5th percentile.  Consequently, Extreme Drought (D3) was expanded to reflect the increasingly dry conditions.
+
+## Forecast
+Pacific moisture will continue to stream onshore, resulting in moderate to heavy rain and high-elevation snow (locally more than 12 inches, liquid equivalent) from central California into the Northwest and northern Rockies.  Farther east, a weak cold front may bring some light showers to the Mississippi Valley late in the period, while light showers are possible in southern Texas.  Otherwise, dry, warm conditions are expected across the remainder of the contiguous U.S., affording most drought areas little — if any — relief over the next 5 to 7 days.  The CPC 6-10 day forecast for December 4-8 calls for above-normal temperatures across much of the nation, with cooler-than-normal weather confined to Southeastern Coastal areas.  Drier-than-normal weather is expected to persist from the Four Corners region into the central and southern Plains and Southeast, while wetter-than-normal conditions prevail across the northern third of the nation.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-168.9506933</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-71.0222549</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>18.9154965</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>71.3980481</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T07:04:02-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

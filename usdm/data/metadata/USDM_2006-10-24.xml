@@ -1,0 +1,240 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2006-10-24</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Brad Rippey</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>U.S. Department of Agriculture</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — October 24, 2006</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2006-10-24</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2006-10-24</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2006-10-26</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — October 24, 2006
+
+## Introduction
+
+
+## Hawaii and Puerto Rico
+Heavy rains drenched parts of Hawaii, particularly across the central and eastern islands.  In a 96-hour period from October 16 to October 20, Big Island totals reached 21.60 inches in Pahoa, 15.00 inches in Pali, and 11.65 inches in Mountain View.  Most of Pahoas rain fell in a very short period on October 16-17, totaling 15.79 inches in 6 hours and 21.36 inches in 12 hours.  Elsewhere on October 16-17, 24-hour totals on Maui included 10.11 inches at Kaupo Gap and 8.14 inches at Oheo Gulch.  However, heavy rain bypassed many areas with abnormal dryness or in moderate drought, resulting in only modest reductions of D0 and D1.  Meanwhile in Puerto Rico, some heavy showers (locally in excess of 5 inches) dented the area of abnormal dryness (D0) across central and southeastern portions of the island.
+
+## The Northern and Central Plains
+The drought depiction remained virtually unchanged under a cool, mostly dry weather regime.  A core area of extreme drought (D3) continued to cover much of Wyoming and western Nebraska, and adjacent areas in southeastern Montana and the western Dakotas.  Despite recent topsoil moisture improvements, rangeland and pastures were still a long way from full recovery.  On October 22, USDA/NASS rated one- to two-thirds of rangeland and pastures in very poor to poor condition in all seven states across the northern and central Plains: Colorado and Montana, 35%; South Dakota, 43%; Nebraska, 45%; North Dakota, 48%; Kansas, 51%; and Wyoming, 62%.  However, recently emerged winter wheat was faring better because of recent precipitation and ranged from just 1% very poor to poor in Nebraska to 7% in Colorado and Kansas.
+
+## The South-Central and Midwestern States
+Starting in mid-October, heavy rain soaked two distinct areas.  One band stretched roughly from the Red River Valley (TX-OK border) northeastward into Illinois and beyond, while the other struck areas from the western and central Gulf Coast regions northeastward to the southern Appalachians.  Most of the rain fell in two primary episodes during the period October 15-20.  Starting on October 15, daily rainfall records were broken in locations such as Wichita Falls, TX (4.34 inches), and McAlester, OK (3.19 inches).  During the next two days, record-setting rains swept across the South.  Selected daily records for October 16 included 5.86 inches in Monroe, LA, and 5.33 inches in Vicksburg, MS.  The following day, records for October 17 reached 1.90 inches in Charlotte, NC, and 1.88 inches in Mobile, AL.  With additional rain during the second event, October 15-19 totals topped 20 inches in northern Louisiana locations such as Olla (21.51 inches) and Natchitoches (21.02 inches).  In Houston, TX, month-to-date rainfall (13.77 inches) climbed to its fourth-highest October level on record behind 17.64 inches in 1949, 16.05 inches in 1984, and 14.65 inches in 2002.
+One effect of the heavy rain was to eliminate the area of exceptional drought (D4) in southeastern Oklahoma and northeastern Texas, despite lingering 21-month precipitation deficits locally in excess of 30 inches.  These areas remain in extreme drought (D3), and many more significant rainfall events will be needed to promote additional pasture and hydrologic drought recovery.  Farther east, an area no longer considered dry or in drought expanded to include much of Louisiana, Mississippi, and northern Alabama.  Farther north, however, little rain fell roughly north of I-40 from the TX-OK border to Oklahoma City, OK, and north of I-44 from Oklahoma City to Joplin, MO.  As a result, there was a slight worsening of drought in parts of northern Oklahoma, southern Kansas, and central and northern Missouri.  In particular, severe to extreme drought (D2 to D3) expanded to encompass all of north-central Oklahoma.  On October 22, 60% of Oklahomas rangeland and pastures were rated very poor to poor, driven in part by long-term drought but also by dry conditions in the north.  In addition, Oklahomas proportion of winter wheat rated very poor to poor, at 27%, was the highest among the nations 18 major producing states.
+Recent rains also bypassed parts of south-central Texas, where a core area of extreme drought (D3) remained well established.  Through October 24, year-to-date rainfall in San Antonio was just 17.38 inches (63% of normal), or more than 10 inches below normal.
+
+## The Southeast
+Heavy rain spread as far east as the southern Appalachians, southwestern Georgia, and western Florida, but largely bypassed the remainder of the southern Atlantic region.  In particular, little or no rain fell across peninsular Florida.  The AH designation was retained in areas that remained dry, while an H label (hydrologic drought only) was placed on areas farther west (e.g., Alabama).  Abnormal dryness (D0) and moderate drought (D1) were expanded farther to the south across Floridas peninsula.  Through October 24, Georgia locations in the D1AH region reporting year-to-date rainfall less than 70% of normal and more than 12 inches below normal included Macon (66% and -12.73 inches) and Brunswick (66% and -14.20 inches).  In northern Florida, Tallahassee (66% and -18.62 inches) and Gainesville (68% and -13.68 inches) met the same criteria.
+
+## The Upper Great Lakes Region
+A pesky area of moderate to extreme drought (D1 to D3) remained entrenched across the upper Great Lakes region, especially across northern Minnesota.  Through October 24, year-to-date precipitation totaled just 15.64 inches (73% of normal) in International Falls, MN.  In northern Michigan, Marquettes June-September rainfall of 8.87 inches (66% of normal) was its second-lowest such total in the last 45 years, behind only 7.69 inches in 1976.  In addition, the surface elevation of Lake Superior remained near its historic monthly mean low of 600.8 feet, set in September 1926.  The mean surface elevation in September 2006 was 601.0 feet, 1.2 feet below the long-term mean.
+
+## The West
+The return of widespread rainfall helped to eliminate drought effects in the Pacific Northwest.  As a result, moderate drought (D1) was removed from western Washington.  Nevertheless, the 2006-07 wet season is off to a slow start in parts of the Northwest.  From October 1 to October 24, Washington rainfall totaled just 2.48 inches (36% of normal) in Quillayute and 1.00 inch (46%) in Seattle.  Farther south, abnormal dryness has not yet been introduced in northern and central California and the western Great Basin.  However, those areas are being carefully monitored as a result of several factors, including a slow start to the wet season, unusually poor pasture and rangeland conditions, and the threat of late-year wildfire activity.
+
+## Forecast
+Weather features to watch in the next 5-day period (October 26-30) that may affect areas of dryness or drought include: 1) Remnant moisture from former eastern Pacific Hurricane Paul will be absorbed into a storm system crossing the United States; 2) Locally heavy snow will blanket the central Rockies on October 26, while heavy showers and thunderstorms will return to the western and central Gulf Coast States; 3) For the remainder of the week, widespread rain will fall along and south of the storms track from the central Plains into the Northeast; 4) Early next week, in the storms wake, dry weather will prevail nearly nationwide, accompanied by mild weather in the West and chilly conditions in the East.  The 6- to 10-day (October 31 - November 4) outlook from the Climate Prediction Center calls for near- to below-normal precipitation across most of the United States.  Wet weather will be limited to southern Florida and the Northwest.  Meanwhile, below-normal temperatures from the northern Rockies into the Northeast will contrast with unusually warm weather in southern Florida and from the Sierra Nevada into the lower Rio Grande Valley.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-160.236083</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-65.6935099</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>17.8841923</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>49.0590237</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T01:16:18-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

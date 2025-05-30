@@ -1,0 +1,284 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2022-10-04</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Richard Tinker</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Brad Pugh</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — October 04, 2022</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2022-10-04</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2022-10-04</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2022-10-06</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — October 04, 2022
+
+## Introduction
+Major Hurricane Ian made landfall in southwestern Florida on September 28 and then reemerged offshore of the Atlantic coast, with another landfall near Georgetown, South Carolina two days later. Excessive rainfall (more than 10 inches) caused widespread inland flooding throughout the central Florida Peninsula and heavy rainfall overspread the Carolinas, Mid-Atlantic, and central Appalachians. After a mid-level low pressure system tracked inland from the northeastern Pacific and became stationary over the interior West, heavy precipitation (1 to 3 inches) occurred across northern Idaho along with the north-central Rockies. Therefore, improvements were made across much of the East and north-central Rockies. Conversely, a dry week resulted in an expansion of abnormal dryness (D0) and moderate drought (D1) along with intensifying drought conditions across much of the Great Plains, Mississippi Valley, and Midwest. D1 was added to parts of the Pacific Northwest. A mix of improvements and degradations were made to Hawaii, while Alaska and Puerto Rico remain drought-free.
+
+## Caribbean
+No changes were necessary for Puerto Rico this week.
+September 2022 was significantly wetter than normal across St. John, St. Croix, and St. Thomas. Windswept Beach on St. John reported 11.56 inches of rain this past month, their wettest September since Hurricane Irma moved through the region in 2017. St. Croix also recorded nearly a foot of rain (11.41 inches), which is almost twice the normal amount. King Airport on St Thomas reported 7.41 inches of rain, over 1.5 inches above normal. Despite significant dryness impacting these islands earlier this year, St. Croix has now received over 3 inches more than normal rainfall for the year to date, and St. Thomas is only about 1.5 inches below normal for the year (nearly 95 percent of normal).
+These conditions kept St. Thomas free of any dryness or drought designation, and one-category improvements were noted on the other two islands. St. John is now free of any dryness or drought designation while St. Croix climbed out of drought to D0 (abnormal dryness) as the entrenched moisture shortages on the island through 2021 continue to ease.
+
+## High Plains
+Short and long-term NDMC blends, SPIs, soil moisture, and crop conditions support a 1-category degradation for southern South Dakota, southwestern Nebraska, and parts of Kansas. Pond levels are low in Kansas and limited soil moisture is available for winter wheat planting. Abundant recent precipitation (locally more than 2 inches) prompted improvements along the western slopes of the Colorado Rockies. Improvements were also made to northeastern Colorado due to relatively significant precipitation (more than 0.5 inch) this past week. Following heavy precipitation during early August, little to no rainfall for a six week period resulted in an increase in D1 across southeastern Colorado. Beneficial precipitation during the past 30 to 60 days along with improving soil moisture conditions prompted improvements across parts of Wyoming.
+
+## Midwest
+Increasing short-term precipitation deficits, periods of above-normal temperatures, and rapidly declining soil moisture indicators support widespread 1-category degradations throughout a majority of Missouri and parts of Iowa. 30 to 60-day precipitation deficits resulted in an expansion of abnormal dryness (D0) across southwestern Wisconsin and moderate drought (D1) across northern Wisconsin. Based on 30 to 60-day SPIs and support from soil moisture indicators, a slight expansion of D0 and D1 was warranted for southern and eastern parts of Lower Michigan. Meanwhile, across the Ohio River Valley and eastern Corn Belt, increasing 30-day precipitation deficits led to a larger spatial coverage of D0. D1 was expanded in western Kentucky with the addition of severe drought (D2) in the lower Ohio River Valley, consistent with impact reports such as increasing wildfire activity and the requirement of dredging operations along the Ohio River between Paducah and Cairo. Large precipitation deficits dating back 120 days support a large expansion of D0-D2 coverage throughout Minnesota. Lake Minnetonka in Hennepin County is down to its lowest level since the 2012 drought.
+
+## Northeast
+As the remnant low pressure system of Hurricane Ian tracked northward, heavy rainfall overspread southern Maryland, Delaware, and southern New Jersey where 7-day totals ranged from 2 to 6 inches. A broad 1-category improvement was made with this heavy rainfall swath. Despite the heavy amounts across central to southern New Jersey, a 2-category improvement was not made this week given the longer term impacts such as low ground water levels dating back to last winter. Improvements in the New York City area were due to recent heavy rainfall, and additional improvements may be warranted for this area next week. Eastern New York and southern New England had improvements as well, based on 60 to 90-day SPI and streamflows. Abnormal dryness (D0) was reduced in western New York based on SPI at various time scales, streamflows, and NASA SPoRT soil moisture. The D0 area area across central and eastern Pennsylvania was trimmed slightly with precipitation amounts this past week of near 1”.
+
+## Pacific
+Any remaining abnormal dryness (D0) was removed from the southeast interior of Alaska where precipitation averaged more than 150 percent of normal during September.
+An early cold front for the season resulted in beneficial rainfall and improving drought conditions on Kauai, but low streamflows continue to support severe drought (D2) on the northeast side. Near normal rainfall during September led to improvements on the northern side of Maui, and streamflows have increased across eastern Maui where moderate drought (D1) was eliminated. On the Big Island, rainfall and NDVI data support an expansion of extreme (D3) drought. Conversely, on the Kona side of the Big Island, recent wetness supports a decrease in abnormal dryness (D0).
+Koror in Palau experienced a very dry September 2022. With 5.26 inches reported, it was their driest month since 4.66 inches fell March 2020. This is not enough to keep up with demand. However, ample rainfall was recorded during December 2021 – August 2022 (10 to 24 inches each month) so the region remains free of dryness and drought at this time.
+In addition, the Marianas Islands remain free of dryness and drought. The islands had a multi-month spell with below-optimal rainfall (December 2021 – June 2022), but amounts increased over the last 3 months. In Guam, September brought 13.74 inches of rain, which was their wettest month since October 2021.
+In western Micronesia, short-term abnormal dryness remains in place. September 2022 brought slightly sub-optimal rainfall to both locations (between 7 and 8 inches). This was the fourth month of the past five with sub-optimal totals in Ulithi, and the second consecutive month with less than 2/3 normal at both sites. At this time, not significant impacts have been reported.
+In the stripe of islands from north-central through eastern Micronesia, dryness and drought are absent in Woleai, Chuuk Lagoon, Pohnpei, Pingelap, and Kosrae. Near to above-normal rainfall was observed during September 2022 throughout this region, with totals ranging from 10.26 inches at Woleai to 18.6 inches in Kosrae. And since March 2022, only one month at one site received below optimal rainfall, barely (7.93 inches at Chuuk in June 2022).
+Below-normal rainfall has been more prevalent across central and southern Micronesia. In central parts of this region, rainfall has been abundant in Nukuoro. Between 11 and 25 inches fell during each of the last 7 months, including 12.22 inches in September 2022. In contrast, drought is affecting areas to both the north and south.
+To the north, 4 of the past 5 months brought sub-optimal rainfall to Lukunor, and the 3.7 inches measured in September was the lowest monthly total since February 2020. For both August and September, less than 36 percent of the normal monthly total was reported. The lack of rainfall has reduced water catchment levels. Short-term moderate drought is identified there.
+To the south of Nukuoro, drought has intensified again across Kapingamarangi. Drought has waxed and waned over the past several years and is now waxing again. Four of the past five months brought under 45 percent of normal rainfall, and only July 2022 brought enough rain to keep up with demand. According to local reports, water catchment levels were around half of normal, and crops were starting to deteriorate. Conditions intensified to severe drought, with both long-term and short-term impacts.
+Abnormal dryness ended in Wotje, which leaves all reporting locations in the Marshall Islands free of dryness and drought. For September, the nation was sharply divided, with three sites reporting abundant rainfall, and three others reporting sub-optimal totals. Ailinglapalap, Majuro, and Mili recorded 14.89, 17.72, and 19.08 inches, respectively. Meanwhile, September 2022 dropped  7.34 inches on Kwajalein, 6.07 inches on Jaluit, and 6.61 inches at Wotje. The latter site has the driest climatology of all monitored U.S.-affiliated Pacific islands. In both Kwajalein and Jaluit, most months since March 2022 brought above-optimal rainfall amounts, so no abnormal dryness is introduced at this time. Wotje was experiencing a degree of abnormal dryness recently, but with the last few months bringing near to slightly above optimal rainfall totals, significant precipitation deficits and impacts have been alleviated for the time being.
+In the Southern Hemisphere, American Samoa deteriorated into moderate drought this week. Only 3.92 inches fell in Pago Pago in September 2022, exacerbating periodic subnormal rainfall dating back several months. A local Atwater division was forced to shut down one water well, which has dried out. Water conservation and requests for voluntary usage reductions are being encouraged.
+
+## South
+Due to a very dry pattern during the past month along with periods of above-normal temperatures, a 1-category degradation was necessary for parts of the Ozarks, lower Mississippi Valley, western Gulf Coast, and southern Great Plains. 30-day precipitation deficits exceed 4 inches in eastern Oklahoma and northwestern Arkansas. Much of these areas along with interior portions of southeastern Texas have received less than 0.10 inch of rainfall during the past 30 days. 30-day SPI/SPEI along with NLDAS and NASA SPoRT soil moisture were the primary indicators used in depicting these degradations along with recommendations from regional partners. Low to dry ponds, poor pastures, and cattle selloffs continue to be major impacts for Arkansas and Oklahoma. Although moderate drought (D1) was added to southwestern Louisiana, a broader D1 coverage was not designated this week due to a strong wet signal at 60 days and lack of support from soil moisture indicators. A couple of small D1 areas were added to Tennessee (near Nashville and northeast of Chattanooga), based on SPI/SPEIs and declining soil moisture.
+
+## Southeast
+As Hurricane Ian made landfall in southwestern Florida and again along coastal South Carolina, widespread, heavy rainfall supported a broad 1 to 2-category improvement from the Atlantic coast of Florida north to the Carolinas and Virginia. A 2-category improvement was made to northeastern North Carolina and southeastern Virginia where rainfall amounts exceeded 4 inches which nearly eliminated 60 to 90-day precipitation deficits. A drier-than-normal September and beginning of October along with declining soil moisture (NASA SPoRT) support the addition of moderate drought (D1) to parts of southern Alabama, the Florida Panhandle, and extreme southwestern Georgia. The lack of adequate precipitation since August may reduce the peanut yield. Due to increasing 30-day deficits and a response in soil moisture indicators, abnormal dryness was expanded throughout Alabama and parts of Georgia and the Florida Panhandle.
+
+## West
+Late summer heat and increasing 90-day precipitation deficits of more than 6 inches resulted in the addition of short-term moderate drought (D1) to parts of northwest Oregon and western Washington. This new D1 area is supported by 30 to 120-day SPI values, near record low 28-day streamflows for this time of year, and declining soil moisture. Conversely, heavy precipitation (1 to 4 inches) supported a broad 1-category improvement across parts of west-central Montana and the impact was changed from SL to L only. 12 to 24-month SPI values continue to support D1+ throughout western Montana. Based in part on above-normal temperatures during August and September, 1-category degradations were made to parts of southern Idaho. Farther to the north, beneficial precipitation during the past week resulted in a 1-cateogry improvement to northern Idaho. Although Arizona and much of New Mexico were status quo this week, this region will be reevaluated next week as many areas received more than 0.5 inch of rainfall from September 27 to October 3 and it was a wet Monsoon for the Southwest.
+
+## Forecast
+From October 6 to 10, mid-level low pressure, the tail end of a front, and enhanced moisture from the East Pacific are expected to bring widespread rainfall (1 to 3 inches) to eastern Arizona, New Mexico, and the northern Texas Panhandle. Elsewhere, across the contiguous United States, little to no precipitation is forecast. Behind a cold front, below-normal temperatures are forecast to shift southeastward across the central and eastern U.S. The first frost or light freeze of the season may affect the Corn Belt. Above-normal temperatures are likely to persist throughout the northwestern U.S.
+The Climate Prediction Center’s 6-10 day outlook (valid October 11-15, 2022) expects a variable temperature pattern during this 5-day period. Below-normal temperatures are most likely across the Rockies and Southwest, while above normal temperatures are favored for the Pacific Northwest and lower to middle Mississippi Valley. Probabilities for above-normal precipitation are elevated across the southwestern and south-central U.S. with a likely continuation of a drier-than-normal pattern for the Pacific Northwest.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-160.236083</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-68.5967024</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>18.9154965</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>49.3856286</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T08:04:31-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

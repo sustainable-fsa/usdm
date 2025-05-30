@@ -1,0 +1,41 @@
+# Workflow derived from https://github.com/r-lib/actions/tree/v2/examples
+# Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
+on:
+  push:
+  schedule:
+    - cron: '49 12 * * THU'
+
+name: update
+run-name: Update the USDM Archive with the latest data! 🚀
+
+permissions: write-all
+
+jobs:
+  update-macos:
+    name: update-macos
+    runs-on: macos-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+  
+      - name: install
+        run: |
+          brew update
+          brew upgrade
+          brew install apache-arrow udunits gdal ffmpeg
+          brew install --cask r
+          brew cleanup --scrub
+          rm -rf "$(brew --cache)"
+          
+      - name: run
+        run: |
+          Rscript usdm.R
+        
+      - name: commit
+        run: |
+          git config --local user.name "$GITHUB_ACTOR"
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git add .
+          git commit --allow-empty -m 'weekly update'
+          git push

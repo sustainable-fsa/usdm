@@ -1,0 +1,280 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2021-11-09</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Richard Tinker</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Curtis Riganti</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>National Drought Mitigation Center</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — November 09, 2021</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2021-11-09</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2021-11-09</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2021-11-11</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — November 09, 2021
+
+## Introduction
+Over the last week, multiple storm systems moved into the Pacific Coast, resulting in mostly beneficial precipitation in western portions of Washington, Oregon, and northern California. Some of these areas saw improvements to ongoing drought conditions as a result of these precipitation events. A few other spots in the West, primarily north and east of the Great Basin, saw some precipitation, but conditions in other parts of the West were largely dry. Outside of the Pacific Coast states, only a few changes were made to the Drought Monitor this week in the West. For more detail on these changes, please see the West region paragraph below. Elsewhere in the contiguous United States, widespread rain, amounting to between half an inch and 2 inches, fell in the Southern Great Plains, primarily along and to the east of Interstate 35. As a result, some areas along the Texas/Oklahoma border and parts of south Texas saw improvements to drought conditions. Farther east, heavy rainfall struck parts of Florida and the southeast U.S. coastline, resulting in some improvements to dryness in Florida, Georgia, and southern South Carolina. In drier parts of North Carolina and adjacent South Carolina, drought conditions remained the same or worsened. While not enough to improve ongoing dryness and drought in the Michigan UP, lake effect snow staved off any worsening of drought. Along the Pacific Coast, temperatures were generally within a few degrees of normal this week. Farther east, roughly northwest of a line from the Great Lakes to El Paso, temperatures were well above normal. Parts of the Dakotas saw temperatures 6 to 10 degrees warmer than normal. Southeast of that line, temperatures were mostly cooler than normal, with parts of Arkansas, Louisiana, and Texas falling 6 to 10 degrees below normal.
+
+## Caribbean
+Widespread rainfall occurred this week in western and eastern sections of Puerto Rico. The drought conditions remained unchanged from last week.
+There is no change in the drought severity from last week, although in St. Croix moderate drought is noted in the short-term as well as the long-term. Short-term abnormal dryness (D0S) persists on St. Thomas, and St. John continues with no dryness designation. For the first 9 days of November, the three monitored sites reported 0.24 inch (St. Croix), 0.59 inch (St. John), and 0.76 inch (St. Thomas), which was only about half of normal, but enough to keep conditions from deteriorating enough to prompt changes in drought severity designations. But any increase in moisture deficits will necessitate deterioration, especially on St. Croix and St. Thomas. St. John recorded 9.33 inches in October (157 percent of normal), but rainfall was considerably less abundant in St. Croix (4.43 inches; 88 percent of normal) and St. Thomas (2.79 inches; 53 percent of normal). Between 7 and 9 months of the first 10 in 2021 were drier than normal across the region, with 2 to 3 of those bringing less than half of normal rainfall. Through early November, St. Thomas ranges from 8 to 11 inches below normal for the year, including less than half of normal since late August. Meanwhile, only 19.28 inches of rain has fallen on St. Croix for the first ten months of 2021, where 36.83 inches is normal (52 percent of normal observed).
+
+## High Plains
+Primarily dry weather occurred in the High Plains region this week. In western South Dakota, precipitation amounts up to an inch fell, and more minor precipitation amounts occurred in south-central Kansas. A couple minor improvements to conditions occurred in western Kansas. Well above normal temperatures returned this week in the Dakotas, where temperatures from 6 to 10 degrees above normal occurred. In the Dakotas, where long-term drought is still ongoing, livestock water quality and fawn production were both reported to be suffering as a result of the drought.
+
+## Midwest
+Few changes were made to the Drought Monitor this week in the Midwest, which saw mainly dry weather. Some precipitation, including snow in the Michigan Upper Peninsula, fell downwind of Lake Superior and northern Lake Michigan. Temperature anomalies were split across the region; in the northwest portion of the Midwest, temperatures made it to 4 to 8 degrees above normal. In the southeast half of the region, temperatures dipped to 4 to 8 degrees below normal.
+
+## Northeast
+Aside from a few lake effect belts in western New York, weather in the Northeast this week was mostly dry. Conditions were reassessed in Maine and New Hampshire, where severe drought coverage shrunk due to lessening precipitation deficits and improved soil moisture. Temperatures were generally near or cooler than normal this week in the Northeast. Compared to normal, the warmest weather, near normal for the week, was along the Canadian border, while the coolest, 4 to 8 degrees below normal, occurred in West Virginia.
+
+## Pacific
+Warmer than normal weather was common this week in central Alaska, while western Alaska and the Alaska Panhandle saw near or cooler than normal temperatures. Weather in interior Alaska was somewhat dry this week, while precipitation, some heavy, was widespread along the southern coastal areas. Alaska remains free of drought this week.
+Drier weather continued this week in Hawaii. Abnormal dryness increased in area on Kauai, Molokai, Maui, and Hawaii, while areas experiencing moderate drought or worse remained unchanged. Due to building precipitation deficits, both short- and long-term drought are present in Hawaii.
+Most monitored locations are not experiencing acute dryness at this time, although somewhat below-normal rainfall has been at least occasionally reported for a few months at some locations. But only Kapingamarangi in the southern reaches of Micronesia is enduring drought conditions at this time, where significantly subnormal rains have prevailed for many months.
+Over 2 feet of rain fell on Palau in October, which is over twice normal. November is off to a dry start, with less than an inch reported for the first 9 days of the month, but given the excessive October rains, there are no signs of abnormal dryness.
+In Micronesia, the northern and central tiers of islands remain free of dryness, and abnormal dryness (D0) came to an end in Nukuoro, south-central Micronesia. Nukuoro recorded 4.77 inches of rain in October, which is less than half the normal of 10.31 inches). But November rainfall has increased significantly so far, with 7.53 inches observed November 1 – 9, including 5.89 inches this past week, bringing an end to the dry spell. For western and central areas, Yap, Ulithi, Woleai, and Chuuk Lagoon all recorded above-normal rains of 13 to 16 inches in October, as did Kosrae on the eastern fringes of the archipelago. Moisture has been less abundant in the middle and south-central parts Micronesia, but only the southernmost site of Kapingamarangi – where a protracted, severe drought is entrenched – has any notable degree of dryness. October was dry in Lukunor, where 7.25 inches was reported (just under two-thirds of normal), but November is off to a wet start, with nearly 5.5 inches of rain for the first 9 days of the month. This was sufficient to preclude short-term dryness there. The northeastern site of Pohnpei reported subnormal precipitation for the fourth consecutive month, but 3 of those months were 85 to 95 percent of normal, which is sufficient to meet their needs. A little farther east, Pingelap recorded its third consecutive month of subnormal precipitation in October. For August through October, Pingelap received only about two-thirds of normal precipitation (26.64 inches, normal 39.72 inches). But this has been sufficient to meet needs, especially since the prior 3 months (May – July) brought 52.48 inches of rain when the normal amount is less than 40 inches.
+Kapingamarangi in southernmost Micronesia remains in a protracted, severe drought. October brought them 2.46 inches of rain, compared to a normal of 8.10 inches, and the first several days of November were devoid of rainfall. The last 3 full months (August – October) brought only 10.7 inches of rain to Kapingamarangi, which is well under half of normal (27.9 inches). Long-term dryness had eased during April – July, when almost 60 inches of rain fell, but for the past 18 months (back to May 2020), the 115.9 inches of rain reported is almost 6.5 feet less than normal (194.25 inches), which is under 60 percent of normal despite the wet April – July 2021 period.
+Across the Marshall Islands, only the southern site of Jaluit is notably below normal for any significant amount of time. In southeastern portions of the archipelago, Majuro and Mili both reported surplus rainfall in October (15.12 inches and 14.34 inches, compared to normals of 13.27 and 9.29 inches, respectively). In the opposite corner of the island group, the northwestern sites of Kwajalein (10.97 inches) and Ailinglapalap (9.88 inches) experienced slightly drier than normal conditions in October (deficits of about an inch), but surplus September rains kept 2-month totals above normal. In the northeastern parts of the island group, Wotje has experienced highly variable rainfall amounts for the past year or so, with periods of dryness interspersed with periods of abundant rainfall. The October total of 6.34 inches was below the 8.7-inch normal, and September also brought slightly below-normal rainfall, but amounts were sufficient to keep abnormal dryness at bay, especially considering July – August combined brought about 125 percent of normal rainfall. The only site that has been notably dry is Jaluit. The October total of 6 inches was slightly more than half of normal, but with August and September bringing near to slightly above normal rainfall and given a lack of significant impacts, abnormal dryness (D0) has been removed for the time being, if only marginally so.
+In American Samoa, Pago Pago reported a second consecutive month with only about half of normal rainfall in October. The September – October total of 8.33 inches is less than half the normal for the period (17.74 inches). But with a wet start to November (3.3 inches for the first 9 days), a lack of impacts, and the approach of the climatologically-wet time of year, D0 (abnormal dryness) has been kept out of the region.
+
+## South
+In eastern Texas and Oklahoma, and in far northwest Louisiana and western Arkansas, widespread rain over a half inch fell this week. As a result, many areas from the Dallas-Fort Worth Metroplex and eastward along the Red River saw improvements to ongoing drought and dryness. Improvements also occurred in south Texas. In parts of southwest Texas that did not see rain, some worsening of drought conditions occurred, due to increasing precipitation deficits and lessening soil moisture. Conditions also worsened in parts of northern Louisiana and southern Arkansas where short-term precipitation deficits increased. Most of the region saw cooler than normal temperatures this week, with widespread readings between 6 and 10 degrees below normal in east Texas, Louisiana, and Arkansas. The western reaches of the South region saw near- or above-normal temperatures.
+
+## Southeast
+Heavy rain fell this week in the Florida Peninsula, the eastern Florida Panhandle, and in coastal parts of Georgia, South Carolina, and far southern North Carolina. The heaviest amounts, locally exceeding 2 inches, fell from Georgia through the Florida Peninsula. This rain improved conditions to normal along the Florida and Georgia Atlantic Coast. In North Carolina, Virginia, and inland in South Carolina, ongoing dryness or drought stayed the same or worsened where short-term rainfall deficits mounted and soil moisture and streamflow lessened. Temperatures across the region were cooler than normal this week; readings between 4 and 8 degrees below normal were widespread.
+
+## West
+Along the Pacific Coast, near or slightly below normal temperatures combined with heavy precipitation (which exceeded 5 inches in some areas) to improve drought conditions in parts of northern California, southwest Oregon, and Washington. In central Utah, groundwater conditions and long-term precipitation deficits had improved enough for some of the exceptional drought to improve to extreme drought. In Montana, much of the eastern part of the state remained dry, leading to some expansion in exceptional drought, where multiple short- and long-term datasets indicate worsening conditions. In western Montana, a small part of exceptional drought improved to extreme drought where short- and long-term precipitation deficits had improved. In small parts of western Colorado and south-central Wyoming, streamflow and precipitation deficits had decreased enough to lead to improving drought conditions. Farther east in Colorado, recent warm temperatures combined with dry weather to lead to worsening drought conditions in a few areas. Finally, moderate drought expanded in eastern New Mexico, where short-term dry weather combined with depleted soil moisture to lead to worsening conditions. In Oregon and California, long-term drought conditions have adversely affected salmon populations and migratory birds. Due to widespread recent precipitation, much of the West region is now experiencing long-term drought, rather than both short- and long-term drought.
+
+## Forecast
+The Weather Prediction Center’s forecast (valid November 10 – 16) calls for multiple rounds of precipitation in the Pacific Northwest. These events are expected to bring heavy rain with local areas of flash flooding. Snow is expected over the high elevations of the Pacific Northwest to the Upper Midwest. A cold front sweeping across the eastern half of the country will bring showers and thunderstorms to the South and rain and rain to much of the East. As the front moves through, temperatures will drop 2 – 5 degrees below normal in the central part of the country and 4 – 9 degrees cooler than normal across the Lower Midwest and Southeast. Temperatures will be 5 – 11 degrees warmer than normal across the West.
+The Climate Prediction Center’s 6 - 10-day outlook (valid November 16– 19) favors an active storm track across the northern tier of the Lower 48. This pattern would bring above-normal rainfall to the Pacific Northwest eastward to the Upper Midwest. Below-normal precipitation is likely across the southern tier of the Lower 48, with the greatest odds (more than 50%) over parts of the Southwest, the Southeast, and Alaska. The highest odds for above-normal temperatures occur in the Southwest (greater than 70%). Odds of above-normal temperatures decrease moving northward. The highest odds for below-normal temperatures occur in the Southeast (greater than 60%). Odds of below-normal temperatures decrease across the South and Midwest.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-160.236083</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-65.2675272</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>17.8841923</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>49.3856286</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T07:57:53-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

@@ -1,0 +1,279 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2021-01-19</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Richard Tinker</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Curtis Riganti</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>National Drought Mitigation Center</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — January 19, 2021</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2021-01-19</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2021-01-19</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2021-01-21</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — January 19, 2021
+
+## Introduction
+In contrast to the prior week, most of the country had a relatively dry week, with the significant exception of the Pacific Northwest and northern Intermountain West. Amounts over 1.5 inches were common, with parts of the Cascades and the coastline recording 4 to as much as 8 inches of precipitation. Elsewhere, most of New England had moderate precipitation, with over 1.5 inches falling on southern Maine and adjacent New Hampshire. Areas from the upper Midwest eastward through the Great Lakes Region and lower Northeast recorded 0.25 to locally 1.0 inch, but the entire remainder of the nation received little or none. But given the time of year, the dry week did not lead to widespread deterioration. Most areas did not change, and significant improvement was limited to the Pacific Northwest.
+
+## Caribbean
+Minimal rainfall fell this week across the U.S. Virgin Islands; 0.26 inches fell on St. John, 0.09 inches on St. Croix, and 0.21 inches on St. Thomas. On St. Croix, short- and long-term precipitation deficits still supported short- and long-term abnormal dryness. On St. John and St. Thomas, short-term precipitation deficits continued to support short-term abnormal dryness.
+
+## High Plains
+Similar to conditions in other regions, little or no precipitation was observed this week, outside parts of eastern North Dakota. Almost the entire region was unchanged compared to last week keeping most areas intact. Exceptions were found in eastern North Dakota, where light precipitation was sufficient to reduce the extent of D2 conditions. Farther west, small areas of deterioration were noted in north-central Wyoming (to D1) and the west-central Dakotas (deteriorating to D1-D2).
+
+## Midwest
+Most of the region recorded light to moderate precipitation (0.25 to locally 1.0 inches), with little or none falling on the Ohio Valley, northwestern Minnesota, and Missouri. The dry week did not change conditions enough to bring in any improvement, save a portion of southeastern Missouri adjacent to the dryness farther south, and small areas in the D2 to D3 areas established in northwestern Iowa.
+
+## Northeast
+Light to moderate precipitation fell on New England while little or none was recorded farther south. Most areas remained unchanged due to lingering long-term moisture deficits, except in southern Maine, where 1.5 to 2.0 inches of precipitation prompted removal of D0.
+
+## Pacific
+Heavy precipitation pushed into much of Hawaii late in the period. No improvement was introduced this week, allowing for impact assessment after the entire storm moves away. Meanwhile, unremarkable weather kept dry areas unchanged.
+The weather across the U.S.-Affiliated Pacific Islands (USAPI) during this USDM week (01/13/20-01/19/21) was dominated by a persistent surface trough across western Micronesia and a pronounced Inter-Tropical Convergence Zone (ITCZ) across eastern Micronesia which at times extended into western Micronesia. Other smaller surface troughs or trade-wind disturbances made appearances in the region, a weak circulation developed near Palau and western Yap State, and a trade-wind disturbance crossed the northern RMI. A couple weak disturbances crossed the Marianas, but the weather there was mostly dominated by a dry trade-wind air mass. South of the equator, a weak trough moved across the Samoan Islands early in the week, but otherwise a high pressure ridge dominated the weather.
+Satellite-based estimates of 7-day precipitation (QPE) showed a band of 2+ inches of rain across Palau and Yap State extending from about 2 degrees North latitude to 10 N in places. The band stretched eastward along the ITCZ across the rest of the Federated States of Micronesia (FSM) and Marshall Islands (RMI) but narrowed, reaching from roughly 5 N to 8 N over the RMI. Within the band, a large area of 4+ inches of rain stretched the length of the region, with lesser amounts (0.5 to 2.0 inches) extending to the equator in places across western and central FSM. Little to no precipitation was analyzed in the QPE across the Marianas and Samoan Islands.
+Conditions have been relatively dry in the short term in American Samoa, though not at the level of abnormal dryness. Suifaga Ridge received 1.12 inches of rain this week, Toa Ridge reported 0.75 inches, and 0.67 inches fell at Pago Pago.
+At Palau, 2.39 inches of rain fell this week, and 1.97 inches fell at Koror, so drought-free conditions continued there.
+The Federated States of Micronesia remained mostly free of drought or dryness this week, with the significant exception of Kapingamarangi. At least 2.04 inches of rain fell this week on Yap after 4.08 inches there last week. Ulithi received 4.09 inches of rain this week. Woleai received only 0.36 inches this week, marking their third consecutive week below their weekly minimum, though conditions have not quite degraded to abnormal dryness. Fananu only received 0.26 inches of rain this week, but conditions here haven't degraded to abnormal dryness, as 4.88 inches fell last week and 10.17 inches fell three weeks ago. Chuuk had 3.89 inches of rain this week, so normal conditions continued there. Normal conditions also continued on Lukunoch, where 3.20 inches fell. Nukuoro had 3.59 inches of rain this week, following 8.51 inches last week, so wet conditions persisted. Exceptional short- and long-term drought continued on Kapingamarangi despite 2.30 inches of rain this week. This marked the first week since the beginning of December where their weekly minimum was reached, and no monthly minimum rainfall has been reached there since April 2020. Pohnpei's wet conditions continued this week with 3.81 inches of rain. On Pingelap, 0.83 inches of rain made for a drier week, but the January minimum rainfall has already been met, and December 2020 rainfall was at the 97th percentile, so conditions here remained wet. Another rainy week took place on Kosrae, as last week's 12.40 inches of rain were followed up by another 6.53 inches.
+Short-term abnormal dryness developed on Saipan, where rainfall amounted to 0.48, 0.33, and 0.07 inches at three different measuring sites this week. This was the sixth consecutive week when precipitation fell below their weekly minimum. Rota only received 0.21 inches of rain this week, thus falling below their weekly minimum for the fifth time in the last six weeks. However, the last week of December saw 4.04 inches of rain, so conditions have not yet degraded to short-term abnormal dryness at Rota. Only 0.48 inches of rain accumulated on Guam this week, the fifth consecutive week below their weekly minimum, though conditions have not quite degraded to abnormal dryness.
+The Marshall Islands remained free of drought this week, though short-term abnormal dryness was taking place on Kwajalein and Wotje. On Kwajalein, 1.48 inches of rain fell this week, marking the 7th consecutive week below weekly minimum rainfall there. With 4.02 inches, December also missed its monthly minimum, so short-term abnormal dryness continued. On Wotje, short-term abnormal dryness has continued to take hold, as the 0.95 inches of rain this week was the first measurable rainfall of 2021. Data are missing this week from Utirik, so no drought depiction is being made there. On Jaluit, 0.67 inches of rain this week followed 3.23 inches last week, so normal conditions continued there. Majuro received 3.15 inches of rain for the second consecutive week and remained free of drought this week. Mili remained free of drought as 4.27 inches of rain fell this week.
+
+## South
+Little or no precipitation fell region-wide, leading to a few areas of deterioration in southern and western Texas. D2 to D4 conditions have become entrenched. Meanwhile, the dry weather led to the introduction of abnormal dryness through much of Tennessee and large sections of Mississippi. Smaller areas developed in Arkansas and Louisiana. Since mid-October 2020, between 4 and 8 inches less precipitation than normal in a swath from northeastern Louisiana through northwestern Mississippi and western Tennessee.
+
+## Southeast
+Little or no precipitation fell on the region; however, moisture deficits are not sufficient to introduce broadscale D0 conditions from Virginia through Georgia. Extant areas of abnormal dryness persisted, with some expansion in central Florida and part of western Georgia. Farther east, larger areas of D0 were introduced in Alabama in conjunction with larger moisture deficits in adjacent parts of the South Region. Over the new areas of D0, Precipitation has totaled 2 to 5 inches below normal over the past 60 days.
+
+## West
+In stark contrast to areas farther east and south, heavy precipitation was dropped on parts of the Pacific Northwest and the northern Intermountain West. Much of the Idaho Panhandle and adjacent parts of Montana reported heavy precipitation, with the highest elevations measuring up to 4 inches. Farther west, heavy precipitation also soaked the Cascades, and the Pacific Coast from Washington southward to northwestern California. Most of these areas – including lower elevations between the Cascades and the coastal areas – recorded at least 1.5 inches of precipitation while parts of the higher elevations were covered by 4 to locally 8 inches of precipitation. Patches of improvement were introduced as a result, with D3 removed entirely from central Washington, and spotty reductions in the D0 to D3 coverage across Oregon and northwesternmost California. With large sections of the central and southern parts of the West Region already in D3 to D4, not much more deterioration can be introduced, but a few small areas deteriorated enough to be reflected on the map, specifically north-central Utah (to D2), interior northeastern Utah (to D4), and southeasternmost New Mexico along the Mexican border (to D4).
+
+## Forecast
+The most significant weather for the next 5 days (January 21-26, 2021) will be widespread heavy precipitation across the Southeast. Between 1.5 and 4.0 inches are forecast from eastern Texas through southern Alabama and northern Georgia. Light to moderate amounts should dampen the rest of the Southeast. Farther west, from the central and southern Rockies to the California Coast, significant precipitation will fall on the higher elevations. Most of the mountains are expecting 1 to 3 inches. The rest of the Southwest and the Pacific Northwest are expecting 0.5 to 2.5 inches. Elsewhere, light to moderate precipitation of up to 0.5 inch is forecast for the upper Midwest, and little none is expected over the Northeast, High Plains, and the remainder of the Midwest and Great Pains.
+The 6-10 day CPC extended range outlook (January 27-31, 2021) favors surplus precipitation from the Rockies to the West Coast, most of the Midwest, and part of the interior Southeast. Much of Alaska is also expecting above-normal precipitation. Meanwhile, the odds favor subnormal precipitation across Florida, in the Northeast and Ohio Valley, southern Plains, and eastern Montana. Meanwhile, cooler than normal weather is anticipated in the Northeast, the middle Atlantic States, and a broad area from the Rockies to the West Coast. In contrast, enhanced chances for above-normal temperatures cover roughly the southeastern quarter of the country.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-170.4160687</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-66.1035098</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>18.1374776</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>70.6886891</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T07:52:46-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

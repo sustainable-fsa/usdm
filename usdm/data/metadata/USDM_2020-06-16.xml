@@ -1,0 +1,280 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2020-06-16</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Richard Tinker</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Curtis Riganti</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>National Drought Mitigation Center</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — June 16, 2020</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2020-06-16</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2020-06-16</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2020-06-18</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — June 16, 2020
+
+## Introduction
+Significant rainfall missed most areas of dryness and drought across the contiguous 48 states, with improvements limited to part of the northern Intermountain West, central Kansas, and a few isolated spots in both Oregon and upstate New York. Elsewhere, dry conditions persisted or intensified. In particular, abnormally hot weather, low humidity, and gusty winds have led to rapidly-intensifying dryness across the Plains States. Extreme drought expanded in northern New Mexico, part of central and western Oklahoma, eastern Colorado, and western Kansas while broad areas of abnormal dryness and some moderate drought were introduced farther north.
+
+## Caribbean
+In Puerto Rico, persistent surplus rainfall prompted the removal of dry conditions across the northwestern quarter of the Island, but most other areas saw dryness become further entrenched. Dryness and moderate to severe drought expanded across the southern and western parts of the Commonwealth.
+Short-term severe drought continued on St. Thomas and St. John, and short- and long-term severe drought continued on St. Croix. On St. Croix, low groundwater, slightly warmer than normal temperatures, and precipitation deficits out to one year indicated continuation of severe drought conditions. On St. Thomas, short-term precipitation deficits combined with low groundwater and slightly above normal temperatures to continue short-term severe drought there. Low groundwater and short-term precipitation deficits continued on St. John as well, leading to a continuation of short-term severe drought there.
+
+## High Plains
+Conditions are rapidly deteriorating through most of the High Plains Region. Moderate to isolated heavy rainfall was observed in a few small areas in central Kansas, northeastern Nebraska, and adjacent South Dakota, but precipitation was scant and short-lived elsewhere. Improvements were introduced in central Kansas, but this is very much the exception. Although rainfall deficits only date back a few weeks to a few months, other factors are making things worse, specifically abnormal heat, low humidity, and gusty winds. High temperatures approached triple-digits as far north as South Dakota. All these factors led to broad areas of deterioration in eastern Colorado, southern Kansas, Wyoming, the Dakotas, and adjacent parts of Nebraska. Notably, extreme drought (D3) expanded to cover a large part of southern and eastern Colorado, and adjacent parts of Kansas.
+
+## Midwest
+A band of heavy rain soaked northeastern Missouri, eastern Iowa and much of the Great Lakes Region, plus scattered areas in western Iowa and Minnesota; however, most of the heavy rains evaded areas that have been dry. It was dry and warm elsewhere, especially along the southern tier from most of Missouri eastward through Ohio and adjacent Michigan. Moisture deficits have been gradually increasing in substantial parts of this region, and D0 conditions were introduced across much of Indiana and adjacent areas, western Kentucky, and also parts of the Upper Midwest missed by the heavy rain. As in areas farther west, low humidity and winds have intensified conditions, more than precipitation deficits alone would indicate.
+
+## Northeast
+Only a few bands of moderate rainfall were noted in central parts of the Northeast Region, but a few tenths of an inch at most fell elsewhere as abnormal dryness expanded into southern New England and central Maine. Most other parts of the Region saw moisture deficits marginally increase, but not enough to justify any substantial D0 expansion or drought development (D1 or worse).
+
+## Pacific
+Moderate drought (D2) eased across the central and northern Big Island of Hawaii, with some reduction in adjacent D0 conditions as well. Dryness and drought in other parts of that state remained unchanged. Alaska remains drought-free.
+Several weather features competed across the U.S.-Affiliated Pacific Islands (USAPI) during this USDM week (6/10/20-6/16/20). An Inter-Tropical Convergence Zone (ITCZ) set up across Micronesia at lower latitudes (south of 10 degrees North latitude) while, north of 10 N, a dry trade-wind flow at the surface was overlain by several Tropical Upper-Tropospheric Troughs (TUTT cells) at the upper levels of the atmosphere. Surface troughs, trade-wind disturbances, and circulations added to the precipitation generated by differential wind speed convergence within the ITCZ. Divergence aloft, associated with the TUTT cells, contributed to precipitation caused by surface troughs and trade-wind disturbances, especially over the Marianas and western Micronesia near the end of the week. South of the equator, an active surface trough brought rain to American Samoa, with a dry air mass moving into the area by the end of the week.
+Satellite-based estimates of 7-day precipitation (QPE) showed two continuous bands of precipitation, one stretching eastward from the Philippines and Indonesia just north of the equator, and a second one extending southeast from Indonesia past the Samoan Islands. Areas of 2+ inches of rain were seen from the equator to about 12 degrees N over Palau and western Yap State. The 2+ inch areas extended eastward in a narrowing band, reaching from about 4 to 8 degrees N over the Marshall Islands (RMI). The QPE revealed areas of 2 to 4 inches spread across the Samoan Islands, including American Samoa.
+This week, 3.64 inches of rain fell in Pago Pago, 3.01 inches fell at Suifaga Ridge, and 1.92 at Toa Ridge, and drought-free conditions continued.
+This week, 2.59 inches of rain fell at Palau IAP, and 1.01 fell at Koror, and drought-free conditions continued for another week.
+Yap improved to short-term moderate drought this week, as 4.84 inches of rain fell on the heels of 6.71 inches last week, bringing their June monthly total to 11.96 inches. Short-term moderate drought continued on Ulithi, though 3.65 inches of rain fell this week. On Woleai, moderate short-term drought abated and short-term abnormal dryness remained, after 10.54 inches of rain in May, and 3.46 inches this week (bringing the June total to 8.26 inches). On Fananu, 1.24 inches of rain fell this week, marking at least the second consecutive week when the weekly minimum was missed. Given missing data beyond the past 3 weeks, no depiction was made this week, though very short-term dryness is noted. On Chuuk, abnormal dryness gave way to normal conditions, as 3.79 inches of rain fell, bringing the June monthly total to 8.05 inches and marking the third consecutive month when monthly minimum rainfall was met. On Lukunor, 2.92 inches of rain fell this week, continuing drought-free conditions there. Nukuoro received 3.77 inches of rain this week, and drought-free conditions also continued there. On Kapingamarangi, a paltry 0.02 inches of rain fell, and conditions descended into short-term moderate drought. According to local reports, household water storage tanks there were at 25 percent capacity. On Pohnpei, drought-free conditions continued this week as 5.82 inches of rain fell, snapping a two-week streak of below weekly minimum rainfall. Two inches of rain fell on Pingelap this week, continuing drought-free conditions there. On Kosrae, 7.86 inches of rain fell, continuing drought-free conditions there as well.
+Rainfall measurements on Saipan this week were 0.20, 0.46, and 0.59 inches. Given the minimal rainfall this week and the ongoing short- and long-term precipitation deficits here, short- and long-term exceptional drought continued this week. On Rota, 0.57 inches of rain fell, breaking a streak of two consecutive weeks of above one inch of rainfall. Given the paltry rainfall of March, April, and May, and the small rain amount this week, short-term extreme drought continued. Given monthly rainfall below the monthly minimum from December through April, short-term moderate drought continued on Guam this week; however, 1.01 inches of rain there marked the third consecutive week with at least the weekly minimum of one inch.
+On Kwajalein, 1.48 inches of rain fell this week, and moderate short-term drought continued. Abnormal dryness ended this week on Ailinglapalap, where 3.09 inches of rain fell, marking three consecutive weeks of at least weekly minimum rainfall. On Jaluit, 2.70 inches of rain fell, and drought-free conditions continued. Data was missing from Utirik, so no depiction was made there. On Wotje, 1.18 inches of rain fell this week (below the weekly minimum of two inches), and short- and long-term extreme drought continued there. On Majuro, 2.13 inches of rain fell this week, and drought-free conditions continued there. On Mili, 4.16 inches of rain fell, and drought-free conditions continued.
+
+## South
+Drought continues to rapidly develop and intensify across most of Texas and Oklahoma, with patchy dryness beginning to develop farther east in western Tennessee and adjacent Mississippi. Central parts of the region, soaked by heavy rain associated with Tropical Storm Cristobal last week, remained free of moisture deficits. Only isolated parts of Tennessee saw any significant precipitation this week. Western Texas and eastern New Mexico received less than 0.5 inch the past couple of months, and most of this area recorded under an inch for the past 90 days. Farther east in central Oklahoma, higher normals allowed rainfall deficits of 2.5 to 4.5 inches accumulate over the past few weeks. As a result, moderate to severe drought expanded in many areas from central Oklahoma to the Texas/New Mexico border as far south as the Big Bend. Precipitation shortfalls are less acute and of shorter duration on the east side of the South Region, but conditions deteriorated enough to introduce D0 there.
+
+## Southeast
+Heavy rain soaked the Carolina and Georgia Coasts, the upper Florida Peninsula and adjacent areas, and parts of the Appalachian Foothills. Coastal southeastern North Carolina recorded 4 to 6 inches of rain. Elsewhere, light rain (if any) fell, but notable moisture deficits were limited to the far northeastern and southwestern fringes of the Southeast Region. Short-term rainfall deficits prompted D0 introductions in both northwestern Alabama and part of the southern DelMarVa Peninsula, but other parts of the Region remain free of impactful dryness.
+
+## West
+Some northern parts of the region experienced another wet week while areas west and north of the Four Corners saw little or no rain. Exacerbating the dryness, temperatures averaged at least a couple degrees above normal in most dry areas, with weekly anomalies approaching +10 degrees F from the Great Basin northward into western Montana. Between 1.5 and 3.5 inches of rain fell on northeastern Oregon and adjacent Idaho, and from the Oregon and Washington Cascades westward to the Pacific Coast. The highest elevations in the Cascades and coastal ranges recorded 4 to 7 inches in a few spots. Elsewhere, only patchy light showers were noted in the rest of the Northwest and in parts of New Mexico, and other areas reported little or none. Recent rains have been sufficient to improve or remove dryness from western Idaho southward through the northern Great Basin, and in parts of western Oregon. In sharp contrast, conditions deteriorated along the southern tier of Montana and through parts of the Intermountain West, where precipitation has been much less abundant the past few weeks. Severe drought (D2) was introduced in southwest Montana.
+
+## Forecast
+June 18-22 should be a fairly wet week (upwards of 0.5 inch rain) from the south-central Plains northward through Iowa and Minnesota, with the east-central Great Plains and the western Red River Valley of the South expecting over two inches. Farther east, a non-tropical storm is forecast to bring moderate to heavy rain to the Middle Atlantic States. Generally, areas from northern North Carolina through southern Pennsylvania should receive 0.5 to locally 2.0 inches of rain. The northern and western Great Lakes region should anticipate moderate amounts topping out under 1.5 inches. Looking from the Rockies westward, moderate to locally heavy (high-elevation) precipitation is anticipated in central and western Montana, and moderate totals are expected in the northern Great Basin and adjacent areas. Meanwhile, subnormal temperatures are forecast from the central Rockies and Plains northward to the Canadian border, with daily highs forecast to average around 6 degrees F below normal there. In contrast, higher than normal temperatures are expected in parts of Nevada and California, as well as the Northeast. Readings should be 6 to 12 degrees F above normal in upstate New York and New England.
+The CPC 6-10 day outlook (June 23-27) shows a tilt of the odds toward above-normal precipitation from the central and southern Plains eastward to the Atlantic Coast, save Florida. Areas in and around the northern Great Basin should also expect above-normal precipitation. In contrast, subnormal totals are favored in the Big Bend, the central and southern Rockies, and the northern tier of states from the Great Plains to the West Coast. Increased chances of above normal temperatures cover the Eastern Seaboard, and also the Rockies westward to the Pacific Coast. Meanwhile, odds favor subnormal temperatures from the Plains to the Appalachians.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-160.2360973</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-65.2210435</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>17.8841951</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>49.0018229</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T07:48:29-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

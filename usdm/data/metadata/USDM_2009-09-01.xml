@@ -1,0 +1,245 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2009-09-01</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Brad Rippey</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>U.S. Department of Agriculture</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — September 01, 2009</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2009-09-01</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2009-09-01</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2009-09-03</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — September 01, 2009
+
+## Introduction
+
+
+## Hawaii, Alaska and Puerto Rico
+Another week of generally quiet weather in Hawaii resulted in no change to the drought depiction.  On Maui, a wildfire just north of Kaunakakai charred nearly 8,000 acres of timber, brush, and grass by early September.  Farther north, heavy precipitation continued across southeastern Alaska and developed in east-central Alaska.  Therefore, all remaining dryness (D0) was removed from southeastern Alaska and trimmed from the eastern portion of interior Alaska.  In southeastern Alaska, Yakutat’s August rainfall reached 17.50 inches (132 percent of normal).  Meanwhile, Puerto Rico remained free of dryness and drought.
+
+## The Atlantic Coast States
+Rain was heavy enough to eliminate dryness (D0) from Florida and reduce coverage in Georgia.  In contrast, persistent dryness in northwestern South Carolina resulted in a slight expansion of moderate drought (D1).  In Greenville-Spartanburg, South Carolina, summer (June-August) rainfall totaled just 6.28 inches (50 percent of normal).
+
+## The Midwest
+Additional rain in the upper Great Lakes region’s core drought area helped to cut the remaining region of severe drought (D2) into two pieces.  The area of dryness and moderate drought (D0 and D1) also decreased in coverage, especially in Wisconsin and Michigan.  In fact, dryness (D0) was completely removed from Lower Michigan.  Coverage of dryness (D0) was also reduced in western Ohio.
+During the two-week period ending August 30, rain helped the percentage of rangeland and pastures rated in very poor to poor condition fall from 26 to 13 percent in Wisconsin and 23 to 15 percent in Minnesota.
+
+## The Plains
+There were only minor changes to the depiction.  Heavy rain reduced the size of the abnormally dry (D0) region in Kansas and Nebraska, and moderate drought (D1) was removed from the latter state.  In northern Oklahoma, further analysis of previous rainfall resulted in the removal of moderate drought (D1).  A small amount of dryness (D0) was added to south-central Oklahoma and north-central Texas due to continuing dryness.
+
+## The West
+Monsoon activity remained disappointingly light across the Four Corners States, resulting in further expansion of abnormal dryness (D0).  In southeastern Arizona, Tucson completed its second-hottest July-August period on record, with an average temperature of 89.4 degrees F.  Only 1994, with a July-August average of 90.3 degrees F, was hotter.  From June 15 – August 31, rainfall in southern Arizona totaled just 2.12 inches (46 percent of normal) in Tucson and 1.31 inches (38 percent) in Safford.  More than three-quarters (80 percent) of Arizona’s rangeland and pastures were rated in very poor to poor condition on August 30.  Rangeland and pastures in New Mexico were also suffering in some areas, with 39 percent rated very poor to poor.
+In late August, there was a marked increase in Western wildfire activity, mainly in Utah, western Colorado, and the Pacific Coast States.  By early September, the largest active blaze in Utah was the 11,000-acre Mill Flat fire near New Harmony.  Meanwhile in southern California, Santa Ana (102 degrees F), posted a daily-record high on August 26, the same day that the Station fire started in the San Gabriel Mountains north of Los Angeles.  By early September, the Station fire had consumed more than 125,000 acres of vegetation and nearly 100 structures.  Other triple-digit, daily-record highs in southern California included 103 degrees F (on August 27) in Long Beach; 107 degrees F (on August 27) in Fullerton; and 117 degrees F (on August 28) in Palm Springs.  On August 29, Santa Maria (104 degrees F) registered a monthly record high, previously established with a reading of 103 degrees F on August 28, 1962.
+Farther north, some moderate to severe drought (D1 to D2) was added in northwestern California and southwestern Oregon, following a closer examination of streamflows and long-term precipitation deficits.  Additional dryness (D0) was added in western portions of Washington and Oregon to better match with long-term precipitation shortfalls.  Portland, in the abnormally dry (D0) area of western Oregon, received a precipitation total of 26.63 inches (75 percent of normal) from October 2008 – August 2009.  In addition, Portland’s year-to-date total of 22 days with highs of 90 degrees F or greater was very close to its 1987 annual record of 23 days.
+
+## The Western and Central Gulf Coast Regions
+Rainfall in the central Gulf Coast region resulted in the removal of abnormal dryness (D0) from much of southern Louisiana and southwestern Alabama.  August rainfall totaled 8.01 inches (165 percent of normal) in Lake Charles, Louisiana, and 10.18 inches (164 percent) in Mobile, Alabama.  At the same time, dry conditions developed across parts of central Louisiana and neighboring areas.  In Alexandria, Louisiana, August rainfall totaled just 0.42 inch (10 percent of normal).
+Farther west, only minor changes were necessary in the core drought area of Texas.  However, enough rain fell in parts of Deep South Texas to result in an improvement from exceptional to extreme drought (D4 to D3).  Brownsville’s August 30 – September 1 rainfall total of 1.14 inches surpassed its 0.76-inch sum during the preceding 93 days (May 29 – August 29).  Elsewhere in southern Texas, summer records for average temperature were established in locations such as Victoria (86.6 degrees F; previously, 86.2 degrees F in 1998), Corpus Christi (86.8 degrees F; previously, 85.9 degrees F in 1998), San Antonio (87.8 degrees F; previously, 86.2 degrees F in 1980 and 1994), and Del Rio (88.8 degrees F; previously, 88.7 degrees F in August 1998).  San Antonio also completed its driest two-year period on record, with precipitation totaling only 24.83 inches (38 percent of normal) from September 2007 – August 2009.  San Antonio’s former standard of 30.23 inches was established from August 1954 – July 1956.
+By August 30, the U.S. Department of Agriculture reported that 54 percent of the rangeland and pastures in Texas were rated in very poor to poor condition.  The Texas drought was also having an adverse effect on crops such as corn (39 percent very poor to poor), sorghum (39 percent), cotton (31 percent), and rice (21 percent).  In Louisiana, nearly one-quarter (22 percent) of the sorghum crop was rated in very poor to poor condition.
+In southern Texas, storage in Lake Corpus Christi (Nueces River basin) fell below 75,000 acre-feet on September 1 for the first time since August 31, 2001.  The lake’s storage was above 200,000 acre-feet as recently as September 2008.  Elsewhere in Texas, September 1 water levels in the Colorado River basin near Austin were about 20 feet below the historic September average on Lake Buchanan and more than 33 feet below average on Lake Travis.  However, the lakes’ average surface elevations, 632 feet above sea level on Lake Travis and 991 feet on Lake Buchanan, were still above the record lows (614.18 feet in August 1951 and 983.70 feet in September 1952, respectively).
+
+## Forecast
+During the next five days, moisture associated with the remnants of eastern Pacific Hurricane Jimena will spread northward into the Four Corners region, generating scattered showers.  Farther east, showers and thunderstorms will gradually shift from the eastern Plains into the middle and lower Mississippi Valley, while rain will linger along and near the southern Atlantic Coast.  Dry weather will continue for several more days across the North and the Far West, but rain will arrive across the Pacific Northwest.
+The NWS 6- to 10-day outlook for September 8-12 calls for near- to above-normal precipitation nationwide, except in the Northeast.  Wet weather will be most likely along the southern Atlantic Coast and in the nation’s mid-section.  Above-normal temperatures can be expected along the Pacific Coast, in southern Texas, across Florida’s peninsula, and from the Great Lakes region into the Northeast.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-160.236083</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-75.512543</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>18.9154965</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>64.7369422</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T06:47:41-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

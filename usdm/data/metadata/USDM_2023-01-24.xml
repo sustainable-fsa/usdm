@@ -1,0 +1,282 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2023-01-24</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Richard Tinker</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Rocky Bilotta</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NCEI</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — January 24, 2023</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2023-01-24</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2023-01-24</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2023-01-26</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — January 24, 2023
+
+## Introduction
+Over the past few weeks, a series of atmospheric rivers brought significant amounts of rain and snow across parts of the West leading to improvements in soil moisture, streamflow, reservoirs levels and snowpack. This above-normal precipitation led to abnormal dryness and drought improvements in California, the Pacific Northwest, Great Basin and the central Rockies. Despite these improvements, long-term drought persists across much of the West. In the eastern United States, winter storms brought cooler temperatures and above-normal precipitation from the Mississippi Valley to the East Coast, leading to abnormal dryness and drought improvements in the Midwest, Northeast and Southeast. Meanwhile, persistent dryness led to the expansion of drought in the southern Plains and northern Rockies, while much of the Southern and High Plains regions remain largely unchanged
+
+## Caribbean
+In Puerto Rico, no changes were made to the map this week.
+It was a very dry week in the U.S. Virgin Islands, with only 0.04 to 0.15 inch of rain falling on St. Thomas, St. Croix, and St. John. Significantly below-normal precipitation has fallen on St. Croix and St. John since December 1, 2022. St. Croix recorded 1.98 inches of rain from December 1 through January 24 and St. Thomas measured 1.98 inches – both about 43 percent of normal. But this is one of the drier times of the year on these two islands, so tangible moisture shortfalls are slow to increase, and both sites retained their abnormally dry (D0) designation. St. John had been considerably wetter than the other two sites over the past several weeks. More than 4 inches of rain during January 1 – 24, bringing their December 1 – January 24 total to 5.75 inches, which is between two and three times the amount recorded at the other two sites. No dryness nor drought designations indicated on St. John
+
+## High Plains
+A half an inch or more of precipitation fell across parts of Kansas, eastern Colorado, southeast Wyoming and Nebraska. Parts of northwest Nebraska, western Colorado, Wyoming, South Dakota, and Montana received less than half an inch of precipitation. Moderate to extreme (D1-D3) drought and abnormal dryness (D0) was contracted in Kansas, Colorado and Wyoming where snowpack is above normal and soil moisture conditions are improving.
+
+## Midwest
+The Midwest was hit with another week of above-normal precipitation. A band of heavy precipitation fell from southeast Missouri to northeast Ohio with some areas receiving up to 400% of normal. Recent rainfall, cooler temperatures and rising streamflow led to improvements to moderate (D1) drought and abnormal dryness (D0) in Missouri, Illinois, Indiana and Ohio this week.
+
+## Northeast
+A winter storm brought snow and rain to the region this week. A half of an inch or more of rain fell across much of the Northeast with two inches or more falling over parts of southern New England. The rain was enough to remove abnormal dryness (D0) conditions from Massachusetts, including Cape Cod, southern New Hampshire and western Connecticut. Much of the Northeast remains drought-free except for lingering long-term moderate (D1) drought across eastern Long Island, New York.
+
+## Pacific
+In Alaska, no changes were made to the map this week.
+In Hawaii, dry conditions continued across the majority of the state. On the Big Island, severe (D2) drought was introduced on the east side of the island due to increasing shortages of water supplies and low streamflow. On Molokai, moderate (D1) drought was expanded east across the rest of the island in response to low rainfall and streamflow. Conversely, the northeast half of Kauai improved to D0 conditions due to recent rainfall and short-term streamflow improvements.
+More than 11 inches of rain fell on Airai, Palau last week. So far in 2023, Palau reported 17.62 inches of rain (through January 24). This follows 11.76 inches in December 2022. As a result, there are no moisture deficits and no dryness-related impacts in the Marianas. No dryness or drought is indicated.
+Across the western islands of the Federated States of Micronesia, this is a relatively dry time of year, and weekly rainfall was near or somewhat above normal last week. Yap reported 2.2 inches of rain while Ulithi and Woleai recorded 3.46 and 4.07 inches, respectively. December totals were considerably above normal at Yap and Woleai, so dryness is not a concern there. In Ulithi, precipitation has been below normal 6 of the last 7 months. During the wettest time of the year there (June – September), 28.32 inches were reported compared to the normal 49.41 inches, and subnormal rainfall (60 to 80 percent of normal) was observed in both November and December 2022. A few months starting June 2022 brought less than the amount of rainfall needed to keep up with water demand. But a wet October 2022 (over 16 inches of rain) and more than three times the normal rainfall so far this January (almost 13 inches reported) have kept concerns related to dryness at bay. No dryness or drought is indicated.
+Along the eastern tier of the Federated States of Micronesia (Pohnpei, Pingelap, and Kosrae), between 2 and 3.5 inches of rain was reported last week, but reports for 3 of the 7 days were missing. Precipitation has been generally below normal since late autumn 2022, but this followed a February – October that dropped excessive rainfall on these islands. In addition, the climatology is very wet here. Between 12 and 28 inches of rain have fallen on Pohnpei every month since the start of 2022, and in Kosrae, it’s been 14 to 35 inches each month for the same period. This well exceeds the amount of rain necessary to keep up with demand, so there are no concerns related to dryness. No dryness or drought is indicated.
+Precipitation totals varied across the central islands in the Federated States of Micronesia. Fananu and Nukuoro were wetter than normal, reporting 6.35 and 7.57 inches of rain, respectively, for the week. Both of these locations have recorded over 14 inches of rain January 1-24, 2023, so there are no moisture deficits nor any dryness-related impacts. Rainfall was not so abundant in Lukunor, but over 3 inches of rain was observed last week, and the January-to-date total of 7.55 inches is slightly above the normal, and approaching the optimum monthly total needed to keep pace with water demand. December 2022 rains were not enough to keep pace with demand (6.06 inches), but October and November brought 8.5 and 10.8 inches of rain, respectively, and dryness is having no impact on Lukunor at this time. Rainfall totals at Chuuk Lagoon have been less impressive, with 1.32 inches recorded last week, putting January-to-date totals at 4.48 inches, which is not much more than half of normal and below the optimum total to keep pace with demand. But with 9 to 14.5 inches of rain each of the prior six months, there are no impacts associated with the recent moisture deficits so far. No dryness or drought are indicated.
+Kapingamarangi in the southern reaches of the Federated States of Micronesia has been oscillating in and out of drought for several years. The last full month with above normal precipitation reported was February 2022, and severe drought (D2) was indicated in mid-January. This was the only island of the affiliated Pacific islands with any dryness or drought designation, and that remains the case. But rainfall has increased significantly of late. The past 2 weeks brought a total of 8.54 inches of rain, which is more than any full month since July 2022. The recent uptick in moisture has not led to drought removal, but the designation is improved to moderate drought (D1) this week.
+It was a dry week across the Marianas, with only a few tenths of an inch of rain reported at most. The dry week was a welcome relief, though, as intense rainfall doused the Marianas over the first half of January 2023. Anywhere from 9 to 15.5 inches has fallen this month, which is 2.5 to 3.5 times the normal for the period. This follows a considerably wetter-than-normal December, no moisture deficits nor dryness-related impacts are occurring. There are no dryness nor drought designations.
+Jaluit in the western Marshall Islands reported 2.48 inches of rain last week, but totals at Ailinglapalap and Kwajalein ranged from only 0.40 to 0.75 inch. This brought the January 2023 total to between 6.9 and 8.0 inches, which is considerably above normal. Sub-optimal rainfall was reported during December 2022 at most locations – about 45 to 73 percent of normal – but prior months brought generally near to more than optimum rainfall totals. With the recent increase in rainfall and the marginally wet conditions of most prior months this past year, no substantial moisture deficits nor dryness-related impacts are indicated at this time, and there are no dryness nor drought designations.
+In the eastern Marshall Islands, Mili was doused with 4.23 inches of rain last week, but Wotje and Majuro recorded only 0.68 and 1.04 inches, respectively. The first 24 days of January 2023 brought over 19 inches of rain to Mili, which is nearly three times normal and well above the optimum total to keep pace with demand. January totals were lower elsewhere, but still above normal somewhat. Majuro reported 10.9 inches of rain so far this January, and Wotje – one of the driest locations climatologically of the affiliated Pacific islands – has received 3.38 inches of rain for the month-to-date (more than 180 percent of normal). The last 5 months of 2022 were all wetter than normal at Mili, so there are no dryness-related concerns there. Near or below normal rain was reported during this period at Majuro, but monthly amounts ranged from 10 to 19 inches, so rainfall is keeping pace with demand there. Wotje has been a little wetter than normal for the past several months overall, but due to the drier climatology, it is more vulnerable to drought than most other islands. For the past 7 months, suboptimal rainfall totals have been more common than not, but amounts exceeded 5.1 inches each of these months, and the recent near- to above-normal rainfall has precluded the development of any dryness-related impacts. No dryness nor drought designations indicated.
+The last 3 months of December 2022 brought exceptional rainfall amounts exceeding 34 inches to Pago Pago and Siufaga Ridge. January 2023 has remained wetter than normal, with an additional 13.61 inches of rain reported for the first 24 days, bringing their not-quite-four-month total to nearly 48 inches. No dryness nor drought designations indicated.
+
+## South
+Precipitation fell across much of the South, halting most degradations or improvements this week. Up to two inches of precipitation fell from central Louisiana to southern Mississippi while much of Texas and Oklahoma received less than half an inch of rain. Precipitation over parts of southeast Oklahoma and eastern Texas were below normal, resulting in the expansion of abnormal dryness (D0) in this area. Severe (D2) drought and abnormal dryness was expanded in southern Texas in response to below-normal precipitation, declining streamflow and drying soils.
+
+## Southeast
+A cold front brought precipitation to much of the Southeast. A half of an inch or more of rain falling across much of the region, while a swath of heavy precipitation, stretched from southern Alabama to the North Carolina Coast, brought up to three inches in areas. The excess rainfall improved areas of moderate (D1) drought and abnormal dryness (D0) in Alabama; moderate and severe (D1-D2) drought and abnormal dryness in Florida; moderate and severe drought and abnormal dryness in Georgia; moderate drought and abnormal dryness in South Carolina; and moderate drought in North Carolina.
+
+## West
+Half of an inch or more of precipitation fell in the Coastal and Cascade ranges of the Pacific Northwest, and southern Rockies while more southerly parts of the West, from southern Nevada to southern Arizona, received no precipitation. Moderate to severe (D1-D3) drought and abnormal dryness (D0) were trimmed in Washington, Oregon, Idaho, California, Nevada, Utah, and New Mexico. Extreme drought shrank in southern Oregon, Nevada and Utah. Some of the drought contraction was due to drought indicators showing slightly less severe conditions. In California, improvements were made based on multiple weeks of above normal precipitation and improving reservoirs, streamflow and indicators. In the drier areas of the West, severe drought was expanded in western Montana while moderate drought was expanded in eastern New Mexico. In Utah, much of the state has above normal snowpack but few improvements were made this week based on the current issues with groundwater and depleted reservoirs.
+
+## Forecast
+The National Weather Service Weather Prediction Center has forecasted a winter storm (valid January 25 – January 26) that will track through the eastern Great Lakes overnight. Bands of heavy snow are expected over northern New York and New England. A second area of low pressure will develop over Southern New England and move into the Gulf of Maine by early Thursday where over 10” of snow is forecasted for interior locations. Moving into next week (valid January 28 – February 1), the forecast calls persistently cold temperatures from the northern/central Rockies into the Upper Midwest, while the West will trend colder. the Southeast on the warmer side of normal, especially after the weekend. At 8 – 14 days, the Climate Prediction Center Outlook (valid February 2 – February 8) calls for below-normal temperatures over most of the country except for the Southeast and Alaska. Parts of the Northeast, southern Southwest and central Alaska can expect near-normal temperatures, while parts of the Southeast and western Alaska have the greatest probability of warmer-than-normal temperatures. Most of the U.S. can expect near- to slightly above-normal precipitation with the probability of near-normal precipitation occurring from the northern Plains to the Northeast and from southern California to the southern Plains, including western and southeast Alaska. Southern parts of the Southwest and Alaska have increased odds for below-normal precipitation.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-160.236083</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-65.2675272</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>17.8841923</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>49.3856286</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T08:06:31-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

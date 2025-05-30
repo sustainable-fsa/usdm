@@ -1,0 +1,238 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2016-11-29</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Richard Heim</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NCEI</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — November 29, 2016</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2016-11-29</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2016-11-29</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2016-12-01</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — November 29, 2016
+
+## Introduction
+This USDM week began with an upper-level ridge bringing above-normal temperatures to much of the central third of the CONUS.  Short-wave troughs moving through the ridge brought surface lows and cold fronts as they moved across the country.  By the end of the week, a large upper-level trough and its associated surface low and front were bringing cooler temperatures and much-needed precipitation to many drought areas.  Drought contracted in parts of the Ohio to Lower Mississippi Valleys and Southern Plains.  Drought expanded in parts of the Central to Southern Plains which missed out on the frontal precipitation.  The early week fronts fell apart before reaching the Southeast drought area, and the late week front did not reach most of the Southeast before the cutoff date for this week’s USDM.  As a result, drought expanded in southern Alabama to southeast Georgia, and in eastern Kentucky, and did not improve in the Southeast much from the frontal passages.
+
+## Hawaii, Puerto Rico, and Alaska
+The week was predominantly drier than normal across Hawaii.  As noted by the National Weather Service in Honolulu, due to unseasonably persistent trade winds over the past couple of months, leeward areas of Hawaii have been steadily drying out. The periods of strong trade winds have only made things drier.  Changes to the USDM depiction, by island:  Kauai: the area from Hanapepe to Waimea was further degraded to D3.  Pastures and vegetation are extremely dry. Even some of the trees are in poor shape or possibly dead.  Oahu: the west side of the Waianae Range was put in D1 based on a recent uptick in brush fire activity.  Maui: Pastures and vegetation on the lower elevations of leeward Haleakala near Kihei are in very poor condition, prompting addition of D3.  Puerto Rico was wetter than normal this week, with many stations reporting 2 to 5+ inches of rainfall.  Southeast Puerto Rico was wetter than normal for the last 30-60 days and had a mixed anomaly pattern for the last 90-180 days.  With above-normal precipitation, streamflow above normal, and soil moisture recharged, the remaining D0-L in southeast Puerto Rico was removed.  No change was made to the depiction in Alaska, even though mountain snowpack was well below normal.  This was due to below-normal precipitation for the last week and month to date, and mostly above-normal temperatures for the month to date.
+
+## Northeast, Mid-Atlantic, and Great Lakes
+Half an inch to an inch of precipitation fell across the Great Lakes with locally over 2 inches.  Except for a few parts of Maine and western New York, most of the Northeast to Mid-Atlantic States received less than half an inch of precipitation.  Less than a tenth of an inch was measured from New Jersey to central Virginia.  D0-D1 were pulled back and D2 deleted in western New York where weekly precipitation was near to above normal and longer-term precipitation deficits have improved.  In Maine, D0 was trimmed slightly in northern Aroostook County to reflect the above-normal precipitation that fell in the last 7 days.  Long-term precipitation deficits ranged from 4 to 8 inches over the last 90 days to more than 12 inches over the last 12 months across southern New England, with 20-inch deficits evident for the last 24 months.  D2 expanded further in eastern Connecticut and the adjacent edge of Massachusetts to reflect dry conditions based on the longer-term SPI (Standardized Precipitation Index) and keeping to areas that were drier than normal over the last 14 days.  The SPI justifies expansion of D2 into southeast Massachusetts, but that area was quite wet in the last 14 days, so no expansion was made there this week.  The short-term/long-term impacts boundary was adjusted northward in southeast New England to better reflect the balance between short-term and long-term dryness.  Record low to much-below-normal streamflows continued across much of southern New England to eastern Pennsylvania.  According to November 27 USDA reports, topsoil moisture was rated short to very short (dry to very dry) across 85% of Connecticut, 66% of New Hampshire and Virginia, 55% of West Virginia, 46% of Massachusetts, 38% of Pennsylvania, and 34% of Maine.  Subsoil moisture was rated short to very short across 90% of Connecticut and Massachusetts, 50% of Virginia and West Virginia, and 47% of Pennsylvania.  Subsoil moisture improved across Maine, going from 58% last week to 44% short to very short this week.  In New Hampshire, subsoil moisture worsened, going from 75% short to very short last week to 83% this week.
+
+## Ohio Valley, Southeast, and Lower Mississippi Valley
+Two to 4 inches of rain fell in a band from northeast Texas to southern Indiana, and across parts of central Alabama to central Georgia, as the cold fronts passed through the region.  Over 4 inches was reported at a few stations in northeast Texas, northwest Louisiana, and southeast Missouri.  Amounts ranged from half an inch to an inch and a half further east, but little to no rain fell by the USDM cutoff date across southeast Alabama and much of Florida to North Carolina.  With November precipitation deficits through November 27, before the heavier rains fell, ranging from 3 to 5 inches across the driest parts of the Southeast, and year-to-date deficits ranging from 12 to 20 inches, locally well over 20 inches, 2 to 4 inches of new rain this week did little to alleviate the long-term dryness.
+D1-D3 were pulled back in parts of the Lower Mississippi Valley to Ohio Valley, from Arkansas and Louisiana to Indiana and Ohio.  D0 was largely left in place because the weekly rainfall amounts were not enough to eliminate even the month-to-date deficits in the D0 areas, except in parts of northwest and southwest Indiana where D0 was trimmed.  D3-D4 were pulled back slightly in parts of east central Mississippi to west central Georgia, mainly where 2.5+ inch rains fell.
+D1-D3 expanded in southeast Georgia based on the combination of low streamflow, long-term precipitation deficits, and drying soils.  November 27 USDA reports indicated 93% of the subsoil moisture in Georgia was short to very short of moisture, and the topsoil moisture worsened from 92% short to very short last week to 98% this week.  D2-D3 expanded in southern Alabama and adjacent Mississippi and Florida to better reflect the extremely dry long-term precipitation deficits and local drought impacts.  The USDA reported that 100% of the topsoil moisture and 100% of the subsoil moisture across Alabama was rated short to very short of moisture.  Half an inch to an inch and a half of rain fell across western North Carolina this week, which was not enough to warrant improvement but was enough to prevent expansion of drought, except in one county.  Jackson County pastures have died off and will have to be replaced/reseeded in the spring.  D4 expand into Jackson County, North Carolina, where 7-day precipitation was below normal and long-term deficits were severe as measured by SPI values of -2 or lower at 30-90-day and 9-month time scales.  D3 expanded in eastern Kentucky where 30-120-day precipitation deficits were severe, and D0 expanded in eastern Ohio to better reflect 30-90-day precipitation deficits.  The drought impacts boundary line was adjusted in Kentucky and Georgia to better reflect the mix of short-term and long-term dryness.
+Severe drought impacts continued to mount in this region and included parched soils, record to near-record low streamflows, and drying stock ponds.  Impacts from southern Alabama, as submitted to the Drought Impacts Reporter, include shrinking aquifers, dried up stock ponds, failed crops, and stressed feed for stock.  In Lowndes County, Alabama, ranchers have been feeding hay reserved for winter since early September, and, except in a few places, pastures were absolutely bare.  Soybean growers statewide have reported that soybean pods were shattering. Soybean pod shattering occurs as a result of hot and windy conditions and low humidity combining to dry the pod walls until they become brittle and break.  As of mid-November, the Alabama Department of Economic and Community Affairs’ Office of Water Resources had declared most of the state in emergency drought status.  As reported to the Drought Impacts Reporter, Marion and Talbot Counties in Georgia had no feed for cows; streams, branches, and ponds were dried up; there was limited watering for cattle and no winter grazing for cattle; and herd animals were dying.  The Georgia State Climatologist reported that conditions in Seminole County include no grazing, hay shortage and hay supply running out, and too dry to plant any winter grazing.  In Cook County, Georgia, the corn crop was affected in the later stages due to lack of rain as well as the cotton, peanuts, and pecans crops, and even irrigated crop yields were down by 15 to 20%. In Putnam County, drought has decimated pasture and hay land; early feeding of hay necessitated by drought has led to low hay reserves going into winter; and there are no fall forages or wheat planted due to lack of rainfall.  As reported by the North Carolina Drought Council, pastures in Jackson County have died off and will have to be replaced/reseeded in the spring, ranchers are having to feed hay to their sheep, and water use restrictions were in effect in nearby municipalities.  The Ohio State Climate Office noted that low farm ponds have been reported across Adams County and this general region in southern Ohio, and ground water storage is below normal across most of the state, with some of the greatest departures from normal found in aquifers in southwestern and south-central Ohio where levels are nearly four feet below the seasonal average. November 27 USDA reports indicated that 81% of topsoil moisture in Tennessee was rated short or very short, with such ratings at 76% in Kentucky and Mississippi, 74% in Louisiana, 59% in Florida, 57% in South Carolina, and 43% in North Carolina.  Subsoil moisture was rated short to very short in 80% of Tennessee, 79% of Mississippi, 75% of Kentucky, 70% of Louisiana, 53% of Florida, 49% of South Carolina, and 35% of North Carolina.  The rain in Arkansas improved topsoil moisture from 76% short to very short last week to 47% short to very short this week; Arkansas subsoil moisture improved from 74% last week to 64% short to very short this week, but 16% of the state’s winter wheat was still rated in poor to very poor condition.
+
+## The Great Plains
+Precipitation from the low pressure systems that moved across the middle of the country fell as snow in the northern Plains with rain in parts of the central and southern Plains.  Precipitation amounts ranged from 0.5 to 1.5 inches from parts of Nebraska to North Dakota, as well as parts of Texas and southeast Oklahoma, while northeast Texas to the southeast tip of Oklahoma received over 2 inches and locally over 4 inches.  But little to no precipitation fell from northwest Texas to much of Kansas.  D0-D3 were pulled back in eastern and southern Texas, D2-D3 contracted in southeast Oklahoma, and the central Nebraska D1 blob was trimmed.  But D0-D1 expanded in western Nebraska to central Oklahoma and the Texas panhandle, and an oval of D2 was added to southwest Kansas into the Oklahoma panhandle.  As of November 27, the USDA reported that 41% of the topsoil was rated short to very short in Nebraska and Texas, and subsoil moisture was short to very short in 42% of Nebraska and 39% of Texas.  Topsoil moisture short to very short increased in Kansas from 41% last week to 45% this week, while 35% of the subsoil moisture was rated short to very short.  In Oklahoma, topsoil moisture short to very short increased from 50% last week to 55% this week, with 44% of the subsoil short to very short of moisture.
+
+## The Rockies and Far West
+The upper-level troughs brought locally heavy precipitation to the coastal Northwest, with locally 10 inches or more measured in favored upslope areas of Washington and northwest Oregon.  Two or more inches of precipitation fell from the northern California coast to the Cascades of Washington, and along upslope areas of the Sierra Nevada in California.  Much of the Rockies and higher elevations elsewhere in the West received half an inch or more of precipitation, but parts of Montana and the Southwest had less than a tenth of an inch.  The precipitation increased high elevation SNOTEL station snow depth almost everywhere across the West, but SWE (snow water content) values continued to be lower than average across the Pacific Northwest and most of the Rockies.  The weekly precipitation totals were below normal for Montana, the interior Northwest, and parts of the Great Basin and Southwest.  This was still early in the snow season, so no change to the USDM depiction was made across most of the West, except for a few locations.  An oval of D0 was added in eastern Montana based on short-term drought indicators, and D0 expanded along the Rocky Front Range in the vicinity of Great Falls based on 30-day precipitation departures and low SNOTEL SWE values.  In Montana, 34% of the subsoil moisture and 28% of the topsoil moisture were rated short or very short by the USDA.  D0 was pulled back in north central New Mexico where short-term indicators showed wetness, especially NASA’s SPoRT LIS soil moisture tool and the USGS streamflow percentiles.  Reservoirs in this area continued below 30+ year average levels, but this is due to long-term conditions mostly upstream in the basin out of state; in arid regions like New Mexico, it may take many years for some of these reservoirs to refill to these long-term average levels.  November 27 USDA reports still indicated 67% of New Mexico’s topsoil, and 47% of the subsoil, were rated short to very short of moisture.  As noted by the National Weather Service, November 28 SNOTEL data reflected a good start to the snow season for northern California mountain snowpack, with some basins 130-140% of median. But this is early in the snow season, so median values are easy to exceed.  And basins to the south, including the San Joaquin, are still lagging, below 70% of median in more southerly locations.  In California, 65% of the topsoil was rated short to very short, an increase of 5% from last week, and 65% of the subsoil was short to very short, according to the USDA.  In Colorado, 60% of the topsoil and 59% of the subsoil were rated short to very short of moisture, while the statistics were 50%/60% in Nevada, 19%/32% in Oregon, 27%/30% in Utah, and 50%/50% in Wyoming.
+
+## Forecast
+In the day since the Tuesday morning cutoff time of this week’s USDM, the cold frontal passage dropped an inch to locally over 3 inches of rain from parts of Louisiana northeastward to western Virginia, and over parts of the Northeast.  For November 30-December 5, a series of fronts and low pressure systems are forecast to drop an additional 1-2 inches of precipitation across the South from Texas to Virginia, and parts of the Northeast, with locally 3+ inches from Texas to Mississippi.  One to 3 inches is progged for parts of the coastal Northwest and Northern Rockies.  A tenth to half of an inch is expected across the Midwest, extreme northern Plains, and much of the central and northern portions of the West.  No precipitation is forecast for southern California or much of the Southwest to central Plains.  Temperatures should average warmer than normal in the East and cooler than normal in the West.  For December 6-14, odds favor wetter-than-normal conditions for the northern tier States and drier than normal for the Southwest to southern Plains, with the Southeast transitioning from wet to dry.  Temperatures are expected to be colder than normal in the West to Plains.  The East Coast will transition from warmer than normal to cooler than normal as an upper-level trough migrates east through the period.  Odds favor cooler- and drier-than-normal weather over Alaska.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-160.236083</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-66.9540017</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>18.9154965</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>65.8854964</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T07:24:19-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

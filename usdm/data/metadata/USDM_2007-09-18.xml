@@ -1,0 +1,240 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2007-09-18</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>David Miskus</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — September 18, 2007</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2007-09-18</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2007-09-18</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2007-09-20</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — September 18, 2007
+
+## Introduction
+Hurricane Humberto, coming ashore near High Island, TX, at 2 am CDT September 13 with 85 mph sustained winds, rapidly intensified from 1006 to 986 millibars central pressure and increased its sustained winds by 50 mph within 14 hours of landfall.  Although Humberto rapidly weakened once inland, its northeastward track brought locally heavy but beneficial rains to the drought-stricken Delta and Southeast.  Later, moisture from Humberto combined with a strong cold front to drop additional rains on the southern Atlantic Coast.  Behind the front, much colder air settled over the eastern half of the nation, including the first widespread freeze in the north-central states.  Elsewhere, an early-week cold front triggered rain in the Northeast, with over 2 inches measured in parts of New England, while more showers fell on the southern and central Plains and upper Midwest late in the period.  Most of the West was dry, with cool conditions in the Pacific Coast states and above-normal readings in the Southwest and Rockies.
+
+## Alaska, Hawaii, and Puerto Rico
+With daily light to moderate showers falling during much of the week (totaling between 0.5 and 3 inches for the 7-day period), abnormal dryness was alleviated in south-central sections of Alaska.  Farther north, however, little or no precipitation fell, maintaining D0 in northeastern Alaska.  In Hawaii, while leeward sites observed little or no rain, light showers (generally less than 0.25 inches) fell on windward locations, but were not large enough to warrant any improvement, leaving conditions status-quo.  In southeastern Puerto Rico, the D0(H) was slightly expanded to better depict the long-term departures of less than 75% of normal rainfall at 6-months and for year-to-date, or deficits of more than 12 and 20 inches, respectively.  In addition, USGS stream flows at 7-, 14-, and 28-days also reflect values in the lower 10th percentile in southeastern sections.
+
+## New England and eastern Great Lakes Region
+An early week frontal system brought welcome rains (0.3 to 2.5 inches) to much of the Northeast, with weekend showers dropping an additional 0.2 to 1 inches.  This provided relief from moderate drought in southern coastal New England where weekly rainfall totaled between 2 and 3 inches, but with lower weekly amounts and greater long-term deficiencies (6-months: -4 to -12 inches) to the west, no improvements were made in interior New England and the eastern Great Lakes region.
+
+## The Plains
+Cooler and mostly dry weather prevailed across the Plains, although scattered showers dropped between 2 and 3 inches on central Kansas, with lighter amounts (less than an inch) in the Texas Panhandle, southern Nebraska, west-central Oklahoma, and the rest of Kansas.  Much of this rain fell on non-drought areas.  In contrast, short-term dryness D0(A) was expanded southwestward from western Kansas into northeastern New Mexico as 30- and 60-day rainfall has been under half of normal, accumulating deficits exceeding 2 and 4 inches, respectively.  In addition, the Sep. 16 NESDIS Vegetative Health Index depicted stressed conditions in the newly added area.  In southeastern South Dakota, the small D0(H) area was removed as all products indicated average to wet conditions.
+
+## The Southeast, Ohio and lower Missouri Valleys
+Welcome rains from the remnants of Hurricane Humberto plus a cold front provided badly needed moisture to the drought-stricken Southeast and Tennessee Valley; however, the most notable improvements were made to drought areas farthest west (lower Mississippi Valley) and farthest east (southern Coastal Plains).  The reasoning for this included moderate to heavy rains in July and late August in the lower Mississippi Valley, and during late August in the southern Atlantic Coast.  This created favorable topsoil moisture conditions, allowing Humberto rains to infiltrate deeper into the soil profile.  In contrast, there would be more runoff of the current rains as drier topsoils would allow less penetration into the ground.  Furthermore, local experts noted that many conditions reverted back to pre-Humberto times once dry weather returned to the Southeast for a few days.  This was most notable with the instantaneous USGS stream flow on Sep. 19 as many values dropped right back below the 10th percentile, with several approaching record low levels.  Weekly totals exceeding 3 inches occurred in southeastern Texas, southern half of Louisiana, central Mississippi, northern Alabama, northwestern and central Georgia, parts of eastern Tennessee, western and eastern South Carolina, western North Carolina, and south-central Virginia.  In addition, where USGS stream flows at 1-, 7-, 14-, and 28-days (ending Sep. 18) rose above the 25th (normal) percentile, a 1-category improvement was made.  Hopefully, this would avoid a 'flip-flop' of Drought Monitor conditions where improvements made this week would disappear next week if a period of dry weather occurred.   This included central Louisiana, most of Mississippi, northwestern Alabama, parts of the western Carolinas, southeastern and central Georgia, and southeastern South Carolina.  Moderate rains also eased drought in parts of the central Appalachians.  And after further assessment, improvements from recent September rains were also made to central Kentucky, while the D0-D1 area was trimmed southward from eastern Illinois to eastern Ohio as a very tight gradient exists from north (wet) to south (dry) in the Ohio Valley.
+In contrast, reports of poor growing conditions, minimal stream flows and dry local ponds, and low soil moisture in west-central Missouri, plus 30- and 60-day precipitation shortages exceeding 2 to 4 and 3 to 6 inches, respectively, led to an expansion of D0 and D1 in central Missouri and west-central Illinois, and a new D2 near Kansas City, MO.  Finally, the Impact lines were redrawn as this week's rains greatly improved the short-term drought indicator blends.  Where both long- and short-term blends indicated drought, 'AH' was designated, but where long-term drought was indicated with no short-term dryness, an 'H' was used.
+
+## The Upper Midwest and western Great Lakes Region
+During the first half of the week, scattered showers and thunderstorms dropped between 0.5 and 1.5 inches of rain on the western Great Lakes region, continuing a trend of light to moderate rains each week since early August.  As a result, some D0(A) and D1(A) was shaved away in northern sections of lower Michigan, and the Impact designation was changed to 'AH' with distinctions between short- and long-term dryness less apparent. Farther west, light to moderate rains (0.1 to 1 inches, with isolated values to 2 inches) in central and northeastern Minnesota late in the period were not enough to warrant improvement.  However, with detailed precipitation maps from the Minnesota State Climatology Office, D2 and D3 areas were redone to reflect the largest rainfall shortages (more than 5 inches) since June 5.  In addition, increasing deficits across northern Wisconsin (3 to 6 inches at 60-days; 6 to 12 inches at 6-months), short- and long-term drought indicator blends at D2 or worse, very low CPC soil moisture percentiles, and USGS stream flows (1-, 7-, 14-, and 28-days) at near- or record low levels justified a D2 expansion.  In the short term (60 days), minimal rain in northwestern Minnesota has accumulated deficits exceeding 4 inches, leading to very low inflow into Lake of the Woods and causing its level to drop at a rate faster than climatology would dictate.  Accordingly, D1(A) and D2(A) was added into northwestern Minnesota.
+
+## The West
+With precipitation normally at a minimum during September across most of the West, dry weather is usually not a concern, except possibly for wildfires.  However, after a subnormal wet season (November-March) and a very early melt off of the snow pack thanks to an unseasonably mild March, hydrological impacts are now being seen in parts of the West.  In eastern Oregon, western and eastern Idaho, and western Wyoming, the Bureau of Reclamation's major reservoir storage and stream flow statistics depicted some very low storages (lakes at less than 5% capacity) and stream flow values, especially in the Upper Snake and Owyhee River basins.  Accordingly, D3(H) was expanded into eastern Idaho, western Wyoming, and northeastern Oregon.  In western Montana, information from the state's August technical drought assessment depicted worsening conditions due to an overall lack of decent rain during the past 90 days, and D3 was slightly expanded.  Elsewhere, conditions were left status-quo, although a discrepancy between short- and long-term impacts led to a reanalysis of the Impact lines.  With short- and long-term drought indicator blends now becoming similar, the 'A' designation was changed to 'AH', and in areas where short-term surplus rainfall (most notable at 60-days) existed, the 'H' designation prevailed.
+
+## Forecast
+For September 20-24, a weak surface low off Florida's Atlantic Coast and an upper-air low over the eastern Gulf of Mexico will bring heavy rain to much of Florida, with possible further development of the surface low after it tracks into the eastern Gulf of Mexico.  In the West, an upper-air low off southern California's coast will produce cool and unsettled weather in California.  The upper-air low will track northeastward over the weekend, bringing precipitation to the Great Basin and northern Rockies, then rain to the northern Plains and upper Midwest early next week. Most of the U.S. will experience near- to above-normal temperatures, except for cooler conditions in the Far West.
+For the ensuing 5 days (September 25-29), the odds favor above-normal precipitation from the Northwest eastward to the Great Lakes region, throughout the Mississippi and western Ohio valleys, and the Gulf Coast states.  Drier-than-normal conditions are expected in the Southwest and the Atlantic Coast states from northern Georgia northward.  Unseasonable warmth is forecast for much of the lower 48 states, from the Rockies eastward.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-160.236083</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-65.914568</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>17.9284123</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>70.3533567</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T01:20:16-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

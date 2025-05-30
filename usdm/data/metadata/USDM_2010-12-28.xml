@@ -1,0 +1,240 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2010-12-28</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>David Miskus</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — December 28, 2010</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2010-12-28</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2010-12-28</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2010-12-30</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — December 28, 2010
+
+## Introduction
+Heavy precipitation inundated parts of the Southwest (especially southern sections of California and Nevada, northwestern Arizona, Utah, and southwestern Colorado) early in the period, but not before flash flooding and mudslides, along with heavy snows at higher elevations, battered southern sections of California and Nevada. Numerous Southwestern sites broke not only daily precipitation records but also December records, while some stations approached or equaled their normal ANNUAL total.  Before the weekend, light to moderate snow fell on parts of the Midwest, namely the middle Mississippi Valley, while the now weakened Pacific storm system tracked across the southern Plains, dropping beneficial precipitation on parts of the south-central Great Plains. Between 1 to 2 inches of rain fell on central and southeastern parts of Texas and southeastern Oklahoma, with much lighter amounts occurring farther to the east (e.g. Arkansas, Louisiana, Mississippi, and Tennessee) and north (northern Oklahoma, Kansas, eastern Colorado, and Nebraska). By the weekend, this storm reorganized in the Gulf of Mexico and moved up the Atlantic Coast, dumping heavy snows on the Northeast after giving parts of the Southeast a rare White Christmas. Above-normal temperatures enveloped most of the West, upper Midwest, and New England, while subnormal readings covered the northern and central Plains and eastern third of the Nation. Alaska remained mostly dry and frigid, while more heavy showers fell on the western Hawaiian Islands. This time, however, the western and southern portions of the Big Island were the recipients of moderate to heavy rains (2 to 6 inches).
+
+## Central and Southern Plains
+A mixed bag of conditions affected Texas. A swath of moderate rain (1 to 2 inches) fell on central parts, light to moderate rains (0.5 to 1.5 inches) occurred in southeastern sections, light rains (about 0.5 inches) was reported  in eastern portions, and little or no precipitation fell on southwest, northwest, and southern Texas. Oklahoma also saw 0.5 to 1.5 inches of precipitation in the southeast but little to the north and west, while eastern Colorado, Nebraska, and most of Kansas measured no precipitation. For improvements, a 1-category change was made in north-central and southeastern Texas (from D2 to D1, and D1 to D0) where 1 to 2 inches of rain fell and short-term dryness was much less than surrounding areas. The southern D3 edge was also slightly trimmed where at least 1 inch of rain was observed. For degradations, D0 was expanded northward in northwestern Texas due to little or no precipitation the past 60-days; D1 and D2 were increased in southern Texas as little or no rain has fallen the past 90-days; and D3 edged into eastern Texas (southwest Nacogdoches and eastern parts of Harrison, Panola, and Marion Counties). The remainder of the state did not change. Farther north in the central Plains, the continued lack of significant precipitation out to 90-days warranted a slight expansion of D0 in southwest and central Nebraska, north-central Kansas, and western Missouri, while D1 increased into the Oklahoma Panhandle, eastern Kansas, and northeastern Oklahoma. In eastern Colorado, although the past 4.5 months have been extremely dry (Fort Collins to Trinidad in the lower tenth percentile), the overall 2010 summer water supplies were good and Colorado’s mountain snowpack is off to a good start. Thus, no degradation was made due to the lack of any negative impacts.
+
+## Hawaii and Alaska
+Continued widespread heavy showers on the westernmost islands (2 to 6 inches, locally up to 12.02 inches at Mt. Waialeale from 8am HST Dec. 21 to 8am HST Dec. 28) on both the windward and leeward sides of Kauai eliminated D0 there. The Big Island finally received moderate to heavy weekly rains (2 to 6 inches) on the western (Honaunau 5.78 inches and Kealakekua 3.42 inches) and southern (Pali 6.20 inches; Kapapala Ranch 5.59 inches; and Pahala 5.09 inches) sections, requiring a 1 category improvement (D3 to D2) in southern and northwestern areas (improved pasture conditions in the latter area), D2 to D1 in south-central parts, and D0 and D1 along western coast shifted toward the interior (upslope). The existing D3 areas was shrunk and moved southeastward based upon refinement from FSA data as brush fire reports still rated the Pohakuloa and Waikoloa areas at extreme risk. Lighter totals (less than 1 inch) on Maui, Molokai, and Lanai maintained conditions.
+In Alaska, a cold and dry December continued as deficits grew, especially along the southern and southeastern coasts where normal fall and winter precipitation totals are large. Although some precipitation fell along the southeastern coast this week, less than 40 percent of normal December precipitation has been measured, with month-to-date deficits reaching 3.41 inches at Juneau, 4.30 inches at Kodiak, 5.53 inches at Cordova, 6.12 inches at Sitka, and 8.66 inches at Yakutat. Accordingly, D0 was expanded into the southeastern Alaskan Panhandle except for extreme southern sections that are closer to normal precipitation this month (e.g. Ketchikan observed 9.03 inches versus a normal of 11.99 inches).
+
+## Intermountain West and north-central Rockies
+Pacific storms continued to lash the West, dropping more than 2 inches of precipitation along the entire West Coast and on the Sierra Nevada. The small D0 area in west-central California (San Benito, northwest Fresno, and southwest Merced Counties) was erased after another 0.5 to 1 inches of rain fell there. Farther south, a fetch of deep Pacific moisture dumped copious rains on southern California (5 to 10 inches in southeastern Los Angeles, southwestern San Bernardino, western Riverside, and northern San Diego Counties) and eastward into southeastern California (1 to 5 inches in eastern San Bernardino and southeastern Inyo Counties), southern Nevada (1 to 4 inches in southern Nye, southern Lincoln, and Clark Counties), northwestern Arizona (refer to Southwest narrative), and eastward into Utah, western Wyoming, and western Colorado, abruptly ending the D0 in southern Nevada and further trimming the D0 in central Nevada. The D1 in central Nevada was also removed as all available indicators supported no drought, and the few available sites had more than 200 percent of normal WYTD precipitation. Another wet week (0.5 to 2 inches, locally to 3.5 inches in southwestern Colorado) was enough to trim more D0 in southeastern Utah, southwestern Colorado, and northwestern New Mexico. Farther north, although individual stations are sparse in southwestern Wyoming, the Upper Green River Basin reported good soil and stream flow conditions, along with more than 300 percent of normal precipitation so far this month. Also, adjacent SNOTEL average basins WYTD precipitation and Dec. 28 SWC were between 130 to 170 percent, so D0 was eased in southwestern Wyoming. Furthermore, the western D0 and D1 edges were slightly trimmed away as 0.5 to 1.5 inches of precipitation fell. SNOTEL average basins in western Wyoming are now above 100 percent for both WYTD precipitation and Dec. 28 SWC, but lower elevation sites remained subnormal.
+
+## Ohio, Tennessee, and lower Mississippi Valleys
+Light to moderate precipitation (0.3 to 0.7 inches) fell on parts of the middle Mississippi and western Ohio Valleys, eroding away some of the D0 in northeastern Illinois, but farther east, little or no precipitation (less than 0.2 inches) was reported, maintaining D0 and D1 in Indiana and Kentucky, and slightly expanding D0 into northwest and southwest Ohio where short and long-term deficiencies, respectively, have resurfaced. In the Tennessee Valley, 0.2 to 0.5 inches of precipitation kept conditions status-quo. Farther south, however, where normal winter precipitation (e.g. lower Mississippi Valley) is much greater than it is to the north, shortages continued to grow as precipitation amounts were generally less than 0.3 inches. Month-to-date deficiencies exceeded 4 inches in most of Arkansas, Louisiana, and western Mississippi, with 2 to 4 inch deficits common from eastern Texas and Oklahoma eastward to western Kentucky, central Tennessee, and central Alabama, and northward into southern Missouri and Illinois. With most USGS stream flow levels in the lower tenth percentile, many soil moisture models in the lower fifth percentile, and short and long-term blends depicting D2 to D4 conditions, D3 was increased into most of Louisiana and southern Arkansas (6-month deficits between 12 and 16 inches), and D2 into northern and western Arkansas, western Mississippi, and northeastern Texas. D0 and D1 were also slightly expanded into western and southern Missouri and northwestern Arkansas.  Lastly, if Louisiana receives no more rain this year (not likely), 2010 will be the 4th driest year on record (since 1895), and the driest since 1954.
+
+## Southeast and mid-Atlantic
+A weak storm system brought mostly light precipitation (about 0.5 inches) to the Southeast, generally keeping conditions status-quo. Some of the precipitation was in the form of snow, providing a rare White Christmas to unaccustomed Southeastern cities such as Huntsville, AL, Atlanta and Athens, GA, Columbia, SC, and Raleigh, NC. This system eventually strengthened off the mid-Atlantic coast, generating heavy snows and strong winds from New Jersey into Maine. Enough precipitation (about an inch) fell on the southern Appalachians (western North Carolina) and along the Carolina Coast to trim away D0 there. Farther south for the second consecutive week, another swath of rain (0.5 to 1 inch) fell from Apalachicola, FL, northeastward to the Carolina Coast, slightly trimming the western and northern D3 edge in northern Florida and eastern Georgia, easing D2 in eastern Georgia, and improving D0 and D1 in north-central Florida. Even with the light precipitation, USGS stream flow levels remained in the lower tenth percentiles, with many sites still near or at record low levels. In contrast, much lighter precipitation (0 to 0.3 inches) warranted deteriorating conditions in most of Mississippi, Alabama, and southern Florida where D0 to D2 expanded.  D1 also enveloped southern Mississippi and parts of southeastern Louisiana, while D2 increased in western Mississippi as nearly all USGS stream flow values fell into the lower tenth percentile in Mississippi and Alabama. In the mid-Atlantic, light precipitation (0.1 to 0.5 inches) was enough to keep conditions static, but widespread decreasing stream flow values and growing short-term deficits warrant close monitoring of this region.
+
+## Southwest
+The storm system that soaked the West, especially southern California (refer to Intermountain West summary below), also hit northwestern and central Arizona and northern New Mexico with decent precipitation (1 to 3 inches) and provided drought relief (D1 to D0 in Arizona’s southwest Maricopa and northern Pinal Counties; D0 removal in Mohave, Yavapai, western Coconino, northwestern Gila, and northern Maricopa Counties). December 28 SNOTEL average basin Snow Water Content (SWC) in central Arizona stood between 105 to136 percent of normal, a large jump from 60 to 86 percent of normal just 2 weeks ago. In northern New Mexico, D0 was eased from northern Rio Arriba County as SNOTEL average basin Water Year To date (WYTD) precipitation and Dec. 28 SWC ranged between 110 to 120 percent of normal. Unfortunately, the storm mostly missed southern sections of Arizona (less than 0.5 inches) and New Mexico (less than 0.2 inches) and western Texas (dry), keeping conditions status quo since D1 was introduced in southern New Mexico and southwestern Texas last week. Both SNOTEL basin average WYTD precipitation and Dec. 28 SWC for southeastern Arizona and most of New Mexico remained subnormal, with several basins less than 40 percent of normal. The impacts line, however, was modified to AH in southern Arizona and southwestern New Mexico as both short and long-term deficits were noted while southeastern New Mexico and southwest Texas remained at A with only short-term dryness effects.
+
+## Forecast
+December 30, 2010-January 3, 2011 weather will feature a change in the persistent December weather pattern.  Colder and tranquil weather will envelop the West, and unseasonably mild air and increased storminess will occur in the East and South, with the greatest 5-day totals (1.5 to 4 inches) expected from eastern Texas and Arkansas into Alabama and Tennessee. The upper Midwest may see a major snow storm.  Before this period (Dec. 29), southern California and Arizona received additional precipitation from another potent Pacific storm system while rain developed in the lower Mississippi and Tennessee Valleys.
+For the ensuing 5 days (January 4-8, 2011), above-normal precipitation is expected along the Pacific Northwest Coast, in southern California and Arizona, along the central and eastern Gulf and southern Atlantic Coasts, and in northern and southeastern Alaska. Subnormal precipitation is forecast from the Great Basin into the northern Plains, from the southern Plains to the middle Mississippi Valley then eastward to the mid-Atlantic and New England, southern Florida, and southwestern Alaska. Subnormal temperatures should prevail in the Southwest, Southeast, and western Alaska, with above-normal readings limited to southeastern Alaska and extreme New England.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-165.1264349</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-76.9770386</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>18.9154965</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>63.0986296</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T06:53:54-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

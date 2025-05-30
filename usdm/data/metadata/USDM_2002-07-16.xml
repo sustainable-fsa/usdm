@@ -1,0 +1,236 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2002-07-16</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Brad Rippey</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>U.S. Department of Agriculture</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — July 16, 2002</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2002-07-16</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2002-07-16</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2002-07-18</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — July 16, 2002
+
+## Introduction
+
+
+## Alaska and Hawaii
+Few changes were observed in Hawaii (windward showers) and Alaska. The latter state continued to experience fluctuating weather patterns that most recently have featured mostly dry weather, particularly across southwestern Alaska. Earlier in July, rain provided some relief from abnormal dryness (D0) across interior Alaska, but more recently widespread showers developed in southeastern Alaska.
+
+## The Gulf Coast
+Torrential rainfall eliminated abnormal dryness in the Texas Gulf Coast region north of Padre Island, although severe to extreme drought (D2 to D3) clung stubbornly across Deep South Texas. Through July 16, year-to-date rainfall totaled 6.62 inches (56 percent of normal) in Brownsville, Texas, but improved to 21.65 inches (84 percent) in Houston, Texas, courtesy of more than 7 inches in July.
+
+## The Northeast and Southeast
+Beneficial rain fell as far north as the Mason-Dixon Line, but only light, scattered showers were noted from Pennsylvania northward. As a result of recent drying, there was some expansion of moderate drought (D1) into southern New England and severe drought (D2) into southern New Jersey. In addition, effects of dryness in the northern Mid-Atlantic region expanded beyond the previously delineated hydrological (W) impacts to include agricultural and wildfire concerns. Farther south, rain in the southern Atlantic coastal plain and piedmont regions temporarily boosted topsoil moisture but otherwise provided little relief from long-term drought. More significant rain fell in the central and southern Appalachians and points westward, easing agricultural and wildfire concerns. Some agricultural dryness (D0) persisted in the Delta and environs, despite locally heavy showers.
+
+## The Plains and Midwest
+Despite a return to near- or below-normal temperatures, short-term, abnormal dryness (D0) expanded across parts of the eastern Corn Belt from Illinois to Pennsylvania, depleting topsoil moisture and increasing stress on pastures and summer crops. According to USDA/NASS reports, topsoil moisture on July 14 was rated 72% very short to short in Illinois, 70% in Michigan, 69% in Ohio, and 59% in Indiana. Farther west, very dry conditions (D0 to D3) persisted from much of Nebraska and South Dakota westward across the High Plains. In southwestern Nebraska, Gothenburg received only 5.90 inches of precipitation (less than half of normal) from January 1July 15, the second-lowest total on record there for that period behind 4.87 inches in 1934. Elsewhere in Nebraska, it was the driest January 1July 15 period in the last half-century in locations such as Greeley (the previous record was set in 1980) and Beaver City (previously 1956). However, generous rains (locally 2 inches or more) fell across the western two-thirds of Iowa, excluding the extreme southwest. Meanwhile, record heat overspread the northern High Plains (from July 1214), severely stressing spring-sown small grains. On July 14, all-time record highs included 110F in Miles City, Montana, 108F in Billings, Montana, and 107F in Sheridan, Wyoming.
+
+## The West
+An impressive heat wave gripped the Great Basin and interior Northwest from July 1014, breaking or tying dozens of all-time temperature records. In western Nevada, Renos highs of 108F on July 10 and 11 surpassed a 71 year-old record by 2 degrees. Burns, Oregon, matched its 1961 record with a high of 103F on July 10, then experienced highs of 106F on July 11 and 107F on July 12. Boise, Idaho (110F on July 13), missed its August 1961 record by 1 degree, but reached or exceeded 105F on four consecutive days for the first time on record. Elsewhere, all-time, record-tying highs included 105F (on July 13 and 14) in Grand Junction, Colorado, and 107F (on July 13) in Salt Lake City, Utah. Heat and continuing dryness resulted in some expansion of primarily moderate to severe drought (D1 to D2) across the Great Basin and interior Northwest.
+The monsoons onset in the Southwest brought a gradual increase in humidity and shower activity, but provided little change in the overall drought picture. The monsoon onset, marked in southeastern Arizona by three consecutive days with average dewpoints of 54F or higher, began in Tucson on July 9 (less than one week later than the average). Following the end of Tucsons longest spell without a drop of rain on record (100 days from March 30July 7), 1.07 inches fell from July 8-14. Elsewhere in Arizona, month-to-date rainfall exceeded precipitation received during the first half of the year in locations such as Flagstaff (1.30 inches from July 1-16 vs. 1.22 inches from January-June) and Phoenix (0.77 inch vs. a record-low 0.19 inch). However, only one measurable rainfall (0.10 inch on March 24) was observed in Las Vegas, Nevada, from January 1July 16, compared to a normal of 14 such days for this period.
+
+## Forecast
+Weather features to watch in the next 10-day period through July 27 that may affect areas experiencing dryness or drought across the country include: Over the next 5 days (through July 22), moisture will continue to spread northeastward from the western Gulf Coast region and interact with a cold front dropping southward across the northern Plains, Midwest and Northeast. By weeks end, the weakening front and its attendant showers will settle into the Southeast. Meanwhile, a second weather system will provide additional shower activity across the northern Plains and upper Midwest. Elsewhere, monsoon moisture will maintain the threat of showers across the Southwest and Intermountain region, but mostly dry conditions are forecast to persist in the West Coast States and on the High Plains from Kansas southward. During the 6-to 10-day period from July 2327, the NWS forecasts that above-normal temperatures are likely in most areas from the High Plains westward. Meanwhile, above-normal rainfall and below-normal temperatures are forecast across much of the South. Wetter-than-normal weather is also expected across the southern Mid-Atlantic region and parts of the western Corn Belt, but below-normal precipitation is forecast in the lower Great Lakes region, including parts of the eastern Corn Belt. From the High Plains westward, significant shower activity will be largely confined to the Desert Southwest.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-158.656108</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-66.9540017</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>21.0906464</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>66.7862853</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T01:00:31-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

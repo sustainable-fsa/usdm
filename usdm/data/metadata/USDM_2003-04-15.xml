@@ -1,0 +1,236 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2003-04-15</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Brad Rippey</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>U.S. Department of Agriculture</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — April 15, 2003</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2003-04-15</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2003-04-15</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2003-04-17</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — April 15, 2003
+
+## Introduction
+
+
+## Alaska
+Rain and snow showers accompanied a warming trend across south-central and southwestern Alaska, resulting in a slight reduction of the region's area of abnormal dryness (D0). Some of the most impressive precipitation fell across the lower Kuskokwim Valley, where Bethel netted 1.49 inches (426 percent of normal), including 7.7 inches of snow, during the first half of April.
+
+## Hawaii
+Unusually dry weather persisted across the eastern part of the state, maintaining moderate drought conditions (D1). Hilo, on the Big Island, netted 4.98 inches (73 percent of normal) during the first half of April. However, Hilo had received only 1.50 inches (barely 10 percent of normal) the previous month, marking its driest March since only 0.88 inch fell in 1972. Farther west, however, locally heavy showers maintained generally favorable moisture conditions across Oahu and Kauai.
+
+## New England
+Mild, dry weather prevailed across northern New England's area of abnormal dryness and moderate drought (D0 and D1), allowing for some gradual melting of remaining snow. However, precipitation deficits persisted across the region at nearly all time scales, ranging from a few weeks to more than two years.
+
+## The Plains, Midwest, and Great Lakes
+Dry, windy, increasingly warm weather overspread the Plains, Midwestern, and Great Lakes States, drying topsoils in the wake of the previous week's highly beneficial rain and snow. Record warmth reached the High Plains by April 12, and a day later Bismarck, ND (92 degrees F), recorded its earliest high temperature of 90 degrees F or higher. Bismarck's previous earliest 90-degree heat had been observed on April 18, 1987. Uncharacteristically hot weather gradually shifted eastward in advance of a strong cold front, leading to record warmth across the Midwest by April 14. The cold front and its attendant thunderstorms swept onto the southern Plains on April 15, providing localized relief from recent dryness but causing scattered wind and hail damage. However, little rain fell on the southern High Plains, where windy weather and dry soils contributed to a significant dust storm beginning on April 15. In New Mexico, minimum visibilities reported by automated observing stations included 5/8 mile in Hobbs and 3/4 mile in Carlsbad and Artesia. In addition, Artesia clocked a peak wind gust to 75 m.p.h. In western Texas, the visibility dropped to 1/4 mile in El Paso, while winds gusted to 98 m.p.h. at Guadalupe Pass. Farther north, precipitation returned to the northern and central Plains and upper Midwest, but will be evaluated for next week's Drought Monitor since the rain fell after the designated cutoff time (7 a.m. CDT on April 15).
+The Plains remained largely a tale of two different types of dryness: long-term precipitation deficits on the northern and central Plains and short-term deficits on the southern High Plains. The latter situation resulted in a broad expansion of abnormal dryness (D0) northeastward from northern Texas and Oklahoma. According to USDA, the condition of Texas' winter wheat declined to 25 percent very poor to poor by April 13, as the "lack of moisture [became] critical in some dryland wheat." Oklahoma also noted "a reduction in soil moisture supplies, particularly topsoil moisture." Farther north, winter wheat benefited from recent topsoil moisture improvements, but pastures continued to suffer due to long-term drought damage. Although national pasture conditions will not be available until early May, state reports indicated that at least 50 percent of ranges and pastures were rated in very poor to poor condition in Colorado (72 percent), Nebraska (62 percent), South Dakota (59 percent), Wyoming (55 percent), New Mexico (52 percent), and Kansas (50 percent). Farther east, abnormal dryness (D0) expanded southward across the Midwest, while warm, windy conditions in areas of moderate to extreme drought (D1 to D3) began to offset the beneficial effects of the previous week's rain and snow. By April 13, Iowa pastures rated 36 percent very poor to poor.
+
+## The Rockies and Far West
+The first in a series of storm systems arrived in the Pacific Coast States on April 12, boosting valley soil moisture levels for winter grains and newly planted summer crops. Heavy showers in California's Central Valley and environs erased an area of abnormal dryness (D0). Downtown Sacramento netted a daily-record rainfall of 0.90 inch on April 12, followed the next day in Fresno by a daily-record sum (0.48 inch). California rainfall totals for the first half of the month, including 1.52 inches in Fresno and 2.80 inches in San Francisco, easily surpassed the stations' respective April normals of 0.76 and 1.18 inches. Meanwhile, Portland, OR, tied its April record with measurable precipitation on each of the first 13 days of the month, totaling 2.40 inches. Farther inland, April storminess provided a late-season boost to high-elevation snow packs. According to the California Department of Water Resources, the Sierra Nevada snow pack gained about 3 inches of water equivalent, climbing from 20 inches (70 percent of normal) on April 1 to approximately 23 inches (87 percent of the mid-April normal) two weeks later. Although the precipitation was beneficial in moderate to extreme drought areas (D1 to D3) across the Intermountain West, it had little effect on the drought depiction or overall Western water-supply prospects. However, due to recent Western drought relief, only a small area of exceptional drought (D4) persisted, centered on southwestern Wyoming. Just eight months ago, in late-summer 2002, exceptional drought--expected to occur in a given location less than once per 50 years--covered parts of eight states stretching from the Four Corners region to the central High Plains.
+
+## Forecast
+Weather features to watch in the next 10-day period through April 26 which may affect areas experiencing dryness or drought include: over the next 5 days (April 17-21): Three storm systems are likely to provide drought-easing precipitation across parts of the Intermountain West, Plains, and Midwest. The most significant drought relief is expected along and north of the track of the low-pressure systems, although showers and thunderstorms will occur along the storms' trailing cold fronts. The first system reached Kansas on April 16 and is forecast to move eastward and weaken. The second storm will closely follow the first and is forecast to develop across the Intermountain West on April 17, then weaken and approach the Great Lakes region by April 19. At the same time, the third disturbance will begin to intensify across the south-central U.S. That storm may produce significant and widespread rainfall across the Midwest and interior South into early next week (April 21). For the 6- to 10-day period (April 22-26): 1) An active weather pattern is forecast to continue across the majority of the U.S. As a result, near- to above-normal precipitation is likely nearly nationwide, including the Plains, Midwest, and Intermountain West; 2) Above-normal temperatures are likely from the northern Plains to northern New England and in portions of the south-central U.S., but cooler-than-normal weather is forecast in California and the Great Basin.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-162.1782281</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-67.7809674</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>18.9154965</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>64.9806487</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T01:03:20-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 

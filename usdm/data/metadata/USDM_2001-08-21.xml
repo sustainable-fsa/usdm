@@ -1,0 +1,239 @@
+<gmd:MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlcov="http://www.opengis.net/gmlcov/1.0" xmlns:gmlrgrid="http://www.opengis.net/gml/3.3/rgrid" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://standards.iso.org/iso/19115/-2/gmi/1.0" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>USDM_2001-08-21</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="" codeListValue="dataset" codeSpace="NA">information applies to the dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>David Miskus</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA, NWS, NCEP, CPC</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://droughtmonitor.unl.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>US Drought Monitor website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="author" codeSpace="NA">party who authored the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>R. Kyle Bocinsky</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>Montana Climate Office</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString>Director of Climate Extension</gco:CharacterString>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>kyle.bocinsky@umontana.edu</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://climate.umt.edu</gmd:URL>
+              </gmd:linkage>
+              <gmd:name>
+                <gco:CharacterString>Montana Climate Office website</gco:CharacterString>
+              </gmd:name>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="" codeListValue="distributor" codeSpace="NA">party who distributes the resource</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2025-05-30</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>US Drought Monitor — August 21, 2001</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>USDM_2001-08-21</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2001-08-21</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="inForce" codeSpace="NA">date identifies when resource became in force</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2001-08-23</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="" codeListValue="released" codeSpace="NA">the date that the resource shall be released for public access</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>
+
+# US Drought Monitor — August 21, 2001
+
+## Introduction
+
+
+## Hawaii and Puerto Rico
+Daily scattered, light (generally 0.10-0.25 inches) showers fell on windward locations of Kauai, Oahu, Maui, and the Big Island (Kona), while little or no rain was observed at leeward sites. The windward totals were not large enough to ease dryness or drought, except on the Kona. During the past 3 weeks, occasional daily totals (0.75 to 1.75 inches) on both the windward and leeward sides of Kona diminished dryness and drought on the island. On Puerto Rico, a brief shot of moisture from Tropical Storm Chantal, passing well to the south, brought some isolated heavy showers (2 to 4 inches) to the island, but overall rainfall remained below normal for August. Except for the southeastern coast where short-term rainfall has increased to near normal, D0 remained along the southwestern and south-central coast and in the northeastern interior. Another dry week (0.1 to 0.3 inches) in the northwest coast dropped 4 and 8-week percent of normal rainfall to between 64-78%, or abnormally dry (D0).
+
+## The Central Plains and Midwest
+Early and mid-week showers and thunderstorms provided beneficial moisture to most of eastern Nebraska, central Iowa, northern Illinois, and eastern Minnesota, reversing last weeks short-term drying trend. Although weekly totals of 2 to 4 inches were measured in parts of the western and central Corn Belt, there was a sharp gradient as amounts were much lower (less than 0.5 inches) in areas just to the south. Accordingly, abnormal dryness or moderate drought remained or expanded into southeastern Nebraska, southern Iowa, northeastern Missouri, and west-central Illinois.
+
+## The Northeast and Great Lakes Region
+A pair of potent cold fronts brought welcome rains and cooler weather to parts of the Northeast, easing abnormal dryness and drought in Michigan and southern and eastern sections of the Northeast. Between 2 and 4 inches of rain fell on the eastern Upper Peninsula and central and southeastern lower Michigan, in central portions of Pennsylvania and New York, and on Long Island. Lower amounts (under an inch), however, were measured across northern Ohio, northwestern and southern Pennsylvania, western and eastern thirds of New York, and most of New England. The largest 90-day deficits (4 to 7 inches) were found in central Maine, western parts of New York and Pennsylvania, and northeastern Ohio. Accordingly, abnormal dryness or drought remained or expanded in the eastern Ohio Valley, eastern Great Lakes region, and northern New England.
+
+## The Southeast
+Numerous showers and thunderstorms triggered by slow-moving cold fronts dropped copious rains (2 to 5 inches) on eastern sections of the Carolinas and Georgia, easing long-term drought and erasing short-term dryness in eastern South Carolina. Farther west, however, showers were more scattered and lighter, maintaining long-term drought as 7-day averaged streamflow rates for 44% of South Carolinas 30 monitored rivers remained in the lower tenth percentile. In addition, short-term (30-day) deficiencies (1 to 4 inches) began building across the Carolina Piedmont. In Florida, scattered thundershowers brought 1 to 2 inches of rain to most of the state, except under an inch in southern sections. Although recharge into aquifers, rivers, and lakes has recently slowed (including Lake Okeechobee) or declined with less rainfall the past 2 weeks, most of the state is at or above normal, except north-central portions where hydrological dryness was maintained.
+
+## The Southern Plains and Delta
+Unsettled weather persisted for the second straight week across portions of the south-central Plains, with the heaviest amounts (2 to 4 inches) scattered at locations in the Red River Valley, southeastern Oklahoma, and in north-central, central, and south-central Texas. As a result, further reductions of short-term drought and dryness occurred in eastern Oklahoma, and north-central and west-central Texas, although severe long-term drought remains in the latter area. For example, San Angelo has accumulated a 21.2 inch deficit (71% of normal) since January 1998, while Midland has nearly a 39 inch shortfall (66% of normal) going back to January 1994. In contrast, little or no rain was confined to extreme southern, southwestern, and southeastern Texas, along the eastern Oklahoma-Kansas border, and in the northern Delta, with above-normal temperatures in southern Texas. With only 25-50% of normal precipitation the past 90-days and numerous declining indices, D2 was added to extreme southern Texas.
+
+## The West
+second consecutive week of hot (weekly temperatures averaging 3 to 6F above normal; highs in the 90's and 100's) and dry weather greatly exacerbated wildfire conditions in the northwestern quarter of the Nation. During the first 20 days of August, thousands of new wildfires blackened about 1.23 million acres just in the Great Basin, Pacific Northwest, and northern California, increasing the national year-to-date total to 2.83 million acres (103% of the 10-year average). In contrast, during the first 7 months of 2001, only 1.53 million acres burned nationwide (77% of normal), with much of this occurring in the Southeast and Alaska. Stream flows and lakes were continuing to decline and generally at much below normal levels, and conditions at over half of the pastures and ranges in California, Washington, Montana, and Idaho were rated very poor to poor by NASS/USDA. With the unfavorable August weather, extreme drought (D3) was expanded into northwestern Wyoming, eastern Idaho, southern Montana (with minimal flow from the Yellowstone and Musselshell drainage basins), northwestern Montana (Kootenai basin), northern Utah (Bear River basin), and the western slopes of the northern Sierra Nevada. Elsewhere, abnormal dryness and drought expanded in most of Montana, Wyoming, and northern California, and the hydrological designation (W) retreated northward for the second week into northwestern Oregon as the fire danger increased. A very cool June and July (departures of -1 to -3F) in Washington and Oregon has provided a cushion against the August heat and moisture shortages ongoing in other Western states. In contrast, recent showers (0.25-0.75 inch) slightly eased drought in northwestern Utah, and a late-week cold front provided some assistance to firefighters in the Pacific Northwest with lower temperatures and higher humidity.
+
+## Forecast
+Forecasted weather features during the last 10 days of August that may affect regions with abnormal dryness or drought include: Early in the period, 1) a Pacific Northwest storm system should bring welcome rain, lower temperatures, and increased humidity (mostly to western Oregon, Washington, and northern Idaho), aiding firefighters, but 2) east of this system, gusty winds may fan wildfires. 3) Weather systems in the Midwest and southern Canada should move eastward, generating thunderstorms across much of the Corn Belt and Great Lakes region. 4) A stalled front may focus thunderstorms across parts of the Southeast, while scattered showers may provide more relief to the south-central Plains. 5) An approaching Tropical Storm Dean should bring heavy showers to Puerto Rico Wednesday and Thursday, while moisture leftover from Tropical Storm Chantal may produce showers in southern Texas.
+The 6 to 10-day outlook calls for: 6) Above-normal chance of precipitation from the Pacific Northwest southeastward into the southern Plains, then northeastward into the mid-Atlantic, and 7) below-normal precipitation probabilities from the northern Plains into the eastern Great Lakes region, and in California. 8) Warmer than normal weather is forecast for the northwestern quarter of the Nation and Maine, and 9) cooler than normal conditions are possible for the southeastern quarter of the U.S.
+
+## Disclaimer
+The discussion in the Looking Ahead section is simply a description of what the official national guidance from the National Weather Service (NWS) National Centers for Environmental Prediction is depicting for current areas of dryness and drought. The NWS forecast products utilized include the HPC 5-day QPF and 5-day Mean Temperature progs, the 6-10 Day Outlooks of Temperature and Precipitation Probability, and the 8-14 Day Outlooks of Temperature and Precipitation Probability, valid as of late Wednesday afternoon of the USDM release week. The NWS forecast web page used for this section is: https://www.cpc.ncep.noaa.gov/products/forecasts/.
+
+</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:credit>
+        <gco:CharacterString>The US Drought Monitor is produced through a partnership between the National Drought Mitigation Center at the University of Nebraska-Lincoln, the United States Department of Agriculture and the National Oceanic and Atmospheric Administration.</gco:CharacterString>
+      </gmd:credit>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="" codeListValue="completed"/>
+      </gmd:status>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="" codeListValue="weekly" codeSpace="NA">data is updated on a weekly basis</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="" codeListValue="vector">vector data is used to represent geographic data</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" codeSpace="ISO 639-2">English</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="" codeListValue="utf8">8-bit variable size UCS Transfer Format, based on ISO/IEC 10646</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-159.7864828</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-65.564497</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>17.8841923</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>49.0035991</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GeoParquet</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <!--Metadata Creation date/time: 2025-05-30T00:56:59-->
+  <!--ISO 19139 XML generated by geometa R package - Version 0.9.1-->
+  <!--ISO 19139 XML compliance: YES-->
+  <!--geometa R package information:	Contact: Emmanuel Blondel emmanuel.blondel1@gmail.com	URL: https://github.com/eblondel/geometa/wiki	BugReports: https://github.com/eblondel/geometa/issues-->
+</gmd:MD_Metadata> 
