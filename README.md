@@ -14,6 +14,21 @@ includes:
 - Geometry validation logs
 - Weekly updating and manifest tracking
 
+The goal of this repository is to draft a regulatory-grade archive of
+the US Drought Monitor that conforms with the *Foundations for
+Evidence-Based Policymaking Act of 2018* (“Evidence Act”, [Public Law
+115–435](https://www.congress.gov/115/statute/STATUTE-132/STATUTE-132-Pg5529.pdf)),
+the *Geospatial Data Act of 2018* (enacted as part of [Public Law
+115–254](https://www.congress.gov/115/statute/STATUTE-132/STATUTE-132-Pg3186.pdf)),
+and [Executive Order 14303, *Restoring Gold Standard
+Science*](https://www.federalregister.gov/documents/2025/05/29/2025-09802/restoring-gold-standard-science).
+Given the regulatory role played by the USDM (e.g., [7 CFR
+1416.205](https://www.ecfr.gov/current/title-7/section-1416.205), [7 CFR
+759.5](https://www.ecfr.gov/current/title-7/section-759.5)), it is
+essential that an authoritative, well-documented, persistent, and
+findable archive of the USDM be established by a Federal agency. This
+work seeks to create a framework for such an archive.
+
 ------------------------------------------------------------------------
 
 ## 📈 About the US Drought Monitor (USDM)
@@ -121,7 +136,7 @@ library(rmapshaper) # For innerlines
 # Read a weekly GeoParquet file as an sf object
 # Use tigris::shift_geometry to shift and rescale Alaska, Hawaii, and Puerto Rico in a US-wide sf object
 usdm_sf <- 
-  sf::read_sf("usdm/data/parquet/USDM_2023-08-15.parquet") |>
+  sf::read_sf("https://climate-smart-usda.github.io/usdm/usdm/data/parquet/USDM_2023-08-15.parquet") |>
   # tigris::shift_geometry only works consistently on POLYGON geometries, so coerce.
   sf::st_cast("POLYGON", warn = FALSE, do_split = TRUE) |> # 
   tigris::shift_geometry()
@@ -172,9 +187,11 @@ ggplot(usdm_sf) +
 > Accessed via GitHub archive, YYYY.
 > <https://climate-smart-usda.github.io/usdm/>
 
-**Acknowledgments**: - Map content by USDM authors. - Data curation and
-archival structure by R. Kyle Bocinsky, Montana Climate Office,
-University of Montana.
+**Acknowledgments**:
+
+- Map content by USDM authors.
+- Data curation and archival structure by R. Kyle Bocinsky, Montana
+  Climate Office, University of Montana.
 
 ------------------------------------------------------------------------
 
@@ -190,8 +207,8 @@ University of Montana.
 ## ⚠️ Disclaimer
 
 This dataset is archived for research and educational use only. The
-National Drought Mitigation Center currently hosts the authoritative
-archive of the US Drought Monitor. Please visit
+National Drought Mitigation Center currently hosts the US Drought
+Monitor. Please visit <https://droughtmonitor.unl.edu>.
 
 ------------------------------------------------------------------------
 
