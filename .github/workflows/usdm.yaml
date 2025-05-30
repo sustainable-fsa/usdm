@@ -43,12 +43,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: gacts/directory-listing@v1
-        with:
-          target: .
-          ignore: |
-            **/index.html
-          show-hidden: false
-          overwrite: true
+        # with:
+        #   target: .
+        #   ignore: |
+        #     **/index.html
+        #   show-hidden: false
+        #   overwrite: true
 
       - uses: peaceiris/actions-gh-pages@v4
         with:
