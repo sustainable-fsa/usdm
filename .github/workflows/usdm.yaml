@@ -11,9 +11,9 @@ run-name: Update the USDM Archive with the latest data! 🚀
 permissions: write-all
 
 jobs:
-  update-macos:
-    name: update-macos
-    runs-on: macos-latest
+  update-usdm:
+    name: update-usdm
+    runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
@@ -34,6 +34,14 @@ jobs:
       - name: run
         run: |
           Rscript usdm.R
+          
+      - uses: gacts/directory-listing@v1
+        with:
+          target: ./usdm
+          ignore: |
+            **/index.html
+          show-hidden: false
+          overwrite: true
   
       - name: Commit and push changes
         run: |
@@ -43,24 +51,24 @@ jobs:
           git commit -m "Auto-generate index.html for directory listing" || echo "No changes to commit"
           git push
           
-  generate-index:
-    runs-on: ubuntu-latest
-    needs: update-macos
-    steps:
-      - uses: actions/checkout@v4
-      
-      - uses: gacts/directory-listing@v1
-        with:
-          target: ./usdm
-          ignore: |
-            **/index.html
-          show-hidden: false
-          overwrite: true
-
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "$GITHUB_ACTOR"
-          git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
-          git add .
-          git commit -m "Auto-generate index.html for directory listing" || echo "No changes to commit"
-          git push
+  # generate-index:
+  #   runs-on: ubuntu-latest
+  #   needs: update-usdm
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     
+  #     - uses: gacts/directory-listing@v1
+  #       with:
+  #         target: ./usdm
+  #         ignore: |
+  #           **/index.html
+  #         show-hidden: false
+  #         overwrite: true
+  # 
+  #     - name: Commit and push changes
+  #       run: |
+  #         git config --global user.name "$GITHUB_ACTOR"
+  #         git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
+  #         git add .
+  #         git commit -m "Auto-generate index.html for directory listing" || echo "No changes to commit"
+  #         git push
