@@ -11,28 +11,26 @@ install.packages("pak",
 
 pak::pak(
   c(
-    "arrow?source",
-    "sf?source",
-    "terra?source",
+    "arrow",
+    "sf",
     "curl",
-    "tidyverse",
+    "dplyr",
+    "ggplot2",
     "digest",
     "geometa",
     "fs",
-    "htmltools", 
-    "glue"
+    "xml2"
   )
 )
 
 library(magrittr)
-library(tidyverse)
-library(terra)
+library(dplyr)
+library(ggplot2)
+library(xml2)
 library(sf)
 library(arrow)
 library(geometa)
 library(fs)
-library(glue)
-library(htmltools)
 
 sf::sf_use_s2(TRUE)
 
