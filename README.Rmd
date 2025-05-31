@@ -66,6 +66,20 @@ repository-root/
         └── geometry_validation.csv  # Log of geometry validation issues
 ```
 
+<!-- Only visible when rendered in GitHub Pages -->
+<div id="bagit-listing-container" style="display:none">
+  <iframe src="usdm.html" width="100%" height="800px" frameborder="0">
+    <p>Your browser does not support iframes.</p>
+  </iframe>
+</div>
+
+<script>
+  // Only show the embedded viewer when rendered in GitHub Pages (not on github.com)
+  if (!location.hostname.includes("github.com")) {
+    document.getElementById("bagit-listing-container").style.display = "block";
+  }
+</script>
+
 ---
 
 ## 🔁 Weekly Updating

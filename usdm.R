@@ -14,12 +14,12 @@ pak::pak(
     "arrow",
     "sf",
     "curl",
-    "dplyr",
-    "ggplot2",
+    "tidyverse",
     "digest",
     "geometa",
     "fs",
-    "xml2"
+    "xml2",
+    "jsonlite"
   )
 )
 
@@ -504,3 +504,55 @@ checksums <- sapply(data_files, function(f) {
   paste0(hash, "  ", rel_path)
 })
 writeLines(checksums, file.path(bag_dir, "manifest-sha256.txt"))
+
+generate_tree_flat <- function(
+    bag_path = bag_dir, 
+    manifest_file = file.path(bag_dir, "manifest-sha256.txt"), 
+    output_file = file.path("usdm-manifest.json")) {
+  bag_path <- fs::path_abs(bag_path)
+  
+  # Read manifest into a named vector: path -> checksum
+  hashes <- list()
+  if (!is.null(manifest_file)) {
+    lines <- readLines(manifest_file)
+    for (line in lines) {
+      parts <- strsplit(line, " +")[[1]]
+      if (length(parts) >= 2) {
+        checksum <- parts[1]
+        file <- gsub("^\\./", "", parts[length(parts)]) # remove leading ./ if present
+        hashes[[file]] <- checksum
+      }
+    }
+  }
+  
+  all_entries <- 
+    fs::dir_ls(bag_path, recurse = TRUE, all = TRUE, type = "file") |>
+    stringr::str_subset("(^|/)[.][^/]+", negate = TRUE)
+  
+  entries <- list()
+  
+  for (entry in all_entries) {
+    rel_path <- fs::path_rel(entry, start = ".")
+    info <- fs::file_info(entry)
+    is_dir <- fs::is_dir(entry)
+    entry_data <- list(
+      path = as.character(rel_path),
+      size = if (is_dir) "-" else info$size,
+      mtime = if (is_dir) "-" else format(info$modification_time, "%Y-%Om-%d %H:%M:%S")
+    )
+    # Include checksum if available and not a directory
+    if (!is_dir && !is.null(hashes[[as.character(rel_path)]])) {
+      entry_data$hash <- hashes[[as.character(rel_path)]]
+    }
+    entries[[length(entries) + 1]] <- entry_data
+  }
+  
+  # Sort by path
+  entries <- entries[order(sapply(entries, function(x) x$path))]
+  
+  jsonlite::write_json(entries, output_file, pretty = TRUE, auto_unbox = TRUE)
+  message("✅ Wrote ", length(entries), " entries to ", output_file)
+}
+
+# Generate the flat index
+generate_tree_flat()
