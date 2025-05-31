@@ -31,25 +31,17 @@ jobs:
   #     - name: run
   #       run: |
   #         Rscript usdm.R
-  #    
-  #     - name: commit
-  #       run: |
-  #         git config --local user.name "$GITHUB_ACTOR"
-  #         git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
-  #         git add .
-  #         git commit --allow-empty -m 'weekly update'
-  #         git push
   generate-index:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: gacts/directory-listing@v1
-        # with:
-        #   target: .
-        #   ignore: |
-        #     **/index.html
-        #   show-hidden: false
-        #   overwrite: true
+        with:
+          target: ./usdm
+          ignore: |
+            **/index.html
+          show-hidden: false
+          overwrite: true
 
       - name: Commit and push changes
         run: |
