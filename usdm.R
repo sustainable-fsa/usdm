@@ -11,8 +11,8 @@ install.packages("pak",
 
 pak::pak(
   c(
-    "arrow?source",
-    "sf?source",
+    "arrow",
+    "sf",
     "curl",
     "tidyverse",
     "digest",
