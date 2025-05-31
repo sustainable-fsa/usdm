@@ -53,6 +53,8 @@ repository-root/
   ├── README.Rmd              # Repository documentation (RMarkdown)
   ├── usdm.R                  # Main R script to download, process, and archive USDM data
   ├── usdm.Rproj              # RStudio project file
+  ├── usdm.html               # An HTML directory listing of the USDM Archive
+  ├── usdm-manifest.json      # The directory listing of the USDM Archive
   └── usdm/                   # BagIt-compliant archive of USDM weekly data
     ├── bagit.txt               # BagIt version declaration
     ├── bag-info.txt            # Metadata about the bag archive
