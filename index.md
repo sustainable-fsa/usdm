@@ -92,8 +92,9 @@ repository-root/
         └── geometry_validation.csv  # Log of geometry validation issues
 ```
 
-[📂 View the US Drought Monitor archive
-listing](https://climate-smart-usda.github.io/usdm/)
+<iframe src="usdm.html" width="100%" height="600" style="border:none;">
+
+</iframe>
 
 ------------------------------------------------------------------------
 
@@ -183,7 +184,7 @@ ggplot(usdm_sf) +
   theme_void()
 ```
 
-<img src="README_files/figure-gfm/example-1.png" style="display: block; margin: auto;" />
+<img src="index_files/figure-gfm/example-1.png" style="display: block; margin: auto;" />
 
 ------------------------------------------------------------------------
 
