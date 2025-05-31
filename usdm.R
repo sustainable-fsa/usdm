@@ -24,8 +24,7 @@ pak::pak(
 )
 
 library(magrittr)
-library(dplyr)
-library(ggplot2)
+library(tidyverse)
 library(xml2)
 library(sf)
 library(arrow)
