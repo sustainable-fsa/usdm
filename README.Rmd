@@ -1,5 +1,9 @@
 ---
-output: github_document
+output: 
+  md_document:
+    variant: gfm
+params:
+  target: "readme"   # or "index"
 ---
 
 # 🌵 US Drought Monitor Archive
@@ -68,19 +72,13 @@ repository-root/
         └── geometry_validation.csv  # Log of geometry validation issues
 ```
 
-<!-- Only visible when rendered in GitHub Pages -->
-<div id="bagit-listing-container" style="display:none">
-  <iframe src="usdm.html" width="100%" height="800px" frameborder="0">
-    <p>Your browser does not support iframes.</p>
-  </iframe>
-</div>
-
-<script>
-  // Only show the embedded viewer when rendered in GitHub Pages (not on github.com)
-  if (!location.hostname.includes("github.com")) {
-    document.getElementById("bagit-listing-container").style.display = "block";
-  }
-</script>
+```{r, echo=FALSE, results='asis'}
+if (params$target == "index") {
+  cat('<iframe src="usdm.html" width="100%" height="600" style="border:none;"></iframe>')
+} else {
+  cat("[📂 View the US Drought Monitor archive listing](https://climate-smart-usda.github.io/usdm/)")
+}
+```
 
 ---
 
