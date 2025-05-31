@@ -22,16 +22,16 @@ jobs:
       - name: install-deps
         run: |
           # Import the GPG key
-          wget https://dist.apache.org/repos/dist/dev/arrow/KEYS 
-          sudo apt-key add < KEYS
-          # Install libarrow
-          DISTRO=$(lsb_release --codename --short)
-          sudo add-apt-repository "deb [arch=amd64] http://dl.bintray.com/apache/arrow/ubuntu $DISTRO main"
-          sudo apt-get install libarrow-dev libparquet-dev
+          sudo apt update
+          sudo apt install -y -V ca-certificates lsb-release wget
+          wget https://packages.apache.org/artifactory/arrow/$(lsb_release --id --short | tr 'A-Z' 'a-z')/apache-arrow-apt-source-latest-$(lsb_release --codename --short).deb
+          sudo apt install -y -V ./apache-arrow-apt-source-latest-$(lsb_release --codename --short).deb
+          sudo apt update
+          sudo apt install -y -V libarrow-dev # For C++
+          sudo apt install -y -V libparquet-dev # For Apache Parquet C++
           sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
           sudo apt update
           sudo apt install libudunits2-dev libgdal-dev libgeos-dev libproj-dev libsqlite3-dev
-          
       
       - uses: r-lib/actions/setup-r@v2
         with:
