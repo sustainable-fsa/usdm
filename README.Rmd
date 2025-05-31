@@ -53,8 +53,11 @@ The resulting BagIt-compliant archive includes:
 ```text
 repository-root/
   ├── LICENSE                 # License for the repository (MIT)
-  ├── README.md               # Repository documentation (this file)
   ├── README.Rmd              # Repository documentation (RMarkdown)
+  ├── README.md               # Repository documentation (this file)
+  ├── README_files/           # Repository documentation support files  
+  ├── index.md                # Repository documentation with embedded directory listing
+  ├── index_files/            # Repository documentation support files
   ├── usdm.R                  # Main R script to download, process, and archive USDM data
   ├── usdm.Rproj              # RStudio project file
   ├── usdm.html               # An HTML directory listing of the USDM Archive
