@@ -1,10 +1,8 @@
 ---
-output: 
-  md_document:
-    variant: gfm
-params:
-  target: "readme"   # or "index"
+output: github_document
 ---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # 🌵 US Drought Monitor Archive
 
@@ -56,8 +54,6 @@ repository-root/
   ├── README.Rmd              # Repository documentation (RMarkdown)
   ├── README.md               # Repository documentation (this file)
   ├── README_files/           # Repository documentation support files  
-  ├── index.md                # Repository documentation with embedded directory listing
-  ├── index_files/            # Repository documentation support files
   ├── usdm.R                  # Main R script to download, process, and archive USDM data
   ├── usdm.Rproj              # RStudio project file
   ├── usdm.html               # An HTML directory listing of the USDM Archive
@@ -75,13 +71,7 @@ repository-root/
         └── geometry_validation.csv  # Log of geometry validation issues
 ```
 
-```{r, echo=FALSE, results='asis'}
-if (params$target == "index") {
-  cat('<iframe src="usdm.html" width="100%" height="600" style="border:none;"></iframe>')
-} else {
-  cat("[📂 View the US Drought Monitor archive listing](https://climate-smart-usda.github.io/usdm/)")
-}
-```
+"[📂 View the US Drought Monitor archive listing](https://climate-smart-usda.github.io/usdm/)
 
 ---
 

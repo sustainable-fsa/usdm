@@ -1,3 +1,6 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 # 🌵 US Drought Monitor Archive
 
 This repository provides a reproducible, archival-quality pipeline to
@@ -76,8 +79,6 @@ repository-root/
   ├── README.Rmd              # Repository documentation (RMarkdown)
   ├── README.md               # Repository documentation (this file)
   ├── README_files/           # Repository documentation support files  
-  ├── index.md                # Repository documentation with embedded directory listing
-  ├── index_files/            # Repository documentation support files
   ├── usdm.R                  # Main R script to download, process, and archive USDM data
   ├── usdm.Rproj              # RStudio project file
   ├── usdm.html               # An HTML directory listing of the USDM Archive
@@ -95,7 +96,7 @@ repository-root/
         └── geometry_validation.csv  # Log of geometry validation issues
 ```
 
-[📂 View the US Drought Monitor archive
+“[📂 View the US Drought Monitor archive
 listing](https://climate-smart-usda.github.io/usdm/)
 
 ------------------------------------------------------------------------
