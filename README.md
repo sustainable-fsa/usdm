@@ -1,8 +1,6 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# 🌵 US Drought Monitor Archive
-
 This repository provides a reproducible, archival-quality pipeline to
 download, validate, transform, and document weekly shapefiles from the
 [US Drought Monitor (USDM)](https://droughtmonitor.unl.edu). The archive
@@ -96,8 +94,8 @@ repository-root/
         └── geometry_validation.csv  # Log of geometry validation issues
 ```
 
-“[📂 View the US Drought Monitor archive
-listing](https://climate-smart-usda.github.io/usdm/)
+[📂 View the US Drought Monitor archive
+listing](https://climate-smart-usda.github.io/usdm/usdm.html)
 
 ------------------------------------------------------------------------
 
