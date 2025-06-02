@@ -1,8 +1,15 @@
 ---
-output: github_document
+output: 
+  github_document:
+    html_preview: false
+editor_options: 
+  chunk_output_type: console
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+[![Static Badge](https://img.shields.io/badge/Repo-climate--smart--usda%2Fusdm-magenta?style=flat)](https://github.com/climate-smart-usda/usdm/)
+![Last Update](https://img.shields.io/github/last-commit/climate-smart-usda/usdm?style=flat)
+![Repo Size](https://img.shields.io/github/repo-size/climate-smart-usda/usdm?style=flat)
 
 This repository provides a reproducible, archival-quality pipeline to download, validate, transform, and document weekly shapefiles from the [US Drought Monitor (USDM)](https://droughtmonitor.unl.edu). The archive is structured using the [BagIt 1.0 specification](https://tools.ietf.org/html/draft-kunze-bagit-14) and includes:
 
@@ -111,10 +118,18 @@ library(ggplot2) # For plotting
 library(tigris)  # For state boundaries
 library(rmapshaper) # For innerlines
 
+## Get latest USDM data
+latest <-
+  jsonlite::fromJSON("https://climate-smart-usda.github.io/usdm/usdm-manifest.json")$path |>
+  stringr::str_subset("parquet") |>
+  max()
+  
+
 # Read a weekly GeoParquet file as an sf object
 # Use tigris::shift_geometry to shift and rescale Alaska, Hawaii, and Puerto Rico in a US-wide sf object
 usdm_sf <- 
-  sf::read_sf("https://climate-smart-usda.github.io/usdm/usdm/data/parquet/USDM_2023-08-15.parquet") |>
+  file.path("https://climate-smart-usda.github.io/usdm", latest) |>
+  sf::read_sf() |>
   # tigris::shift_geometry only works consistently on POLYGON geometries, so coerce.
   sf::st_cast("POLYGON", warn = FALSE, do_split = TRUE) |> # 
   tigris::shift_geometry()
@@ -153,7 +168,7 @@ ggplot(usdm_sf) +
     drop = FALSE,
     name = "Drought\nClass") +
   labs(title = "US Drought Monitor",
-       subtitle = "August 15, 2023") +
+       subtitle = format(usdm_sf$date[[1]], " %B %d, %Y")) +
   theme_void()
 ```
 
