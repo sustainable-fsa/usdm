@@ -144,21 +144,24 @@ library(arrow)
 library(sf)
 library(ggplot2) # For plotting
 library(tigris)  # For state boundaries
-library(rmapshaper) # For innerlines
+library(rmapshaper) # For innerlines function
 
 ## Get latest USDM data
 latest <-
-  jsonlite::fromJSON("https://climate-smart-usda.github.io/usdm/usdm-manifest.json")$path |>
+  jsonlite::fromJSON(
+    "https://climate-smart-usda.github.io/usdm/usdm-manifest.json"
+    )$path |>
   stringr::str_subset("parquet") |>
   max()
-  
+# e.g., [1] "usdm/data/parquet/USDM_2025-05-27.parquet"
 
 # Read a weekly GeoParquet file as an sf object
-# Use tigris::shift_geometry to shift and rescale Alaska, Hawaii, and Puerto Rico in a US-wide sf object
+# Use tigris::shift_geometry to shift and rescale Alaska, Hawaii, and
+# Puerto Rico in a US-wide sf object
 usdm_sf <- 
   file.path("https://climate-smart-usda.github.io/usdm", latest) |>
   sf::read_sf() |>
-  # tigris::shift_geometry only works consistently on POLYGON geometries, so coerce.
+  # tigris::shift_geometry only works consistently on POLYGON geometries
   sf::st_cast("POLYGON", warn = FALSE, do_split = TRUE) |> # 
   tigris::shift_geometry()
 
