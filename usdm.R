@@ -19,7 +19,8 @@ pak::pak(
     "geometa",
     "fs",
     "xml2",
-    "jsonlite"
+    "jsonlite",
+    "tigris"
   )
 )
 
