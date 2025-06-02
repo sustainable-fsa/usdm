@@ -555,3 +555,6 @@ generate_tree_flat <- function(
 
 # Generate the flat index
 generate_tree_flat()
+
+# Knit the readme
+rmarkdown::render("README.Rmd")
