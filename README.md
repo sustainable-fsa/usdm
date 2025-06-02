@@ -70,7 +70,7 @@ repository-root/
   ├── README.Rmd              # Repository documentation (RMarkdown)
   ├── README.md               # Repository documentation (this file)
   ├── README_files/           # Repository documentation support files  
-  ├── usdm.R                  # Main R script to download, process, and archive USDM data
+  ├── usdm.R                  # Code to download, process, and archive USDM data
   ├── usdm.Rproj              # RStudio project file
   ├── usdm.html               # An HTML directory listing of the USDM Archive
   ├── usdm-manifest.json      # The directory listing of the USDM Archive
