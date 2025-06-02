@@ -20,7 +20,8 @@ pak::pak(
     "fs",
     "xml2",
     "jsonlite",
-    "tigris"
+    "tigris",
+    "rmapshaper"
   )
 )
 
