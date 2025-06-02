@@ -14,6 +14,9 @@ includes:
 - Geometry validation logs
 - Weekly updating and manifest tracking
 
+<a href="https://climate-smart-usda.github.io/usdm/usdm.html" target="_blank">📂
+View the US Drought Monitor archive listing here.</a>
+
 The goal of this repository is to draft a regulatory-grade archive of
 the US Drought Monitor that conforms with the *Foundations for
 Evidence-Based Policymaking Act of 2018* (“Evidence Act”, [Public Law
@@ -50,23 +53,6 @@ interpretation.
 
 ------------------------------------------------------------------------
 
-## 🧪 Analysis Pipeline
-
-This R pipeline ([`usdm.R`](./usdm.R)):
-
-1.  **Downloads** weekly USDM shapefiles and XML summaries.
-2.  **Validates** geometries using the [S2 Geometry
-    Library](https://s2geometry.io/) via `sf::st_is_valid()`, and logs
-    invalid features for review.
-3.  **Cleans and repairs** shapefile geometries and converts them to the
-    [GeoParquet](https://geoparquet.org) format.
-4.  **Writes ISO 19115-1 metadata** for each weekly dataset using the
-    `geometa` package.
-5.  **Builds a BagIt structure** with SHA-256 checksums to ensure
-    archival integrity.
-
-------------------------------------------------------------------------
-
 ## 🗂 Directory Structure
 
 The resulting BagIt-compliant archive includes:
@@ -94,8 +80,22 @@ repository-root/
         └── geometry_validation.csv  # Log of geometry validation issues
 ```
 
-[📂 View the US Drought Monitor archive
-listing](https://climate-smart-usda.github.io/usdm/usdm.html)
+------------------------------------------------------------------------
+
+## 🧪 Analysis Pipeline
+
+This R pipeline ([`usdm.R`](./usdm.R)):
+
+1.  **Downloads** weekly USDM shapefiles and XML summaries.
+2.  **Validates** geometries using the [S2 Geometry
+    Library](https://s2geometry.io/) via `sf::st_is_valid()`, and logs
+    invalid features for review.
+3.  **Cleans and repairs** shapefile geometries and converts them to the
+    [GeoParquet](https://geoparquet.org) format.
+4.  **Writes ISO 19115-1 metadata** for each weekly dataset using the
+    `geometa` package.
+5.  **Builds a BagIt structure** with SHA-256 checksums to ensure
+    archival integrity.
 
 ------------------------------------------------------------------------
 
@@ -218,8 +218,8 @@ ggplot(usdm_sf) +
 ## ⚠️ Disclaimer
 
 This dataset is archived for research and educational use only. The
-National Drought Mitigation Center currently hosts the US Drought
-Monitor. Please visit <https://droughtmonitor.unl.edu>.
+National Drought Mitigation Center hosts the US Drought Monitor. Please
+visit <https://droughtmonitor.unl.edu>.
 
 ------------------------------------------------------------------------
 
