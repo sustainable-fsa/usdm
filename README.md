@@ -149,7 +149,7 @@ library(rmapshaper) # For innerlines function
 ## Get latest USDM data
 latest <-
   jsonlite::fromJSON(
-    "https://climate-smart-usda.github.io/usdm/usdm-manifest.json"
+    "usdm-manifest.json"
     )$path |>
   stringr::str_subset("parquet") |>
   max()
@@ -159,7 +159,7 @@ latest <-
 # Use tigris::shift_geometry to shift and rescale Alaska, Hawaii, and
 # Puerto Rico in a US-wide sf object
 usdm_sf <- 
-  file.path("https://climate-smart-usda.github.io/usdm", latest) |>
+  latest |>
   sf::read_sf() |>
   # tigris::shift_geometry only works consistently on POLYGON geometries
   sf::st_cast("POLYGON", warn = FALSE, do_split = TRUE) |> # 
