@@ -3,7 +3,7 @@
 on:
   push:
   schedule:
-    - cron: '49 12 * * THU'
+    - cron: '0 13 * * 4'  # 13:00 UTC = 7:00 AM MT (DST), every Thursday
 
 name: update
 run-name: Update the USDM Archive with the latest data! 🚀
