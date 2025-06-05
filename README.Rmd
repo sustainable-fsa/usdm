@@ -50,7 +50,7 @@ repository-root/
   ├── LICENSE                 # License for the repository (MIT)
   ├── README.Rmd              # Repository documentation (RMarkdown)
   ├── README.md               # Repository documentation (this file)
-  ├── README_files/           # Repository documentation support files  
+  ├── example-1.png           # Example figure using the data
   ├── usdm.R                  # Code to download, process, and archive USDM data
   ├── usdm.Rproj              # RStudio project file
   ├── usdm.html               # An HTML directory listing of the USDM Archive
@@ -110,7 +110,7 @@ The script installs all required packages using the [`pak`](https://pak.r-lib.or
 
 This snippet shows how to load a weekly GeoParquet file from the archive and create a simple drought classification map using `sf` and `ggplot2`.
 
-```{r example, message=FALSE, fig.align = 'center', dpi=300}
+```{r example, message=FALSE, fig.align = 'center', dpi=300, fig.path = './'}
 # Load required libraries
 library(arrow)
 library(sf)

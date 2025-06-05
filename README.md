@@ -69,7 +69,7 @@ repository-root/
   ├── LICENSE                 # License for the repository (MIT)
   ├── README.Rmd              # Repository documentation (RMarkdown)
   ├── README.md               # Repository documentation (this file)
-  ├── README_files/           # Repository documentation support files  
+  ├── example-1.png           # Example figure using the data
   ├── usdm.R                  # Code to download, process, and archive USDM data
   ├── usdm.Rproj              # RStudio project file
   ├── usdm.html               # An HTML directory listing of the USDM Archive
@@ -203,7 +203,7 @@ ggplot(usdm_sf) +
   theme_void()
 ```
 
-<img src="README_files/figure-gfm/example-1.png" style="display: block; margin: auto;" />
+<img src="./example-1.png" style="display: block; margin: auto;" />
 
 ------------------------------------------------------------------------
 
