@@ -2,11 +2,11 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 [![Static
-Badge](https://img.shields.io/badge/Repo-climate--smart--usda%2Fusdm-magenta?style=flat)](https://github.com/climate-smart-usda/usdm/)
+Badge](https://img.shields.io/badge/Repo-sustainable--fsa%2Fusdm-magenta?style=flat)](https://github.com/sustainable-fsa/usdm/)
 ![Last
-Update](https://img.shields.io/github/last-commit/climate-smart-usda/usdm?style=flat)
+Update](https://img.shields.io/github/last-commit/sustainable-fsa/usdm?style=flat)
 ![Repo
-Size](https://img.shields.io/github/repo-size/climate-smart-usda/usdm?style=flat)
+Size](https://img.shields.io/github/repo-size/sustainable-fsa/usdm?style=flat)
 
 This repository provides a reproducible, archival-quality pipeline to
 download, validate, transform, and document weekly shapefiles from the
@@ -21,7 +21,7 @@ includes:
 - Geometry validation logs
 - Weekly updating and manifest tracking
 
-<a href="https://climate-smart-usda.github.io/usdm/usdm.html" target="_blank">📂
+<a href="https://sustainable-fsa.github.io/usdm/usdm.html" target="_blank">📂
 View the US Drought Monitor archive listing here.</a>
 
 The goal of this repository is to draft a regulatory-grade archive of
@@ -214,7 +214,7 @@ ggplot(usdm_sf) +
 > US Drought Monitor authors. *US Drought Monitor Weekly Maps*. Data
 > curated and archived by R. Kyle Bocinsky, Montana Climate Office.
 > Accessed via GitHub archive, YYYY.
-> <https://climate-smart-usda.github.io/usdm/>
+> <https://sustainable-fsa.github.io/usdm/>
 
 **Acknowledgments**:
 
@@ -245,7 +245,7 @@ visit <https://droughtmonitor.unl.edu>.
 
 This project is part of:
 
-**[*Enhancing Climate-smart Disaster Relief in FSA
+**[*Enhancing Sustainable Disaster Relief in FSA
 Programs*](https://www.ars.usda.gov/research/project/?accnNo=444612)**  
 Supported by USDA OCE/OEEP and USDA Climate Hubs  
 Prepared by the [Montana Climate Office](https://climate.umt.edu)
