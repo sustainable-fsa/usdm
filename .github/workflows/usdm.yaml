@@ -23,10 +23,11 @@ jobs:
         run: |
           brew update
           brew upgrade
-          brew install apache-arrow udunits gdal
+          brew install apache-arrow udunits gdal node
           brew install --cask r
           brew cleanup --scrub
           rm -rf "$(brew --cache)"
+          npm install -g mapshaper
 
       - name: run
         run: |
