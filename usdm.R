@@ -21,7 +21,9 @@ pak::pak(
     "xml2",
     "jsonlite",
     "tigris",
-    "rmapshaper"
+    "rmapshaper",
+    "furrr",
+    "future.mirai"
   )
 )
 
@@ -32,6 +34,8 @@ library(sf)
 library(arrow)
 library(geometa)
 library(fs)
+library(furrr)
+library(future.mirai)
 
 sf::sf_use_s2(TRUE)
 
@@ -383,7 +387,7 @@ usdm_write_metadata <-
   }
 
 usdm_process_raw <-
-  function(x = download_raw_usdm("2017-03-28"),
+  function(x = usdm_download_raw("2017-03-28"),
            parquet_dir = directories$parquet_dir,
            quality_file = file.path(directories$quality_dir, "geometry_validation.csv"),
            force.redo = FALSE){
@@ -433,25 +437,49 @@ usdm_process_raw <-
       }
       
       raw_sf %>%
-        dplyr::transmute(date = usdm_date,
-                         usdm_class = factor(paste0("D", DM),
+        dplyr::transmute(usdm_class = factor(paste0("D", DM),
                                              levels = c("None", paste0("D", 0:4)),
                                              ordered = TRUE)) %>%
-        sf::st_cast("MULTIPOLYGON") %>%
-        sf::st_cast("POLYGON", warn = FALSE, do_split = TRUE) %>%
-        sf::st_make_valid() %T>%
-        {suppressMessages(sf::sf_use_s2(FALSE))} %>%
-        sf::st_make_valid() %T>%
-        {suppressMessages(sf::sf_use_s2(TRUE))} %>%
-        # Group by class and generate multipolygons
-        dplyr::group_by(date, usdm_class) %>%
-        dplyr::summarise(.groups = "drop",
-                         is_coverage = TRUE) %>%
+        rmapshaper::ms_explode(sys = TRUE,
+                               sys_mem = 16,
+                               quiet = TRUE) %>%
+        rmapshaper::ms_dissolve(field = "usdm_class",
+                                sys = TRUE,
+                                sys_mem = 16,
+                                snap = FALSE,
+                                quiet = TRUE) %>%
+        sf::st_make_valid() %>%
+        rmapshaper::ms_explode(sys = TRUE,
+                               sys_mem = 16,
+                               quiet = TRUE) %>%
+        rmapshaper::ms_dissolve(field = "usdm_class",
+                                sys = TRUE,
+                                sys_mem = 16,
+                                snap = FALSE,
+                                quiet = TRUE) %>%
+        rmapshaper::ms_explode(sys = TRUE,
+                               sys_mem = 16,
+                               quiet = TRUE) %>%
+        sf::st_make_valid() %>%
+        sf::st_transform("WGS84") %>%
+        rmapshaper::ms_explode(sys = TRUE,
+                               sys_mem = 16,
+                               quiet = TRUE) %>%
+        rmapshaper::ms_dissolve(field = "usdm_class",
+                                sys = TRUE,
+                                sys_mem = 16,
+                                snap = FALSE,
+                                quiet = TRUE) %>%
         sf::st_cast("MULTIPOLYGON", warn = FALSE) %>%
-        sf::st_transform("EPSG:4326") %>%
+        dplyr::mutate(date = usdm_date) %>%
+        dplyr::select(date, usdm_class) %>%
+        dplyr::arrange(date, usdm_class) %>%
         sf::write_sf(outfile,
-                     driver = "Parquet")
-      
+                     driver = "Parquet",
+                     layer_options = c("COMPRESSION=BROTLI",
+                                       "GEOMETRY_ENCODING=GEOARROW",
+                                       "WRITE_COVERING_BBOX=NO"))
+
     }
     
     return(outfile)
@@ -476,10 +504,14 @@ usdm <-
     
   }
 
+plan(mirai_multisession)
+
 output <- 
   usdm_get_dates() %>%
   magrittr::set_names(.,.) %>%
-  purrr::map(usdm)
+  furrr::future_map(usdm)
+
+plan(sequential)
 
 # ---- Write bagit.txt ----
 writeLines(c(
