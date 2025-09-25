@@ -436,51 +436,60 @@ usdm_process_raw <-
                                append = TRUE)
       }
       
+      gjson_temp <-
+        tempfile(fileext = ".geojson")
+      
       raw_sf %>%
         dplyr::transmute(usdm_class = factor(paste0("D", DM),
                                              levels = c("None", paste0("D", 0:4)),
                                              ordered = TRUE)) %>%
-        rmapshaper::ms_explode(sys = TRUE,
-                               sys_mem = 16,
-                               quiet = TRUE) %>%
-        rmapshaper::ms_dissolve(field = "usdm_class",
-                                sys = TRUE,
-                                sys_mem = 16,
-                                snap = FALSE,
-                                quiet = TRUE) %>%
-        sf::st_make_valid() %>%
-        rmapshaper::ms_explode(sys = TRUE,
-                               sys_mem = 16,
-                               quiet = TRUE) %>%
-        rmapshaper::ms_dissolve(field = "usdm_class",
-                                sys = TRUE,
-                                sys_mem = 16,
-                                snap = FALSE,
-                                quiet = TRUE) %>%
-        rmapshaper::ms_explode(sys = TRUE,
-                               sys_mem = 16,
-                               quiet = TRUE) %>%
-        sf::st_make_valid() %>%
-        sf::st_transform("WGS84") %>%
-        rmapshaper::ms_explode(sys = TRUE,
-                               sys_mem = 16,
-                               quiet = TRUE) %>%
-        rmapshaper::ms_dissolve(field = "usdm_class",
-                                sys = TRUE,
-                                sys_mem = 16,
-                                snap = FALSE,
-                                quiet = TRUE) %>%
-        sf::st_cast("MULTIPOLYGON", warn = FALSE) %>%
+        dplyr::arrange(usdm_class) %>%
+        sf::write_sf(gjson_temp,
+                     delete_dsn = TRUE)
+      
+      rmapshaper::apply_mapshaper_commands(
+        gjson_temp, 
+        command = 
+          paste(
+            "-clean rewind overlap-rule=max-id -rename-layers usdm_class",
+            "-dissolve field=usdm_class",
+            "-o format=topojson no-quantization id-field='usdm_class' target=*", 
+            stringr::str_replace(gjson_temp,  "geojson", "topojson")
+        ),
+        force_FC = TRUE,
+        sys = TRUE,
+        quiet = TRUE
+      ) %>%
+        sf::read_sf(crs = sf::st_crs(raw_sf)) %>%
+        dplyr::transmute(usdm_class = factor(usdm_class,
+                                             levels = c("None", paste0("D", 0:4)),
+                                             ordered = TRUE)) %>%
         dplyr::mutate(date = usdm_date) %>%
         dplyr::select(date, usdm_class) %>%
         dplyr::arrange(date, usdm_class) %>%
+        sf::st_transform("WGS84") %>%
         sf::write_sf(outfile,
                      driver = "Parquet",
-                     layer_options = c("COMPRESSION=BROTLI",
-                                       "GEOMETRY_ENCODING=GEOARROW",
-                                       "WRITE_COVERING_BBOX=NO"))
-
+                     layer_options = c("COMPRESSION=ZSTD"))
+      
     }
+      
+    out <- 
+      sf::read_sf(outfile)
+    
+    if(
+      any(!sf::st_is_valid(out))
+      
+    )
+      stop(outfile, " is invalid")
+    
+    suppressMessages(sf_use_s2(FALSE))
+    if(
+      any(!sf::st_is_valid(out))
+      
+    )
+      stop(outfile, " is invalid")
+    suppressMessages(sf_use_s2(TRUE))
     
     return(outfile)
   }
