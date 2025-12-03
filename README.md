@@ -21,7 +21,7 @@ includes:
 - Geometry validation logs
 - Weekly updating and manifest tracking
 
-<a href="https://sustainable-fsa.github.io/usdm/usdm.html" target="_blank">📂
+<a href="https://sustainable-fsa.com/usdm/usdm.html" target="_blank">📂
 View the US Drought Monitor archive listing here.</a>
 
 The goal of this repository is to draft a regulatory-grade archive of
@@ -213,8 +213,7 @@ ggplot(usdm_sf) +
 
 > US Drought Monitor authors. *US Drought Monitor Weekly Maps*. Data
 > curated and archived by R. Kyle Bocinsky, Montana Climate Office.
-> Accessed via GitHub archive, YYYY.
-> <https://sustainable-fsa.github.io/usdm/>
+> Accessed via GitHub archive, YYYY. <https://sustainable-fsa.com/usdm/>
 
 **Acknowledgments**:
 
