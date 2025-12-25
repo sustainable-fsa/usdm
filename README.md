@@ -203,7 +203,7 @@ ggplot(usdm_sf) +
   theme_void()
 ```
 
-<img src="./example-1.png" style="display: block; margin: auto;" />
+<img src="./example-1.png" alt="" style="display: block; margin: auto;" />
 
 ------------------------------------------------------------------------
 
