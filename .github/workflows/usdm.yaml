@@ -22,7 +22,9 @@ jobs:
       - name: install
         run: |
           brew update
-          brew upgrade
+          brew cleanup --scrub
+          rm -rf "$(brew --cache)"
+          # brew upgrade
           brew install apache-arrow udunits gdal node
           brew install --cask r
           brew cleanup --scrub
