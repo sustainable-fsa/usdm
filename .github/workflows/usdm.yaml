@@ -10,6 +10,10 @@ run-name: Update the USDM Archive with the latest data! 🚀
 
 permissions: write-all
 
+defaults:
+  run:
+    shell: bash -l {0}
+
 jobs:
   update-usdm:
     name: update-usdm
@@ -17,13 +21,17 @@ jobs:
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: mt-climate-office/actions/setup-geospatial@v1  # repo containing the composite action above
+
+      - uses: mt-climate-office/actions/setup-geospatial@v1
+      
       - name: run
         run: |
+          set -euxo pipefail
           Rscript usdm.R
   
       - name: commit
         run: |
+          set -euxo pipefail
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git add .
