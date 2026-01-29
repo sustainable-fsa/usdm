@@ -1,33 +1,33 @@
 # update.packages(repos = "https://cran.rstudio.com/",
 #                 ask = FALSE)
-
-install.packages("pak",
-                 repos = "https://mac.r-project.org")
-
-options("pkg.cran_mirror" = "https://mac.r-project.org")
-
-# installed.packages() |>
-#   rownames() |>
-#   pak::pkg_install(upgrade = TRUE,
-#                  ask = FALSE)
-
-pak::pak(
-  c(
-    "arrow?source",
-    "sf?source",
-    "curl",
-    "tidyverse",
-    "digest",
-    "geometa",
-    "fs",
-    "xml2",
-    "jsonlite",
-    "tigris",
-    "rmapshaper",
-    "furrr",
-    "future.mirai"
-  )
-)
+# 
+# install.packages("pak",
+#                  repos = "https://mac.r-project.org")
+# 
+# options("pkg.cran_mirror" = "https://mac.r-project.org")
+# 
+# # installed.packages() |>
+# #   rownames() |>
+# #   pak::pkg_install(upgrade = TRUE,
+# #                  ask = FALSE)
+# 
+# pak::pak(
+#   c(
+#     "arrow?source",
+#     "sf?source",
+#     "curl",
+#     "tidyverse",
+#     "digest",
+#     "geometa",
+#     "fs",
+#     "xml2",
+#     "jsonlite",
+#     "tigris",
+#     "rmapshaper",
+#     "furrr",
+#     "future.mirai"
+#   )
+# )
 
 library(magrittr)
 library(tidyverse)

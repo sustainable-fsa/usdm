@@ -17,20 +17,7 @@ jobs:
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: actions/checkout@v6
-      - uses: r-lib/actions/setup-pandoc@v2
-      - name: install
-        run: |
-          brew update
-          brew cleanup --scrub
-          rm -rf "$(brew --cache)"
-          # brew upgrade
-          brew install apache-arrow udunits gdal node
-          brew install --cask r
-          brew cleanup --scrub
-          rm -rf "$(brew --cache)"
-          npm install -g mapshaper
-
+      - uses: mt-climate-office/actions/setup-geospatial@v1  # repo containing the composite action above
       - name: run
         run: |
           Rscript usdm.R
