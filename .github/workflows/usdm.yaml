@@ -26,12 +26,10 @@ jobs:
       
       - name: run
         run: |
-          set -euxo pipefail
           Rscript usdm.R
   
       - name: commit
         run: |
-          set -euxo pipefail
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git add .
