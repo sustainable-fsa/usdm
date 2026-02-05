@@ -245,16 +245,16 @@ visit <https://droughtmonitor.unl.edu>.
 This project is part of:
 
 **[*Enhancing Sustainable Disaster Relief in FSA
-Programs*](https://www.ars.usda.gov/research/project/?accnNo=444612)**  
-Supported by USDA OCE/OEEP and USDA Climate Hubs  
+Programs*](https://www.ars.usda.gov/research/project/?accnNo=444612)**\
+Supported by USDA OCE/OEEP and USDA Climate Hubs\
 Prepared by the [Montana Climate Office](https://climate.umt.edu)
 
 ------------------------------------------------------------------------
 
 ## 📬 Contact
 
-**R. Kyle Bocinsky**  
-Director of Climate Extension  
-Montana Climate Office  
-📧 <kyle.bocinsky@umontana.edu>  
+**R. Kyle Bocinsky**\
+Director of Climate Extension\
+Montana Climate Office\
+📧 <kyle.bocinsky@umontana.edu>\
 🌐 <https://climate.umt.edu>
