@@ -211,11 +211,21 @@ ggplot(usdm_sf) +
 
 If you use this data in published work, please cite:
 
-> National Drought Mitigation Center, USDA, and NOAA. *US Drought Monitor Weekly Maps, January 4, 2000 – present*. Curated and archived by R. Kyle Bocinsky, Montana Climate Office, University of Montana. Sustainable FSA project. Accessed YYYY-MM-DD. <https://sustainable-fsa.com/usdm/>
+> National Drought Mitigation Center, USDA, and NOAA. *US Drought
+> Monitor Weekly Maps, January 4, 2000 – present*. Curated and archived
+> by R. Kyle Bocinsky, Montana Climate Office, University of Montana.
+> Sustainable FSA project. Accessed YYYY-MM-DD.
+> <https://sustainable-fsa.com/usdm/>
 
-Machine-readable metadata are in [`CITATION.cff`](CITATION.cff); GitHub's **Cite this repository** button (top right of the repo page) renders it as APA or BibTeX.
+Machine-readable metadata are in [`CITATION.cff`](CITATION.cff);
+GitHub’s **Cite this repository** button (top right of the repo page)
+renders it as APA or BibTeX.
 
-**Acknowledgment**: This work is part of the [*Enhancing Sustainable Disaster Relief in FSA Programs*](https://www.ars.usda.gov/research/project/?accnNo=444612) project, supported by the USDA Office of the Chief Economist, Office of Energy and Environmental Policy, and the USDA Climate Hubs.
+**Acknowledgment**: This work is part of the [*Enhancing Sustainable
+Disaster Relief in FSA
+Programs*](https://www.ars.usda.gov/research/project/?accnNo=444612)
+project, supported by the USDA Office of the Chief Economist, Office of
+Energy and Environmental Policy, and the USDA Climate Hubs.
 
 ## 📄 License
 
