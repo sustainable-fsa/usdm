@@ -207,21 +207,15 @@ ggplot(usdm_sf) +
 
 ------------------------------------------------------------------------
 
-## 📝 Citation & Attribution
+## 📝 Citation
 
-**Citation format** (suggested):
+If you use this data in published work, please cite:
 
-> US Drought Monitor authors. *US Drought Monitor Weekly Maps*. Data
-> curated and archived by R. Kyle Bocinsky, Montana Climate Office.
-> Accessed via GitHub archive, YYYY. <https://sustainable-fsa.com/usdm/>
+> National Drought Mitigation Center, USDA, and NOAA. *US Drought Monitor Weekly Maps, January 4, 2000 – present*. Curated and archived by R. Kyle Bocinsky, Montana Climate Office, University of Montana. Sustainable FSA project. Accessed YYYY-MM-DD. <https://sustainable-fsa.com/usdm/>
 
-**Acknowledgments**:
+Machine-readable metadata are in [`CITATION.cff`](CITATION.cff); GitHub's **Cite this repository** button (top right of the repo page) renders it as APA or BibTeX.
 
-- Map content by USDM authors.
-- Data curation and archival structure by R. Kyle Bocinsky, Montana
-  Climate Office, University of Montana.
-
-------------------------------------------------------------------------
+**Acknowledgment**: This work is part of the [*Enhancing Sustainable Disaster Relief in FSA Programs*](https://www.ars.usda.gov/research/project/?accnNo=444612) project, supported by the USDA Office of the Chief Economist, Office of Energy and Environmental Policy, and the USDA Climate Hubs.
 
 ## 📄 License
 
