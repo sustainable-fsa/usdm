@@ -1,38 +1,50 @@
-# Workflow derived from https://github.com/r-lib/actions/tree/v2/examples
-# Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
-on:
-  push:
-  schedule:
-    - cron: '0 13 * * 4'  # 13:00 UTC = 7:00 AM MT (DST), every Thursday
-
+# Canonical archive-update workflow (sustainable-fsa S3 migration).
+# Per repo: replace usdm and the cron, delete the commit-back step heritage.
 name: update
-run-name: Update the USDM Archive with the latest data! 🚀
+run-name: Update the usdm archive → S3
 
-permissions: write-all
+on:
+  schedule:
+    - cron: '0 13 * * 4'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['**.R', '.github/workflows/**']
+
+permissions:
+  id-token: write
+  contents: read
+
+concurrency:
+  group: s3-archive-${{ github.repository }}
+  cancel-in-progress: false
 
 defaults:
   run:
     shell: bash -l {0}
 
 jobs:
-  update-usdm:
-    name: update-usdm
+  update:
     runs-on: macos-latest
+    timeout-minutes: 350
     env:
-      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      S3_BUCKET: sustainable-fsa
+      S3_PREFIX: usdm
+      AWS_REGION: us-west-2
+      CLOUDFRONT_DISTRIBUTION_ID: E1BNL6ONVN84RI
+      CLOUDFRONT_BASE: https://data.sustainable-fsa.com
     steps:
-
       - uses: mt-climate-office/actions/setup-geospatial@v1
-      
-      - name: run
-        run: |
-          Rscript usdm.R
-  
-      - name: commit
-        run: |
-          git config --local user.name "$GITHUB_ACTOR"
-          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
-          git add .
-          git commit --allow-empty -m 'weekly update'
-          git push
-          
+
+      - name: Configure AWS credentials (GitHub OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::202533506375:role/sustainable-fsa-github-actions
+          aws-region: us-west-2
+          role-duration-seconds: 14400
+
+      - name: Verify AWS identity
+        run: aws sts get-caller-identity
+
+      - name: Update archive
+        run: Rscript usdm.R

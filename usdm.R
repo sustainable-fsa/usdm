@@ -42,7 +42,7 @@ library(future.mirai)
 sf::sf_use_s2(TRUE)
 
 usdm_get_dates <-
-  function(as_of = lubridate::today()){
+  function(as_of = lubridate::today("America/Denver")){
     as_of %<>%
       lubridate::as_date()
     
@@ -70,9 +70,33 @@ directories %>%
               recursive = TRUE,
               showWarnings = FALSE)
 
+## ---- S3 archive state -------------------------------------------------
+## The archive of record is s3://sustainable-fsa/usdm/ (the inner bag maps
+## to the prefix root, so keys look like usdm/data/parquet/USDM_*.parquet).
+## Membership in the S3 listing replaces the old local-file + bagit-hash
+## guards; the local bag dir is only a staging area for NEW files.
+source("R/s3-archive.R")
+s3_preflight()
+s3_bucket_name <- Sys.getenv("S3_BUCKET", unset = "sustainable-fsa")
+s3_prefix      <- Sys.getenv("S3_PREFIX", unset = "usdm")
+
+archived_rel <-
+  s3_list_keys(s3_bucket_name, s3_prefix)$Key %>%
+  stringr::str_remove(paste0("^", s3_prefix, "/"))
+
+## Pull the small stateful archive files that this run appends to
+c("manifest-sha256.txt", "data/quality/geometry_validation.csv") %>%
+  purrr::keep(~ .x %in% archived_rel) %>%
+  purrr::walk(\(f){
+    s3_run(c("s3", "cp",
+             paste0("s3://", s3_bucket_name, "/", s3_prefix, "/", f),
+             file.path(bag_dir, f)),
+           echo = FALSE)
+  })
+
 # read the manifest, if it exists
 if(file.exists(file.path(directories$bag_dir, "manifest-sha256.txt"))){
-  manifest <- 
+  manifest <-
     readr::read_table(
       file.path(directories$bag_dir, "manifest-sha256.txt"),
       col_names = c("hash", "file")
@@ -93,17 +117,7 @@ usdm_download_raw <-
       file.path(raw_dir, 
                 basename(usdm_file))
     
-    if(
-      !(exists("manifest") && 
-        file.exists(outfile) &&
-        identical(digest::digest(outfile, algo = "sha256", file = TRUE), 
-                  (
-                    manifest %>% 
-                    dplyr::filter(file == stringr::str_remove(outfile, "usdm/")) %$% 
-                    hash
-                  ))) ||
-      !file.exists(outfile)
-    ){
+    if(!file.exists(outfile)){
       out <-
         usdm_file %>%
         curl::multi_download(urls = .,
@@ -129,17 +143,7 @@ usdm_download_summary <-
       file.path(summary_dir, 
                 basename(usdm_file))
     
-    if(
-      !(exists("manifest") && 
-        file.exists(outfile) &&
-        identical(digest::digest(outfile, algo = "sha256", file = TRUE), 
-                  (
-                    manifest %>% 
-                    dplyr::filter(file == stringr::str_remove(outfile, "usdm/")) %$% 
-                    hash
-                  ))) ||
-      !file.exists(outfile)
-    ){
+    if(!file.exists(outfile)){
       out <-
         usdm_file %>%
         curl::multi_download(urls = .,
@@ -238,30 +242,7 @@ usdm_write_metadata <-
       file.path(metadata_dir,
                 paste0("USDM_", usdm_date, ".xml"))
     
-    if(
-      !(exists("manifest") && 
-        file.exists(outfile) &&
-        identical(digest::digest(outfile, algo = "sha256", file = TRUE), 
-                  (
-                    manifest %>% 
-                    dplyr::filter(file == stringr::str_remove(outfile, "usdm/")) %$% 
-                    hash
-                  )) &&
-        identical(digest::digest(parquet, algo = "sha256", file = TRUE), 
-                  (
-                    manifest %>% 
-                    dplyr::filter(file == stringr::str_remove(parquet, "usdm/")) %$% 
-                    hash
-                  )) &&
-        identical(digest::digest(summary, algo = "sha256", file = TRUE), 
-                  (
-                    manifest %>% 
-                    dplyr::filter(file == stringr::str_remove(summary, "usdm/")) %$% 
-                    hash
-                  ))
-      ) ||
-      !file.exists(outfile)
-    ){
+    if(!file.exists(outfile)){
       
       summary %<>%
         usdm_clean_summary()
@@ -403,17 +384,7 @@ usdm_process_raw <-
       file.path(parquet_dir,
                 paste0("USDM_", usdm_date, ".parquet"))
     
-    if(
-      !(exists("manifest") && 
-        file.exists(outfile) &&
-        identical(digest::digest(outfile, algo = "sha256", file = TRUE), 
-                  (
-                    manifest %>% 
-                    dplyr::filter(file == stringr::str_remove(outfile, "usdm/")) %$% 
-                    hash
-                  ))) ||
-      !file.exists(outfile)
-    ){
+    if(!file.exists(outfile)){
       raw_sf <-
         file.path("/vsizip", x) %>%
         sf::read_sf()
@@ -457,7 +428,7 @@ usdm_process_raw <-
             "-dissolve field=usdm_class",
             "-o format=topojson no-quantization id-field='usdm_class' target=*", 
             stringr::str_replace(gjson_temp,  "geojson", "topojson")
-        ),
+          ),
         force_FC = TRUE,
         sys = TRUE,
         quiet = TRUE
@@ -470,12 +441,16 @@ usdm_process_raw <-
         dplyr::select(date, usdm_class) %>%
         dplyr::arrange(date, usdm_class) %>%
         sf::st_transform("WGS84") %>%
-        sf::write_sf(outfile,
-                     driver = "Parquet",
-                     layer_options = c("COMPRESSION=ZSTD"))
+        sf::write_sf(
+          outfile,
+          driver = "Parquet",
+          layer_options = c("COMPRESSION=ZSTD",
+                            "COMPRESSION_LEVEL=13"),
+          delete_dsn = TRUE
+        )
       
     }
-      
+    
     out <- 
       sf::read_sf(outfile)
     
@@ -498,7 +473,25 @@ usdm_process_raw <-
 
 usdm <-
   function(x = "2000-01-04"){
-    raw <- 
+    ## Skip weeks whose four artifacts are all in the S3 archive already;
+    ## anything else is (re)built locally and uploaded by the publish block.
+    usdm_date <- lubridate::as_date(x)
+    date_rel <-
+      c(
+        file.path("data", "raw",
+                  paste0("USDM_", format(usdm_date, "%Y%m%d"), "_M.zip")),
+        file.path("data", "parquet",
+                  paste0("USDM_", usdm_date, ".parquet")),
+        file.path("data", "summary",
+                  paste0("usdm_summary_", format(usdm_date, "%Y%m%d"), ".xml")),
+        file.path("data", "metadata",
+                  paste0("USDM_", usdm_date, ".xml"))
+      )
+
+    if(all(date_rel %in% archived_rel))
+      return(NULL)
+
+    raw <-
       usdm_download_raw(x)
     
     parquet <-
@@ -540,66 +533,74 @@ writeLines(c(
   "External-Description: Partitioned GeoParquet archive of US Drought Monitor weekly shapefiles with ISO metadata"
 ), file.path(bag_dir, "bag-info.txt"))
 
-# ---- Write manifest-sha256.txt ----
-data_files <- list.files(file.path(bag_dir, "data"), recursive = TRUE, full.names = TRUE)
-checksums <- sapply(data_files, function(f) {
-  hash <- digest::digest(f, algo = "sha256", file = TRUE)
-  rel_path <- gsub(paste0(bag_dir, "/"), "", f)
-  paste0(hash, "  ", rel_path)
-})
-writeLines(checksums, file.path(bag_dir, "manifest-sha256.txt"))
+# ---- Update manifest-sha256.txt with newly created files ----
+# On a fresh (CI) runner, the local bag holds only this run's new files plus
+# the pulled quality log; merge their hashes into the pulled manifest.
+new_files <-
+  list.files(file.path(bag_dir, "data"),
+             recursive = TRUE,
+             full.names = TRUE)
 
+new_hashes <-
+  tibble::tibble(
+    file = gsub(paste0(bag_dir, "/"), "", new_files),
+    hash = purrr::map_chr(new_files, digest::digest,
+                          algo = "sha256", file = TRUE)
+  )
+
+manifest_updated <-
+  {if (exists("manifest")) dplyr::anti_join(manifest, new_hashes, by = "file")
+   else tibble::tibble(hash = character(0), file = character(0))} %>%
+  dplyr::bind_rows(new_hashes) %>%
+  dplyr::arrange(file)
+
+writeLines(paste0(manifest_updated$hash, "  ", manifest_updated$file),
+           file.path(bag_dir, "manifest-sha256.txt"))
+
+## ---- Publish to S3 (append-only: never --delete) ----------------------
+s3_push(s3_bucket_name, s3_prefix, bag_dir, delete = FALSE)
+s3_verify(s3_bucket_name, s3_prefix, bag_dir,
+          allow_extra = character(0),
+          expect_exact = FALSE)
+
+# ---- Regenerate usdm-manifest.json from the authoritative S3 listing ----
 generate_tree_flat <- function(
-    bag_path = bag_dir, 
-    manifest_file = file.path(bag_dir, "manifest-sha256.txt"), 
     output_file = file.path("usdm-manifest.json")) {
-  bag_path <- fs::path_abs(bag_path)
-  
-  # Read manifest into a named vector: path -> checksum
-  hashes <- list()
-  if (!is.null(manifest_file)) {
-    lines <- readLines(manifest_file)
-    for (line in lines) {
-      parts <- strsplit(line, " +")[[1]]
-      if (length(parts) >= 2) {
-        checksum <- parts[1]
-        file <- gsub("^\\./", "", parts[length(parts)]) # remove leading ./ if present
-        hashes[[file]] <- checksum
-      }
-    }
-  }
-  
-  all_entries <- 
-    fs::dir_ls(bag_path, recurse = TRUE, all = TRUE, type = "file") |>
-    stringr::str_subset("(^|/)[.][^/]+", negate = TRUE)
-  
-  entries <- list()
-  
-  for (entry in all_entries) {
-    rel_path <- fs::path_rel(entry, start = ".")
-    info <- fs::file_info(entry)
-    is_dir <- fs::is_dir(entry)
-    entry_data <- list(
-      path = as.character(rel_path),
-      size = if (is_dir) "-" else info$size,
-      mtime = if (is_dir) "-" else format(info$modification_time, "%Y-%Om-%d %H:%M:%S")
-    )
-    # Include checksum if available and not a directory
-    if (!is_dir && !is.null(hashes[[as.character(rel_path)]])) {
-      entry_data$hash <- hashes[[as.character(rel_path)]]
-    }
-    entries[[length(entries) + 1]] <- entry_data
-  }
-  
-  # Sort by path
-  entries <- entries[order(sapply(entries, function(x) x$path))]
-  
+
+  hashes <-
+    manifest_updated %>%
+    {magrittr::set_names(as.list(.$hash), .$file)}
+
+  entries <-
+    s3_list_keys(s3_bucket_name, s3_prefix) %>%
+    dplyr::mutate(path = stringr::str_remove(Key, paste0("^", s3_prefix, "/"))) %>%
+    dplyr::filter(!startsWith(path, "_")) %>%
+    dplyr::arrange(path) %>%
+    purrr::pmap(\(Key, Size, path){
+      entry <- list(path = path, size = Size)
+      if (!is.null(hashes[[path]])) entry$hash <- hashes[[path]]
+      entry
+    })
+
   jsonlite::write_json(entries, output_file, pretty = TRUE, auto_unbox = TRUE)
   message("✅ Wrote ", length(entries), " entries to ", output_file)
 }
 
-# Generate the flat index
 generate_tree_flat()
 
-# Knit the readme
-rmarkdown::render("README.Rmd")
+s3_put(s3_bucket_name,
+       paste0(s3_prefix, "/usdm-manifest.json"),
+       "usdm-manifest.json",
+       content_type = "application/json",
+       cache_control = "max-age=3600")
+
+s3_write_manifest(s3_bucket_name, s3_prefix)
+
+cf_invalidate(c(
+  paste0("/", s3_prefix, "/manifest-sha256.txt"),
+  paste0("/", s3_prefix, "/bag-info.txt"),
+  paste0("/", s3_prefix, "/bagit.txt"),
+  paste0("/", s3_prefix, "/usdm-manifest.json"),
+  paste0("/", s3_prefix, "/_manifest.txt"),
+  paste0("/", s3_prefix, "/data/quality/geometry_validation.csv")
+))
