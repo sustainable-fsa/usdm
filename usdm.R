@@ -623,4 +623,6 @@ cf_invalidate(c(
 # ---- Render the README ----
 # Regenerates README.md and the example map from the freshly updated
 # archive; the workflow commits these (and only these) back to git.
+cf_wait_manifest("https://data.sustainable-fsa.com/usdm/usdm-manifest.json",
+                 "usdm-manifest.json")
 rmarkdown::render("README.Rmd")

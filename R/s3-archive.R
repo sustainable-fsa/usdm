@@ -173,3 +173,21 @@ gate_skip <- function(msg) {
   }
   message(msg)
 }
+
+# Wait for the CloudFront copy of the archive manifest to match the freshly
+# uploaded local copy before rendering the README from it (invalidations
+# usually land in seconds). Gives up after tries*pause seconds and proceeds:
+# a stale render reproduces the prior README.md byte-for-byte, so the
+# commit-back guard simply skips.
+cf_wait_manifest <- function(url, local, tries = 18L, pause = 10) {
+  target <- tryCatch(jsonlite::fromJSON(local), error = function(e) NULL)
+  if (is.null(target)) return(invisible(FALSE))
+  for (i in seq_len(tries)) {
+    remote <- tryCatch(jsonlite::fromJSON(url), error = function(e) NULL)
+    if (identical(remote, target)) return(invisible(TRUE))
+    if (i < tries) Sys.sleep(pause)
+  }
+  gate_skip(paste0("CloudFront manifest at ", url, " still stale after ",
+                   tries * pause, "s; README render may reflect the prior week."))
+  invisible(FALSE)
+}
