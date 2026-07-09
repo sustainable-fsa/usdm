@@ -67,7 +67,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md example-1.png usdm-manifest.json
           git commit -m 'Weekly README render'
-          git pull --rebase origin main
+          git pull --rebase --autostash origin main
           git push
 
   # Event-driven chain: downstream repos run when this archive has fresh
