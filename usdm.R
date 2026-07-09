@@ -619,3 +619,8 @@ cf_invalidate(c(
   paste0("/", s3_prefix, "/_manifest.txt"),
   paste0("/", s3_prefix, "/data/quality/geometry_validation.csv")
 ))
+
+# ---- Render the README ----
+# Regenerates README.md and the example map from the freshly updated
+# archive; the workflow commits these (and only these) back to git.
+rmarkdown::render("README.Rmd")

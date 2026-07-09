@@ -18,7 +18,7 @@ on:
 
 permissions:
   id-token: write
-  contents: read
+  contents: write  # commit-back of rendered README
 
 concurrency:
   group: s3-archive-${{ github.repository }}
@@ -53,6 +53,22 @@ jobs:
 
       - name: Update archive
         run: Rscript usdm.R
+
+      # Commit the freshly rendered README (and only it) back to git.
+      # README.md text changes only when the data change, so no-op runs
+      # skip the commit; PNG byte-noise alone never triggers one.
+      - name: Commit refreshed README
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README unchanged; skipping commit."
+            exit 0
+          fi
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md example-1.png usdm-manifest.json
+          git commit -m 'Weekly README render'
+          git pull --rebase origin main
+          git push
 
   # Event-driven chain: downstream repos run when this archive has fresh
   # data, not on guessed cron offsets. Freshness gates in their R scripts
