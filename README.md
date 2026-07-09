@@ -149,7 +149,7 @@ library(rmapshaper) # For innerlines function
 ## Get latest USDM data
 latest <-
   jsonlite::fromJSON(
-    "usdm-manifest.json"
+    "https://data.sustainable-fsa.com/usdm/usdm-manifest.json"
     )$path |>
   stringr::str_subset("parquet") |>
   max()
