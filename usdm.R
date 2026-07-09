@@ -491,6 +491,21 @@ usdm <-
     if(all(date_rel %in% archived_rel))
       return(NULL)
 
+    ## Freshness gate: NDMC posts Thursdays ~8:30 ET; both artifacts must
+    ## exist before we download (a 404 body would corrupt the zip/xml reads).
+    ndmc_urls <-
+      c(
+        paste0("https://droughtmonitor.unl.edu/data/shapefiles_m/USDM_",
+               format(usdm_date, "%Y%m%d"), "_M.zip"),
+        paste0("https://droughtmonitor.unl.edu/services/data/summary/xml/usdm_summary_",
+               format(usdm_date, "%Y%m%d"), ".xml")
+      )
+    if(!all(purrr::map_lgl(ndmc_urls, url_exists))){
+      gate_skip(paste0("NDMC has not yet posted USDM data for ", usdm_date,
+                       "; skipping this week."))
+      return(NULL)
+    }
+
     raw <-
       usdm_download_raw(x)
     

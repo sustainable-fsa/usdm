@@ -147,3 +147,29 @@ cf_invalidate <- function(paths,
            "--paths", paths))
   invisible(TRUE)
 }
+
+# HTTP existence probe for cross-archive freshness gates. HEAD via curl;
+# retries transient failures, TRUE only on a final 200. The tryCatch guards
+# the probe itself, not archive work — a FALSE gates a skip, never a write.
+url_exists <- function(url, tries = 3L, pause = 5) {
+  for (i in seq_len(tries)) {
+    res <- tryCatch(
+      curl::curl_fetch_memory(url, handle = curl::new_handle(nobody = TRUE)),
+      error = function(e) NULL)
+    if (!is.null(res) && res$status_code == 200L) return(TRUE)
+    if (i < tries) Sys.sleep(pause)
+  }
+  FALSE
+}
+
+# Freshness-gate skip message. Dispatched runs are expected to find fresh
+# upstream data, so a skip there surfaces as a warning annotation; scheduled
+# and push runs no-op quietly with a notice.
+gate_skip <- function(msg) {
+  if (nzchar(Sys.getenv("GITHUB_ACTIONS"))) {
+    level <- if (identical(Sys.getenv("GITHUB_EVENT_NAME"), "workflow_dispatch"))
+      "warning" else "notice"
+    cat(sprintf("::%s::%s\n", level, msg))
+  }
+  message(msg)
+}
