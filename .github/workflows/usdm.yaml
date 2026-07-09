@@ -5,7 +5,12 @@ run-name: Update the usdm archive → S3
 
 on:
   schedule:
+    # NDMC posts Thursdays 8:30 a.m. Eastern = 12:30 UTC in EDT: 13:00 works
     - cron: '0 13 * * 4'
+    # ...but 13:30 UTC in EST (Nov-Mar); this second cron covers winter
+    # releases and late NDMC postings. Freshness gates make the redundant
+    # summer run a cheap no-op cascade.
+    - cron: '45 14 * * 4'
   workflow_dispatch:
   push:
     branches: [main]
@@ -48,3 +53,50 @@ jobs:
 
       - name: Update archive
         run: Rscript usdm.R
+
+  # Event-driven chain: downstream repos run when this archive has fresh
+  # data, not on guessed cron offsets. Freshness gates in their R scripts
+  # make redundant dispatches cheap no-ops. usdm-counties dispatches the
+  # second tier (usdm-counties-census-2020, usdm-viz) on its own success.
+  dispatch-downstream:
+    needs: update
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Mint installation token
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.DISPATCH_APP_ID }}
+          private-key: ${{ secrets.DISPATCH_APP_PRIVATE_KEY }}
+          owner: sustainable-fsa
+          repositories: |
+            usdm-counties
+            usdm-counties-fsa-lfp
+            usdm-counties-reported
+          permission-actions: write
+
+      - name: Dispatch downstream workflows
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          REPOS: >-
+            sustainable-fsa/usdm-counties
+            sustainable-fsa/usdm-counties-fsa-lfp
+            sustainable-fsa/usdm-counties-reported
+        run: |
+          failed=""
+          for repo in $REPOS; do
+            ok=""
+            for attempt in 1 2 3; do
+              if gh workflow run "${repo##*/}.yaml" --repo "$repo" --ref main; then
+                echo "Dispatched $repo"; ok=1; break
+              fi
+              echo "::warning::Dispatch of $repo failed (attempt $attempt)"
+              sleep $((attempt * 15))
+            done
+            [ -n "$ok" ] || failed="$failed $repo"
+          done
+          if [ -n "$failed" ]; then
+            echo "::error::Failed to dispatch:$failed — fallback crons will cover, but investigate."
+            exit 1
+          fi
