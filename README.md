@@ -21,7 +21,7 @@ includes:
 - Geometry validation logs
 - Weekly updating and manifest tracking
 
-<a href="https://data.sustainable-fsa.com/#/usdm/" target="_blank">📂
+<a href="https://data.sustainable-fsa.com/usdm/" target="_blank">📂
 View the US Drought Monitor archive listing here.</a>
 
 The goal of this repository is to draft a regulatory-grade archive of
@@ -76,7 +76,7 @@ repository-root/
 
 The BagIt-compliant archive of record lives on S3, served at
 <https://data.sustainable-fsa.com/usdm/> (browse it in the [archive
-listing](https://data.sustainable-fsa.com/#/usdm/)):
+listing](https://data.sustainable-fsa.com/usdm/)):
 
 ``` text
 usdm/                        # BagIt-compliant archive of USDM weekly data
