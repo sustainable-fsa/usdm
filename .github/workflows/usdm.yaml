@@ -67,7 +67,11 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md example-1.png
           git commit -m 'Weekly README render'
-          git pull --rebase --autostash origin main
+          if ! git pull --rebase --autostash origin main; then
+            git rebase --abort || true
+            echo "::notice::README render superseded by a concurrent run; skipping commit."
+            exit 0
+          fi
           git push
 
   # Event-driven chain: downstream repos run when this archive has fresh
