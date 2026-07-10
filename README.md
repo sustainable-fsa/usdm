@@ -62,7 +62,7 @@ interpretation.
 
 ## 🗂 Directory Structure
 
-The resulting BagIt-compliant archive includes:
+This repository holds the pipeline code:
 
 ``` text
 repository-root/
@@ -71,14 +71,20 @@ repository-root/
   ├── README.md               # Repository documentation (this file)
   ├── example-1.png           # Example figure using the data
   ├── usdm.R                  # Code to download, process, and archive USDM data
-  ├── usdm.Rproj              # RStudio project file
-  ├── usdm.html               # An HTML directory listing of the USDM Archive
+  └── usdm.Rproj              # RStudio project file
+```
+
+The BagIt-compliant archive of record lives on S3, served at
+<https://data.sustainable-fsa.com/usdm/> (browse it in the [archive
+listing](https://data.sustainable-fsa.com/#/usdm/)):
+
+``` text
+usdm/                        # BagIt-compliant archive of USDM weekly data
+  ├── bagit.txt               # BagIt version declaration
+  ├── bag-info.txt            # Metadata about the bag archive
+  ├── manifest-sha256.txt     # Checksums for integrity verification
   ├── usdm-manifest.json      # The directory listing of the USDM Archive
-  └── usdm/                   # BagIt-compliant archive of USDM weekly data
-    ├── bagit.txt               # BagIt version declaration
-    ├── bag-info.txt            # Metadata about the bag archive
-    ├── manifest-sha256.txt     # Checksums for integrity verification
-    └── data/
+  └── data/
       ├── raw/                    # Downloaded shapefiles (.zip)
       ├── summary/                # Weekly summary XML files
       ├── parquet/                # Cleaned spatial data (.parquet)
