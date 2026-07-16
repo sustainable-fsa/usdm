@@ -181,6 +181,8 @@ ggplot(usdm_sf) +
   theme_void()
 ```
 
+Latest USDM map date: **`r format(usdm_sf$date[[1]], "%B %d, %Y")`**
+
 ---
 
 ## 📝 Citation
