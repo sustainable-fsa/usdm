@@ -21,8 +21,8 @@ includes:
 - Geometry validation logs
 - Weekly updating and manifest tracking
 
-<a href="https://data.sustainable-fsa.com/usdm/" target="_blank">📂
-View the US Drought Monitor archive listing here.</a>
+<a href="https://data.sustainable-fsa.com/usdm/" target="_blank">📂 View
+the US Drought Monitor archive listing here.</a>
 
 The goal of this repository is to draft a regulatory-grade archive of
 the US Drought Monitor that conforms with the *Foundations for
