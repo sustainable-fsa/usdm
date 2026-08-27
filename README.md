@@ -64,7 +64,7 @@ interpretation.
 
 This repository holds the pipeline code:
 
-``` text
+```
 repository-root/
   ├── LICENSE                 # License for the repository (MIT)
   ├── README.Rmd              # Repository documentation (RMarkdown)
@@ -78,7 +78,7 @@ The BagIt-compliant archive of record lives on S3, served at
 <https://data.sustainable-fsa.com/usdm/> (browse it in the [archive
 listing](https://data.sustainable-fsa.com/usdm/)):
 
-``` text
+```
 usdm/                        # BagIt-compliant archive of USDM weekly data
   ├── bagit.txt               # BagIt version declaration
   ├── bag-info.txt            # Metadata about the bag archive
@@ -211,7 +211,7 @@ ggplot(usdm_sf) +
 
 <img src="./example-1.png" alt="" style="display: block; margin: auto;" />
 
-Latest USDM map date: **August 18, 2026**
+Latest USDM map date: **August 25, 2026**
 
 ------------------------------------------------------------------------
 
