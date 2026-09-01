@@ -229,11 +229,22 @@ usdm_download_raw <-
     outfile <-
       file.path(raw_dir, src$file)
 
+    ## A killed run can leave a truncated zip that would pass a bare
+    ## file.exists check; the listing's size is authoritative, so
+    ## re-download whenever the staged size disagrees.
+    if(file.exists(outfile) && file.size(outfile) != src$size)
+      unlink(outfile)
+
     if(!file.exists(outfile)){
       out <-
         curl::multi_download(urls = src$url,
                              destfiles = outfile,
                              resume = TRUE)
+
+      if(!isTRUE(out$success) ||
+         !file.exists(outfile) ||
+         file.size(outfile) != src$size)
+        stop("Download of ", src$url, " failed or is incomplete.")
 
       provenance <-
         tibble::tibble(
