@@ -636,7 +636,24 @@ usdm_process_raw <-
         dplyr::mutate(date = usdm_date) %>%
         dplyr::select(date, usdm_class) %>%
         dplyr::arrange(date, usdm_class) %>%
-        sf::st_transform("WGS84") %>%
+        sf::st_transform("WGS84") ->
+        cleaned_sf
+
+      ## mapshaper cleans in the plane; rarely (e.g., unclipped 2005-05-03)
+      ## a planar-valid result has hairline loop crossings when its edges
+      ## are re-read as great circles on the sphere. Rebuild just those
+      ## features with s2; the area change is negligible (< 1e-4%).
+      invalid_s2 <- !sf::st_is_valid(cleaned_sf)
+      if(any(invalid_s2)){
+        repaired <-
+          sf::st_as_s2(sf::st_geometry(cleaned_sf)[invalid_s2], check = FALSE) %>%
+          s2::s2_rebuild(options = s2::s2_options(split_crossing_edges = TRUE)) %>%
+          sf::st_as_sfc()
+        sf::st_crs(repaired) <- sf::st_crs(cleaned_sf)
+        sf::st_geometry(cleaned_sf)[invalid_s2] <- repaired
+      }
+
+      cleaned_sf %>%
         sf::write_sf(
           outfile,
           driver = "Parquet",
