@@ -549,6 +549,67 @@ usdm_write_metadata <-
     return(outfile)
   }
 
+## mapshaper cleans in the plane, so its planar-valid output can still be
+## invalid on the sphere, where edges become great circles (hairline loop
+## crossings and near-degenerate slivers — first seen in unclipped weeks
+## 2005-05-03 and 2000-02-01). Never use s2_rebuild here: ingesting a
+## self-crossing loop can invert regions and change areas by >20%.
+## Instead, repair only the invalid features with gentle, area-preserving
+## steps — densifying along the planar edges (so the great circles hug
+## the original lines) and planar snap-rounding — escalating until the
+## features are valid under both the spherical and planar interpretations
+## (observed area changes < 0.01%). Weeks these steps cannot repair still
+## stop the run at the validity assertions in usdm_process_raw.
+usdm_repair_geometry <-
+  function(geom){
+
+    densify <- function(g, max_len){
+      crs <- sf::st_crs(g)
+      sf::st_crs(g) <- NA
+      g <- sf::st_segmentize(g, max_len)
+      sf::st_crs(g) <- crs
+      g
+    }
+
+    snap <- function(g, precision){
+      current_s2 <- sf::sf_use_s2()
+      suppressMessages(sf::sf_use_s2(FALSE))
+      on.exit(suppressMessages(sf::sf_use_s2(current_s2)), add = TRUE)
+      g <- sf::st_make_valid(sf::st_set_precision(g, precision))
+      gc <- sf::st_geometry_type(g) == "GEOMETRYCOLLECTION"
+      if(any(gc)) g[gc] <- sf::st_collection_extract(g[gc], "POLYGON")
+      sf::st_cast(g, "MULTIPOLYGON")
+    }
+
+    flag_invalid <- function(g){
+      invalid <- !sf::st_is_valid(g)
+      invalid[is.na(invalid)] <- TRUE
+      invalid
+    }
+
+    ## spherical validity (s2 is on), escalating repairs
+    strategies <-
+      list(\(g) densify(g, 0.05),
+           \(g) snap(g, 1e5),
+           \(g) densify(g, 0.01),
+           \(g) snap(g, 1e4))
+    for(strategy in strategies){
+      invalid <- flag_invalid(geom)
+      if(!any(invalid)) break
+      geom[invalid] <- strategy(geom[invalid])
+    }
+
+    ## planar validity for the same geometries
+    current_s2 <- sf::sf_use_s2()
+    suppressMessages(sf::sf_use_s2(FALSE))
+    invalid <- flag_invalid(geom)
+    if(any(invalid))
+      geom[invalid] <- snap(geom[invalid], 1e7)
+    suppressMessages(sf::sf_use_s2(current_s2))
+
+    geom
+  }
+
 usdm_process_raw <-
   function(x = usdm_download_raw("2017-03-28"),
            clipped = TRUE,
@@ -650,19 +711,10 @@ usdm_process_raw <-
         sf::st_transform("WGS84") ->
         cleaned_sf
 
-      ## mapshaper cleans in the plane; rarely (e.g., unclipped 2005-05-03)
-      ## a planar-valid result has hairline loop crossings when its edges
-      ## are re-read as great circles on the sphere. Rebuild just those
-      ## features with s2; the area change is negligible (< 1e-4%).
-      invalid_s2 <- !sf::st_is_valid(cleaned_sf)
-      if(any(invalid_s2)){
-        repaired <-
-          sf::st_as_s2(sf::st_geometry(cleaned_sf)[invalid_s2], check = FALSE) %>%
-          s2::s2_rebuild(options = s2::s2_options(split_crossing_edges = TRUE)) %>%
-          sf::st_as_sfc()
-        sf::st_crs(repaired) <- sf::st_crs(cleaned_sf)
-        sf::st_geometry(cleaned_sf)[invalid_s2] <- repaired
-      }
+      ## Repair (only) features that are invalid on the sphere or in the
+      ## plane; a no-op for valid weeks. See usdm_repair_geometry.
+      sf::st_geometry(cleaned_sf) <-
+        usdm_repair_geometry(sf::st_geometry(cleaned_sf))
 
       cleaned_sf %>%
         sf::write_sf(
