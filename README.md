@@ -10,15 +10,19 @@ Size](https://img.shields.io/github/repo-size/sustainable-fsa/usdm?style=flat)
 
 This repository provides a reproducible, archival-quality pipeline to
 download, validate, transform, and document weekly shapefiles from the
-[US Drought Monitor (USDM)](https://droughtmonitor.unl.edu). The archive
-is structured using the [BagIt 1.0
+[US Drought Monitor (USDM)](https://droughtmonitor.unl.edu). Both USDM
+geometry products are archived: the **clipped** (masked) shapefiles that
+make up the published USDM map, and the **unclipped** generalized
+shapefiles as drawn by the USDM authors (see [Two geometry
+products](#two-geometry-products)). The archive is structured using the
+[BagIt 1.0
 specification](https://tools.ietf.org/html/draft-kunze-bagit-14) and
 includes:
 
-- Raw weekly shapefiles and text summaries
-- Cleaned, validated spatial data in GeoParquet format
+- Raw weekly shapefiles (clipped and unclipped) and text summaries
+- Cleaned, validated spatial data in GeoParquet format for both products
 - Per-week ISO 19115-1 metadata in XML
-- Geometry validation logs
+- Geometry validation and raw-file provenance logs
 - Weekly updating and manifest tracking
 
 <a href="https://data.sustainable-fsa.com/usdm/" target="_blank">📂 View
@@ -58,6 +62,41 @@ interpretation.
 > but all analytical authorship of the USDM drought maps belongs to the
 > named USDM authors.
 
+### Two geometry products
+
+NDMC distributes each weekly map in two spatial forms, and this archive
+preserves both with identical processing:
+
+- **Clipped (masked)** — the drought polygons masked to the US coastline
+  and territorial boundaries, as distributed in NDMC’s [“M”
+  shapefiles](https://droughtmonitor.unl.edu/data/shapefiles_m/)
+  (`USDM_YYYYMMDD_M.zip`). This is the geometry shown on the published
+  USDM map, and is what `data/raw/`, `data/parquet/`, and
+  `data/metadata/` contain.
+- **Unclipped** — the generalized drought-class polygons as delineated
+  by the USDM authors, *not* masked to shorelines or boundaries
+  (polygons extend beyond the coast). NDMC posts recent weeks at the
+  [`shapefiles_r`
+  root](https://droughtmonitor.unl.edu/data/shapefiles_r/) and older
+  weeks in the [`shapefiles_r`
+  Archive](https://droughtmonitor.unl.edu/data/shapefiles_r/Archive/)
+  (`usdm_YYYYMMDD.zip`, one shapefile per drought class,
+  `Drought_Areas_US_D0`–`D4`). These are archived in
+  `data/raw_unclipped/`, `data/parquet_unclipped/`, and
+  `data/metadata_unclipped/`, and are useful for custom masking, coastal
+  analyses, and overlays with boundary data that differ from NDMC’s
+  mask.
+
+The drought classification is identical between the two products — only
+the coastal/boundary masking differs. Unclipped raw zips are archived
+byte-for-byte under their verbatim upstream filenames (the NDMC listings
+mix `usdm_`/`USDM_` case); each file’s source URL, upstream modification
+time, and size are recorded in `data/quality/raw_unclipped_sources.csv`.
+In the source shapefiles the class layers are *cumulative* (the D0 layer
+contains D1, and so on); in the processed GeoParquet the classes are
+mutually exclusive, with overlaps resolved to the highest drought class
+— matching the clipped product exactly.
+
 ------------------------------------------------------------------------
 
 ## 🗂 Directory Structure
@@ -85,12 +124,17 @@ usdm/                        # BagIt-compliant archive of USDM weekly data
   ├── manifest-sha256.txt     # Checksums for integrity verification
   ├── usdm-manifest.json      # The directory listing of the USDM Archive
   └── data/
-      ├── raw/                    # Downloaded shapefiles (.zip)
-      ├── summary/                # Weekly summary XML files
-      ├── parquet/                # Cleaned spatial data (.parquet)
-      ├── metadata/               # ISO 19115 metadata XML files
+      ├── raw/                    # Downloaded clipped shapefiles (.zip)
+      ├── raw_unclipped/          # Downloaded unclipped shapefiles (.zip, verbatim upstream files)
+      ├── summary/                # Weekly summary XML files (shared by both products)
+      ├── parquet/                # Cleaned clipped spatial data (.parquet)
+      ├── parquet_unclipped/      # Cleaned unclipped spatial data (.parquet)
+      ├── metadata/               # ISO 19115 metadata XML files (clipped)
+      ├── metadata_unclipped/     # ISO 19115 metadata XML files (unclipped)
       └── quality/
-        └── geometry_validation.csv  # Log of geometry validation issues
+        ├── geometry_validation.csv            # Log of geometry validation issues (clipped)
+        ├── geometry_validation_unclipped.csv  # Log of geometry validation issues (unclipped)
+        └── raw_unclipped_sources.csv          # Provenance of unclipped raw files (source URL, upstream timestamp, size)
 ```
 
 ------------------------------------------------------------------------
@@ -99,14 +143,18 @@ usdm/                        # BagIt-compliant archive of USDM weekly data
 
 This R pipeline ([`usdm.R`](./usdm.R)):
 
-1.  **Downloads** weekly USDM shapefiles and XML summaries.
+1.  **Downloads** weekly USDM shapefiles — both the clipped (“M”) and
+    unclipped products — and XML summaries. Unclipped zips keep their
+    verbatim upstream filenames and modification times, with provenance
+    logged.
 2.  **Validates** geometries using the [S2 Geometry
     Library](https://s2geometry.io/) via `sf::st_is_valid()`, and logs
     invalid features for review.
 3.  **Cleans and repairs** shapefile geometries and converts them to the
-    [GeoParquet](https://geoparquet.org) format.
-4.  **Writes ISO 19115-1 metadata** for each weekly dataset using the
-    `geometa` package.
+    [GeoParquet](https://geoparquet.org) format. Both products share the
+    same cleaning and the same output schema (`date`, `usdm_class`).
+4.  **Writes ISO 19115-1 metadata** for each weekly dataset in each
+    product using the `geometa` package.
 5.  **Builds a BagIt structure** with SHA-256 checksums to ensure
     archival integrity.
 
@@ -157,7 +205,7 @@ latest <-
   jsonlite::fromJSON(
     "https://data.sustainable-fsa.com/usdm/usdm-manifest.json"
     )$path |>
-  stringr::str_subset("parquet") |>
+  stringr::str_subset("^data/parquet/") |>
   max()
 # e.g., [1] "data/parquet/USDM_2025-05-27.parquet"
 
@@ -212,6 +260,23 @@ ggplot(usdm_sf) +
 <img src="./example-1.png" alt="" style="display: block; margin: auto;" />
 
 Latest USDM map date: **August 25, 2026**
+
+To work with the **unclipped** product instead — the same weeks, cleaned
+identically, but with polygons that extend past the US coastline — swap
+the manifest filter to the `parquet_unclipped` directory:
+
+``` r
+latest_unclipped <-
+  jsonlite::fromJSON(
+    "https://data.sustainable-fsa.com/usdm/usdm-manifest.json"
+    )$path |>
+  stringr::str_subset("^data/parquet_unclipped/") |>
+  max()
+
+usdm_unclipped_sf <-
+  paste0("https://data.sustainable-fsa.com/usdm/", latest_unclipped) |>
+  sf::read_sf()
+```
 
 ------------------------------------------------------------------------
 
