@@ -73,6 +73,15 @@ directories %>%
               recursive = TRUE,
               showWarnings = FALSE)
 
+## One-off rebuild switch for the unclipped product: when TRUE, every week's
+## unclipped parquet + metadata are regenerated from the (staged or
+## archived) raw zips regardless of what S3 already holds, and the rebuilt
+## objects are invalidated in CloudFront. Used for a local backfill after a
+## processing change (e.g. the 2026-09 move to nested classes); leave unset
+## in CI, where the S3 gates make the weekly run incremental.
+rebuild_unclipped <-
+  isTRUE(as.logical(Sys.getenv("USDM_REBUILD_UNCLIPPED", unset = "false")))
+
 ## ---- S3 archive state -------------------------------------------------
 ## The archive of record is s3://sustainable-fsa/usdm/ (the inner bag maps
 ## to the prefix root, so keys look like usdm/data/parquet/USDM_*.parquet).
@@ -91,6 +100,7 @@ archived_rel <-
 c("manifest-sha256.txt",
   "data/quality/geometry_validation.csv",
   "data/quality/geometry_validation_unclipped.csv",
+  "data/quality/nesting_unclipped.csv",
   "data/quality/raw_unclipped_sources.csv") %>%
   purrr::keep(~ .x %in% archived_rel) %>%
   purrr::walk(\(f){
@@ -314,6 +324,91 @@ usdm_log_validity <-
     
   }
 
+## Emit a GitHub Actions warning annotation (plus an R message) for data
+## anomalies that must be seen but must never stop the run. Unlike
+## gate_skip(), the level is always "warning", whatever triggered the run.
+ci_warn <-
+  function(msg){
+    if(nzchar(Sys.getenv("GITHUB_ACTIONS")))
+      cat(sprintf("::warning::%s\n", msg))
+    message(msg)
+  }
+
+## The per-week quality logs are appended by parallel workers, and a
+## rebuild re-logs weeks that are already present. Rather than a racy
+## read-modify-write in each worker, the logs are appended as before and
+## collapsed to distinct rows once, in the main process, after all weeks
+## have run. Explicit column types keep the round trip faithful.
+validity_col_types <-
+  readr::cols(date = readr::col_date(),
+              file = readr::col_character(),
+              OBJECTID = readr::col_integer(),
+              DM = readr::col_integer(),
+              valid = readr::col_logical(),
+              reason = readr::col_character())
+
+nesting_col_types <-
+  readr::cols(date = readr::col_date(),
+              file = readr::col_character(),
+              usdm_class = readr::col_character(),
+              area_km2 = readr::col_double(),
+              less_severe_class = readr::col_character(),
+              less_severe_area_km2 = readr::col_double())
+
+dedupe_log <-
+  function(file, col_types){
+    if(!file.exists(file)) return(invisible(NULL))
+    readr::read_csv(file, col_types = col_types, show_col_types = FALSE) %>%
+      dplyr::distinct() %>%
+      readr::write_excel_csv(file)
+    invisible(file)
+  }
+
+## The unclipped classes are cumulative, so on a properly nested week the
+## class areas can only shrink from D0 to D4. NDMC controls the source
+## layers, so a week that breaks this is recorded in
+## data/quality/nesting_unclipped.csv and flagged — never fatal.
+usdm_log_nesting <-
+  function(x,
+           usdm_date,
+           file,
+           nesting_file = file.path(directories$quality_dir,
+                                    "nesting_unclipped.csv")){
+    current_s2 <- sf::sf_use_s2()
+    suppressMessages(sf::sf_use_s2(TRUE))
+    on.exit(suppressMessages(sf::sf_use_s2(current_s2)), add = TRUE)
+
+    violations <-
+      tibble::tibble(usdm_class = x$usdm_class,
+                     area_km2 = as.numeric(sf::st_area(x)) / 1e6) %>%
+      dplyr::arrange(usdm_class) %>%
+      dplyr::mutate(usdm_class = as.character(usdm_class),
+                    less_severe_class = dplyr::lag(usdm_class),
+                    less_severe_area_km2 = dplyr::lag(area_km2)) %>%
+      dplyr::filter(!is.na(less_severe_area_km2),
+                    area_km2 > less_severe_area_km2) %>%
+      dplyr::transmute(date = usdm_date,
+                       file = file,
+                       usdm_class, area_km2,
+                       less_severe_class, less_severe_area_km2)
+
+    if(nrow(violations) > 0){
+      readr::write_excel_csv(violations, nesting_file,
+                             append = file.exists(nesting_file))
+      purrr::pwalk(violations, \(usdm_class, area_km2, less_severe_class,
+                                less_severe_area_km2, ...){
+        ci_warn(sprintf(paste0("Unclipped USDM %s: %s covers %.0f km2 but the ",
+                               "less severe %s covers only %.0f km2; classes ",
+                               "are not nested (logged to %s)."),
+                        usdm_date, usdm_class, area_km2,
+                        less_severe_class, less_severe_area_km2,
+                        basename(nesting_file)))
+      })
+    }
+
+    invisible(violations)
+  }
+
 usdm_clean_summary <-
   function(x = paste0(directories$summary_dir, "usdm_summary_20240528.xml")){
     meta <-
@@ -372,7 +467,8 @@ usdm_write_metadata <-
            summary = file.path(directories$summary_dir, "usdm_summary_20000104.xml"),
            clipped = TRUE,
            metadata_dir = if(clipped) directories$metadata_dir
-                          else directories$metadata_unclipped_dir){
+                          else directories$metadata_unclipped_dir,
+           force.redo = FALSE){
 
     usdm_date <-
       basename(parquet) %>%
@@ -388,7 +484,7 @@ usdm_write_metadata <-
       file.path(metadata_dir,
                 paste0("USDM_", usdm_date, ".xml"))
 
-    if(!file.exists(outfile)){
+    if(!file.exists(outfile) || force.redo){
 
       summary %<>%
         usdm_clean_summary()
@@ -427,7 +523,9 @@ usdm_write_metadata <-
             if(!clipped)
               paste("## Product",
                     paste0("Generalized US Drought Monitor drought-class polygons that have NOT been masked (clipped) to the US coastline or territorial boundaries; polygons extend beyond shorelines as delineated by the USDM authors. ",
-                           "This is the unclipped counterpart of the masked ('M') product archived under data/parquet/; the drought classification is identical — only the coastal/boundary masking differs. ",
+                           "Drought classes are cumulative (nested), as in NDMC's source layers: each feature covers all area at its usdm_class or any more severe class, so D1 lies within D0, D2 within D1, and so on, and the features overlap. ",
+                           "Mutually exclusive class polygons can be derived by differencing each class with the next more severe class. ",
+                           "This is the unclipped counterpart of the masked ('M') product archived under data/parquet/, whose classes are mutually exclusive; the drought classification is identical — only the coastal/boundary masking and the nested versus exclusive representation differ. ",
                            "Source: https://droughtmonitor.unl.edu/data/shapefiles_r/ (recent weeks) and https://droughtmonitor.unl.edu/data/shapefiles_r/Archive/ (older weeks)."),
                     sep = "\n"),
             paste("## Introduction", summary$intro, sep = "\n"),
@@ -532,10 +630,13 @@ usdm_write_metadata <-
                  "not masked to the US coastline or territorial boundaries) ",
                  "were downloaded verbatim from the National Drought Mitigation Center ",
                  "(https://droughtmonitor.unl.edu/data/shapefiles_r/ and ",
-                 "https://droughtmonitor.unl.edu/data/shapefiles_r/Archive/), merged, ",
-                 "cleaned with mapshaper (overlapping cumulative classes resolved to the ",
-                 "highest drought class and dissolved by class), reprojected to WGS84, ",
-                 "and written as GeoParquet.")
+                 "https://droughtmonitor.unl.edu/data/shapefiles_r/Archive/). ",
+                 "Each cumulative class layer was cleaned and dissolved independently ",
+                 "with mapshaper, preserving the nesting of classes (each feature covers ",
+                 "all area at its class or any more severe class), then reprojected to ",
+                 "WGS84 and written as GeoParquet. Class areas were checked to be ",
+                 "non-increasing from D0 to D4; any exceptions are recorded in ",
+                 "data/quality/nesting_unclipped.csv.")
         )
         dq$setLineage(lineage)
         md$addDataQualityInfo(dq)
@@ -547,6 +648,43 @@ usdm_write_metadata <-
     }
     
     return(outfile)
+  }
+
+## Clean and dissolve an sf of drought-class polygons (column usdm_class)
+## with mapshaper: fix self-intersections and slivers, resolve overlaps
+## within the layer to the most severe class (features are sorted by
+## class, so max-id is the highest class), and dissolve to one feature per
+## class. Returns the cleaned sf in x's CRS. The clipped product passes all
+## classes at once (exclusive output); the unclipped product calls this per
+## class so the cumulative source layers stay nested.
+usdm_mapshaper_clean <-
+  function(x){
+    gjson_temp <-
+      tempfile(fileext = ".geojson")
+
+    x %>%
+      dplyr::select(usdm_class) %>%
+      dplyr::arrange(usdm_class) %>%
+      sf::write_sf(gjson_temp,
+                   delete_dsn = TRUE)
+
+    rmapshaper::apply_mapshaper_commands(
+      gjson_temp,
+      command =
+        paste(
+          "-clean rewind overlap-rule=max-id -rename-layers usdm_class",
+          "-dissolve field=usdm_class",
+          "-o format=topojson no-quantization id-field='usdm_class' target=*",
+          stringr::str_replace(gjson_temp,  "geojson", "topojson")
+        ),
+      force_FC = TRUE,
+      sys = TRUE,
+      quiet = TRUE
+    ) %>%
+      sf::read_sf(crs = sf::st_crs(x)) %>%
+      dplyr::transmute(usdm_class = factor(usdm_class,
+                                           levels = c("None", paste0("D", 0:4)),
+                                           ordered = TRUE))
   }
 
 ## mapshaper cleans in the plane, so its planar-valid output can still be
@@ -629,7 +767,7 @@ usdm_process_raw <-
       file.path(parquet_dir,
                 paste0("USDM_", usdm_date, ".parquet"))
 
-    if(!file.exists(outfile)){
+    if(!file.exists(outfile) || force.redo){
       raw_sf <-
         if(clipped){
           file.path("/vsizip", x) %>%
@@ -638,10 +776,9 @@ usdm_process_raw <-
           ## The unclipped zips carry one shapefile per drought class
           ## (Drought_Areas_US_D0-D4, cumulative: the D0 layer contains D1,
           ## and so on), plus cartographic Drought_Impacts_* layers that are
-          ## not data. Merge the class layers; the mapshaper
-          ## overlap-rule=max-id step below resolves the cumulative overlaps
-          ## to the highest class. OBJECTID is only unique within each
-          ## source layer; DM disambiguates in the validity log.
+          ## not data. Merge the class layers; the nesting is preserved by
+          ## cleaning each class on its own below. OBJECTID is only unique
+          ## within each source layer; DM disambiguates in the validity log.
           dsn <- file.path("/vsizip", x)
           class_layers <-
             sf::st_layers(dsn)$name %>%
@@ -677,44 +814,43 @@ usdm_process_raw <-
                                append = TRUE)
       }
       
-      gjson_temp <-
-        tempfile(fileext = ".geojson")
-      
-      raw_sf %>%
+      classed_sf <-
+        raw_sf %>%
         dplyr::transmute(usdm_class = factor(paste0("D", DM),
                                              levels = c("None", paste0("D", 0:4)),
-                                             ordered = TRUE)) %>%
-        dplyr::arrange(usdm_class) %>%
-        sf::write_sf(gjson_temp,
-                     delete_dsn = TRUE)
-      
-      rmapshaper::apply_mapshaper_commands(
-        gjson_temp, 
-        command = 
-          paste(
-            "-clean rewind overlap-rule=max-id -rename-layers usdm_class",
-            "-dissolve field=usdm_class",
-            "-o format=topojson no-quantization id-field='usdm_class' target=*", 
-            stringr::str_replace(gjson_temp,  "geojson", "topojson")
-          ),
-        force_FC = TRUE,
-        sys = TRUE,
-        quiet = TRUE
-      ) %>%
-        sf::read_sf(crs = sf::st_crs(raw_sf)) %>%
-        dplyr::transmute(usdm_class = factor(usdm_class,
-                                             levels = c("None", paste0("D", 0:4)),
-                                             ordered = TRUE)) %>%
+                                             ordered = TRUE))
+
+      cleaned_sf <-
+        if(clipped){
+          ## Exclusive classes: overlaps resolve to the most severe class.
+          usdm_mapshaper_clean(classed_sf)
+        } else {
+          ## Nested classes: clean and dissolve each cumulative class layer
+          ## on its own, so the overlaps between classes survive and each
+          ## feature covers all area at its class or any more severe class.
+          classed_sf %>%
+            split(classed_sf$usdm_class) %>%
+            purrr::keep(\(d) nrow(d) > 0) %>%
+            purrr::map(usdm_mapshaper_clean) %>%
+            dplyr::bind_rows()
+        }
+
+      cleaned_sf %<>%
         dplyr::mutate(date = usdm_date) %>%
         dplyr::select(date, usdm_class) %>%
         dplyr::arrange(date, usdm_class) %>%
-        sf::st_transform("WGS84") ->
-        cleaned_sf
+        sf::st_transform("WGS84")
 
       ## Repair (only) features that are invalid on the sphere or in the
       ## plane; a no-op for valid weeks. See usdm_repair_geometry.
       sf::st_geometry(cleaned_sf) <-
         usdm_repair_geometry(sf::st_geometry(cleaned_sf))
+
+      ## Soft nesting check for the unclipped product (logged, never fatal).
+      if(!clipped)
+        usdm_log_nesting(cleaned_sf,
+                         usdm_date = usdm_date,
+                         file = as.character(fs::path_rel(x, start = getwd())))
 
       cleaned_sf %>%
         sf::write_sf(
@@ -788,6 +924,7 @@ usdm <-
     need_clipped <-
       !all(c(clipped_rel, summary_rel) %in% archived_rel)
     need_unclipped <-
+      rebuild_unclipped ||
       !(length(archived_raw_unclipped) > 0 &&
           all(c(unclipped_rel, summary_rel) %in% archived_rel))
 
@@ -800,7 +937,8 @@ usdm <-
     summary_url <-
       paste0("https://droughtmonitor.unl.edu/services/data/summary/xml/usdm_summary_",
              d8, ".xml")
-    if(!url_exists(summary_url)){
+    if(!file.exists(file.path(bag_dir, summary_rel)) &&
+       !url_exists(summary_url)){
       gate_skip(paste0("NDMC has not yet posted the USDM summary for ", usdm_date,
                        "; skipping this week."))
       return(NULL)
@@ -834,17 +972,32 @@ usdm <-
       ## even if the week has since moved between the root and Archive/.
       if(nrow(src) == 1 && length(archived_raw_unclipped) > 0)
         src$file <- basename(archived_raw_unclipped[[1]])
-      if(nrow(src) == 1){
-        raw <- usdm_download_raw(x, clipped = FALSE, src = src)
-        parquet <- usdm_process_raw(raw, clipped = FALSE)
+      ## A rebuild can work from the staged copy of an archived raw zip even
+      ## if NDMC's listings no longer show the week.
+      staged_raw <-
+        if(length(archived_raw_unclipped) > 0)
+          file.path(directories$raw_unclipped_dir,
+                    basename(archived_raw_unclipped[[1]]))
+      raw <-
+        if(nrow(src) == 1){
+          usdm_download_raw(x, clipped = FALSE, src = src)
+        } else if(rebuild_unclipped &&
+                  !is.null(staged_raw) && file.exists(staged_raw)){
+          staged_raw
+        } else {
+          gate_skip(paste0("NDMC has not posted an unclipped shapefile for ",
+                           usdm_date,
+                           " (checked the shapefiles_r root and Archive listings)."))
+          NULL
+        }
+      if(!is.null(raw)){
+        parquet <- usdm_process_raw(raw, clipped = FALSE,
+                                    force.redo = rebuild_unclipped)
         metadata <- usdm_write_metadata(parquet = parquet,
                                         summary = summary,
-                                        clipped = FALSE)
+                                        clipped = FALSE,
+                                        force.redo = rebuild_unclipped)
         out$unclipped <- lst(raw, parquet, metadata)
-      } else {
-        gate_skip(paste0("NDMC has not posted an unclipped shapefile for ",
-                         usdm_date,
-                         " (checked the shapefiles_r root and Archive listings)."))
       }
     }
 
@@ -860,6 +1013,14 @@ output <-
   furrr::future_map(usdm)
 
 plan(sequential)
+
+# ---- Collapse duplicate rows in the appended quality logs ----
+dedupe_log(file.path(directories$quality_dir, "geometry_validation.csv"),
+           validity_col_types)
+dedupe_log(file.path(directories$quality_dir, "geometry_validation_unclipped.csv"),
+           validity_col_types)
+dedupe_log(file.path(directories$quality_dir, "nesting_unclipped.csv"),
+           nesting_col_types)
 
 # ---- Write bagit.txt ----
 writeLines(c(
@@ -948,7 +1109,12 @@ cf_invalidate(c(
   paste0("/", s3_prefix, "/_manifest.txt"),
   paste0("/", s3_prefix, "/data/quality/geometry_validation.csv"),
   paste0("/", s3_prefix, "/data/quality/geometry_validation_unclipped.csv"),
-  paste0("/", s3_prefix, "/data/quality/raw_unclipped_sources.csv")
+  paste0("/", s3_prefix, "/data/quality/nesting_unclipped.csv"),
+  paste0("/", s3_prefix, "/data/quality/raw_unclipped_sources.csv"),
+  ## A rebuild overwrites otherwise-immutable weekly objects.
+  if(rebuild_unclipped)
+    paste0("/", s3_prefix, "/data/",
+           c("parquet_unclipped", "metadata_unclipped"), "/*")
 ))
 
 # ---- Render the README ----
