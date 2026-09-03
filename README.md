@@ -277,7 +277,7 @@ ggplot(usdm_sf) +
 
 <img src="./example-1.png" alt="" style="display: block; margin: auto;" />
 
-Latest USDM map date: **August 25, 2026**
+Latest USDM map date: **September 01, 2026**
 
 To work with the **unclipped** product instead — the same weeks, but
 with polygons that extend past the US coastline and *nested* classes
