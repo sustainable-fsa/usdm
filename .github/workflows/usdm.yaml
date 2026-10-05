@@ -120,3 +120,46 @@ jobs:
             echo "::error::Failed to dispatch:$failed — fallback crons will cover, but investigate."
             exit 1
           fi
+
+  # Cross-org tier: native-resilience/usdm-aiannh aggregates the same weeks to
+  # Census AIANNH boundaries. An installation token is scoped to one owner, so
+  # this is its own job with its own token — and a missing App installation on
+  # native-resilience fails here without failing the sustainable-fsa dispatch.
+  dispatch-native-resilience:
+    needs: update
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Mint installation token
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.DISPATCH_APP_ID }}
+          private-key: ${{ secrets.DISPATCH_APP_PRIVATE_KEY }}
+          owner: native-resilience
+          repositories: |
+            usdm-aiannh
+          permission-actions: write
+
+      - name: Dispatch downstream workflows
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          REPOS: >-
+            native-resilience/usdm-aiannh
+        run: |
+          failed=""
+          for repo in $REPOS; do
+            ok=""
+            for attempt in 1 2 3; do
+              if gh workflow run "${repo##*/}.yaml" --repo "$repo" --ref main; then
+                echo "Dispatched $repo"; ok=1; break
+              fi
+              echo "::warning::Dispatch of $repo failed (attempt $attempt)"
+              sleep $((attempt * 15))
+            done
+            [ -n "$ok" ] || failed="$failed $repo"
+          done
+          if [ -n "$failed" ]; then
+            echo "::error::Failed to dispatch:$failed — fallback crons will cover, but investigate."
+            exit 1
+          fi
